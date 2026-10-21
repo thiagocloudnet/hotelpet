@@ -35,14 +35,16 @@ Arquivo: hotelpet-final/js/hotel-app.js
   function readData(){try{const saved=JSON.parse(localStorage.getItem(storageKey));return saved&&saved.users&&saved.pets&&saved.reservas?saved:clone(initial);}catch{return clone(initial);}}
   function abbreviated(name){const words=String(name||'').trim().split(/\s+/);return words.length>1?words[0]+' '+words.at(-1):words[0];}
   let data=readData();
+  const reservationCode=item=>window.HotelPetDemo.reservationCode(item.number);
   data.users.forEach(user=>{if(!user.displayName)user.displayName=user.id==='u1'?'Thiago Prates':abbreviated(user.name);});
   const displayOwner=item=>data.users.find(user=>user.id===item.ownerId)?.displayName||abbreviated(item.owner);
 
   // Migra registros antigos sem apagar cadastros já existentes no navegador.
   data.pets.forEach(pet=>{const owner=data.users.find(user=>user.id===pet.ownerId)||data.users.find(user=>user.name===pet.owner);if(owner){pet.ownerId=owner.id;pet.owner=owner.name;}});
   data.reservas.forEach(reservation=>{const pet=data.pets.find(pet=>pet.id===reservation.petId)||data.pets.find(pet=>pet.name===reservation.pet);if(pet){reservation.petId=pet.id;reservation.ownerId=pet.ownerId;reservation.owner=pet.owner;}});
+  window.HotelPetDemo.migrate(data);
   const saveData=()=>{try{localStorage.setItem(storageKey,JSON.stringify(data));return true;}catch{return false;}};
-  const file=location.pathname.split("/").pop()||"";
+  const file=location.pathname.split("/").pop()||"painel.html";
   const kind=file.startsWith("pet")?"pets":file.startsWith("usuario")?"users":file.startsWith("reserva")?"reservas":"";
   const listing=["pets.html","usuarios.html","reservas.html"].includes(file);
   const detail=file.endsWith("_visualizar.html");
@@ -73,7 +75,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
       const select=el("td","selection-cell");const box=document.createElement("input");box.type="checkbox";box.value=item.id;box.dataset.rowSelect="";box.setAttribute("aria-label","Selecionar "+(item.name||item.pet||item.number));select.append(box);row.append(select);
       if(kind==="pets"){addCell(row,el("span","pet-avatar",item.icon||"🐾"));addCell(row,item.name);addCell(row,item.type);addCell(row,item.race);addCell(row,Number(item.weight||0).toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1})+" kg");addCell(row,item.size||classifyWeight(item.weight));const ownerLink=el('a','',displayOwner(item));ownerLink.title=item.owner;ownerLink.href='usuario_visualizar.html?id='+encodeURIComponent(item.ownerId||'');addCell(row,ownerLink);}
       else if(kind==="users"){const img=document.createElement("img");img.src=item.photo||"imagens/avatar-beatriz.svg";img.alt="Avatar de "+item.name;img.className="avatar--small";const imageCell=item.role==="Gerente"?(()=>{const link=el("a","avatar-link");link.href="perfil.html";link.setAttribute("aria-label","Abrir perfil de Thiago Ferreira Prates Neves");link.append(img);return link;})():img;addCell(row,imageCell);addCell(row,item.email);const nameCell=el("span","",item.displayName);nameCell.title=item.name;addCell(row,nameCell);addCell(row,item.role);addCell(row,el("span","status-badge "+badgeClass(item.status),item.status));addCell(row,item.created);}
-      else{addCell(row,"#"+item.number);const pet=el("div","icon-list");pet.append(el("span","pet-avatar","🐾"));const title=el("span","",item.pet);title.append(el("small","",item.race));pet.append(title);addCell(row,pet);addCell(row,displayOwner(item));addCell(row,dateText(item.checkin));addCell(row,dateText(item.checkout));addCell(row,Math.max(0,Math.round((new Date(item.checkout+"T12:00:00")-new Date(item.checkin+"T12:00:00"))/86400000)));addCell(row,el("span","status-badge "+badgeClass(item.status),item.status));const nights=Math.max(0,Math.round((new Date(item.checkout+"T12:00:00")-new Date(item.checkin+"T12:00:00"))/86400000));const petRecord=data.pets.find(pet=>pet.id===item.petId||clean(pet.name)===clean(item.pet));addCell(row,formatMoney(nights*Number(item.dailyRate||rateForWeight(petRecord?.weight||5))));}
+      else{addCell(row,el("span","reservation-code",reservationCode(item)));const pet=el("div","icon-list");pet.append(el("span","pet-avatar","🐾"));const title=el("span","",item.pet);title.append(el("small","",item.race));pet.append(title);addCell(row,pet);addCell(row,displayOwner(item));addCell(row,dateText(item.checkin));addCell(row,dateText(item.checkout));addCell(row,Math.max(0,Math.round((new Date(item.checkout+"T12:00:00")-new Date(item.checkin+"T12:00:00"))/86400000)));addCell(row,el("span","status-badge "+badgeClass(item.status),item.status));const nights=Math.max(0,Math.round((new Date(item.checkout+"T12:00:00")-new Date(item.checkin+"T12:00:00"))/86400000));const petRecord=data.pets.find(pet=>pet.id===item.petId||clean(pet.name)===clean(item.pet));addCell(row,formatMoney(nights*Number(item.dailyRate||rateForWeight(petRecord?.weight||5))));}
       row.append(actionLinks(kind,item));body.append(row);
     });
     const card=table.closest(".card");let counter=$("#result-count");
@@ -88,7 +90,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
         const query=clean(field.value);if(!query||query==="todos"||query==="todas")return true;
         const values=kind==="pets"?{"f-nome":item.name,"f-tipo":item.type,"f-raca":item.race,"f-peso":Number(item.weight||0).toLocaleString("pt-BR",{maximumFractionDigits:1}),"f-tamanho":item.size,"f-proprietario":item.owner+" "+displayOwner(item)}
           :kind==="users"?{"f-id":item.id.replace(/\D/g,""),"f-email":item.email,"f-nome":item.name+" "+item.displayName,"f-status":item.status,"f-funcao":item.role,"f-criado-de":item.created,"f-criado-ate":item.created}
-          :{"f-id":item.number,"f-cliente":item.owner+" "+displayOwner(item),"f-pet":item.pet,"f-status":item.status,"f-entrada":item.checkin,"f-saida":item.checkout};
+          :{"f-id":reservationCode(item),"f-cliente":item.owner+" "+displayOwner(item),"f-pet":item.pet,"f-status":item.status,"f-entrada":item.checkin,"f-saida":item.checkout};
         let value=String(values[field.id]||"");
         if(field.type==="date"){if(value.includes("/")){const parts=value.split("/");value=parts[2]+"-"+parts[1]+"-"+parts[0];}return field.id.endsWith("-de")||field.id==="f-entrada"?value>=field.value:value<=field.value;}
         return clean(value).includes(query);
@@ -159,6 +161,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
     if(kind==="reservas")setupReservationPetOptions(form,item);
     if(editing)populate(form,item);
     if(kind==="reservas"){
+      const field=el('div','form-field reservation-identifier');const label=el('label','','Número da reserva');label.htmlFor='codigo-reserva';const output=el('output','reservation-code',item?reservationCode(item):window.HotelPetDemo.reservationCode(data.nextReservationNumber));output.id='codigo-reserva';field.append(label,output);form.querySelector('.form-grid')?.prepend(field);
       const checkin=form.elements.namedItem("checkin"),checkout=form.elements.namedItem("checkout");
       checkin?.addEventListener("input",updateQuote);checkout?.addEventListener("input",updateQuote);updateQuote();
     }
@@ -169,9 +172,11 @@ Arquivo: hotelpet-final/js/hotel-app.js
       let saved;
       if(kind==="users")saved={...(item||{}),id:item?.id||"u"+Date.now(),photo:item?.photo||"imagens/avatar-beatriz.svg",name:get("nome").trim(),displayName:get("nome-exibicao").trim()||abbreviated(get("nome")),email:get("email").trim(),phone:get("telefone").trim(),role:get("funcao")||"Cliente",status:get("status")||"Ativo",created:item?.created||new Date().toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})};
       if(kind==="pets"){const type=get("tipo")||"Cachorro";const icon={Cachorro:"🐶",Gato:"🐱",Coelho:"🐰",Ave:"🐦",Roedor:"🐹",Réptil:"🦎"}[type]||"🐾";const weight=Number(get("peso"));const size=classifyWeight(weight);saved={...(item||{}),id:item?.id||"p"+Date.now(),icon,name:get("nome").trim(),type,race:get("raca")==="Outra raça"?get("outra-raca").trim():get("raca"),weight,size,ownerId:get("proprietario"),owner:data.users.find(user=>user.id===get("proprietario"))?.name||""};}
-      if(kind==="reservas"){const pet=data.pets.find(entry=>entry.id===get("pet"));const petName=pet?.name||get("pet");const weight=pet?.weight||5;saved={...(item||{}),id:item?.id||"r"+Date.now(),number:item?.number||Math.max(0,...data.reservas.map(entry=>Number(entry.number)||0))+1,petId:pet?.id||item?.petId||"",pet:petName,race:pet?.race||item?.race||"",weight,size:classifyWeight(weight),ownerId:pet?.ownerId||"",owner:pet?.owner||get("cliente"),checkin:get("checkin"),checkout:get("checkout"),status:get("status")||"Pendente",dailyRate:rateForWeight(weight),note:get("obs")||""};}
+      if(kind==="reservas"){const pet=data.pets.find(entry=>entry.id===get("pet"));const petName=pet?.name||get("pet");const weight=pet?.weight||5;saved={...(item||{}),id:item?.id||"r"+Date.now(),number:item?.number||window.HotelPetDemo.nextReservation(data),petId:pet?.id||item?.petId||"",pet:petName,race:pet?.race||item?.race||"",weight,size:classifyWeight(weight),ownerId:pet?.ownerId||"",owner:pet?.owner||get("cliente"),checkin:get("checkin"),checkout:get("checkout"),status:get("status")||"Pendente",dailyRate:rateForWeight(weight),note:get("obs")||""};}
       if(kind==="pets"&&!data.users.some(user=>user.id===saved.ownerId)){window.alert("Cadastre ou selecione o responsável pelo pet.");return;}
       if(kind==="users"&&data.users.some(user=>user.id!==saved.id&&clean(user.email)===clean(saved.email))){window.alert("Este e-mail já está cadastrado. Edite o responsável existente.");return;}
+      if(kind==='reservas')saved.code=reservationCode(saved);
+      if(kind==='pets'&&item&&saved.name!==item.name)saved.nameIsCustom=true;
       const missing=kind==="reservas"?(!saved.pet||!saved.owner||!saved.checkin||!saved.checkout):(!saved.name||(kind==="users"&&!saved.email)||(kind==="pets"&&(!saved.race||!saved.ownerId||!(saved.weight>0))));
       if(missing){window.alert("Preencha os campos obrigatórios antes de salvar.");return;}
       if(kind==="reservas"&&new Date(saved.checkout)<=new Date(saved.checkin)){window.alert("O check-out deve ocorrer depois do check-in.");return;}
@@ -185,12 +190,13 @@ Arquivo: hotelpet-final/js/hotel-app.js
   function setupDetail(){
     const main=$(".page-content");if(!main)return;
     const id=new URLSearchParams(location.search).get("id");const item=data[kind].find(entry=>entry.id===id)||data[kind][0];if(!item)return;
-    const title=$("h1",main);if(title)title.textContent=kind==="pets"?item.name:kind==="users"?item.name:"Reserva #"+item.number;
+    const title=$("h1",main);if(title)title.textContent=kind==="pets"?item.name:kind==="users"?item.name:"Reserva "+reservationCode(item);
+    if(kind==='reservas'){const crumb=document.querySelector('.breadcrumb');if(crumb?.lastChild?.nodeType===Node.TEXT_NODE)crumb.lastChild.textContent=' / Reserva '+reservationCode(item);}
     main.querySelectorAll(".card").forEach(card=>card.hidden=true);
     const card=el("section","card detail-summary");card.append(el("h2","",kind==="pets"?"Dados do pet":kind==="users"?"Dados do usuário":"Dados da hospedagem"));
     const values=kind==="pets"?[["Nome",item.name],["Tipo",item.type],["Raça",item.race],["Peso",Number(item.weight||0).toLocaleString("pt-BR",{minimumFractionDigits:1})+" kg"],["Porte",item.size||classifyWeight(item.weight)],["Proprietário",item.owner]]
       :kind==="users"?[["Nome completo",item.name],["Nome de exibição",item.displayName],["E-mail",item.email],["Telefone",item.phone],["Função",item.role],["Status",item.status],["Cadastro",item.created]]
-      :[["Pet",item.pet],["Raça",item.race],["Peso",Number(item.weight||0).toLocaleString("pt-BR",{minimumFractionDigits:1})+" kg"],["Porte",item.size||classifyWeight(item.weight)],["Cliente",item.owner],["Check-in",dateText(item.checkin)],["Check-out",dateText(item.checkout)],["Diária",formatMoney(item.dailyRate||rateForWeight(item.weight||5))],["Status",item.status],["Observações",item.note]];
+      :[["Número da reserva",reservationCode(item)],["Pet",item.pet],["Raça",item.race],["Peso",Number(item.weight||0).toLocaleString("pt-BR",{minimumFractionDigits:1})+" kg"],["Porte",item.size||classifyWeight(item.weight)],["Cliente",item.owner],["Check-in",dateText(item.checkin)],["Check-out",dateText(item.checkout)],["Diária",formatMoney(item.dailyRate||rateForWeight(item.weight||5))],["Status",item.status],["Observações",item.note]];
     const list=document.createElement("dl");values.forEach(([label,value])=>{const row=el("div","detail-summary__row");row.append(el("dt","",label),el("dd","",value||"—"));list.append(row);});
     card.append(list);const bar=$(".page-actions",main);if(bar)main.insertBefore(card,bar);else main.append(card);
     const edit=bar?.querySelector(".button--primary");if(edit)edit.href=(kind==="pets"?"pet_editar.html":kind==="users"?"usuario_editar.html":"reserva_editar.html")+"?id="+encodeURIComponent(item.id);
@@ -198,7 +204,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
   function dashboard(){
     if(file!=="painel.html")return;
     const body=document.querySelector('.data-table tbody');
-    if(body){body.replaceChildren();data.reservas.slice(-5).reverse().forEach(reservation=>{const row=el('tr');addCell(row,'#'+reservation.number);addCell(row,reservation.pet);addCell(row,displayOwner(reservation));addCell(row,el('span','status-badge '+badgeClass(reservation.status),reservation.status));const cell=el('td');const link=el('a','row-action','Detalhes');link.href='reserva_visualizar.html?id='+encodeURIComponent(reservation.id);cell.append(link);row.append(cell);body.append(row);});}
+    if(body){body.replaceChildren();data.reservas.slice(-5).reverse().forEach(reservation=>{const row=el('tr');addCell(row,el('span','reservation-code',reservationCode(reservation)));addCell(row,reservation.pet);addCell(row,displayOwner(reservation));addCell(row,el('span','status-badge '+badgeClass(reservation.status),reservation.status));const cell=el('td');const link=el('a','row-action','Detalhes');link.href='reserva_visualizar.html?id='+encodeURIComponent(reservation.id);cell.append(link);row.append(cell);body.append(row);});}
     const metrics=document.querySelectorAll(".metric-card__value");
     if(metrics[0])metrics[0].textContent=String(data.reservas.length);
     const occupied=window.HotelPetDemo.occupied(data).length;if(metrics[1])metrics[1].textContent=String(occupied);const capacity=document.querySelector("[data-hotel-capacity]");if(capacity){let limit=30;try{limit=JSON.parse(localStorage.getItem("hotelPetShop.final.settings"))?.capacity||30;}catch{}capacity.textContent=occupied+" / "+limit;}

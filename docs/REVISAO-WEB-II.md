@@ -45,3 +45,17 @@ O cabeçalho mostra o nome de exibição ao lado da função. O botão de perfil
 Para acessar por endereço HTTP, execute `node servir-local.cjs` na raiz do repositório. O servidor estático mostra o endereço localhost e os IPs das interfaces locais na porta 8080; a raiz abre o painel da etapa final. Não há backend de cadastro. Outros aparelhos precisam estar na mesma rede e ter acesso permitido pela configuração de rede do computador. Nenhuma regra de firewall é criada pelo script.
 
 O localStorage é separado por origem: um endereço file://, localhost e um IP não compartilham automaticamente os cadastros. Os dados anteriores não são apagados ao mudar o endereço; permanecem na origem anterior.
+
+## Nomes dos pets, identificação e alinhamento
+
+Pesquisei nomes nas listas de [cães](https://blog.cobasi.com.br/nomes-para-cachorro/) e [gatos](https://blog.cobasi.com.br/nomes-para-gatos/) da Cobasi, consultadas em 21/10/2026. Atualizei os nomes dos exemplos, incluindo Marley, Beethoven, Pandora e Salem. A migração reconhece os nomes originais dos dados demonstrativos e preserva nomes personalizados.
+
+A identificação pública da reserva passou a ter pelo menos quatro dígitos e o sufixo hsp: 0001hsp, 0002hsp e assim por diante. O código aparece no painel, na listagem, nos formulários e nos detalhes, e pode ser pesquisado. O identificador interno permanece estável para manter os vínculos. O próximo número é guardado junto aos dados locais, para não reutilizar o número da última reserva após sua exclusão. Números acima de 9999 não são truncados.
+
+Reorganizei o cabeçalho com posições explícitas para foto, nome, função e seta. Em telas pequenas a identificação permanece agrupada e o relógio usa uma segunda linha compacta. O menu de perfil tem largura limitada, ações alinhadas e altura adaptada à tela.
+
+## Recibo e formulário de senha
+
+Nos detalhes da reserva, o operador pode exportar um recibo demonstrativo em texto ou usar a impressão do navegador para salvar PDF. O documento inclui código, responsável, contatos, animal, período, valores e registro da autorização. A autorização começa pendente e só é registrada como informada quando o operador marca a confirmação, preenche nome e data. Não há assinatura digital, comprovação de pagamento nem documento fiscal. O registro da autorização fica associado à reserva no armazenamento local.
+
+No perfil há um formulário de troca de senha demonstrativa com confirmação e opção de mostrar os campos. Por se tratar de uma interface sem autenticação de servidor, a ação valida o preenchimento e limpa os campos: não armazena a senha nem altera o acesso. A própria tela informa esse limite.

@@ -15,7 +15,8 @@
   const name=Array.from(text?.childNodes||[]).filter(node=>node.nodeType===Node.TEXT_NODE).map(node=>node.textContent).join('').trim()||'Thiago Prates';
   const fullName=text?.title||'Thiago Ferreira Prates Neves';
   const button=document.createElement('button');button.type='button';button.className='topbar__user profile-toggle';button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls','menu-perfil');button.setAttribute('aria-label','Abrir opções de '+name);button.title=fullName;
-  while(profile.firstChild)button.append(profile.firstChild);profile.replaceWith(button);
+  const avatar=profile.querySelector('img');if(avatar)button.append(avatar);
+  const identity=document.createElement('span');identity.className='profile-identity';const nameLabel=document.createElement('span');nameLabel.className='profile-name';nameLabel.textContent=name;const roleLabel=document.createElement('small');roleLabel.className='profile-role';roleLabel.textContent=role;identity.append(nameLabel,roleLabel);button.append(identity);profile.replaceWith(button);
   const arrow=document.createElement('span');arrow.className='profile-chevron';arrow.textContent='⌄';arrow.setAttribute('aria-hidden','true');button.append(arrow);
   const panel=document.createElement('section');panel.id='menu-perfil';panel.className='profile-menu';panel.hidden=true;panel.setAttribute('aria-label','Opções do perfil');
   const heading=document.createElement('div');heading.className='profile-menu__heading';
@@ -25,6 +26,7 @@
   const actions=document.createElement('div');actions.className='profile-menu__actions';
   for(const [label,href] of [['Meu perfil','perfil.html'],['Início','painel.html'],['Sair da demonstração','index.html']]){const link=document.createElement('a');link.href=href;link.textContent=label;actions.append(link);}
   panel.append(heading,details,actions);bar.append(panel);
+  if(window.ResizeObserver)new ResizeObserver(()=>root.style.setProperty('--topbar-height',bar.getBoundingClientRect().height+'px')).observe(bar);
   const close=()=>{panel.hidden=true;button.setAttribute('aria-expanded','false');};
   button.addEventListener('click',()=>{const open=panel.hidden;panel.hidden=!open;button.setAttribute('aria-expanded',String(open));});
   document.addEventListener('click',event=>{if(!panel.contains(event.target)&&!button.contains(event.target))close();});
