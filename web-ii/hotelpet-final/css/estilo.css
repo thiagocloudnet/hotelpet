@@ -1456,3 +1456,40 @@ body[data-stage="1"] .filter-grid { display: none; }
 @media print{body>*{display:none!important;}body>#receipt-print{display:block!important;white-space:pre-wrap;font:12pt/1.5 sans-serif;color:#000;background:#fff;margin:1cm;}@page{size:A4;margin:15mm;}}
 
 .data-table img.pet-photo,.pet-photo{width:46px;height:46px;object-fit:cover;border-radius:50%;border:2px solid var(--color-border);flex-shrink:0;display:block;}.detail-summary .pet-photo,.pet-photo-preview{width:110px;height:110px;object-fit:cover;border-radius:16px;margin:12px 0;}.pet-identity{display:flex;align-items:center;gap:12px;}.pet-photo-notice{font-size:12px;color:var(--color-text-muted);margin:8px 0 16px;}
+
+/* Revisão do tema escuro: ações, estados e legibilidade das listagens. */
+.data-table .status-badge{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;line-height:1.3;padding:5px 9px;font-size:12px;border-radius:6px;}
+.data-table .pet-identity{min-width:120px;}.data-table img.pet-photo{width:42px;height:42px;min-width:42px;}
+.data-table td{padding-top:14px;padding-bottom:14px;}
+[data-theme="escuro"] .button.button--secondary{background:#2B3D52;border-color:#72859E;color:#F5E3BC;}
+[data-theme="escuro"] .button.button--secondary:hover{background:#394F69;color:#FFF2D6;}
+[data-theme="escuro"] .button.button--primary,[data-theme="escuro"] .button.button--success,[data-theme="escuro"] .button.button--danger{color:#fff;}
+[data-theme="escuro"] .status-badge--active,[data-theme="escuro"] .status-badge--complete{background:#173F36;color:#B3F0D0;border:1px solid #437A67;}
+[data-theme="escuro"] .status-badge--in-progress{background:#223F62;color:#D1E6FF;border:1px solid #557BA7;}
+[data-theme="escuro"] .status-badge--pending{background:#493916;color:#FFE4A3;border:1px solid #8B7134;}
+[data-theme="escuro"] .status-badge--inactive{background:#4D252D;color:#FFD2D9;border:1px solid #95606C;}
+[data-theme="escuro"] .form-field :is(input,textarea)::placeholder{color:#ACBED3;opacity:1;}
+[data-theme="escuro"] .form-field :is(input,select,textarea):disabled{background:#243347;color:#D4DEEA;opacity:1;}
+[data-theme="escuro"] .form-field input[readonly]{background:#243347;color:#D4DEEA;}
+[data-theme="escuro"] .form-feedback,[data-theme="escuro"] .settings-feedback{color:#B3F0D0;}
+[data-theme="escuro"] .settings-feedback[data-state="error"]{color:#FFD2D9;}
+[data-theme="escuro"] .capacity-bar{background:#334860;}
+[data-theme="escuro"] .receipt,[data-theme="escuro"] .stay-total{background:#142338;color:#EDF2F8;border-color:#536B87;}
+[data-theme="escuro"] .password-toggle:hover{background:#29415F;color:white;}
+[data-theme="escuro"] :focus-visible{outline:3px solid #F2CB76;outline-offset:3px;}
+[data-theme="escuro"] .profile-menu__actions a:hover{background:#29415F;color:white;}
+
+/* Um único comportamento de menu em todas as páginas e temas. */
+.menu-toggle{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;min-width:42px;border:1px solid #ffffff66;border-radius:10px;background:transparent;color:white;font-size:22px;cursor:pointer;}
+@media(min-width:761px){
+  .sidebar{display:flex;width:240px;top:0;height:100dvh;}.app-main{margin-left:240px;}
+  .sidebar .brand span,.sidebar__link span{display:inline;}.sidebar__nav .sidebar__link{justify-content:flex-start;}
+  .sidebar-collapsed .sidebar{width:72px;}.sidebar-collapsed .app-main{margin-left:72px;}
+  .sidebar-collapsed .brand{justify-content:center;padding-left:8px;padding-right:8px;}.sidebar-collapsed .brand span,.sidebar-collapsed .sidebar__link span{display:none;}
+  .sidebar-collapsed .sidebar__nav{padding:0 8px;}.sidebar-collapsed .sidebar__link{justify-content:center;padding:13px;}
+}
+@media(max-width:760px){
+  .app-main,.sidebar-collapsed .app-main{margin-left:0;width:100%;}
+  .sidebar{display:none;width:230px;top:var(--topbar-height,76px);height:calc(100dvh - var(--topbar-height,76px));z-index:50;}
+  .menu-open .sidebar{display:flex;}.sidebar .brand span,.sidebar__link span{display:inline;}.sidebar__nav .sidebar__link{justify-content:flex-start;}
+}

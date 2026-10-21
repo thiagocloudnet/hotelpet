@@ -17,11 +17,17 @@
   if(side && bar){
     side.id='menu-principal';
     const button=document.createElement('button');button.type='button';button.className='menu-toggle';
-    button.textContent='☰';button.setAttribute('aria-label','Abrir menu');button.setAttribute('aria-controls',side.id);button.setAttribute('aria-expanded','false');
-    const close=()=>{document.body.classList.remove('menu-open');button.setAttribute('aria-expanded','false');button.setAttribute('aria-label','Abrir menu');};
-    button.addEventListener('click',()=>{const open=document.body.classList.toggle('menu-open');button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');});
-    document.addEventListener('keydown',event=>{if(event.key==='Escape')close();});
-    document.addEventListener('click',event=>{if(!side.contains(event.target)&&!button.contains(event.target))close();});
+    button.textContent='☰';button.setAttribute('aria-controls',side.id);
+    const mobile=window.matchMedia('(max-width:760px)');
+    let collapsed=false;try{collapsed=localStorage.getItem('hotelPet.menuRecolhido')==='true';}catch{}
+    document.body.classList.toggle('sidebar-collapsed',collapsed);
+    const sync=()=>{const open=mobile.matches?document.body.classList.contains('menu-open'):!document.body.classList.contains('sidebar-collapsed');button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Recolher menu':'Expandir menu');button.title=open?'Recolher menu':'Expandir menu';side.inert=mobile.matches&&!open;};
+    const close=()=>{document.body.classList.remove('menu-open');sync();};
+    button.addEventListener('click',()=>{if(mobile.matches)document.body.classList.toggle('menu-open');else{collapsed=document.body.classList.toggle('sidebar-collapsed');try{localStorage.setItem('hotelPet.menuRecolhido',String(collapsed));}catch{}}sync();});
+    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&mobile.matches){close();button.focus();}});
+    document.addEventListener('click',event=>{if(mobile.matches&&!side.contains(event.target)&&!button.contains(event.target))close();});
+    side.addEventListener('click',event=>{if(mobile.matches&&event.target.closest('a'))close();});
+    mobile.addEventListener('change',close);sync();
     bar.prepend(button);
   }
 })();

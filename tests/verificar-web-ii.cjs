@@ -23,6 +23,7 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+deco
  assert.match(await page.locator('[data-occupancy-summary]').innerText(),/90%.*18 cães.*9 gatos/);
  assert.match(await page.locator('.topbar-clock').innerText(),/Brasília/);
  assert.match(await page.locator('.topbar__user').innerText(),/Thiago Prates/);
+ await page.locator('.menu-toggle').click();assert(await page.locator('body').evaluate(node=>node.classList.contains('sidebar-collapsed')));await page.reload();assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');await page.locator('.menu-toggle').click();assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'true');
  await page.screenshot({path:path.join(output,'painel-revisado-desktop.png'),fullPage:true});
  await page.locator('.theme-toggle').click();assert.equal(await page.locator('html').getAttribute('data-theme'),'escuro');await page.reload();assert.equal(await page.locator('html').getAttribute('data-theme'),'escuro');
  await page.screenshot({path:path.join(output,'painel-tema-escuro-desktop.png'),fullPage:true});
@@ -76,6 +77,11 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+deco
  for(const width of [320,375,768,1440]){await page.setViewportSize({width,height:900});for(const file of ['painel.html','perfil.html','pet_cadastrar.html','pets.html','usuarios.html','reserva_cadastrar.html','configuracoes.html']){await go(file);assert.equal(await page.locator('html').getAttribute('data-theme'),'escuro');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),file+' no tema escuro');responsive++;}}
  await page.setViewportSize({width:375,height:812});await go('painel.html');await page.screenshot({path:path.join(output,'painel-tema-escuro-celular.png'),fullPage:true});
  assert.deepEqual(errors,[]);
+ for(const width of [320,480,640,760,761,900,1440]){
+  await page.setViewportSize({width,height:900});await go('pets.html');const mobile=width<=760;
+  if(mobile){assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');await page.locator('.menu-toggle').click();assert(await page.locator('.sidebar').isVisible());assert.equal(await page.locator('.sidebar').evaluate(node=>node.inert),false);await page.locator('.sidebar a[href="usuarios.html"]').click();await page.waitForURL(/usuarios\.html/);assert(!(await page.locator('.sidebar').isVisible()));}
+  else{await page.locator('.menu-toggle').click();assert.equal(Math.round((await page.locator('.sidebar').boundingBox()).width),72);await go('usuarios.html');assert.equal(Math.round((await page.locator('.sidebar').boundingBox()).width),72);await page.locator('.menu-toggle').click();assert.equal(Math.round((await page.locator('.sidebar').boundingBox()).width),240);}
+ }
  fs.writeFileSync(path.join(output,'verificacao-web-ii.json'),JSON.stringify({passed:true,responsive,checks:['cadastro de responsável e retorno ao pet','raças por espécie e busca','limites de porte','vínculo estável por ID e renomeação','persistência após recarregar','reserva e cálculo de diária','proteção de responsável vinculado','raça personalizada','buscas','métricas','relógio e menu móvel'],errors},null,2));
  console.log(JSON.stringify({passed:true,responsive,errors}));await browser.close();server.close();
 })().catch(error=>{console.error(error);server.close();process.exit(1);});

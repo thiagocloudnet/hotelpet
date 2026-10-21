@@ -1,0 +1,8 @@
+{
+  "data": "2026-10-21T22:40:53.355Z",
+  "paginas": 52,
+  "scripts": 28,
+  "erros": [],
+  "avisos": [],
+  "limite": "Auditoria estática e sintaxe; executar também verificar-web-ii.cjs para testar os fluxos no navegador."
+}
