@@ -59,3 +59,7 @@ Reorganizei o cabeçalho com posições explícitas para foto, nome, função e 
 Nos detalhes da reserva, o operador pode exportar um recibo demonstrativo em texto ou usar a impressão do navegador para salvar PDF. O documento inclui código, responsável, contatos, animal, período, valores e registro da autorização. A autorização começa pendente e só é registrada como informada quando o operador marca a confirmação, preenche nome e data. Não há assinatura digital, comprovação de pagamento nem documento fiscal. O registro da autorização fica associado à reserva no armazenamento local.
 
 No perfil há um formulário de troca de senha demonstrativa com confirmação e opção de mostrar os campos. Por se tratar de uma interface sem autenticação de servidor, a ação valida o preenchimento e limpa os campos: não armazena a senha nem altera o acesso. A própria tela informa esse limite.
+
+## Fotos dos pets
+
+Incluí dois retratos ilustrativos gerados por IA, um cão e um gato. São imagens padrão por espécie e não representam cada animal ou raça cadastrada. As listagens, reservas e detalhes usam a foto do pet vinculado por identificador. O cadastro da etapa final aceita foto própria JPG, PNG ou WebP de até 1,5 MB, guardada no localStorage com o registro. A foto enviada tem prioridade sobre o exemplo. Os demais animais usam o ícone da espécie. A disponibilidade de armazenamento depende do navegador.

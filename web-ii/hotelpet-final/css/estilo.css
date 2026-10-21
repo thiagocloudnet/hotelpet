@@ -1454,3 +1454,5 @@ body[data-stage="1"] .filter-grid { display: none; }
 
 .password-demo,.receipt-export{margin-top:24px;}.password-demo>p,.receipt-export>p{margin-bottom:16px;}.authorization-check{display:flex;align-items:center;gap:10px;margin:18px 0;}.authorization-check input{width:20px;height:20px;flex-shrink:0;}#senha-feedback,#recibo-feedback{margin-top:14px;}#receipt-print{display:none;}
 @media print{body>*{display:none!important;}body>#receipt-print{display:block!important;white-space:pre-wrap;font:12pt/1.5 sans-serif;color:#000;background:#fff;margin:1cm;}@page{size:A4;margin:15mm;}}
+
+.data-table img.pet-photo,.pet-photo{width:46px;height:46px;object-fit:cover;border-radius:50%;border:2px solid var(--color-border);flex-shrink:0;display:block;}.detail-summary .pet-photo,.pet-photo-preview{width:110px;height:110px;object-fit:cover;border-radius:16px;margin:12px 0;}.pet-identity{display:flex;align-items:center;gap:12px;}.pet-photo-notice{font-size:12px;color:var(--color-text-muted);margin:8px 0 16px;}
