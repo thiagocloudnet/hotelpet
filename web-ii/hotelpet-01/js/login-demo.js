@@ -28,9 +28,9 @@ loginForm?.addEventListener("submit", (event) => {
   const username = document.querySelector("#usuario").value.trim().toLowerCase();
   const password = passwordInput.value;
 
-  // O protótipo reconhece o usuário apresentado e exige uma senha preenchida, sem validá-la.
-  if (username !== "thiagoprates@hotelpet.shop" || password.length === 0) {
-    loginFeedback.textContent = "Confira o usuário e preencha a senha para continuar.";
+  // Credencial pública de exemplo: comparação local para a atividade, sem autenticação real.
+  if (username !== "thiagoprates@hotelpet.shop" || password !== "barao17@") {
+    loginFeedback.textContent = "Confira o usuário e a senha demonstrativa exibidos na tela.";
     return;
   }
 
@@ -38,3 +38,4 @@ loginForm?.addEventListener("submit", (event) => {
   document.querySelector("#senha").value = "";
   window.location.href = "painel.html";
 });
+
