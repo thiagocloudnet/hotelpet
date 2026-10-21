@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-02/usuario_visualizar.html
+-->
+<!-- Página documentada: Visualizar Usuário - Hotel Pet Shop. -->
+<!-- Página de visualização de usuário. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizar Usuário - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="2">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link is-active" aria-current="page" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / <a href="usuarios.html">Usuários</a> / Beatriz Oliveira</div>
+        <h1 class="page-title">Beatriz Oliveira</h1>
+
+        <!-- Ações disponíveis para os registros ou para a página. -->
+        <div class="page-actions">
+          <a href="usuario_editar.html" class="button button--primary">✏️ Editar usuário</a>
+          <button type="button" class="button button--success">✓ Mudar status</button>
+          <button type="button" class="button button--danger">🗑️ Remover</button>
+        </div>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <h2>Informações do usuário</h2>
+          <!-- Apresentação dos dados detalhados do perfil. -->
+          <div class="profile-layout">
+            <img src="imagens/avatar-beatriz.svg" alt="Foto de Beatriz Oliveira" class="avatar--large">
+            <div class="profile-details">
+              <div class="profile-details__row"><strong>Nome</strong> Beatriz Oliveira</div>
+              <div class="profile-details__row"><strong>Email</strong> beatriz.oliveira@hotelpet.shop</div>
+              <div class="profile-details__row"><strong>Telefone</strong> (77) 98888-7777</div>
+              <div class="profile-details__row"><strong>Função</strong> Funcionário</div>
+              <div class="profile-details__row"><strong>Status</strong> <span class="status-badge status-badge--active">Ativo</span></div>
+              <div class="profile-details__row"><strong>Criado em</strong> 19/02/2020</div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">Hotel Pet 02 · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/navegacao-demo.js" defer></script>
+</body>
+</html>
+
+

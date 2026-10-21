@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-01/pet_editar.html
+-->
+<!-- Página documentada: Editar Pet - Hotel Pet Shop. -->
+<!-- Página de edição de pet. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Pet - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="1">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link is-active" aria-current="page" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / <a href="pets.html">Pets</a> / Editar Toto</div>
+        <h1 class="page-title">Editar Pet</h1>
+
+        <!-- Formulário com os campos e a ação de envio desta tela. -->
+        <form action="pets.html" method="post" class="card">
+          <h2>Dados do pet</h2>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" value="Toto">
+            </div>
+            <div class="form-field">
+              <label for="tipo">Tipo de animal</label>
+              <select id="tipo" name="tipo" required>
+                <option selected>Cachorro</option>
+                <option>Gato</option>
+                <option>Coelho</option>
+                <option>Ave</option>
+                <option>Roedor</option>
+                <option>Réptil</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="raca">Raça</label>
+              <select id="raca" name="raca" required>
+                <option value="" selected>Selecione a raça</option>
+                <optgroup label="Cães"><option>Sem raça definida</option><option>Poodle</option><option>Labrador</option><option>Golden Retriever</option><option>Beagle</option><option>Shih Tzu</option><option>Bulldog Francês</option><option>Pastor Alemão</option></optgroup>
+                <optgroup label="Gatos"><option>Sem raça definida</option><option>Siamês</option><option>Persa</option><option>Maine Coon</option><option>Ragdoll</option><option>Bengal</option></optgroup>
+                <optgroup label="Coelhos"><option>Angorá</option><option>Mini Lop</option><option>Rex</option><option>Holandês</option></optgroup>
+                <optgroup label="Aves"><option>Calopsita</option><option>Periquito</option><option>Canário</option><option>Papagaio</option></optgroup>
+                <optgroup label="Roedores"><option>Hamster Sírio</option><option>Porquinho-da-Índia</option><option>Chinchila</option></optgroup>
+                <optgroup label="Répteis"><option>Jabuti</option><option>Iguana</option><option>Gecko Leopardo</option></optgroup>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="proprietario">Proprietário</label>
+              <select id="proprietario" name="proprietario" required>
+                <option selected>Beatriz Oliveira</option>
+                <option>Rafael Costa</option>
+                <option>Camila Ferreira</option>
+                <option>João Viana</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="peso">Peso aproximado (kg)</label>
+              <input type="number" id="peso" name="peso" min="0.1" max="150" step="0.1" required placeholder="Ex.: 8,5">
+            </div>
+            <div class="form-field">
+              <label for="tamanho">Porte calculado pelo peso</label>
+              <input type="text" id="tamanho" name="tamanho" value="Pequeno" readonly aria-describedby="faixa-peso">
+              <small id="faixa-peso">Pequeno: até 10 kg · Médio: 10,1 a 25 kg · Grande: acima de 25 kg.</small>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="foto">Foto do pet</label>
+              <input type="file" id="foto" name="foto">
+            </div>
+          </div>
+
+          <!-- Ações disponíveis para os registros ou para a página. -->
+          <div class="page-actions">
+            <button type="submit" class="button button--primary">Salvar alterações</button>
+            <a href="pets.html" class="button button--secondary">Cancelar</a>
+          </div>
+        </form>
+      </main>
+      <footer class="site-footer">Hotel Pet 01 · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/navegacao-demo.js" defer></script>
+</body>
+</html>
+
+

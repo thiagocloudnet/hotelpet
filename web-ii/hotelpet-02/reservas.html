@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-02/reservas.html
+-->
+<!-- Página documentada: Reservas - Hotel Pet Shop. -->
+<!-- Página de listagem e pesquisa de reservas. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="2">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link is-active" aria-current="page" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / Reservas</div>
+        <h1 class="page-title">Reservas</h1>
+
+        <!-- Ações disponíveis para os registros ou para a página. -->
+        <div class="page-actions">
+          <a href="reserva_cadastrar.html" class="button button--primary">+ Nova reserva</a>
+        </div>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <h2>Pesquisar reservas</h2>
+          <!-- Controles para filtrar os registros listados. -->
+          <div class="filter-grid">
+            <div class="form-field">
+              <label for="f-id">ID</label>
+              <input type="text" id="f-id" placeholder="Ex.: 4">
+            </div>
+            <div class="form-field">
+              <label for="f-cliente">Cliente</label>
+              <input type="text" id="f-cliente" placeholder="Nome do cliente">
+            </div>
+            <div class="form-field">
+              <label for="f-pet">Pet</label>
+              <input type="text" id="f-pet" placeholder="Nome do pet">
+            </div>
+            <div class="form-field">
+              <label for="f-status">Status</label>
+              <select id="f-status">
+                <option>Todos</option>
+                <option>Em andamento</option>
+                <option>Finalizada</option>
+                <option>Pendente</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="f-entrada">Check-in</label>
+              <input type="date" id="f-entrada">
+            </div>
+            <div class="form-field">
+              <label for="f-saida">Check-out</label>
+              <input type="date" id="f-saida">
+            </div>
+            <div class="filter-actions">
+              <button type="button" class="button button--primary"><img src="imagens/icones/search.svg" alt=""> Pesquisar</button>
+              <button type="button" class="button button--secondary">↻ Limpar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <div class="table-scroll">
+          <!-- Tabela com os registros exibidos nesta página. -->
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Pet</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Check-in</th>
+                <th scope="col">Check-out</th>
+                <th scope="col">Diárias</th>
+                <th scope="col">Status</th>
+                <th scope="col">Valor estimado</th>
+                <th scope="col">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <div class="icon-list">
+                    <span class="pet-avatar pet-avatar--dog">🐶</span>
+                    <span>Toto<small>Poodle</small></span>
+                  </div>
+                </td>
+                <td>Beatriz Oliveira</td>
+                <td>10/08/2026</td>
+                <td>14/08/2026</td>
+                <td>4</td>
+                <td><span class="status-badge status-badge--in-progress">Em andamento</span></td><td>R$ 200,00</td>
+                <td>
+                  <a href="reserva_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="reserva_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <div class="icon-list">
+                    <span class="pet-avatar pet-avatar--cat">🐱</span>
+                    <span>Mia<small>Siamês</small></span>
+                  </div>
+                </td>
+                <td>Rafael Costa</td>
+                <td>15/08/2026</td>
+                <td>20/08/2026</td>
+                <td>5</td>
+                <td><span class="status-badge status-badge--pending">Pendente</span></td><td>R$ 250,00</td>
+                <td>
+                  <a href="reserva_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="reserva_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>
+                  <div class="icon-list">
+                    <span class="pet-avatar pet-avatar--rabbit">🐰</span>
+                    <span>Bolinha<small>Angorá</small></span>
+                  </div>
+                </td>
+                <td>Camila Ferreira</td>
+                <td>01/08/2026</td>
+                <td>03/08/2026</td>
+                <td>2</td>
+                <td><span class="status-badge status-badge--complete">Finalizada</span></td><td>R$ 100,00</td>
+                <td>
+                  <a href="reserva_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="reserva_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td>#4</td>
+                <td>
+                  <div class="icon-list">
+                    <span class="pet-avatar pet-avatar--bird">🐦</span>
+                    <span>Piu-Piu<small>Calopsita</small></span>
+                  </div>
+                </td>
+                <td>João Viana</td>
+                <td>05/08/2026</td>
+                <td>12/08/2026</td>
+                <td>7</td>
+                <td><span class="status-badge status-badge--in-progress">Em andamento</span></td><td>R$ 350,00</td>
+                <td>
+                  <a href="reserva_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="reserva_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </section>
+      </main>
+      <footer class="site-footer">Hotel Pet 02 · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/listas-pesquisa.js" defer></script>
+  <script src="js/navegacao-demo.js" defer></script>
+</body>
+</html>
+
+

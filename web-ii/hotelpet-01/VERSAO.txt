@@ -1,0 +1,6 @@
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+
+hotelpet-01 | etapa 1 | Programação Web II 2026.2

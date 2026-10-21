@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-01/usuarios.html
+-->
+<!-- Página documentada: Usuários - Hotel Pet Shop. -->
+<!-- Página de listagem e gerenciamento de usuários. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuários - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="1">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link is-active" aria-current="page" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / Usuários</div>
+        <h1 class="page-title">Usuários</h1>
+
+        <!-- Ações disponíveis para os registros ou para a página. -->
+        <div class="page-actions">
+          <a href="usuario_cadastrar.html" class="button button--primary">+ Novo</a>
+        </div>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <h2>Filtros de pesquisa</h2>
+          <!-- Controles para filtrar os registros listados. -->
+          <div class="filter-grid">
+            <div class="form-field">
+              <label for="f-id">ID</label>
+              <input type="text" id="f-id" placeholder="Ex.: 12">
+            </div>
+            <div class="form-field">
+              <label for="f-criado-de">Criado em (de)</label>
+              <input type="date" id="f-criado-de">
+            </div>
+            <div class="form-field">
+              <label for="f-criado-ate">Criado em (até)</label>
+              <input type="date" id="f-criado-ate">
+            </div>
+            <div class="form-field">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" placeholder="nome@email.com">
+            </div>
+            <div class="form-field">
+              <label for="f-nome">Nome</label>
+              <input type="text" id="f-nome" placeholder="Nome do usuário">
+            </div>
+            <div class="form-field">
+              <label for="f-status">Status</label>
+              <select id="f-status">
+                <option>Todos</option>
+                <option>Ativo</option>
+                <option>Inativo</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="f-funcao">Função</label>
+              <select id="f-funcao">
+                <option>Todas</option>
+                <option>Cliente</option>
+                <option>Funcionário</option>
+                <option>Gerente</option>
+              </select>
+            </div>
+            <div class="filter-actions">
+              <button type="button" class="button button--primary"><img src="imagens/icones/search.svg" alt=""> Pesquisar</button>
+              <button type="button" class="button button--secondary">↻ Limpar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <div class="table-scroll">
+          <!-- Tabela com os registros exibidos nesta página. -->
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Foto</th>
+                <th scope="col">Email</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Função</th>
+                <th scope="col">Status</th>
+                <th scope="col">Criado em</th>
+                <th scope="col">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves" class="avatar--small"></td>
+                <td>thiagoprates@hotelpet.shop</td>
+                <td>Thiago Ferreira Prates Neves</td>
+                <td>Gerente</td>
+                <td><span class="status-badge status-badge--active">Ativo</span></td>
+                <td>19/02/2020</td>
+                <td>
+                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="imagens/avatar-beatriz.svg" alt="Foto de Beatriz Oliveira" class="avatar--small"></td>
+                <td>beatriz.oliveira@hotelpet.shop</td>
+                <td>Beatriz Oliveira</td>
+                <td>Funcionário</td>
+                <td><span class="status-badge status-badge--active">Ativo</span></td>
+                <td>19/02/2020</td>
+                <td>
+                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="imagens/avatar-rafael.svg" alt="Foto de Rafael Costa" class="avatar--small"></td>
+                <td>rafael.costa@hotelpet.shop</td>
+                <td>Rafael Costa</td>
+                <td>Cliente</td>
+                <td><span class="status-badge status-badge--inactive">Inativo</span></td>
+                <td>19/02/2020</td>
+                <td>
+                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="imagens/avatar-camila.svg" alt="Foto de Camila Ferreira" class="avatar--small"></td>
+                <td>camila.ferreira@hotelpet.shop</td>
+                <td>Camila Ferreira</td>
+                <td>Cliente</td>
+                <td><span class="status-badge status-badge--active">Ativo</span></td>
+                <td>03/05/2021</td>
+                <td>
+                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="avatar--small avatar--initials" role="img" aria-label="João Viana">CM</span></td>
+                <td>joao.viana@hotelpet.shop</td>
+                <td>João Viana</td>
+                <td>Cliente</td>
+                <td><span class="status-badge status-badge--active">Ativo</span></td>
+                <td>12/09/2022</td>
+                <td>
+                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </section>
+      </main>
+      <footer class="site-footer">Hotel Pet 01 · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/navegacao-demo.js" defer></script>
+</body>
+</html>
+
+

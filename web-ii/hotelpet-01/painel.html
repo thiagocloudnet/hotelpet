@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-01/painel.html
+-->
+<!-- Página inicial do Hotel Pet Shop: resumo do hotel e acessos principais. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="1">
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link is-active" aria-current="page" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets">
+          <img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span>
+        </a>
+        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários">
+          <img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span>
+        </a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações">
+          <img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span>
+        </a>
+        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas">
+          <img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span>
+        </a>
+      </nav>
+    </aside>
+
+    <div class="app-main">
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user" aria-label="Abrir perfil de Thiago Ferreira Prates Neves">
+          <img src="imagens/avatar-gerente.jpeg" alt="">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <main class="page-content">
+        <div class="breadcrumb"><a href="painel.html" aria-current="page">Início</a></div>
+        <h1 class="page-title">Painel do Hotel Pet Shop</h1>
+        <p class="settings-value">Resumo das reservas, dos pets hospedados e da capacidade do hotel.</p>
+
+        <section class="dashboard-metrics" aria-label="Resumo do hotel">
+          <article class="card metric-card">
+            <div class="metric-card__value">4</div>
+            <div class="metric-card__label">Reservas cadastradas</div>
+          </article>
+          <article class="card metric-card">
+            <div class="metric-card__value">2</div>
+            <div class="metric-card__label">Pets hospedados</div>
+          </article>
+          <article class="card metric-card">
+            <div class="metric-card__value">3</div>
+            <div class="metric-card__label">Clientes cadastrados</div>
+          </article>
+          <article class="card metric-card">
+            <div class="metric-card__value">13</div>
+            <div class="metric-card__label">Diárias reservadas</div>
+          </article>
+          <article class="card metric-card">
+            <div class="metric-card__value" data-hotel-capacity>1 / 30</div>
+            <div class="metric-card__label">Vagas ocupadas</div>
+          </article>
+        </section>
+
+        <h2 class="page-title page-section-title">Acesso rápido</h2>
+        <nav class="quick-links" aria-label="Acessos rápidos">
+          <a href="reservas.html" class="quick-link">
+            <span class="quick-link__icon"><img src="imagens/icones/reservas.svg" alt=""></span>
+            <span class="quick-link__title">Reservas</span>
+            <small>Acompanhar as reservas do hotel</small>
+          </a>
+          <a href="pets.html" class="quick-link">
+            <span class="quick-link__icon"><img src="imagens/icones/pets.svg" alt=""></span>
+            <span class="quick-link__title">Pets</span>
+            <small>Consultar pets cadastrados</small>
+          </a>
+          <a href="usuarios.html" class="quick-link">
+            <span class="quick-link__icon"><img src="imagens/icones/users.svg" alt=""></span>
+            <span class="quick-link__title">Usuários</span>
+            <small>Consultar clientes e equipe</small>
+          </a>
+          <a href="configuracoes.html" class="quick-link">
+            <span class="quick-link__icon"><img src="imagens/icones/settings.svg" alt=""></span>
+            <span class="quick-link__title">Configurações</span>
+            <small>Até 10 kg: <span data-rate-small>R$ 50,00</span></small>
+            <small>10,1–25 kg: <span data-rate-medium>R$ 65,00</span></small>
+            <small>Acima de 25 kg: <span data-rate-large>R$ 80,00</span></small>
+          </a>
+        </nav>
+
+        <section class="card u-margin-top">
+          <div class="page-actions">
+            <h2 class="page-section-title">Reservas recentes</h2>
+            <a href="reservas.html" class="row-action row-action--view">Ver todas</a>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th scope="col">Reserva</th>
+                  <th scope="col">Pet</th>
+                  <th scope="col">Cliente</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Detalhes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#1</td>
+                  <td>Toto</td>
+                  <td>Rafael Costa</td>
+                  <td><span class="status-badge status-badge--pending">Pendente</span></td>
+                  <td><a href="reserva_visualizar.html?id=r1" class="row-action row-action--view">Detalhes</a></td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Mia</td>
+                  <td>Camila Ferreira</td>
+                  <td><span class="status-badge status-badge--pending">Pendente</span></td>
+                  <td><a href="reserva_visualizar.html?id=r2" class="row-action row-action--view">Detalhes</a></td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Bolinha</td>
+                  <td>João Viana</td>
+                  <td><span class="status-badge status-badge--complete">Finalizada</span></td>
+                  <td><a href="reserva_visualizar.html?id=r3" class="row-action row-action--view">Detalhes</a></td>
+                </tr>
+                <tr>
+                  <td>#4</td>
+                  <td>Piu-Piu</td>
+                  <td>Rafael Costa</td>
+                  <td><span class="status-badge status-badge--in-progress">Em andamento</span></td>
+                  <td><a href="reserva_visualizar.html?id=r4" class="row-action row-action--view">Detalhes</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">Hotel Pet 01 · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/navegacao-demo.js" defer></script>
+</body>
+</html>
+

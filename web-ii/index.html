@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: index.html
+-->
+<!-- Página de escolha das três entregas acadêmicas locais. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="description" content="Pacote local com as etapas do Hotel Pet para Programação Web II.">
+  <title>Hotel Pet — versões 01, 02 e final</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#263548;background:#f4f6fa}*{box-sizing:border-box}body{margin:0;min-height:100vh}.top{background:#1a365d;color:#fff;padding:1.2rem max(1rem,calc((100% - 1080px)/2));border-bottom:5px solid #d99b26}.brand{display:flex;align-items:center;gap:.8rem;font-weight:700;font-size:1.2rem}.brand img{width:48px;height:48px}.content{max-width:1080px;margin:2rem auto;padding:0 1rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}.card{display:flex;flex-direction:column;background:#fff;border:1px solid #d9e0e8;border-radius:16px;padding:1.3rem;box-shadow:0 8px 26px #1a365d12}.card h2{color:#1a365d;margin:.1rem 0}.tag{color:#996400;font-weight:700;font-size:.8rem;text-transform:uppercase}.card p{line-height:1.5;flex:1}.button{display:inline-block;padding:.8rem 1rem;text-decoration:none;text-align:center;background:#1a365d;color:#fff;border-radius:10px;font-weight:700}.button:hover{background:#d99b26;color:#1a365d}.note{margin-top:1.5rem;background:#fff;padding:1rem;border-left:4px solid #d99b26;border-radius:8px;line-height:1.5}footer{text-align:center;padding:2rem;color:#5a687b;font-size:.9rem}@media(max-width:600px){.content{margin:1rem auto}.top{padding:1rem}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="brand"><img src="hotelpet-final/imagens/logo.svg" alt=""><span>Hotel Pet · entregas acadêmicas</span></div></header>
+  <main class="content">
+    <h1>Escolha uma versão</h1>
+    <p>As etapas são independentes e funcionam offline. Abra qualquer pasta para iniciar sua tela de entrada.</p>
+    <section class="grid" aria-label="Versões do projeto">
+      <article class="card"><span class="tag">Etapa 01</span><h2>Navegação</h2><p>Interface, painel e ligações locais entre as páginas do sistema.</p><a class="button" href="hotelpet-01/index.html">Abrir Hotel Pet 01</a></article>
+      <article class="card"><span class="tag">Etapa 02</span><h2>Buscas</h2><p>Inclui navegação e filtros demonstrativos nas listagens.</p><a class="button" href="hotelpet-02/index.html">Abrir Hotel Pet 02</a></article>
+      <article class="card"><span class="tag">Entrega final</span><h2>Tabelas e CRM local</h2><p>Cadastro, edição, detalhes, remoção, perfil e preços calculados por peso.</p><a class="button" href="hotelpet-final/index.html">Abrir Hotel Pet Final</a></article>
+    </section>
+    <aside class="note"><strong>Protótipo acadêmico:</strong> sem backend. A versão final salva dados apenas no armazenamento local deste navegador.</aside>
+  </main>
+  <footer>Autoria acadêmica indicada: Thiago Ferreira Prates Neves · Gerente demonstrativo: Thiago Ferreira Prates Neves</footer>
+</body>
+</html>

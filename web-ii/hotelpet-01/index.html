@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-01/index.html
+-->
+<!-- Entrada do Hotel Pet Shop: formulário demonstrativo de acesso, sem backend. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acesso demonstrativo ao sistema Hotel Pet Shop.">
+  <title>Thiago Ferreira Prates Neves · Entrar - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/login-demo.js" defer></script>
+</head>
+<body data-stage="1" class="login-page">
+  <!-- Cartão central que reúne a marca, o perfil demonstrativo e os campos de acesso. -->
+  <main class="login-card login-card--personalizado">
+    <!-- Identidade visual local: logo e foto não dependem de conexão externa. -->
+    <div class="login-brand-line"><img src="imagens/logo.svg" alt=""><span>Hotel Pet Shop</span></div>
+    <h1>Acesse o Hotel Pet Shop</h1>
+    <p class="login-card__subtitle">Thiago Ferreira Prates Neves · Acesso de demonstração ao sistema.</p>
+
+    <!-- Formulário local: o JavaScript de demonstração abre o painel sem enviar a senha. -->
+    <form id="login-form" method="post" novalidate>
+      <div class="form-field">
+        <label for="usuario">Usuário</label>
+        <input type="email" id="usuario" name="usuario" value="thiagoprates@hotelpet.shop" autocomplete="username" required>
+      </div>
+      <div class="form-field">
+        <label for="senha">Senha</label>
+        <div class="password-control"><input type="password" id="senha" name="senha" value="ads2025" placeholder="Digite sua senha" autocomplete="current-password" aria-describedby="senha-aviso" required><button type="button" class="password-toggle" id="alternar-senha" aria-controls="senha" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></div>
+      </div>
+      <p class="login-feedback" id="login-feedback" role="status" aria-live="polite"></p>
+      <button type="submit" class="button button--primary button--login">ENTRAR</button>
+    </form>
+
+    <!-- Aviso transparente sobre os limites de autenticação deste protótipo acadêmico. -->
+    <p class="login-disclaimer" id="senha-aviso">Senha demonstrativa; não validada por servidor.</p>
+  </main>
+</body>
+</html>
+
+

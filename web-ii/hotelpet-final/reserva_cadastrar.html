@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-final/reserva_cadastrar.html
+-->
+<!-- Página documentada: Nova Reserva - Hotel Pet Shop. -->
+<!-- Página de cadastro de reserva. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Reserva - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="3">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link is-active" aria-current="page" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / <a href="reservas.html">Reservas</a> / Nova reserva</div>
+        <h1 class="page-title">Nova Reserva</h1>
+
+        <!-- Formulário com os campos e a ação de envio desta tela. -->
+        <form action="reservas.html" method="post" class="card">
+          <h2>Dados da reserva</h2>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="pet">Pet</label>
+              <select id="pet" name="pet">
+                <option selected disabled>Selecione o pet</option>
+                <option>Toto (Poodle) - Rafael Costa</option>
+                <option>Mia (Siamês) - Camila Ferreira</option>
+                <option>Bolinha (Angorá) - João Viana</option>
+                <option>Piu-Piu (Calopsita) - Rafael Costa</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="cliente">Cliente</label>
+              <input type="text" id="cliente" name="cliente" placeholder="Selecionado automaticamente">
+            </div>
+            <div class="form-field">
+              <label for="checkin">Check-in</label>
+              <input type="date" id="checkin" name="checkin">
+            </div>
+            <div class="form-field">
+              <label for="checkout">Check-out</label>
+              <input type="date" id="checkout" name="checkout">
+            </div>
+            <div class="form-field">
+              <label for="tipo">Tipo de estadia</label>
+              <select id="tipo" name="tipo">
+                <option>Hotel (diária R$ 50,00)</option>
+                <option>Creche (período diurno)</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="status">Status</label>
+              <select id="status" name="status">
+                <option>Pendente</option>
+                <option selected>Em andamento</option>
+                <option>Finalizada</option>
+              </select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="obs">Informações sobre o pet</label>
+              <textarea id="obs" name="obs" placeholder="Alimentação, medicação, horários, preferências..."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="diaria-aplicada">Diária definida pelo peso do pet</label>
+              <output id="diaria-aplicada">R$ 50,00</output>
+            </div>
+            <div class="stay-total">
+              <span>Total de 3 diárias × R$ 50,00 =</span>
+              <strong>R$ 105,00</strong>
+            </div>
+          </div>
+
+          <!-- Ações disponíveis para os registros ou para a página. -->
+          <div class="page-actions">
+            <button type="submit" class="button button--primary">Salvar reserva</button>
+            <a href="reservas.html" class="button button--secondary">Cancelar</a>
+          </div>
+        </form>
+      </main>
+      <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/hotel-app.js" defer></script>
+</body>
+</html>
+
+

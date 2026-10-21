@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-final/pets.html
+-->
+<!-- Página documentada: Pets - Hotel Pet Shop. -->
+<!-- Página de listagem e pesquisa de pets. -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thiago Ferreira Prates Neves">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets - Hotel Pet Shop</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-stage="3">
+  <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+  <div class="app-shell">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <!-- Marca do Hotel Pet Shop exibida na navegação. -->
+      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
+        <img src="imagens/logo.svg" alt="">
+        <span>Hotel Pet Shop</span>
+      </a>
+      <!-- Links para as áreas principais do sistema. -->
+      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
+        <a href="pets.html" class="sidebar__link is-active" aria-current="page" aria-label="Pets" title="Pets"><img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span></a>
+        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários"><img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span></a>
+        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações"><img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span></a>
+        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas"><img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span></a>
+      </nav>
+    </aside>
+
+    <!-- Área principal -->
+    <div class="app-main">
+      <!-- Cabeçalho -->
+      <header class="topbar">
+        <a href="perfil.html" class="topbar__user">
+          <img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves">
+          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+        </a>
+      </header>
+
+      <!-- Conteúdo da página -->
+      <main class="page-content">
+        <!-- Caminho de navegação até a página atual. -->
+        <div class="breadcrumb"><a href="painel.html">Home</a> / Pets</div>
+        <h1 class="page-title">Pets</h1>
+
+        <!-- Ações disponíveis para os registros ou para a página. -->
+        <div class="page-actions">
+          <a href="pet_cadastrar.html" class="button button--primary">+ Novo pet</a>
+        </div>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <h2>Pesquisar pets</h2>
+          <!-- Controles para filtrar os registros listados. -->
+          <div class="filter-grid">
+            <div class="form-field">
+              <label for="f-nome">Nome</label>
+              <input type="text" id="f-nome" placeholder="Nome do pet">
+            </div>
+            <div class="form-field">
+              <label for="f-tipo">Tipo</label>
+              <select id="f-tipo">
+                <option>Todos</option>
+                <option>Cachorro</option>
+                <option>Gato</option>
+                <option>Coelho</option>
+                <option>Ave</option>
+                <option>Roedor</option>
+                <option>Réptil</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="f-raca">Raça</label>
+              <select id="f-raca">
+                <option>Todos</option>
+                <optgroup label="Cães"><option>Sem raça definida</option><option>Poodle</option><option>Labrador</option><option>Golden Retriever</option><option>Beagle</option><option>Shih Tzu</option><option>Bulldog Francês</option><option>Pastor Alemão</option></optgroup>
+                <optgroup label="Gatos"><option>Siamês</option><option>Persa</option><option>Maine Coon</option><option>Ragdoll</option><option>Bengal</option></optgroup>
+                <optgroup label="Coelhos"><option>Angorá</option><option>Mini Lop</option><option>Rex</option><option>Holandês</option></optgroup>
+                <optgroup label="Aves"><option>Calopsita</option><option>Periquito</option><option>Canário</option><option>Papagaio</option></optgroup>
+                <optgroup label="Roedores"><option>Hamster Sírio</option><option>Porquinho-da-Índia</option><option>Chinchila</option></optgroup>
+                <optgroup label="Répteis"><option>Jabuti</option><option>Iguana</option><option>Gecko Leopardo</option></optgroup>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="f-peso">Peso (kg)</label>
+              <input type="search" id="f-peso" placeholder="Peso do pet">
+            </div>
+            <div class="form-field">
+              <label for="f-tamanho">Tamanho</label>
+              <select id="f-tamanho">
+                <option>Todos</option>
+                <option>Pequeno</option>
+                <option>Médio</option>
+                <option>Grande</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="f-proprietario">Proprietário</label>
+              <input type="text" id="f-proprietario" placeholder="Nome do proprietário">
+            </div>
+            <div class="form-field"></div>
+            <div class="filter-actions">
+              <button type="button" class="button button--primary"><img src="imagens/icones/search.svg" alt=""> Pesquisar</button>
+              <button type="button" class="button button--secondary">↻ Limpar</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bloco visual que agrupa informações relacionadas. -->
+        <section class="card">
+          <div class="table-scroll">
+          <!-- Tabela com os registros exibidos nesta página. -->
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Foto</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Raça</th>
+                <th scope="col">Peso (kg)</th>
+                <th scope="col">Tamanho</th>
+                <th scope="col">Proprietário</th>
+                <th scope="col">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="pet-avatar pet-avatar--dog">🐶</span></td>
+                <td><span class="row-action--view">Toto</span></td>
+                <td>Cachorro</td>
+                <td>Poodle</td>
+                <td>6,5</td>
+                <td>Pequeno</td>
+                <td>Beatriz Oliveira</td>
+                <td>
+                  <a href="pet_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="pet_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="pet-avatar pet-avatar--cat">🐱</span></td>
+                <td><span>Mia</span></td>
+                <td>Gato</td>
+                <td>Siamês</td>
+                <td>4,8</td>
+                <td>Pequeno</td>
+                <td>Rafael Costa</td>
+                <td>
+                  <a href="pet_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="pet_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="pet-avatar pet-avatar--rabbit">🐰</span></td>
+                <td><span>Bolinha</span></td>
+                <td>Coelho</td>
+                <td>Angorá</td>
+                <td>2,2</td>
+                <td>Pequeno</td>
+                <td>Camila Ferreira</td>
+                <td>
+                  <a href="pet_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="pet_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="pet-avatar pet-avatar--bird">🐦</span></td>
+                <td><span>Piu-Piu</span></td>
+                <td>Ave</td>
+                <td>Calopsita</td>
+                <td>0,1</td>
+                <td>Pequeno</td>
+                <td>João Viana</td>
+                <td>
+                  <a href="pet_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="pet_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="pet-avatar pet-avatar--dog">🐕</span></td>
+                <td><span>Bob</span></td>
+                <td>Cachorro</td>
+                <td>Labrador</td>
+                <td>30,5</td>
+                <td>Grande</td>
+                <td>Beatriz Oliveira</td>
+                <td>
+                  <a href="pet_editar.html" class="row-action row-action--edit">Editar</a>
+                  <a href="pet_visualizar.html" class="row-action row-action--view">Visualizar</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </section>
+      </main>
+      <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+    </div>
+  </div>
+  <script src="js/hotel-app.js" defer></script>
+</body>
+</html>
+
+

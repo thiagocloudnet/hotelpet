@@ -1,0 +1,22 @@
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos de editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos gerados por ferramentas locais
+node_modules/
+dist/
+build/
+
+# Credenciais locais
+.env
+.env.*
+!.env.example
