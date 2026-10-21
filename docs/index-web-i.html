@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Pet — Em breve</title>
+  <meta name="description" content="Hotel Pet: hospedagem, creche e cuidado para o seu pet. Nosso novo site está em preparação.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0f3d3e">
+  <link rel="canonical" href="https://hotelpet.shop/">
+  <link rel="icon" href="projeto/imagens/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Hotel Pet — Em breve">
+  <meta property="og:description" content="Hospedagem, creche e cuidado para o seu pet. Novo site em preparação.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hotelpet.shop/">
+  <style>
+    :root {
+      --verde: #0f3d3e;
+      --verde-2: #14532d;
+      --dourado: #e5b653;
+      --texto: #eaf3f0;
+      --texto-suave: #b9cdc7;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      padding: 32px 20px;
+      font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+      color: var(--texto);
+      background:
+        radial-gradient(1100px 700px at 15% -10%, #1c6b5a 0%, transparent 55%),
+        radial-gradient(900px 600px at 110% 110%, #14532d 0%, transparent 50%),
+        linear-gradient(160deg, var(--verde) 0%, #0a2c26 100%);
+      background-attachment: fixed;
+      text-align: center;
+    }
+    .marca {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: 1.05rem;
+      color: var(--texto);
+      opacity: .95;
+    }
+    .marca svg { width: 34px; height: 34px; }
+    .card {
+      width: min(560px, 100%);
+      padding: 44px 34px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(229, 182, 83, .28);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, .35), inset 0 1px 0 rgba(255, 255, 255, .08);
+      backdrop-filter: blur(8px);
+    }
+    .h1 {
+      margin: 0 0 6px;
+      font-size: clamp(2rem, 7vw, 2.9rem);
+      line-height: 1.05;
+      letter-spacing: .01em;
+    }
+    .tag {
+      display: inline-block;
+      margin: 10px 0 20px;
+      padding: 7px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: .82rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: #2a1e05;
+      background: linear-gradient(180deg, #f2c96b, var(--dourado));
+      box-shadow: 0 8px 22px rgba(229, 182, 83, .28);
+    }
+    .msg {
+      margin: 0 auto;
+      max-width: 42ch;
+      font-size: 1.02rem;
+      line-height: 1.6;
+      color: var(--texto-suave);
+    }
+    footer {
+      font-size: .85rem;
+      color: var(--texto-suave);
+      opacity: .85;
+    }
+    footer a { color: var(--dourado); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .paw { width: 56px; height: 56px; margin: 0 auto 18px; display: block; }
+  </style>
+</head>
+<body>
+  <header class="marca" aria-label="Hotel Pet">
+    <svg viewBox="0 0 512 512" aria-hidden="true" fill="none" stroke="#e5b653" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="256" cy="330" rx="120" ry="98"/>
+      <circle cx="150" cy="196" r="46"/>
+      <circle cx="222" cy="140" r="46"/>
+      <circle cx="306" cy="140" r="46"/>
+      <circle cx="378" cy="196" r="46"/>
+    </svg>
+    <span>Hotel Pet</span>
+  </header>
+
+  <main class="card">
+    <svg class="paw" viewBox="0 0 512 512" aria-hidden="true" fill="#e5b653">
+      <ellipse cx="256" cy="330" rx="120" ry="98"/>
+      <circle cx="150" cy="196" r="46"/>
+      <circle cx="222" cy="140" r="46"/>
+      <circle cx="306" cy="140" r="46"/>
+      <circle cx="378" cy="196" r="46"/>
+    </svg>
+    <h1 class="h1">Em breve</h1>
+    <span class="tag">Hotel Pet</span>
+    <p class="msg">
+      Estamos preparando o novo site do Hotel Pet. Em breve você poderá conhecer
+      nossos serviços e fazer reservas online para o seu pet.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2026 Hotel Pet &middot; <a href="projeto/">Projeto acadêmico (UESB)</a>
+  </footer>
+</body>
+</html>
