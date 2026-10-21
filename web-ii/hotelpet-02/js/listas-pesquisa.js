@@ -24,7 +24,7 @@ Arquivo: hotelpet-02/js/listas-pesquisa.js
       const matches=Array.from(grid.querySelectorAll("input,select")).every(field => {
         const query=clean(field.value); if(!query || query==="todos" || query==="todas") return true;
         const index=columns[kind][field.id]; if(index===undefined) return true;
-        const text=clean(row.cells[index]?.textContent);
+        const text=clean((row.cells[index]?.textContent||"")+" "+(row.cells[index]?.dataset.fullName||""));
         if(field.type==="date") { const date=dateIso(row.cells[index]?.textContent); return field.id.endsWith("-de") || field.id==="f-entrada" ? date>=field.value : date<=field.value; }
         return text.includes(query);
       });

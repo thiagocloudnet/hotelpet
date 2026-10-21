@@ -49,15 +49,20 @@ Arquivo: hotelpet-final/usuario_cadastrar.html
       <main class="page-content">
         <!-- Caminho de navegação até a página atual. -->
         <div class="breadcrumb"><a href="painel.html">Início</a> / <a href="usuarios.html">Usuários</a> / Novo usuário</div>
-        <h1 class="page-title">Novo Usuário</h1>
+        <h1 class="page-title">Novo usuário</h1>
 
         <!-- Formulário com os campos e a ação de envio desta tela. -->
         <form action="usuarios.html" method="post" class="card">
           <h2>Dados do usuário</h2>
           <div class="form-grid">
             <div class="form-field">
-              <label for="nome">Nome</label>
+              <label for="nome">Nome completo</label>
               <input type="text" id="nome" name="nome" required placeholder="Nome completo">
+            </div>
+            <div class="form-field">
+              <label for="nome-exibicao">Nome de exibição</label>
+              <input type="text" id="nome-exibicao" name="nome-exibicao" maxlength="40" placeholder="Ex.: Thiago Prates" autocomplete="nickname">
+              <small>Nome curto usado nas listas. Se ficar vazio, usamos o primeiro e o último nome.</small>
             </div>
             <div class="form-field">
               <label for="email">E-mail</label>
@@ -102,7 +107,9 @@ Arquivo: hotelpet-final/usuario_cadastrar.html
       <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
     </div>
   </div>
+  <script src="js/dados-exemplo.js" defer></script>
   <script src="js/hotel-app.js" defer></script>
+  <script src="js/interface.js" defer></script>
 </body>
 </html>
 

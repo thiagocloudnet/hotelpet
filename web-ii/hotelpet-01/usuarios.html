@@ -49,7 +49,13 @@ Arquivo: hotelpet-01/usuarios.html
       <main class="page-content">
         <!-- Caminho de navegação até a página atual. -->
         <div class="breadcrumb"><a href="painel.html">Início</a> / Usuários</div>
-        <h1 class="page-title">Usuários</h1>
+        <h1 class="page-title">Clientes e equipe</h1>
+        <p>Consulte os responsáveis pelos pets separadamente dos funcionários e gerentes.</p>
+        <div class="user-groups" role="group" aria-label="Separar clientes e equipe">
+          <button type="button" data-user-view="clientes" aria-pressed="true">Clientes <span data-user-count="clientes"></span></button>
+          <button type="button" data-user-view="equipe" aria-pressed="false">Equipe <span data-user-count="equipe"></span></button>
+          <button type="button" data-user-view="todos" aria-pressed="false">Todos</button>
+        </div>
 
         <!-- Ações disponíveis para os registros ou para a página. -->
         <div class="page-actions">
@@ -122,67 +128,21 @@ Arquivo: hotelpet-01/usuarios.html
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><img src="imagens/avatar-gerente.jpeg" alt="Foto de Thiago Ferreira Prates Neves" class="avatar--small"></td>
-                <td>thiagoprates@hotelpet.shop</td>
-                <td>Thiago Ferreira Prates Neves</td>
-                <td>Gerente</td>
-                <td><span class="status-badge status-badge--active">Ativo</span></td>
-                <td>19/02/2020</td>
-                <td>
-                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
-                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
-                </td>
-              </tr>
-              <tr>
-                <td><img src="imagens/avatar-beatriz.svg" alt="Foto de Beatriz Oliveira" class="avatar--small"></td>
-                <td>beatriz.oliveira@hotelpet.shop</td>
-                <td>Beatriz Oliveira</td>
-                <td>Funcionário</td>
-                <td><span class="status-badge status-badge--active">Ativo</span></td>
-                <td>19/02/2020</td>
-                <td>
-                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
-                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
-                </td>
-              </tr>
-              <tr>
-                <td><img src="imagens/avatar-rafael.svg" alt="Foto de Rafael Costa" class="avatar--small"></td>
-                <td>rafael.costa@hotelpet.shop</td>
-                <td>Rafael Costa</td>
-                <td>Cliente</td>
-                <td><span class="status-badge status-badge--inactive">Inativo</span></td>
-                <td>19/02/2020</td>
-                <td>
-                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
-                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
-                </td>
-              </tr>
-              <tr>
-                <td><img src="imagens/avatar-camila.svg" alt="Foto de Camila Ferreira" class="avatar--small"></td>
-                <td>camila.ferreira@hotelpet.shop</td>
-                <td>Camila Ferreira</td>
-                <td>Cliente</td>
-                <td><span class="status-badge status-badge--active">Ativo</span></td>
-                <td>03/05/2021</td>
-                <td>
-                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
-                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
-                </td>
-              </tr>
-              <tr>
-                <td><span class="avatar--small avatar--initials" role="img" aria-label="João Viana">CM</span></td>
-                <td>joao.viana@hotelpet.shop</td>
-                <td>João Viana</td>
-                <td>Cliente</td>
-                <td><span class="status-badge status-badge--active">Ativo</span></td>
-                <td>12/09/2022</td>
-                <td>
-                  <a href="usuario_editar.html" class="row-action row-action--edit">Editar</a>
-                  <a href="usuario_visualizar.html" class="row-action row-action--view">Visualizar</a>
-                </td>
-              </tr>
-            </tbody>
+<tr><td><img class="avatar--small" src="imagens/avatar-gerente.jpeg" alt=""></td><td>thiagoprates@hotelpet.shop</td><td>Thiago Ferreira Prates Neves</td><td>Gerente</td><td>Ativo</td><td>16/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=u1">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=u1">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>beatriz.oliveira@hotelpet.shop</td><td>Beatriz Oliveira</td><td>Funcionário</td><td>Ativo</td><td>12/06/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=u2">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=u2">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-rafael.svg" alt=""></td><td>rafael.costa@hotelpet.shop</td><td>Rafael Costa</td><td>Cliente</td><td>Ativo</td><td>04/07/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=u3">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=u3">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-camila.svg" alt=""></td><td>camila.ferreira@hotelpet.shop</td><td>Camila Ferreira</td><td>Cliente</td><td>Ativo</td><td>09/08/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=u4">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=u4">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-joao.svg" alt=""></td><td>joao.viana@hotelpet.shop</td><td>João Viana</td><td>Cliente</td><td>Inativo</td><td>15/09/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=u5">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=u5">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente1@example.com</td><td>Ana Clara Almeida</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-0">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-0">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente2@example.com</td><td>Bruno Henrique Santos</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-1">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-1">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente3@example.com</td><td>Carolina Mendes Rocha</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-2">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-2">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente4@example.com</td><td>Daniel Ribeiro Lima</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-3">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-3">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente5@example.com</td><td>Elisa Martins Costa</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-4">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-4">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente6@example.com</td><td>Felipe Andrade Souza</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-5">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-5">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente7@example.com</td><td>Gabriela Nunes Silva</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-6">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-6">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente8@example.com</td><td>Henrique Oliveira Reis</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-7">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-7">Detalhes</a></td></tr>
+<tr><td><img class="avatar--small" src="imagens/avatar-beatriz.svg" alt=""></td><td>cliente9@example.com</td><td>Isabela Ferreira Dias</td><td>Cliente</td><td>Ativo</td><td>21/10/2026</td><td><a class="row-action row-action--edit" href="usuario_editar.html?id=demo-cliente-8">Editar</a> <a class="row-action row-action--view" href="usuario_visualizar.html?id=demo-cliente-8">Detalhes</a></td></tr>
+</tbody>
           </table>
         </div>
         </section>
@@ -191,6 +151,7 @@ Arquivo: hotelpet-01/usuarios.html
     </div>
   </div>
   <script src="js/navegacao-demo.js" defer></script>
+  <script src="js/interface.js" defer></script>
 </body>
 </html>
 

@@ -1,0 +1,2300 @@
+{
+  "consulted": "2026-10-21",
+  "sources": [
+    "https://www.fci.be/en/nomenclature/Default.aspx",
+    "https://cfa.org/breeds/"
+  ],
+  "dogs": [
+    {
+      "name": "Affenpinscher",
+      "group": "Grupo FCI 2",
+      "code": "186",
+      "officialName": "Affenpinscher"
+    },
+    {
+      "name": "Afghan Hound",
+      "group": "Grupo FCI 10",
+      "code": "228",
+      "officialName": "Afghan Hound"
+    },
+    {
+      "name": "Airedale Terrier",
+      "group": "Grupo FCI 3",
+      "code": "7",
+      "officialName": "Airedale Terrier"
+    },
+    {
+      "name": "Akita",
+      "group": "Grupo FCI 5",
+      "code": "255",
+      "officialName": "Akita"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "group": "Grupo FCI 5",
+      "code": "243",
+      "officialName": "Alaskan Malamute"
+    },
+    {
+      "name": "Alpenländische Dachsbracke (Alpine Dachsbracke)",
+      "group": "Grupo FCI 6",
+      "code": "254",
+      "officialName": "Alpenländische Dachsbracke (Alpine Dachsbracke)"
+    },
+    {
+      "name": "American Akita",
+      "group": "Grupo FCI 5",
+      "code": "344",
+      "officialName": "American Akita"
+    },
+    {
+      "name": "Cocker Spaniel Americano",
+      "group": "Grupo FCI 8",
+      "code": "167",
+      "officialName": "American Cocker Spaniel"
+    },
+    {
+      "name": "American Foxhound",
+      "group": "Grupo FCI 6",
+      "code": "303",
+      "officialName": "American Foxhound"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "group": "Grupo FCI 3",
+      "code": "286",
+      "officialName": "American Staffordshire Terrier"
+    },
+    {
+      "name": "American Water Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "301",
+      "officialName": "American Water Spaniel"
+    },
+    {
+      "name": "Anglo-Français De Petite Venerie (Medium-Sized Anglo-French Hound)",
+      "group": "Grupo FCI 6",
+      "code": "325",
+      "officialName": "Anglo-Français De Petite Venerie (Medium-Sized Anglo-French Hound)"
+    },
+    {
+      "name": "Appenzeller Sennenhund (Appenzell Cattle Dog)",
+      "group": "Grupo FCI 2",
+      "code": "46",
+      "officialName": "Appenzeller Sennenhund (Appenzell Cattle Dog)"
+    },
+    {
+      "name": "Ariegeois",
+      "group": "Grupo FCI 6",
+      "code": "20",
+      "officialName": "Ariegeois"
+    },
+    {
+      "name": "Australian Cattle Dog",
+      "group": "Grupo FCI 1",
+      "code": "287",
+      "officialName": "Australian Cattle Dog"
+    },
+    {
+      "name": "Australian Kelpie",
+      "group": "Grupo FCI 1",
+      "code": "293",
+      "officialName": "Australian Kelpie"
+    },
+    {
+      "name": "Australian Shepherd",
+      "group": "Grupo FCI 1",
+      "code": "342",
+      "officialName": "Australian Shepherd"
+    },
+    {
+      "name": "Australian Silky Terrier",
+      "group": "Grupo FCI 3",
+      "code": "236",
+      "officialName": "Australian Silky Terrier"
+    },
+    {
+      "name": "Australian Terrier",
+      "group": "Grupo FCI 3",
+      "code": "8",
+      "officialName": "Australian Terrier"
+    },
+    {
+      "name": "Azawakh",
+      "group": "Grupo FCI 10",
+      "code": "307",
+      "officialName": "Azawakh"
+    },
+    {
+      "name": "Aïdi (Chien De Montagne De L'Atlas) (Atlas Mountain Dog (Aidi))",
+      "group": "Grupo FCI 2",
+      "code": "247",
+      "officialName": "Aïdi (Chien De Montagne De L'Atlas) (Atlas Mountain Dog (Aidi))"
+    },
+    {
+      "name": "Barbet (French Water Dog)",
+      "group": "Grupo FCI 8",
+      "code": "105",
+      "officialName": "Barbet (French Water Dog)"
+    },
+    {
+      "name": "Basenji",
+      "group": "Grupo FCI 5",
+      "code": "43",
+      "officialName": "Basenji"
+    },
+    {
+      "name": "Basset Artesien Normand (Norman Artesien Basset)",
+      "group": "Grupo FCI 6",
+      "code": "34",
+      "officialName": "Basset Artesien Normand (Norman Artesien Basset)"
+    },
+    {
+      "name": "Basset Bleu De Gascogne (Blue Gascony Basset)",
+      "group": "Grupo FCI 6",
+      "code": "35",
+      "officialName": "Basset Bleu De Gascogne (Blue Gascony Basset)"
+    },
+    {
+      "name": "Basset Fauve De Bretagne",
+      "group": "Grupo FCI 6",
+      "code": "36",
+      "officialName": "Basset Fauve De Bretagne"
+    },
+    {
+      "name": "Basset Hound",
+      "group": "Grupo FCI 6",
+      "code": "163",
+      "officialName": "Basset Hound"
+    },
+    {
+      "name": "Bayerischer Gebirgsschweisshund (Bavarian Mountain Scent Hound)",
+      "group": "Grupo FCI 6",
+      "code": "217",
+      "officialName": "Bayerischer Gebirgsschweisshund (Bavarian Mountain Scent Hound)"
+    },
+    {
+      "name": "Beagle",
+      "group": "Grupo FCI 6",
+      "code": "161",
+      "officialName": "Beagle"
+    },
+    {
+      "name": "Beagle-Harrier (Beagle Harrier)",
+      "group": "Grupo FCI 6",
+      "code": "290",
+      "officialName": "Beagle-Harrier (Beagle Harrier)"
+    },
+    {
+      "name": "Bearded Collie",
+      "group": "Grupo FCI 1",
+      "code": "271",
+      "officialName": "Bearded Collie"
+    },
+    {
+      "name": "Bedlington Terrier",
+      "group": "Grupo FCI 3",
+      "code": "9",
+      "officialName": "Bedlington Terrier"
+    },
+    {
+      "name": "Berger Blanc Suisse (White Swiss Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "347",
+      "officialName": "Berger Blanc Suisse (White Swiss Shepherd Dog)"
+    },
+    {
+      "name": "Berger De Beauce (Beauce Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "44",
+      "officialName": "Berger De Beauce (Beauce Sheepdog)"
+    },
+    {
+      "name": "Berger De Brie (Briard)",
+      "group": "Grupo FCI 1",
+      "code": "113",
+      "officialName": "Berger De Brie (Briard)"
+    },
+    {
+      "name": "Berger De Picardie (Picardy Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "176",
+      "officialName": "Berger De Picardie (Picardy Sheepdog)"
+    },
+    {
+      "name": "Berner Sennenhund (Bernese Mountain Dog)",
+      "group": "Grupo FCI 2",
+      "code": "45",
+      "officialName": "Berner Sennenhund (Bernese Mountain Dog)"
+    },
+    {
+      "name": "Bichon A Poil Frise (Bichon Frise)",
+      "group": "Grupo FCI 9",
+      "code": "215",
+      "officialName": "Bichon A Poil Frise (Bichon Frise)"
+    },
+    {
+      "name": "Bichon Havanais (Havanese)",
+      "group": "Grupo FCI 9",
+      "code": "250",
+      "officialName": "Bichon Havanais (Havanese)"
+    },
+    {
+      "name": "Billy",
+      "group": "Grupo FCI 6",
+      "code": "25",
+      "officialName": "Billy"
+    },
+    {
+      "name": "Black And Tan Coonhound",
+      "group": "Grupo FCI 6",
+      "code": "300",
+      "officialName": "Black And Tan Coonhound"
+    },
+    {
+      "name": "Bolognese",
+      "group": "Grupo FCI 9",
+      "code": "196",
+      "officialName": "Bolognese"
+    },
+    {
+      "name": "Border Collie",
+      "group": "Grupo FCI 1",
+      "code": "297",
+      "officialName": "Border Collie"
+    },
+    {
+      "name": "Border Terrier",
+      "group": "Grupo FCI 3",
+      "code": "10",
+      "officialName": "Border Terrier"
+    },
+    {
+      "name": "Bosanski Ostrodlaki Gonic-Barak (Bosnian Broken-Haired Hound - Called Barak)",
+      "group": "Grupo FCI 6",
+      "code": "155",
+      "officialName": "Bosanski Ostrodlaki Gonic-Barak (Bosnian Broken-Haired Hound - Called Barak)"
+    },
+    {
+      "name": "Boston Terrier",
+      "group": "Grupo FCI 9",
+      "code": "140",
+      "officialName": "Boston Terrier"
+    },
+    {
+      "name": "Bulldog Francês",
+      "group": "Grupo FCI 9",
+      "code": "101",
+      "officialName": "Bouledogue Français (French Bulldog)"
+    },
+    {
+      "name": "Bouvier Des Ardennes",
+      "group": "Grupo FCI 1",
+      "code": "171",
+      "officialName": "Bouvier Des Ardennes"
+    },
+    {
+      "name": "Bouvier Des Flandres-Vlaamse Koehond (Bouvier Des Flandres)",
+      "group": "Grupo FCI 1",
+      "code": "191",
+      "officialName": "Bouvier Des Flandres-Vlaamse Koehond (Bouvier Des Flandres)"
+    },
+    {
+      "name": "Bracco Italiano (Italian Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "202",
+      "officialName": "Bracco Italiano (Italian Pointing Dog)"
+    },
+    {
+      "name": "Brandlbracke - (Vieräugl) (Austrian Black And Tan Hound)",
+      "group": "Grupo FCI 6",
+      "code": "63",
+      "officialName": "Brandlbracke - (Vieräugl) (Austrian Black And Tan Hound)"
+    },
+    {
+      "name": "Braque D'Auvergne (Auvergne Pointer)",
+      "group": "Grupo FCI 7",
+      "code": "180",
+      "officialName": "Braque D'Auvergne (Auvergne Pointer)"
+    },
+    {
+      "name": "Braque De L'Ariège (Ariege Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "177",
+      "officialName": "Braque De L'Ariège (Ariege Pointing Dog)"
+    },
+    {
+      "name": "Braque Du Bourbonnais (Bourbonnais Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "179",
+      "officialName": "Braque Du Bourbonnais (Bourbonnais Pointing Dog)"
+    },
+    {
+      "name": "Braque Français - Type Gascogne (French Pointing Dog - Gascogne Type)",
+      "group": "Grupo FCI 7",
+      "code": "133",
+      "officialName": "Braque Français - Type Gascogne (French Pointing Dog - Gascogne Type)"
+    },
+    {
+      "name": "Braque Français - Type Pyrenees (French Pointing Dog - Pyrenean Type)",
+      "group": "Grupo FCI 7",
+      "code": "134",
+      "officialName": "Braque Français - Type Pyrenees (French Pointing Dog - Pyrenean Type)"
+    },
+    {
+      "name": "Braque Saint-Germain (Saint Germain Pointer)",
+      "group": "Grupo FCI 7",
+      "code": "115",
+      "officialName": "Braque Saint-Germain (Saint Germain Pointer)"
+    },
+    {
+      "name": "Briquet Griffon Vendeen",
+      "group": "Grupo FCI 6",
+      "code": "19",
+      "officialName": "Briquet Griffon Vendeen"
+    },
+    {
+      "name": "Broholmer",
+      "group": "Grupo FCI 2",
+      "code": "315",
+      "officialName": "Broholmer"
+    },
+    {
+      "name": "Bull Terrier",
+      "group": "Grupo FCI 3",
+      "code": "11",
+      "officialName": "Bull Terrier"
+    },
+    {
+      "name": "Bulldog",
+      "group": "Grupo FCI 2",
+      "code": "149",
+      "officialName": "Bulldog"
+    },
+    {
+      "name": "Bullmastiff",
+      "group": "Grupo FCI 2",
+      "code": "157",
+      "officialName": "Bullmastiff"
+    },
+    {
+      "name": "Ca De Bestiar (Majorca Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "321",
+      "officialName": "Ca De Bestiar (Majorca Shepherd Dog)"
+    },
+    {
+      "name": "Cairn Terrier",
+      "group": "Grupo FCI 3",
+      "code": "4",
+      "officialName": "Cairn Terrier"
+    },
+    {
+      "name": "Canaan Dog",
+      "group": "Grupo FCI 5",
+      "code": "273",
+      "officialName": "Canaan Dog"
+    },
+    {
+      "name": "Canadian Eskimo Dog",
+      "group": "Grupo FCI 5",
+      "code": "211",
+      "officialName": "Canadian Eskimo Dog"
+    },
+    {
+      "name": "Cane Corso Italiano (Italian Cane Corso )",
+      "group": "Grupo FCI 2",
+      "code": "343",
+      "officialName": "Cane Corso Italiano (Italian Cane Corso )"
+    },
+    {
+      "name": "Cane Da Pastore Abruzzese Maremmano (Abruzzes And Maremma Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "201",
+      "officialName": "Cane Da Pastore Abruzzese Maremmano (Abruzzes And Maremma Shepherd Dog)"
+    },
+    {
+      "name": "Cane Da Pastore Bergamasco (Bergamasco Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "194",
+      "officialName": "Cane Da Pastore Bergamasco (Bergamasco Shepherd Dog)"
+    },
+    {
+      "name": "Poodle",
+      "group": "Grupo FCI 9",
+      "code": "172",
+      "officialName": "Caniche (Poodle)"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "group": "Grupo FCI 9",
+      "code": "136",
+      "officialName": "Cavalier King Charles Spaniel"
+    },
+    {
+      "name": "Ceskoslovenský Vlciak (Czechoslovakian Wolfdog)",
+      "group": "Grupo FCI 1",
+      "code": "332",
+      "officialName": "Ceskoslovenský Vlciak (Czechoslovakian Wolfdog)"
+    },
+    {
+      "name": "Ceský Fousek (Bohemian Wire-Haired Pointing Griffon)",
+      "group": "Grupo FCI 7",
+      "code": "245",
+      "officialName": "Ceský Fousek (Bohemian Wire-Haired Pointing Griffon)"
+    },
+    {
+      "name": "Ceský Terier (Czech Terrier)",
+      "group": "Grupo FCI 3",
+      "code": "246",
+      "officialName": "Ceský Terier (Czech Terrier)"
+    },
+    {
+      "name": "Chart Polski (Polish Greyhound)",
+      "group": "Grupo FCI 10",
+      "code": "333",
+      "officialName": "Chart Polski (Polish Greyhound)"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "group": "Grupo FCI 8",
+      "code": "263",
+      "officialName": "Chesapeake Bay Retriever"
+    },
+    {
+      "name": "Chien D'Artois (Artois Hound)",
+      "group": "Grupo FCI 6",
+      "code": "28",
+      "officialName": "Chien D'Artois (Artois Hound)"
+    },
+    {
+      "name": "Pastor Belga",
+      "group": "Grupo FCI 1",
+      "code": "15",
+      "officialName": "Chien De Berger Belge (Belgian Shepherd Dog)"
+    },
+    {
+      "name": "Chien De Berger Des Pyrenees A Face Rase (Pyrenean Sheepdog - Smooth Faced)",
+      "group": "Grupo FCI 1",
+      "code": "138",
+      "officialName": "Chien De Berger Des Pyrenees A Face Rase (Pyrenean Sheepdog - Smooth Faced)"
+    },
+    {
+      "name": "Chien De Berger Des Pyrenees A Poil Long (Long-Haired Pyrenean Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "141",
+      "officialName": "Chien De Berger Des Pyrenees A Poil Long (Long-Haired Pyrenean Sheepdog)"
+    },
+    {
+      "name": "Chien De Montagne Des Pyrenees (Pyrenean Mountain Dog)",
+      "group": "Grupo FCI 2",
+      "code": "137",
+      "officialName": "Chien De Montagne Des Pyrenees (Pyrenean Mountain Dog)"
+    },
+    {
+      "name": "Chien De Saint Hubert (Bloodhound)",
+      "group": "Grupo FCI 6",
+      "code": "84",
+      "officialName": "Chien De Saint Hubert (Bloodhound)"
+    },
+    {
+      "name": "Chihuahueño (Chihuahua)",
+      "group": "Grupo FCI 9",
+      "code": "218",
+      "officialName": "Chihuahueño (Chihuahua)"
+    },
+    {
+      "name": "Chin (Japanese Chin)",
+      "group": "Grupo FCI 9",
+      "code": "206",
+      "officialName": "Chin (Japanese Chin)"
+    },
+    {
+      "name": "Chinese Crested Dog",
+      "group": "Grupo FCI 9",
+      "code": "288",
+      "officialName": "Chinese Crested Dog"
+    },
+    {
+      "name": "Chow Chow",
+      "group": "Grupo FCI 5",
+      "code": "205",
+      "officialName": "Chow Chow"
+    },
+    {
+      "name": "Cimarrón Uruguayo",
+      "group": "Grupo FCI 2",
+      "code": "353",
+      "officialName": "Cimarrón Uruguayo"
+    },
+    {
+      "name": "Ciobanesc Românesc Carpatin (Romanian Carpathian Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "350",
+      "officialName": "Ciobanesc Românesc Carpatin (Romanian Carpathian Shepherd Dog)"
+    },
+    {
+      "name": "Ciobanesc Românesc De Bucovina (Romanian Bucovina Shepherd)",
+      "group": "Grupo FCI 2",
+      "code": "357",
+      "officialName": "Ciobanesc Românesc De Bucovina (Romanian Bucovina Shepherd)"
+    },
+    {
+      "name": "Ciobanesc Românesc Mioritic (Romanian Mioritic Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "349",
+      "officialName": "Ciobanesc Românesc Mioritic (Romanian Mioritic Shepherd Dog)"
+    },
+    {
+      "name": "Cirneco Dell'Etna",
+      "group": "Grupo FCI 5",
+      "code": "199",
+      "officialName": "Cirneco Dell'Etna"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "109",
+      "officialName": "Clumber Spaniel"
+    },
+    {
+      "name": "Collie Rough",
+      "group": "Grupo FCI 1",
+      "code": "156",
+      "officialName": "Collie Rough"
+    },
+    {
+      "name": "Collie Smooth",
+      "group": "Grupo FCI 1",
+      "code": "296",
+      "officialName": "Collie Smooth"
+    },
+    {
+      "name": "Coton De Tulear",
+      "group": "Grupo FCI 9",
+      "code": "283",
+      "officialName": "Coton De Tulear"
+    },
+    {
+      "name": "Crnogorski Planinski Gonic (Montenegrin Mountain Hound)",
+      "group": "Grupo FCI 6",
+      "code": "279",
+      "officialName": "Crnogorski Planinski Gonic (Montenegrin Mountain Hound)"
+    },
+    {
+      "name": "Curly Coated Retriever",
+      "group": "Grupo FCI 8",
+      "code": "110",
+      "officialName": "Curly Coated Retriever"
+    },
+    {
+      "name": "Cão Da Serra Da Estrela (Estrela Mountain Dog)",
+      "group": "Grupo FCI 2",
+      "code": "173",
+      "officialName": "Cão Da Serra Da Estrela (Estrela Mountain Dog)"
+    },
+    {
+      "name": "Cão Da Serra De Aires (Portuguese Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "93",
+      "officialName": "Cão Da Serra De Aires (Portuguese Sheepdog)"
+    },
+    {
+      "name": "Cão De Castro Laboreiro (Castro Laboreiro Dog)",
+      "group": "Grupo FCI 2",
+      "code": "170",
+      "officialName": "Cão De Castro Laboreiro (Castro Laboreiro Dog)"
+    },
+    {
+      "name": "Cão De Água Português (Portuguese Water Dog)",
+      "group": "Grupo FCI 8",
+      "code": "37",
+      "officialName": "Cão De Água Português (Portuguese Water Dog)"
+    },
+    {
+      "name": "Cão Fila De São Miguel (Saint Miguel Cattle Dog)",
+      "group": "Grupo FCI 2",
+      "code": "340",
+      "officialName": "Cão Fila De São Miguel (Saint Miguel Cattle Dog)"
+    },
+    {
+      "name": "Dachshund",
+      "group": "Grupo FCI 4",
+      "code": "148",
+      "officialName": "Dachshund"
+    },
+    {
+      "name": "Dalmatinski Pas (Dalmatian)",
+      "group": "Grupo FCI 6",
+      "code": "153",
+      "officialName": "Dalmatinski Pas (Dalmatian)"
+    },
+    {
+      "name": "Dandie Dinmont Terrier",
+      "group": "Grupo FCI 3",
+      "code": "168",
+      "officialName": "Dandie Dinmont Terrier"
+    },
+    {
+      "name": "Dansk-Svensk Gårdshund (Danish-Swedish Farmdog)",
+      "group": "Grupo FCI 2",
+      "code": "356",
+      "officialName": "Dansk-Svensk Gårdshund (Danish-Swedish Farmdog)"
+    },
+    {
+      "name": "Deerhound",
+      "group": "Grupo FCI 10",
+      "code": "164",
+      "officialName": "Deerhound"
+    },
+    {
+      "name": "Deutsch Drahthaar (German Wire- Haired Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "98",
+      "officialName": "Deutsch Drahthaar (German Wire- Haired Pointing Dog)"
+    },
+    {
+      "name": "Braco Alemão de Pelo Curto",
+      "group": "Grupo FCI 7",
+      "code": "119",
+      "officialName": "Deutsch Kurzhaar (German Short- Haired Pointing Dog)"
+    },
+    {
+      "name": "Deutsch Langhaar",
+      "group": "Grupo FCI 7",
+      "code": "117",
+      "officialName": "Deutsch Langhaar"
+    },
+    {
+      "name": "Deutsch Stichelhaar",
+      "group": "Grupo FCI 7",
+      "code": "232",
+      "officialName": "Deutsch Stichelhaar"
+    },
+    {
+      "name": "Deutsche Bracke (German Hound)",
+      "group": "Grupo FCI 6",
+      "code": "299",
+      "officialName": "Deutsche Bracke (German Hound)"
+    },
+    {
+      "name": "Dogue Alemão",
+      "group": "Grupo FCI 2",
+      "code": "235",
+      "officialName": "Deutsche Dogge (Great Dane)"
+    },
+    {
+      "name": "Deutscher Boxer (Boxer)",
+      "group": "Grupo FCI 2",
+      "code": "144",
+      "officialName": "Deutscher Boxer (Boxer)"
+    },
+    {
+      "name": "Deutscher Jagdterrier (German Hunting Terrier)",
+      "group": "Grupo FCI 3",
+      "code": "103",
+      "officialName": "Deutscher Jagdterrier (German Hunting Terrier)"
+    },
+    {
+      "name": "Deutscher Pinscher (German Pinscher)",
+      "group": "Grupo FCI 2",
+      "code": "184",
+      "officialName": "Deutscher Pinscher (German Pinscher)"
+    },
+    {
+      "name": "Pastor Alemão",
+      "group": "Grupo FCI 1",
+      "code": "166",
+      "officialName": "Deutscher Schäferhund (German Shepherd Dog)"
+    },
+    {
+      "name": "Spitz Alemão",
+      "group": "Grupo FCI 5",
+      "code": "97",
+      "officialName": "Deutscher Spitz (German Spitz)"
+    },
+    {
+      "name": "Deutscher Wachtelhund (German Spaniel)",
+      "group": "Grupo FCI 8",
+      "code": "104",
+      "officialName": "Deutscher Wachtelhund (German Spaniel)"
+    },
+    {
+      "name": "Do-Khyi (Tibetan Mastiff)",
+      "group": "Grupo FCI 2",
+      "code": "230",
+      "officialName": "Do-Khyi (Tibetan Mastiff)"
+    },
+    {
+      "name": "Dobermann",
+      "group": "Grupo FCI 2",
+      "code": "143",
+      "officialName": "Dobermann"
+    },
+    {
+      "name": "Dogo Argentino",
+      "group": "Grupo FCI 2",
+      "code": "292",
+      "officialName": "Dogo Argentino"
+    },
+    {
+      "name": "Dogue de Bordeaux",
+      "group": "Grupo FCI 2",
+      "code": "116",
+      "officialName": "Dogue De Bordeaux"
+    },
+    {
+      "name": "Drentsche Patrijshond (Drentsche Partridge Dog)",
+      "group": "Grupo FCI 7",
+      "code": "224",
+      "officialName": "Drentsche Patrijshond (Drentsche Partridge Dog)"
+    },
+    {
+      "name": "Drever",
+      "group": "Grupo FCI 6",
+      "code": "130",
+      "officialName": "Drever"
+    },
+    {
+      "name": "Drótzörü  Magyar Vizsla (Hungarian Wire-Haired Pointer)",
+      "group": "Grupo FCI 7",
+      "code": "239",
+      "officialName": "Drótzörü  Magyar Vizsla (Hungarian Wire-Haired Pointer)"
+    },
+    {
+      "name": "Dunker (Norwegian Hound)",
+      "group": "Grupo FCI 6",
+      "code": "203",
+      "officialName": "Dunker (Norwegian Hound)"
+    },
+    {
+      "name": "Cocker Spaniel Inglês",
+      "group": "Grupo FCI 8",
+      "code": "5",
+      "officialName": "English Cocker Spaniel"
+    },
+    {
+      "name": "English Foxhound",
+      "group": "Grupo FCI 6",
+      "code": "159",
+      "officialName": "English Foxhound"
+    },
+    {
+      "name": "English Pointer",
+      "group": "Grupo FCI 7",
+      "code": "1",
+      "officialName": "English Pointer"
+    },
+    {
+      "name": "English Setter",
+      "group": "Grupo FCI 7",
+      "code": "2",
+      "officialName": "English Setter"
+    },
+    {
+      "name": "English Springer Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "125",
+      "officialName": "English Springer Spaniel"
+    },
+    {
+      "name": "English Toy Terrier (English Toy Terrier (Black &Tan))",
+      "group": "Grupo FCI 3",
+      "code": "13",
+      "officialName": "English Toy Terrier (English Toy Terrier (Black &Tan))"
+    },
+    {
+      "name": "Entlebucher Sennenhund (Entlebuch Cattle Dog)",
+      "group": "Grupo FCI 2",
+      "code": "47",
+      "officialName": "Entlebucher Sennenhund (Entlebuch Cattle Dog)"
+    },
+    {
+      "name": "Epagneul Bleu De Picardie (Blue Picardy Spaniel)",
+      "group": "Grupo FCI 7",
+      "code": "106",
+      "officialName": "Epagneul Bleu De Picardie (Blue Picardy Spaniel)"
+    },
+    {
+      "name": "Epagneul Breton (Brittany Spaniel)",
+      "group": "Grupo FCI 7",
+      "code": "95",
+      "officialName": "Epagneul Breton (Brittany Spaniel)"
+    },
+    {
+      "name": "Epagneul De Pont-Audemer (Pont-Audemer Spaniel)",
+      "group": "Grupo FCI 7",
+      "code": "114",
+      "officialName": "Epagneul De Pont-Audemer (Pont-Audemer Spaniel)"
+    },
+    {
+      "name": "Epagneul Français (French Spaniel)",
+      "group": "Grupo FCI 7",
+      "code": "175",
+      "officialName": "Epagneul Français (French Spaniel)"
+    },
+    {
+      "name": "Epagneul Nain Continental (Continental Toy Spaniel)",
+      "group": "Grupo FCI 9",
+      "code": "77",
+      "officialName": "Epagneul Nain Continental (Continental Toy Spaniel)"
+    },
+    {
+      "name": "Epagneul Picard (Picardy Spaniel)",
+      "group": "Grupo FCI 7",
+      "code": "108",
+      "officialName": "Epagneul Picard (Picardy Spaniel)"
+    },
+    {
+      "name": "Erdélyi Kopó (Hungarian Hound - Transylvanian Scent Hound)",
+      "group": "Grupo FCI 6",
+      "code": "241",
+      "officialName": "Erdélyi Kopó (Hungarian Hound - Transylvanian Scent Hound)"
+    },
+    {
+      "name": "Eurasier (Eurasian)",
+      "group": "Grupo FCI 5",
+      "code": "291",
+      "officialName": "Eurasier (Eurasian)"
+    },
+    {
+      "name": "Field Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "123",
+      "officialName": "Field Spaniel"
+    },
+    {
+      "name": "Fila Brasileiro",
+      "group": "Grupo FCI 2",
+      "code": "225",
+      "officialName": "Fila Brasileiro"
+    },
+    {
+      "name": "Flat Coated Retriever",
+      "group": "Grupo FCI 8",
+      "code": "121",
+      "officialName": "Flat Coated Retriever"
+    },
+    {
+      "name": "Fox Terrier (Smooth)",
+      "group": "Grupo FCI 3",
+      "code": "12",
+      "officialName": "Fox Terrier (Smooth)"
+    },
+    {
+      "name": "Fox Terrier (Wire)",
+      "group": "Grupo FCI 3",
+      "code": "169",
+      "officialName": "Fox Terrier (Wire)"
+    },
+    {
+      "name": "Français Blanc Et Noir (French White & Black Hound)",
+      "group": "Grupo FCI 6",
+      "code": "220",
+      "officialName": "Français Blanc Et Noir (French White & Black Hound)"
+    },
+    {
+      "name": "Français Blanc Et Orange (French White And Orange Hound)",
+      "group": "Grupo FCI 6",
+      "code": "316",
+      "officialName": "Français Blanc Et Orange (French White And Orange Hound)"
+    },
+    {
+      "name": "Français Tricolore (French Tricolour Hound)",
+      "group": "Grupo FCI 6",
+      "code": "219",
+      "officialName": "Français Tricolore (French Tricolour Hound)"
+    },
+    {
+      "name": "Galgo Español (Spanish Greyhound)",
+      "group": "Grupo FCI 10",
+      "code": "285",
+      "officialName": "Galgo Español (Spanish Greyhound)"
+    },
+    {
+      "name": "Gammel Dansk Hønsehund (Old Danish Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "281",
+      "officialName": "Gammel Dansk Hønsehund (Old Danish Pointing Dog)"
+    },
+    {
+      "name": "Gascon Saintongeois",
+      "group": "Grupo FCI 6",
+      "code": "21",
+      "officialName": "Gascon Saintongeois"
+    },
+    {
+      "name": "Golden Retriever",
+      "group": "Grupo FCI 8",
+      "code": "111",
+      "officialName": "Golden Retriever"
+    },
+    {
+      "name": "Gonczy Polski (Polish Hunting Dog)",
+      "group": "Grupo FCI 6",
+      "code": "354",
+      "officialName": "Gonczy Polski (Polish Hunting Dog)"
+    },
+    {
+      "name": "Gordon Setter",
+      "group": "Grupo FCI 7",
+      "code": "6",
+      "officialName": "Gordon Setter"
+    },
+    {
+      "name": "Gos D'Atura Català (Catalan Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "87",
+      "officialName": "Gos D'Atura Català (Catalan Sheepdog)"
+    },
+    {
+      "name": "Grand Anglo-Français Blanc Et Noir (Great Anglo-French White And Black Hound)",
+      "group": "Grupo FCI 6",
+      "code": "323",
+      "officialName": "Grand Anglo-Français Blanc Et Noir (Great Anglo-French White And Black Hound)"
+    },
+    {
+      "name": "Grand Anglo-Français Blanc Et Orange (Great Anglo-French White & Orange Hound)",
+      "group": "Grupo FCI 6",
+      "code": "324",
+      "officialName": "Grand Anglo-Français Blanc Et Orange (Great Anglo-French White & Orange Hound)"
+    },
+    {
+      "name": "Grand Anglo-Français Tricolore (Great Anglo-French Tricolour Hound)",
+      "group": "Grupo FCI 6",
+      "code": "322",
+      "officialName": "Grand Anglo-Français Tricolore (Great Anglo-French Tricolour Hound)"
+    },
+    {
+      "name": "Grand Basset Griffon Vendeen",
+      "group": "Grupo FCI 6",
+      "code": "33",
+      "officialName": "Grand Basset Griffon Vendeen"
+    },
+    {
+      "name": "Grand Bleu De Gascogne (Great Gascony Blue)",
+      "group": "Grupo FCI 6",
+      "code": "22",
+      "officialName": "Grand Bleu De Gascogne (Great Gascony Blue)"
+    },
+    {
+      "name": "Grand Griffon Vendeen",
+      "group": "Grupo FCI 6",
+      "code": "282",
+      "officialName": "Grand Griffon Vendeen"
+    },
+    {
+      "name": "Greyhound",
+      "group": "Grupo FCI 10",
+      "code": "158",
+      "officialName": "Greyhound"
+    },
+    {
+      "name": "Griffon A Poil Dur Korthals (Wire-Haired Pointing Griffon Korthals)",
+      "group": "Grupo FCI 7",
+      "code": "107",
+      "officialName": "Griffon A Poil Dur Korthals (Wire-Haired Pointing Griffon Korthals)"
+    },
+    {
+      "name": "Griffon Belge",
+      "group": "Grupo FCI 9",
+      "code": "81",
+      "officialName": "Griffon Belge"
+    },
+    {
+      "name": "Griffon Bleu De Gascogne (Blue Gascony Griffon)",
+      "group": "Grupo FCI 6",
+      "code": "32",
+      "officialName": "Griffon Bleu De Gascogne (Blue Gascony Griffon)"
+    },
+    {
+      "name": "Griffon Bruxellois",
+      "group": "Grupo FCI 9",
+      "code": "80",
+      "officialName": "Griffon Bruxellois"
+    },
+    {
+      "name": "Griffon Fauve De Bretagne (Fawn Brittany Griffon)",
+      "group": "Grupo FCI 6",
+      "code": "66",
+      "officialName": "Griffon Fauve De Bretagne (Fawn Brittany Griffon)"
+    },
+    {
+      "name": "Griffon Nivernais",
+      "group": "Grupo FCI 6",
+      "code": "17",
+      "officialName": "Griffon Nivernais"
+    },
+    {
+      "name": "Grosser Münsterländer Vorstehhund (Large Munsterlander)",
+      "group": "Grupo FCI 7",
+      "code": "118",
+      "officialName": "Grosser Münsterländer Vorstehhund (Large Munsterlander)"
+    },
+    {
+      "name": "Grosser Schweizer Sennenhund (Great Swiss Mountain Dog)",
+      "group": "Grupo FCI 2",
+      "code": "58",
+      "officialName": "Grosser Schweizer Sennenhund (Great Swiss Mountain Dog)"
+    },
+    {
+      "name": "Grønlandshund (Greenland Dog)",
+      "group": "Grupo FCI 5",
+      "code": "274",
+      "officialName": "Grønlandshund (Greenland Dog)"
+    },
+    {
+      "name": "Haldenstøver (Halden Hound)",
+      "group": "Grupo FCI 6",
+      "code": "267",
+      "officialName": "Haldenstøver (Halden Hound)"
+    },
+    {
+      "name": "Hamiltonstövare",
+      "group": "Grupo FCI 6",
+      "code": "132",
+      "officialName": "Hamiltonstövare"
+    },
+    {
+      "name": "Hannoverscher Schweisshund (Hanoverian Scent Hound)",
+      "group": "Grupo FCI 6",
+      "code": "213",
+      "officialName": "Hannoverscher Schweisshund (Hanoverian Scent Hound)"
+    },
+    {
+      "name": "Harrier",
+      "group": "Grupo FCI 6",
+      "code": "295",
+      "officialName": "Harrier"
+    },
+    {
+      "name": "Hellinikos Ichnilatis (Hellenic Hound)",
+      "group": "Grupo FCI 6",
+      "code": "214",
+      "officialName": "Hellinikos Ichnilatis (Hellenic Hound)"
+    },
+    {
+      "name": "Hokkaido",
+      "group": "Grupo FCI 5",
+      "code": "261",
+      "officialName": "Hokkaido"
+    },
+    {
+      "name": "Hollandse Herdershond (Dutch Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "223",
+      "officialName": "Hollandse Herdershond (Dutch Shepherd Dog)"
+    },
+    {
+      "name": "Hollandse Smoushond (Dutch Smoushond)",
+      "group": "Grupo FCI 2",
+      "code": "308",
+      "officialName": "Hollandse Smoushond (Dutch Smoushond)"
+    },
+    {
+      "name": "Hovawart",
+      "group": "Grupo FCI 2",
+      "code": "190",
+      "officialName": "Hovawart"
+    },
+    {
+      "name": "Hrvatski Ovcar (Croatian Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "277",
+      "officialName": "Hrvatski Ovcar (Croatian Shepherd Dog)"
+    },
+    {
+      "name": "Hygenhund (Hygen Hound)",
+      "group": "Grupo FCI 6",
+      "code": "266",
+      "officialName": "Hygenhund (Hygen Hound)"
+    },
+    {
+      "name": "Irish Glen Of Imaal Terrier",
+      "group": "Grupo FCI 3",
+      "code": "302",
+      "officialName": "Irish Glen Of Imaal Terrier"
+    },
+    {
+      "name": "Irish Red And White Setter",
+      "group": "Grupo FCI 7",
+      "code": "330",
+      "officialName": "Irish Red And White Setter"
+    },
+    {
+      "name": "Irish Red Setter",
+      "group": "Grupo FCI 7",
+      "code": "120",
+      "officialName": "Irish Red Setter"
+    },
+    {
+      "name": "Irish Soft Coated Wheaten Terrier",
+      "group": "Grupo FCI 3",
+      "code": "40",
+      "officialName": "Irish Soft Coated Wheaten Terrier"
+    },
+    {
+      "name": "Irish Terrier",
+      "group": "Grupo FCI 3",
+      "code": "139",
+      "officialName": "Irish Terrier"
+    },
+    {
+      "name": "Irish Water Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "124",
+      "officialName": "Irish Water Spaniel"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "group": "Grupo FCI 10",
+      "code": "160",
+      "officialName": "Irish Wolfhound"
+    },
+    {
+      "name": "Istarski  Ostrodlaki  Gonic (Istrian Wire-Haired Hound)",
+      "group": "Grupo FCI 6",
+      "code": "152",
+      "officialName": "Istarski  Ostrodlaki  Gonic (Istrian Wire-Haired Hound)"
+    },
+    {
+      "name": "Istarski Kratkodlaki Gonic (Istrian Short-Haired Hound)",
+      "group": "Grupo FCI 6",
+      "code": "151",
+      "officialName": "Istarski Kratkodlaki Gonic (Istrian Short-Haired Hound)"
+    },
+    {
+      "name": "Jack Russell Terrier",
+      "group": "Grupo FCI 3",
+      "code": "345",
+      "officialName": "Jack Russell Terrier"
+    },
+    {
+      "name": "Jugoslovenski Ovcarski Pas-Sarplaninac (Yugoslavian Shepherd Dog - Sharplanina)",
+      "group": "Grupo FCI 2",
+      "code": "41",
+      "officialName": "Jugoslovenski Ovcarski Pas-Sarplaninac (Yugoslavian Shepherd Dog - Sharplanina)"
+    },
+    {
+      "name": "Jämthund",
+      "group": "Grupo FCI 5",
+      "code": "42",
+      "officialName": "Jämthund"
+    },
+    {
+      "name": "Kai",
+      "group": "Grupo FCI 5",
+      "code": "317",
+      "officialName": "Kai"
+    },
+    {
+      "name": "Kangal Çoban Köpegi (Kangal Shepherd Dog)",
+      "group": "Grupo FCI 2",
+      "code": "331",
+      "officialName": "Kangal Çoban Köpegi (Kangal Shepherd Dog)"
+    },
+    {
+      "name": "Karjalankarhukoira (Karelian Bear Dog)",
+      "group": "Grupo FCI 5",
+      "code": "48",
+      "officialName": "Karjalankarhukoira (Karelian Bear Dog)"
+    },
+    {
+      "name": "Kavkazskaïa Ovtcharka (Caucasian Shepherd Dog)",
+      "group": "Grupo FCI 2",
+      "code": "328",
+      "officialName": "Kavkazskaïa Ovtcharka (Caucasian Shepherd Dog)"
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "group": "Grupo FCI 3",
+      "code": "3",
+      "officialName": "Kerry Blue Terrier"
+    },
+    {
+      "name": "King Charles Spaniel",
+      "group": "Grupo FCI 9",
+      "code": "128",
+      "officialName": "King Charles Spaniel"
+    },
+    {
+      "name": "Kishu",
+      "group": "Grupo FCI 5",
+      "code": "318",
+      "officialName": "Kishu"
+    },
+    {
+      "name": "Kleiner Münsterländer",
+      "group": "Grupo FCI 7",
+      "code": "102",
+      "officialName": "Kleiner Münsterländer"
+    },
+    {
+      "name": "Komondor",
+      "group": "Grupo FCI 1",
+      "code": "53",
+      "officialName": "Komondor"
+    },
+    {
+      "name": "Korea Jindo Dog",
+      "group": "Grupo FCI 5",
+      "code": "334",
+      "officialName": "Korea Jindo Dog"
+    },
+    {
+      "name": "Kraski Ovcar (Karst Shepherd Dog)",
+      "group": "Grupo FCI 2",
+      "code": "278",
+      "officialName": "Kraski Ovcar (Karst Shepherd Dog)"
+    },
+    {
+      "name": "Kromfohrländer",
+      "group": "Grupo FCI 9",
+      "code": "192",
+      "officialName": "Kromfohrländer"
+    },
+    {
+      "name": "Kuvasz",
+      "group": "Grupo FCI 1",
+      "code": "54",
+      "officialName": "Kuvasz"
+    },
+    {
+      "name": "Labrador",
+      "group": "Grupo FCI 8",
+      "code": "122",
+      "officialName": "Labrador Retriever"
+    },
+    {
+      "name": "Lagotto Romagnolo (Romagna Water Dog)",
+      "group": "Grupo FCI 8",
+      "code": "298",
+      "officialName": "Lagotto Romagnolo (Romagna Water Dog)"
+    },
+    {
+      "name": "Lakeland Terrier",
+      "group": "Grupo FCI 3",
+      "code": "70",
+      "officialName": "Lakeland Terrier"
+    },
+    {
+      "name": "Landseer (Europäisch-Kontinentaler Typ) (Landseer (European Continental Type))",
+      "group": "Grupo FCI 2",
+      "code": "226",
+      "officialName": "Landseer (Europäisch-Kontinentaler Typ) (Landseer (European Continental Type))"
+    },
+    {
+      "name": "Lapinporokoira (Lapponian Herder)",
+      "group": "Grupo FCI 5",
+      "code": "284",
+      "officialName": "Lapinporokoira (Lapponian Herder)"
+    },
+    {
+      "name": "Leonberger",
+      "group": "Grupo FCI 2",
+      "code": "145",
+      "officialName": "Leonberger"
+    },
+    {
+      "name": "Lhasa Apso",
+      "group": "Grupo FCI 9",
+      "code": "227",
+      "officialName": "Lhasa Apso"
+    },
+    {
+      "name": "Magyar Agar (Hungarian Greyhound)",
+      "group": "Grupo FCI 10",
+      "code": "240",
+      "officialName": "Magyar Agar (Hungarian Greyhound)"
+    },
+    {
+      "name": "Maltês",
+      "group": "Grupo FCI 9",
+      "code": "65",
+      "officialName": "Maltese"
+    },
+    {
+      "name": "Manchester Terrier",
+      "group": "Grupo FCI 3",
+      "code": "71",
+      "officialName": "Manchester Terrier"
+    },
+    {
+      "name": "Mastiff",
+      "group": "Grupo FCI 2",
+      "code": "264",
+      "officialName": "Mastiff"
+    },
+    {
+      "name": "Mastim Napolitano",
+      "group": "Grupo FCI 2",
+      "code": "197",
+      "officialName": "Mastino Napoletano (Neapolitan Mastiff)"
+    },
+    {
+      "name": "Mastín Del Pirineo (Pyrenean Mastiff)",
+      "group": "Grupo FCI 2",
+      "code": "92",
+      "officialName": "Mastín Del Pirineo (Pyrenean Mastiff)"
+    },
+    {
+      "name": "Mastín Español (Spanish Mastiff)",
+      "group": "Grupo FCI 2",
+      "code": "91",
+      "officialName": "Mastín Español (Spanish Mastiff)"
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "group": "Grupo FCI 3",
+      "code": "359",
+      "officialName": "Miniature Bull Terrier"
+    },
+    {
+      "name": "Mudi",
+      "group": "Grupo FCI 1",
+      "code": "238",
+      "officialName": "Mudi"
+    },
+    {
+      "name": "Nederlandse Kooikerhondje",
+      "group": "Grupo FCI 8",
+      "code": "314",
+      "officialName": "Nederlandse Kooikerhondje"
+    },
+    {
+      "name": "Nederlandse Schapendoes (Dutch Schapendoes)",
+      "group": "Grupo FCI 1",
+      "code": "313",
+      "officialName": "Nederlandse Schapendoes (Dutch Schapendoes)"
+    },
+    {
+      "name": "Newfoundland",
+      "group": "Grupo FCI 2",
+      "code": "50",
+      "officialName": "Newfoundland"
+    },
+    {
+      "name": "Nihon Supittsu (Japanese Spitz)",
+      "group": "Grupo FCI 5",
+      "code": "262",
+      "officialName": "Nihon Supittsu (Japanese Spitz)"
+    },
+    {
+      "name": "Nihon Teria (Japanese Terrier)",
+      "group": "Grupo FCI 3",
+      "code": "259",
+      "officialName": "Nihon Teria (Japanese Terrier)"
+    },
+    {
+      "name": "Norfolk Terrier",
+      "group": "Grupo FCI 3",
+      "code": "272",
+      "officialName": "Norfolk Terrier"
+    },
+    {
+      "name": "Norrbottenspets (Norrbottenspitz)",
+      "group": "Grupo FCI 5",
+      "code": "276",
+      "officialName": "Norrbottenspets (Norrbottenspitz)"
+    },
+    {
+      "name": "Norsk Buhund (Norwegian Buhund)",
+      "group": "Grupo FCI 5",
+      "code": "237",
+      "officialName": "Norsk Buhund (Norwegian Buhund)"
+    },
+    {
+      "name": "Norsk Elghund Grå (Norwegian Elkhound Grey)",
+      "group": "Grupo FCI 5",
+      "code": "242",
+      "officialName": "Norsk Elghund Grå (Norwegian Elkhound Grey)"
+    },
+    {
+      "name": "Norsk Elghund Sort (Norwegian Elkhound Black)",
+      "group": "Grupo FCI 5",
+      "code": "268",
+      "officialName": "Norsk Elghund Sort (Norwegian Elkhound Black)"
+    },
+    {
+      "name": "Norsk Lundehund (Norwegian Lundehund)",
+      "group": "Grupo FCI 5",
+      "code": "265",
+      "officialName": "Norsk Lundehund (Norwegian Lundehund)"
+    },
+    {
+      "name": "Norwich Terrier",
+      "group": "Grupo FCI 3",
+      "code": "72",
+      "officialName": "Norwich Terrier"
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "group": "Grupo FCI 8",
+      "code": "312",
+      "officialName": "Nova Scotia Duck Tolling Retriever"
+    },
+    {
+      "name": "Ogar Polski (Polish Hound)",
+      "group": "Grupo FCI 6",
+      "code": "52",
+      "officialName": "Ogar Polski (Polish Hound)"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "group": "Grupo FCI 1",
+      "code": "16",
+      "officialName": "Old English Sheepdog"
+    },
+    {
+      "name": "Otterhound",
+      "group": "Grupo FCI 6",
+      "code": "294",
+      "officialName": "Otterhound"
+    },
+    {
+      "name": "Parson Russell Terrier",
+      "group": "Grupo FCI 3",
+      "code": "339",
+      "officialName": "Parson Russell Terrier"
+    },
+    {
+      "name": "Pekingese",
+      "group": "Grupo FCI 9",
+      "code": "207",
+      "officialName": "Pekingese"
+    },
+    {
+      "name": "Perdigueiro Português (Portuguese Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "187",
+      "officialName": "Perdigueiro Português (Portuguese Pointing Dog)"
+    },
+    {
+      "name": "Perdiguero De Burgos (Burgos Pointing Dog)",
+      "group": "Grupo FCI 7",
+      "code": "90",
+      "officialName": "Perdiguero De Burgos (Burgos Pointing Dog)"
+    },
+    {
+      "name": "Perro De Agua Español (Spanish Water Dog)",
+      "group": "Grupo FCI 8",
+      "code": "336",
+      "officialName": "Perro De Agua Español (Spanish Water Dog)"
+    },
+    {
+      "name": "Perro Dogo Mallorquín (Majorca Mastiff)",
+      "group": "Grupo FCI 2",
+      "code": "249",
+      "officialName": "Perro Dogo Mallorquín (Majorca Mastiff)"
+    },
+    {
+      "name": "Perro Sin Pelo Del Perú (Peruvian Hairless Dog)",
+      "group": "Grupo FCI 5",
+      "code": "310",
+      "officialName": "Perro Sin Pelo Del Perú (Peruvian Hairless Dog)"
+    },
+    {
+      "name": "Petit Basset Griffon Vendeen",
+      "group": "Grupo FCI 6",
+      "code": "67",
+      "officialName": "Petit Basset Griffon Vendeen"
+    },
+    {
+      "name": "Petit Bleu De Gascogne (Small Blue Gascony)",
+      "group": "Grupo FCI 6",
+      "code": "31",
+      "officialName": "Petit Bleu De Gascogne (Small Blue Gascony)"
+    },
+    {
+      "name": "Petit Brabançon",
+      "group": "Grupo FCI 9",
+      "code": "82",
+      "officialName": "Petit Brabançon"
+    },
+    {
+      "name": "Petit Chien Lion (Little Lion Dog)",
+      "group": "Grupo FCI 9",
+      "code": "233",
+      "officialName": "Petit Chien Lion (Little Lion Dog)"
+    },
+    {
+      "name": "Pharaoh Hound",
+      "group": "Grupo FCI 5",
+      "code": "248",
+      "officialName": "Pharaoh Hound"
+    },
+    {
+      "name": "Piccolo Levriero Italiano (Italian Sighthound)",
+      "group": "Grupo FCI 10",
+      "code": "200",
+      "officialName": "Piccolo Levriero Italiano (Italian Sighthound)"
+    },
+    {
+      "name": "Podenco Canario (Canarian Warren Hound)",
+      "group": "Grupo FCI 5",
+      "code": "329",
+      "officialName": "Podenco Canario (Canarian Warren Hound)"
+    },
+    {
+      "name": "Podenco Ibicenco (Ibizan Podenco)",
+      "group": "Grupo FCI 5",
+      "code": "89",
+      "officialName": "Podenco Ibicenco (Ibizan Podenco)"
+    },
+    {
+      "name": "Podengo Português (Portuguese Warren Hound-Portuguese Podengo)",
+      "group": "Grupo FCI 5",
+      "code": "94",
+      "officialName": "Podengo Português (Portuguese Warren Hound-Portuguese Podengo)"
+    },
+    {
+      "name": "Poitevin",
+      "group": "Grupo FCI 6",
+      "code": "24",
+      "officialName": "Poitevin"
+    },
+    {
+      "name": "Polski Owczarek Nizinny (Polish Lowland Sheepdog)",
+      "group": "Grupo FCI 1",
+      "code": "251",
+      "officialName": "Polski Owczarek Nizinny (Polish Lowland Sheepdog)"
+    },
+    {
+      "name": "Polski Owczarek Podhalanski (Polish Tatra Shepherd)",
+      "group": "Grupo FCI 1",
+      "code": "252",
+      "officialName": "Polski Owczarek Podhalanski (Polish Tatra Shepherd)"
+    },
+    {
+      "name": "Porcelaine",
+      "group": "Grupo FCI 6",
+      "code": "30",
+      "officialName": "Porcelaine"
+    },
+    {
+      "name": "Posavski Gonic (Posavatz Hound)",
+      "group": "Grupo FCI 6",
+      "code": "154",
+      "officialName": "Posavski Gonic (Posavatz Hound)"
+    },
+    {
+      "name": "Presa Canario",
+      "group": "Grupo FCI 2",
+      "code": "346",
+      "officialName": "Presa Canario"
+    },
+    {
+      "name": "Dogue de Tibete",
+      "group": "Grupo FCI 7",
+      "code": "216",
+      "officialName": "Pudelpointer"
+    },
+    {
+      "name": "Pug",
+      "group": "Grupo FCI 9",
+      "code": "253",
+      "officialName": "Pug"
+    },
+    {
+      "name": "Puli",
+      "group": "Grupo FCI 1",
+      "code": "55",
+      "officialName": "Puli"
+    },
+    {
+      "name": "Pumi",
+      "group": "Grupo FCI 1",
+      "code": "56",
+      "officialName": "Pumi"
+    },
+    {
+      "name": "Rafeiro Do Alentejo (Rafeiro Of Alentejo)",
+      "group": "Grupo FCI 2",
+      "code": "96",
+      "officialName": "Rafeiro Do Alentejo (Rafeiro Of Alentejo)"
+    },
+    {
+      "name": "Rastreador Brasileiro (Brazilian Tracker)",
+      "group": "Grupo FCI 6",
+      "code": "275",
+      "officialName": "Rastreador Brasileiro (Brazilian Tracker)"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "group": "Grupo FCI 6",
+      "code": "146",
+      "officialName": "Rhodesian Ridgeback"
+    },
+    {
+      "name": "Schnauzer Gigante",
+      "group": "Grupo FCI 2",
+      "code": "181",
+      "officialName": "Riesenschnauzer (Giant Schnauzer)"
+    },
+    {
+      "name": "Rottweiler",
+      "group": "Grupo FCI 2",
+      "code": "147",
+      "officialName": "Rottweiler"
+    },
+    {
+      "name": "Russkaya Psovaya Borzaya (Borzoi - Russian Hunting Sighthound)",
+      "group": "Grupo FCI 10",
+      "code": "193",
+      "officialName": "Russkaya Psovaya Borzaya (Borzoi - Russian Hunting Sighthound)"
+    },
+    {
+      "name": "Russkiy Tchiorny Terrier (Russian Black Terrier)",
+      "group": "Grupo FCI 2",
+      "code": "327",
+      "officialName": "Russkiy Tchiorny Terrier (Russian Black Terrier)"
+    },
+    {
+      "name": "Russkiy Toy (Russian Toy)",
+      "group": "Grupo FCI 9",
+      "code": "352",
+      "officialName": "Russkiy Toy (Russian Toy)"
+    },
+    {
+      "name": "Russko-Evropeïskaïa Laïka (Russian-European Laika)",
+      "group": "Grupo FCI 5",
+      "code": "304",
+      "officialName": "Russko-Evropeïskaïa Laïka (Russian-European Laika)"
+    },
+    {
+      "name": "Rövidszörü Magyar Vizsla (Hungarian Short-Haired Pointer (Vizsla))",
+      "group": "Grupo FCI 7",
+      "code": "57",
+      "officialName": "Rövidszörü Magyar Vizsla (Hungarian Short-Haired Pointer (Vizsla))"
+    },
+    {
+      "name": "Saarlooswolfhond (Saarloos Wolfhond)",
+      "group": "Grupo FCI 1",
+      "code": "311",
+      "officialName": "Saarlooswolfhond (Saarloos Wolfhond)"
+    },
+    {
+      "name": "Sabueso Español (Spanish Hound)",
+      "group": "Grupo FCI 6",
+      "code": "204",
+      "officialName": "Sabueso Español (Spanish Hound)"
+    },
+    {
+      "name": "Saluki",
+      "group": "Grupo FCI 10",
+      "code": "269",
+      "officialName": "Saluki"
+    },
+    {
+      "name": "Samoiedskaïa Sabaka (Samoyed)",
+      "group": "Grupo FCI 5",
+      "code": "212",
+      "officialName": "Samoiedskaïa Sabaka (Samoyed)"
+    },
+    {
+      "name": "Schillerstövare",
+      "group": "Grupo FCI 6",
+      "code": "131",
+      "officialName": "Schillerstövare"
+    },
+    {
+      "name": "Schipperke",
+      "group": "Grupo FCI 1",
+      "code": "83",
+      "officialName": "Schipperke"
+    },
+    {
+      "name": "Schnauzer",
+      "group": "Grupo FCI 2",
+      "code": "182",
+      "officialName": "Schnauzer"
+    },
+    {
+      "name": "Schweizer  Niederlaufhund (Small Swiss Hound)",
+      "group": "Grupo FCI 6",
+      "code": "60",
+      "officialName": "Schweizer  Niederlaufhund (Small Swiss Hound)"
+    },
+    {
+      "name": "Schweizer Laufhund - Chien Courant Suisse (Swiss Hound)",
+      "group": "Grupo FCI 6",
+      "code": "59",
+      "officialName": "Schweizer Laufhund - Chien Courant Suisse (Swiss Hound)"
+    },
+    {
+      "name": "Scottish Terrier",
+      "group": "Grupo FCI 3",
+      "code": "73",
+      "officialName": "Scottish Terrier"
+    },
+    {
+      "name": "Sealyham Terrier",
+      "group": "Grupo FCI 3",
+      "code": "74",
+      "officialName": "Sealyham Terrier"
+    },
+    {
+      "name": "Segugio Italiano A Pelo Forte (Italian Rough-Haired Segugio)",
+      "group": "Grupo FCI 6",
+      "code": "198",
+      "officialName": "Segugio Italiano A Pelo Forte (Italian Rough-Haired Segugio)"
+    },
+    {
+      "name": "Segugio Italiano A Pelo Raso (Italian Short-Haired Segugio)",
+      "group": "Grupo FCI 6",
+      "code": "337",
+      "officialName": "Segugio Italiano A Pelo Raso (Italian Short-Haired Segugio)"
+    },
+    {
+      "name": "Shar Pei",
+      "group": "Grupo FCI 2",
+      "code": "309",
+      "officialName": "Shar Pei"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "group": "Grupo FCI 1",
+      "code": "88",
+      "officialName": "Shetland Sheepdog"
+    },
+    {
+      "name": "Shiba",
+      "group": "Grupo FCI 5",
+      "code": "257",
+      "officialName": "Shiba"
+    },
+    {
+      "name": "Shih Tzu",
+      "group": "Grupo FCI 9",
+      "code": "208",
+      "officialName": "Shih Tzu"
+    },
+    {
+      "name": "Shikoku",
+      "group": "Grupo FCI 5",
+      "code": "319",
+      "officialName": "Shikoku"
+    },
+    {
+      "name": "Siberian Husky",
+      "group": "Grupo FCI 5",
+      "code": "270",
+      "officialName": "Siberian Husky"
+    },
+    {
+      "name": "Skye Terrier",
+      "group": "Grupo FCI 3",
+      "code": "75",
+      "officialName": "Skye Terrier"
+    },
+    {
+      "name": "Sloughi",
+      "group": "Grupo FCI 10",
+      "code": "188",
+      "officialName": "Sloughi"
+    },
+    {
+      "name": "Slovenský Cuvac (Slovakian Chuvach)",
+      "group": "Grupo FCI 1",
+      "code": "142",
+      "officialName": "Slovenský Cuvac (Slovakian Chuvach)"
+    },
+    {
+      "name": "Slovenský Hrubosrstý Stavac (Ohar) (Wirehaired Slovakian Pointer)",
+      "group": "Grupo FCI 7",
+      "code": "320",
+      "officialName": "Slovenský Hrubosrstý Stavac (Ohar) (Wirehaired Slovakian Pointer)"
+    },
+    {
+      "name": "Slovenský Kopov (Slovakian Hound)",
+      "group": "Grupo FCI 6",
+      "code": "244",
+      "officialName": "Slovenský Kopov (Slovakian Hound)"
+    },
+    {
+      "name": "Smålandsstövare",
+      "group": "Grupo FCI 6",
+      "code": "129",
+      "officialName": "Smålandsstövare"
+    },
+    {
+      "name": "Spinone Italiano (Italian Spinone)",
+      "group": "Grupo FCI 7",
+      "code": "165",
+      "officialName": "Spinone Italiano (Italian Spinone)"
+    },
+    {
+      "name": "Sredneasiatskaya Ovtcharka (Central Asia Shepherd Dog)",
+      "group": "Grupo FCI 2",
+      "code": "335",
+      "officialName": "Sredneasiatskaya Ovtcharka (Central Asia Shepherd Dog)"
+    },
+    {
+      "name": "Srpski Gonic (Serbian Hound)",
+      "group": "Grupo FCI 6",
+      "code": "150",
+      "officialName": "Srpski Gonic (Serbian Hound)"
+    },
+    {
+      "name": "Srpski Trobojni Gonic (Serbian Tricolour Hound)",
+      "group": "Grupo FCI 6",
+      "code": "229",
+      "officialName": "Srpski Trobojni Gonic (Serbian Tricolour Hound)"
+    },
+    {
+      "name": "São Bernardo",
+      "group": "Grupo FCI 2",
+      "code": "61",
+      "officialName": "St.Bernhardshund - Bernhardiner (St. Bernard)"
+    },
+    {
+      "name": "Stabijhoun",
+      "group": "Grupo FCI 7",
+      "code": "222",
+      "officialName": "Stabijhoun"
+    },
+    {
+      "name": "Staffordshire Bull Terrier",
+      "group": "Grupo FCI 3",
+      "code": "76",
+      "officialName": "Staffordshire Bull Terrier"
+    },
+    {
+      "name": "Steirische Rauhhaarbracke (Coarse-Haired Styrian Hound)",
+      "group": "Grupo FCI 6",
+      "code": "62",
+      "officialName": "Steirische Rauhhaarbracke (Coarse-Haired Styrian Hound)"
+    },
+    {
+      "name": "Suomenajokoira (Finnish Hound)",
+      "group": "Grupo FCI 6",
+      "code": "51",
+      "officialName": "Suomenajokoira (Finnish Hound)"
+    },
+    {
+      "name": "Suomenlapinkoira (Finnish Lapponian Dog)",
+      "group": "Grupo FCI 5",
+      "code": "189",
+      "officialName": "Suomenlapinkoira (Finnish Lapponian Dog)"
+    },
+    {
+      "name": "Suomenpystykorva (Finnish Spitz)",
+      "group": "Grupo FCI 5",
+      "code": "49",
+      "officialName": "Suomenpystykorva (Finnish Spitz)"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "127",
+      "officialName": "Sussex Spaniel"
+    },
+    {
+      "name": "Svensk Lapphund (Swedish Lapphund)",
+      "group": "Grupo FCI 5",
+      "code": "135",
+      "officialName": "Svensk Lapphund (Swedish Lapphund)"
+    },
+    {
+      "name": "Taiwan Dog",
+      "group": "Grupo FCI 5",
+      "code": "348",
+      "officialName": "Taiwan Dog"
+    },
+    {
+      "name": "Terrier Brasileiro (Brazilian Terrier)",
+      "group": "Grupo FCI 3",
+      "code": "341",
+      "officialName": "Terrier Brasileiro (Brazilian Terrier)"
+    },
+    {
+      "name": "Thai Bangkaew Dog",
+      "group": "Grupo FCI 5",
+      "code": "358",
+      "officialName": "Thai Bangkaew Dog"
+    },
+    {
+      "name": "Thai Ridgeback Dog",
+      "group": "Grupo FCI 5",
+      "code": "338",
+      "officialName": "Thai Ridgeback Dog"
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "group": "Grupo FCI 9",
+      "code": "231",
+      "officialName": "Tibetan Spaniel"
+    },
+    {
+      "name": "Tibetan Terrier",
+      "group": "Grupo FCI 9",
+      "code": "209",
+      "officialName": "Tibetan Terrier"
+    },
+    {
+      "name": "Tiroler Bracke (Tyrolean Hound)",
+      "group": "Grupo FCI 6",
+      "code": "68",
+      "officialName": "Tiroler Bracke (Tyrolean Hound)"
+    },
+    {
+      "name": "Tornjak (Bosnian And Herzegovinian - Croatian Shepherd Dog)",
+      "group": "Grupo FCI 2",
+      "code": "355",
+      "officialName": "Tornjak (Bosnian And Herzegovinian - Croatian Shepherd Dog)"
+    },
+    {
+      "name": "Tosa",
+      "group": "Grupo FCI 2",
+      "code": "260",
+      "officialName": "Tosa"
+    },
+    {
+      "name": "Volpino Italiano (Italian Volpino)",
+      "group": "Grupo FCI 5",
+      "code": "195",
+      "officialName": "Volpino Italiano (Italian Volpino)"
+    },
+    {
+      "name": "Vostotchno-Sibirskaïa Laïka (East Siberian Laika)",
+      "group": "Grupo FCI 5",
+      "code": "305",
+      "officialName": "Vostotchno-Sibirskaïa Laïka (East Siberian Laika)"
+    },
+    {
+      "name": "Västgötaspets (Swedish Vallhund)",
+      "group": "Grupo FCI 5",
+      "code": "14",
+      "officialName": "Västgötaspets (Swedish Vallhund)"
+    },
+    {
+      "name": "Weimaraner",
+      "group": "Grupo FCI 7",
+      "code": "99",
+      "officialName": "Weimaraner"
+    },
+    {
+      "name": "Welsh Corgi Cardigan",
+      "group": "Grupo FCI 1",
+      "code": "38",
+      "officialName": "Welsh Corgi (Cardigan)"
+    },
+    {
+      "name": "Welsh Corgi Pembroke",
+      "group": "Grupo FCI 1",
+      "code": "39",
+      "officialName": "Welsh Corgi (Pembroke)"
+    },
+    {
+      "name": "Welsh Springer Spaniel",
+      "group": "Grupo FCI 8",
+      "code": "126",
+      "officialName": "Welsh Springer Spaniel"
+    },
+    {
+      "name": "Welsh Terrier",
+      "group": "Grupo FCI 3",
+      "code": "78",
+      "officialName": "Welsh Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "group": "Grupo FCI 3",
+      "code": "85",
+      "officialName": "West Highland White Terrier"
+    },
+    {
+      "name": "Westfälische Dachsbracke (Westphalian Dachsbracke)",
+      "group": "Grupo FCI 6",
+      "code": "100",
+      "officialName": "Westfälische Dachsbracke (Westphalian Dachsbracke)"
+    },
+    {
+      "name": "Wetterhoun",
+      "group": "Grupo FCI 8",
+      "code": "221",
+      "officialName": "Wetterhoun"
+    },
+    {
+      "name": "Whippet",
+      "group": "Grupo FCI 10",
+      "code": "162",
+      "officialName": "Whippet"
+    },
+    {
+      "name": "Xoloitzcuintle",
+      "group": "Grupo FCI 5",
+      "code": "234",
+      "officialName": "Xoloitzcuintle"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "group": "Grupo FCI 3",
+      "code": "86",
+      "officialName": "Yorkshire Terrier"
+    },
+    {
+      "name": "Yuzhnorusskaya Ovcharka (South Russian Shepherd Dog)",
+      "group": "Grupo FCI 1",
+      "code": "326",
+      "officialName": "Yuzhnorusskaya Ovcharka (South Russian Shepherd Dog)"
+    },
+    {
+      "name": "Zapadno-Sibirskaïa Laïka (West Siberian Laika)",
+      "group": "Grupo FCI 5",
+      "code": "306",
+      "officialName": "Zapadno-Sibirskaïa Laïka (West Siberian Laika)"
+    },
+    {
+      "name": "Zwergpinscher (Miniature Pinscher)",
+      "group": "Grupo FCI 2",
+      "code": "185",
+      "officialName": "Zwergpinscher (Miniature Pinscher)"
+    },
+    {
+      "name": "Schnauzer Miniatura",
+      "group": "Grupo FCI 2",
+      "code": "183",
+      "officialName": "Zwergschnauzer (Miniature Schnauzer)"
+    },
+    {
+      "name": "Íslenskur Fjárhundur (Icelandic Sheepdog)",
+      "group": "Grupo FCI 5",
+      "code": "289",
+      "officialName": "Íslenskur Fjárhundur (Icelandic Sheepdog)"
+    },
+    {
+      "name": "Österreichischer Pinscher (Austrian  Pinscher)",
+      "group": "Grupo FCI 2",
+      "code": "64",
+      "officialName": "Österreichischer Pinscher (Austrian  Pinscher)"
+    }
+  ],
+  "cats": [
+    {
+      "name": "Abissínio",
+      "officialName": "Abyssinian",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "American Bobtail",
+      "officialName": "American Bobtail",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "American Curl",
+      "officialName": "American Curl",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "American Shorthair",
+      "officialName": "American Shorthair",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "American Wirehair",
+      "officialName": "American Wirehair",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Balinês",
+      "officialName": "Balinese",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Bengal",
+      "officialName": "Bengal",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Sagrado da Birmânia",
+      "officialName": "Birman",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Bombay",
+      "officialName": "Bombay",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Britânico de Pelo Curto",
+      "officialName": "British Shorthair",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Burmês",
+      "officialName": "Burmese",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Burmilla",
+      "officialName": "Burmilla",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Chartreux",
+      "officialName": "Chartreux",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Colorpoint Shorthair",
+      "officialName": "Colorpoint Shorthair",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Cornish Rex",
+      "officialName": "Cornish Rex",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Devon Rex",
+      "officialName": "Devon Rex",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Egyptian Mau",
+      "officialName": "Egyptian Mau",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "European Burmese",
+      "officialName": "European Burmese",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Exótico",
+      "officialName": "Exotic",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Havana Brown",
+      "officialName": "Havana Brown",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Bobtail Japonês",
+      "officialName": "Japanese Bobtail",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Khao Manee",
+      "officialName": "Khao Manee",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Korat",
+      "officialName": "Korat",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "LaPerm",
+      "officialName": "LaPerm",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Lykoi",
+      "officialName": "Lykoi",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Maine Coon Cat",
+      "officialName": "Maine Coon Cat",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Manx",
+      "officialName": "Manx",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Norueguês da Floresta",
+      "officialName": "Norwegian Forest Cat",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Ocicat",
+      "officialName": "Ocicat",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Oriental",
+      "officialName": "Oriental",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Persa",
+      "officialName": "Persian",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "RagaMuffin",
+      "officialName": "RagaMuffin",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Ragdoll",
+      "officialName": "Ragdoll",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Azul Russo",
+      "officialName": "Russian Blue",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Scottish Fold",
+      "officialName": "Scottish Fold",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Selkirk Rex",
+      "officialName": "Selkirk Rex",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Siamês",
+      "officialName": "Siamese",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Siberiano",
+      "officialName": "Siberian",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Singapura",
+      "officialName": "Singapura",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Somali",
+      "officialName": "Somali",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Sphynx",
+      "officialName": "Sphynx",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Tonkinese",
+      "officialName": "Tonkinese",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Toybob",
+      "officialName": "Toybob",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Angorá Turco",
+      "officialName": "Turkish Angora",
+      "group": "Raças CFA"
+    },
+    {
+      "name": "Van Turco",
+      "officialName": "Turkish Van",
+      "group": "Raças CFA"
+    }
+  ]
+}

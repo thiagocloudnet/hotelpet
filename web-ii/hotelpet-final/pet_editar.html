@@ -71,6 +71,8 @@ Arquivo: hotelpet-final/pet_editar.html
               </select>
             </div>
             <div class="form-field">
+              <label for="buscar-raca">Pesquisar raça</label>
+              <input class="breed-search" type="search" id="buscar-raca" placeholder="Digite parte do nome" aria-controls="raca">
               <label for="raca">Raça</label>
               <select id="raca" name="raca" required>
                 <option value="" selected>Selecione a raça</option>
@@ -83,7 +85,7 @@ Arquivo: hotelpet-final/pet_editar.html
               </select>
             </div>
             <div class="form-field">
-              <label for="proprietario">Proprietário</label>
+              <label for="proprietario">Responsável pelo pet</label><a class="owner-help" href="usuario_cadastrar.html?retorno=pet">Cadastrar responsável primeiro</a>
               <select id="proprietario" name="proprietario" required>
                 <option selected>Beatriz Oliveira</option>
                 <option>Rafael Costa</option>
@@ -97,8 +99,8 @@ Arquivo: hotelpet-final/pet_editar.html
             </div>
             <div class="form-field">
               <label for="tamanho">Porte calculado pelo peso</label>
-              <input type="text" id="tamanho" name="tamanho" value="Pequeno" readonly aria-describedby="faixa-peso">
-              <small id="faixa-peso">Pequeno: até 10 kg · Médio: 10,1 a 25 kg · Grande: acima de 25 kg.</small>
+              <input type="text" id="tamanho" name="tamanho" value="" placeholder="Informe o peso" readonly aria-describedby="faixa-peso">
+              <small id="faixa-peso">Faixas do hotel pelo peso atual: pequeno até 10 kg; médio acima de 10 até 25 kg; grande acima de 25 kg. Não é uma classificação veterinária da raça.</small>
             </div>
             <div class="form-field form-field--full">
               <label for="foto">Foto do pet</label>
@@ -116,7 +118,11 @@ Arquivo: hotelpet-final/pet_editar.html
       <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
     </div>
   </div>
+  <script src="js/catalogo-racas.js" defer></script>
+  <script src="js/dados-exemplo.js" defer></script>
   <script src="js/hotel-app.js" defer></script>
+  <script src="js/interface.js" defer></script>
+  <script src="js/formulario-racas.js" defer></script>
 </body>
 </html>
 

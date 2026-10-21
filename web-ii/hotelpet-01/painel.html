@@ -49,31 +49,17 @@ Arquivo: hotelpet-01/painel.html
       <main class="page-content">
         <div class="breadcrumb"><a href="painel.html" aria-current="page">Início</a></div>
         <h1 class="page-title">Painel do Hotel Pet Shop</h1>
-        <p class="settings-value">Resumo das reservas, dos pets hospedados e da capacidade do hotel.</p>
+        <p class="settings-value">Acompanhe a ocupação, organize as próximas estadias e mantenha cada pet ligado ao seu responsável.</p>
 
         <section class="dashboard-metrics" aria-label="Resumo do hotel">
-          <article class="card metric-card">
-            <div class="metric-card__value">4</div>
-            <div class="metric-card__label">Reservas cadastradas</div>
-          </article>
-          <article class="card metric-card">
-            <div class="metric-card__value">2</div>
-            <div class="metric-card__label">Pets hospedados</div>
-          </article>
-          <article class="card metric-card">
-            <div class="metric-card__value">3</div>
-            <div class="metric-card__label">Clientes cadastrados</div>
-          </article>
-          <article class="card metric-card">
-            <div class="metric-card__value">13</div>
-            <div class="metric-card__label">Diárias reservadas</div>
-          </article>
-          <article class="card metric-card">
-            <div class="metric-card__value" data-hotel-capacity>1 / 30</div>
-            <div class="metric-card__label">Vagas ocupadas</div>
-          </article>
+          <article class="card metric-card" data-metric-card="reservas"><img class="metric-card__icon" src="imagens/icones/painel-agenda.svg" alt=""><div class="metric-card__label">Reservas cadastradas</div><div class="metric-card__value" data-metric="reservas">31</div></article>
+          <article class="card metric-card" data-metric-card="hospedados"><img class="metric-card__icon" src="imagens/icones/painel-estadia.svg" alt=""><div class="metric-card__label">Pets hospedados</div><div class="metric-card__value" data-metric="hospedados">27</div></article>
+          <article class="card metric-card" data-metric-card="responsaveis"><img class="metric-card__icon" src="imagens/icones/painel-responsavel.svg" alt=""><div class="metric-card__label">Responsáveis cadastrados</div><div class="metric-card__value" data-metric="responsaveis">12</div></article>
+          <article class="card metric-card" data-metric-card="diarias"><img class="metric-card__icon" src="imagens/icones/painel-diarias.svg" alt=""><div class="metric-card__label">Diárias reservadas</div><div class="metric-card__value" data-metric="diarias">121</div></article>
+          <article class="card metric-card metric-card--capacity" data-metric-card="vagas"><img class="metric-card__icon" src="imagens/icones/painel-vagas.svg" alt=""><div class="metric-card__label">Ocupação do hotel</div><div class="metric-card__value" data-metric="vagas" data-hotel-capacity>27 / 30</div><small>Vagas ocupadas / capacidade total</small><progress class="capacity-progress" max="30" value="27" aria-label="Ocupação do hotel"></progress></article>
         </section>
 
+        <p class="occupancy-summary" data-occupancy-summary>Exemplo fictício: 90% de ocupação · 18 cães · 9 gatos · 3 vagas disponíveis.</p>
         <h2 class="page-title page-section-title">Acesso rápido</h2>
         <nav class="quick-links" aria-label="Acessos rápidos">
           <a href="reservas.html" class="quick-link">
@@ -154,6 +140,7 @@ Arquivo: hotelpet-01/painel.html
     </div>
   </div>
   <script src="js/navegacao-demo.js" defer></script>
+  <script src="js/interface.js" defer></script>
 </body>
 </html>
 

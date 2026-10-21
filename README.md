@@ -130,3 +130,11 @@ A revisão de autoria abrangeu as três etapas, com meu nome e o nome do profess
 **Thiago Ferreira Prates Neves**
 Discente de Análise e Desenvolvimento de Sistemas — UESB
 [GitHub: thiagocloudnet](https://github.com/thiagocloudnet)
+
+## Revisão do painel e dos cadastros
+
+Separei clientes da equipe e passei a vincular cada pet ao identificador do responsável. O formulário permite pesquisar raças de cães e gatos, informar uma raça ausente e calcular o porte de hospedagem pelo peso. Mantive a identidade visual e revisei os cards, os ícones e o uso em telas pequenas.
+
+Na etapa final, um navegador sem dados anteriores apresenta um cenário fictício de 90% de ocupação: 27 de 30 vagas, com 18 cães e 9 gatos. Os dados já cadastrados no navegador são preservados. O botão de exemplos permite completar o cenário sem apagar registros.
+
+Registrei fontes, regras de porte, limites da demonstração e procedimentos de teste em [Revisão de Web II](docs/REVISAO-WEB-II.md).

@@ -49,7 +49,13 @@ Arquivo: hotelpet-final/usuarios.html
       <main class="page-content">
         <!-- Caminho de navegação até a página atual. -->
         <div class="breadcrumb"><a href="painel.html">Início</a> / Usuários</div>
-        <h1 class="page-title">Usuários</h1>
+        <h1 class="page-title">Clientes e equipe</h1>
+        <p>Consulte os responsáveis pelos pets separadamente dos funcionários e gerentes.</p>
+        <div class="user-groups" role="group" aria-label="Separar clientes e equipe">
+          <button type="button" data-user-view="clientes" aria-pressed="true">Clientes <span data-user-count="clientes"></span></button>
+          <button type="button" data-user-view="equipe" aria-pressed="false">Equipe <span data-user-count="equipe"></span></button>
+          <button type="button" data-user-view="todos" aria-pressed="false">Todos</button>
+        </div>
 
         <!-- Ações disponíveis para os registros ou para a página. -->
         <div class="page-actions">
@@ -192,7 +198,9 @@ Arquivo: hotelpet-final/usuarios.html
       <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
     </div>
   </div>
+  <script src="js/dados-exemplo.js" defer></script>
   <script src="js/hotel-app.js" defer></script>
+  <script src="js/interface.js" defer></script>
 </body>
 </html>
 
