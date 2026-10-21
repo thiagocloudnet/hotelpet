@@ -6,11 +6,11 @@ Projeto: Hotel Pet — UESB
 -->
 # Hotel Pet — pacote das três etapas
 
-Entrega organizada para Programação Web II (2026.2), UESB. Cada pasta é um projeto autônomo, abre pelo seu próprio `index.html` e acompanha um ZIP homônimo.
+Entrega organizada para Programação Web II (2026.2), UESB. Cada pasta é um projeto autônomo, abre pelo seu próprio `index.html`.
 
 ## Versões
 
-| Pasta/ZIP | Etapa acadêmica | Recursos |
+| Pasta | Etapa acadêmica | Recursos |
 | --- | --- | --- |
 | `hotelpet-01` | Navegação | Identidade visual, perfil local do gerente, painel e caminhos entre listagens, cadastro, edição, detalhes e configurações. Os formulários são demonstrativos. |
 | `hotelpet-02` | Buscas | Tudo da etapa 01 e filtros nas tabelas de pets, usuários e reservas. A pesquisa usa apenas os dados estáticos da página. |
