@@ -37,3 +37,11 @@ Testes em larguras simuladas não substituem uma conferência em aparelhos físi
 ## Nome completo e nome de exibição
 
 O cadastro guarda o nome completo e um nome de exibição independente, com até 40 caracteres. O nome curto aparece nas listas, nos seletores e na barra superior. Se não for preenchido, o sistema sugere o primeiro e o último nome; o gerente começa como Thiago Prates. Cadastros antigos recebem essa identificação sem perder o nome completo. A consulta detalhada preserva as duas informações e as buscas aceitam ambas. A edição do perfil também grava os dois nomes no navegador.
+
+## Temas, perfil e acesso por rede local
+
+O cabeçalho mostra o nome de exibição ao lado da função. O botão de perfil abre foto, identificação completa e atalhos para perfil, início e saída da demonstração. A saída apenas retorna ao formulário demonstrativo. Os ícones de ação sobre azul são brancos. O botão de tema alterna entre claro e escuro e guarda a escolha no navegador.
+
+Para acessar por endereço HTTP, execute `node servir-local.cjs` na raiz do repositório. O servidor estático mostra o endereço localhost e os IPs das interfaces locais na porta 8080; a raiz abre o painel da etapa final. Não há backend de cadastro. Outros aparelhos precisam estar na mesma rede e ter acesso permitido pela configuração de rede do computador. Nenhuma regra de firewall é criada pelo script.
+
+O localStorage é separado por origem: um endereço file://, localhost e um IP não compartilham automaticamente os cadastros. Os dados anteriores não são apagados ao mudar o endereço; permanecem na origem anterior.
