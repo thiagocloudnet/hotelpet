@@ -1492,3 +1492,7 @@ body[data-stage="1"] .filter-grid { display: none; }
   .sidebar{display:none;width:230px;top:var(--topbar-height,76px);height:calc(100dvh - var(--topbar-height,76px));z-index:50;}
   .menu-open .sidebar{display:flex;}.sidebar .brand span,.sidebar__link span{display:inline;}.sidebar__nav .sidebar__link{justify-content:flex-start;}
 }
+
+/* Tipografia do Hotel Pet: leitura de cadastros, contatos e valores da hospedagem. */
+:root{--font-interface:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;--font-codigo:Consolas,monospace;--text-base:16px;--text-table:14px;--text-helper:13px;}
+body{font-family:var(--font-interface);font-size:var(--text-base);}.data-table{font-size:var(--text-table);}.form-field small,.pet-photo-notice{font-size:var(--text-helper);}.reservation-code{font-family:var(--font-codigo);}.profile-role{font-size:12px;}

@@ -10,7 +10,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
   const storageKey = "hotelPetShop.final.records";
   const initial = {
     users: [
-      {id:"u1",photo:"imagens/avatar-gerente.jpeg",email:"thiagoprates@hotelpet.shop",name:"Thiago Ferreira Prates Neves",role:"Gerente",status:"Ativo",created:"16/10/2026",phone:"(77) 99123-4567"},
+      {id:"u1",photo:"imagens/avatar-gerente.jpeg",email:"thiagoprates@hotelpet.shop",name:"Thiago Ferreira Prates Neves",role:"Gerente",status:"Ativo",created:"16/10/2026",phone:"(77) 99903-0777"},
       {id:"u2",photo:"imagens/avatar-beatriz.svg",email:"beatriz.oliveira@hotelpet.shop",name:"Beatriz Oliveira",role:"Funcionário",status:"Ativo",created:"12/06/2026",phone:"(77) 98888-1200"},
       {id:"u3",photo:"imagens/avatar-rafael.svg",email:"rafael.costa@hotelpet.shop",name:"Rafael Costa",role:"Cliente",status:"Ativo",created:"04/07/2026",phone:"(77) 98888-2200"},
       {id:"u4",photo:"imagens/avatar-camila.svg",email:"camila.ferreira@hotelpet.shop",name:"Camila Ferreira",role:"Cliente",status:"Ativo",created:"09/08/2026",phone:"(77) 98888-3300"},
@@ -36,6 +36,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
   function abbreviated(name){const words=String(name||'').trim().split(/\s+/);return words.length>1?words[0]+' '+words.at(-1):words[0];}
   let data=readData();
   const reservationCode=item=>window.HotelPetDemo.reservationCode(item.number);
+  const managerContact=data.users.find(user=>user.id==='u1');if(managerContact&&['(77) 99123-4567','77991234567'].includes(managerContact.phone))managerContact.phone='(77) 99903-0777';
   data.users.forEach(user=>{if(!user.displayName)user.displayName=user.id==='u1'?'Thiago Prates':abbreviated(user.name);});
   const displayOwner=item=>data.users.find(user=>user.id===item.ownerId)?.displayName||abbreviated(item.owner);
 

@@ -63,3 +63,7 @@ No perfil há um formulário de troca de senha demonstrativa com confirmação e
 ## Fotos dos pets
 
 Incluí dois retratos ilustrativos gerados por IA, um cão e um gato. São imagens padrão por espécie e não representam cada animal ou raça cadastrada. As listagens, reservas e detalhes usam a foto do pet vinculado por identificador. O cadastro da etapa final aceita foto própria JPG, PNG ou WebP de até 1,5 MB, guardada no localStorage com o registro. A foto enviada tem prioridade sobre o exemplo. Os demais animais usam o ícone da espécie. A disponibilidade de armazenamento depende do navegador.
+
+## Identificação e documentação das telas
+
+Cada página recebe descrição e comentário sobre sua finalidade na rotina do Hotel Pet. Os títulos identificam o projeto e a autoria. A interface mantém HTML5 semântico, CSS com propriedades personalizadas e JavaScript nativo. Os contatos do gerente foram atualizados; a migração altera apenas o telefone antigo do exemplo e preserva contatos posteriormente personalizados. Credenciais pessoais não fazem parte dos arquivos públicos. O login e a troca de senha permanecem demonstrativos, conforme a ausência de backend no trabalho.
