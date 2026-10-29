@@ -35,6 +35,7 @@ Arquivo: hotelpet-final/js/hotel-app.js
   function readData(){try{const saved=JSON.parse(localStorage.getItem(storageKey));return saved&&saved.users&&saved.pets&&saved.reservas?saved:clone(initial);}catch{return clone(initial);}}
   function abbreviated(name){const words=String(name||'').trim().split(/\s+/);return words.length>1?words[0]+' '+words.at(-1):words[0];}
   let data=readData();
+  window.HotelPetSearchRecords = () => clone(data);
   const reservationCode=item=>window.HotelPetDemo.reservationCode(item.number);
   const managerContact=data.users.find(user=>user.id==='u1');if(managerContact&&['(77) 99123-4567','77991234567'].includes(managerContact.phone))managerContact.phone='(77) 99903-0777';
   data.users.forEach(user=>{if(!user.displayName)user.displayName=user.id==='u1'?'Thiago Prates':abbreviated(user.name);});

@@ -1497,3 +1497,22 @@ body[data-stage="1"] .filter-grid { display: none; }
 /* Tipografia do Hotel Pet: leitura de cadastros, contatos e valores da hospedagem. */
 :root{--font-interface:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;--font-codigo:Consolas,monospace;--text-base:16px;--text-table:14px;--text-helper:13px;}
 body{font-family:var(--font-interface);font-size:var(--text-base);}.data-table{font-size:var(--text-table);}.form-field small,.pet-photo-notice{font-size:var(--text-helper);}.reservation-code{font-family:var(--font-codigo);}.profile-role{font-size:12px;}
+
+/* Pesquisa global entre o relógio e o controle de tema. */
+.topbar{grid-template-columns:auto auto minmax(70px,1fr) auto auto;grid-template-rows:auto;}
+.topbar .global-search{grid-column:3;grid-row:1;position:relative;min-width:0;width:100%;max-width:240px;justify-self:center;}
+.topbar .theme-toggle{grid-column:4;}
+.topbar .profile-toggle{grid-column:5;}
+.global-search input{box-sizing:border-box;width:100%;height:30px;min-height:30px;border:1px solid #ffffff66;border-radius:7px;background:#ffffff;color:#18283b;padding:4px 9px;font:inherit;font-size:12px;}
+.global-search input:focus{outline:3px solid #85c9ff;outline-offset:2px;}
+.global-search__results{position:absolute;top:calc(100% + 8px);left:0;right:0;z-index:1000;margin:0;padding:6px;list-style:none;background:#fff;color:#18283b;border:1px solid #c7d3df;border-radius:12px;box-shadow:0 12px 32px #0003;max-height:360px;overflow-y:auto;}
+.global-search__results[hidden]{display:none;}
+.global-search__results li{padding:10px;border-radius:8px;cursor:pointer;}
+.global-search__results li:hover,.global-search__results li[aria-selected="true"]{background:#e5f1ff;color:#102d50;}
+.global-search__results strong,.global-search__results small{display:block;overflow-wrap:anywhere;}
+.global-search__results small{font-size:12px;opacity:.8;margin-top:3px;}
+.global-search__status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+[data-theme="escuro"] .global-search input,[data-theme="escuro"] .global-search__results{background:#172638;color:#f1f5f9;border-color:#59728d;}
+[data-theme="escuro"] .global-search__results li:hover,[data-theme="escuro"] .global-search__results li[aria-selected="true"]{background:#294663;color:#fff;}
+@media(max-width:760px){.topbar{grid-template-columns:34px auto minmax(65px,1fr) 34px auto;grid-template-rows:auto;gap:7px;min-height:62px;padding:9px 10px;}.topbar>.menu-toggle,.topbar .theme-toggle{min-width:34px;min-height:34px;width:34px;height:34px;padding:6px;}.topbar .global-search{max-width:180px;}.topbar .profile-toggle{grid-template-columns:30px minmax(0,1fr) 8px;gap:5px;}.topbar .profile-toggle>img{width:30px;height:30px;}.topbar .profile-toggle .profile-name{max-width:85px;font-size:11px;}.topbar .profile-toggle .profile-role{display:none;}.global-search__results{min-width:230px;left:auto;right:0;}}
+@media(max-width:480px){.topbar{grid-template-columns:30px auto minmax(60px,1fr) 30px 30px;gap:5px;min-height:56px;padding:8px;}.topbar>.menu-toggle{grid-column:1;grid-row:1;}.topbar .topbar-clock{grid-column:2;grid-row:1;display:grid;gap:2px;font-size:8px;}.topbar .topbar-clock strong{font-size:8px;}.topbar .global-search{grid-column:3;grid-row:1;}.topbar .theme-toggle{grid-column:4;grid-row:1;}.topbar .profile-toggle{grid-column:5;grid-row:1;display:flex;min-height:30px;}.topbar .profile-toggle .profile-identity,.topbar .profile-toggle::after{display:none;}.topbar>.menu-toggle,.topbar .theme-toggle{min-width:30px;min-height:30px;width:30px;height:30px;}.global-search input{font-size:11px;padding:4px 6px;}}
