@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    "login válido e inválido em subpasta de hospedagem",
+    "diária editável, valor zero, total e reserva finalizada preservados",
+    "nomes renderizados como texto, sem execução de HTML",
+    "fotos de usuário e gerente salvas e apresentadas",
+    "ficha de cuidados e diário persistidos e vinculados por ID",
+    "contrato validado e impressão isolada do restante da página",
+    "falha de armazenamento preserva estado e permite nova tentativa",
+    "remoção bloqueada para responsável e pet com vínculos",
+    "gerente responsável protegido",
+    "busca com erro de digitação e navegação pelo teclado",
+    "IDs inexistentes em todas as telas de edição e detalhes",
+    "recuperação de estrutura de armazenamento inválida",
+    "todas as páginas: recursos HTTP, temas claro/escuro e larguras 320/768/1440",
+    "abertura local por file://"
+  ],
+  "screens": 96,
+  "errors": [],
+  "initialCounts": {
+    "users": 14,
+    "pets": 32,
+    "reservas": 31
+  }
+}

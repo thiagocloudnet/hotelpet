@@ -1,0 +1,17 @@
+{
+  "aprovado": true,
+  "verificacoes": [
+    "Reserva sem animais orienta cadastro sem inventar vínculos",
+    "Novo responsável retorna ao animal com código selecionado",
+    "Animal de outro tipo continua vinculado ao cuidador e selecionado na reserva",
+    "Fluxo completo grava os três códigos interligados sem duplicação",
+    "Limpar animal também limpa o nome do responsável",
+    "Animal com mesmo nome de outro responsável não entra por endereço adulterado",
+    "Animal sem responsável existente não é oferecido para reserva",
+    "Central do responsável mostra somente seus registros",
+    "Histórico do animal mostra a reserva correta",
+    "Responsável inválido não recebe animais de outro cadastro",
+    "Orientação funciona no celular sem erros de execução"
+  ],
+  "erros": []
+}

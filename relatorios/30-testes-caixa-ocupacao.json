@@ -1,0 +1,156 @@
+{
+  "total": 30,
+  "aprovados": 30,
+  "casos": [
+    {
+      "numero": 1,
+      "nome": "Conversão de reais para centavos",
+      "aprovado": true
+    },
+    {
+      "numero": 2,
+      "nome": "Arredondamento decimal sem diferença de ponto flutuante",
+      "aprovado": true
+    },
+    {
+      "numero": 3,
+      "nome": "Valores negativos são rejeitados",
+      "aprovado": true
+    },
+    {
+      "numero": 4,
+      "nome": "Valor ausente ou infinito é rejeitado",
+      "aprovado": true
+    },
+    {
+      "numero": 5,
+      "nome": "Data impossível não gera diárias",
+      "aprovado": true
+    },
+    {
+      "numero": 6,
+      "nome": "Ano bissexto aceita 29 de fevereiro",
+      "aprovado": true
+    },
+    {
+      "numero": 7,
+      "nome": "Período de dois dias gera duas diárias",
+      "aprovado": true
+    },
+    {
+      "numero": 8,
+      "nome": "Datas iguais não geram cobrança",
+      "aprovado": true
+    },
+    {
+      "numero": 9,
+      "nome": "Datas invertidas não geram valor negativo",
+      "aprovado": true
+    },
+    {
+      "numero": 10,
+      "nome": "Total respeita centavos e número de diárias",
+      "aprovado": true
+    },
+    {
+      "numero": 11,
+      "nome": "Diária gratuita é preservada",
+      "aprovado": true
+    },
+    {
+      "numero": 12,
+      "nome": "Tarifa contratada não muda com configuração",
+      "aprovado": true
+    },
+    {
+      "numero": 13,
+      "nome": "Reserva sem tarifa usa peso do animal",
+      "aprovado": true
+    },
+    {
+      "numero": 14,
+      "nome": "Ocupação inclui saída hoje antes de meio-dia",
+      "aprovado": true
+    },
+    {
+      "numero": 15,
+      "nome": "Ocupação libera vaga exatamente às 12:00",
+      "aprovado": true
+    },
+    {
+      "numero": 16,
+      "nome": "Ocupação respeita horário contratado 13:30",
+      "aprovado": true
+    },
+    {
+      "numero": 17,
+      "nome": "Reserva pendente não conta como hospedagem em andamento",
+      "aprovado": true
+    },
+    {
+      "numero": 18,
+      "nome": "Mesmo animal com reservas sobrepostas ocupa uma vaga",
+      "aprovado": true
+    },
+    {
+      "numero": 19,
+      "nome": "Entrada futura não ocupa vaga hoje",
+      "aprovado": true
+    },
+    {
+      "numero": 20,
+      "nome": "Reservas finalizadas e canceladas não ocupam vagas",
+      "aprovado": true
+    },
+    {
+      "numero": 21,
+      "nome": "Valor previsto não é confundido com recebimento",
+      "aprovado": true
+    },
+    {
+      "numero": 22,
+      "nome": "Recebimento parcial calcula saldo devedor",
+      "aprovado": true
+    },
+    {
+      "numero": 23,
+      "nome": "Recebimento de outra data não entra no caixa do dia",
+      "aprovado": true
+    },
+    {
+      "numero": 24,
+      "nome": "Excedente gera crédito sem saldo negativo",
+      "aprovado": true
+    },
+    {
+      "numero": 25,
+      "nome": "Fechamento registra diferença em centavos",
+      "aprovado": true
+    },
+    {
+      "numero": 26,
+      "nome": "Fechamento duplicado e data futura são bloqueados",
+      "aprovado": true
+    },
+    {
+      "numero": 27,
+      "nome": "Orçamento não sobrescreve recebimento salvo",
+      "aprovado": true
+    },
+    {
+      "numero": 28,
+      "nome": "Fechamento salva total e impede duplicação na interface",
+      "aprovado": true
+    },
+    {
+      "numero": 29,
+      "nome": "Recibo de caixa fechado não pode ter valor alterado",
+      "aprovado": true
+    },
+    {
+      "numero": 30,
+      "nome": "Falha ao salvar fechamento preserva histórico e funciona no celular",
+      "aprovado": true
+    }
+  ]
+}

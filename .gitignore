@@ -17,6 +17,10 @@ desktop.ini
 # Cache
 __pycache__/
 node_modules/
+.dist-pages/
+relatorios/busca-discos/
+relatorios/fontes-comparacao.json
+relatorios/hotelpet-pages*.zip
 
 # Seguranca
 .env
@@ -31,3 +35,9 @@ tokens/
 # Documentos locais nao publicaveis
 # (mantidos no repositorio, mas nao como parte do site)
 # documentos/material-estudo/
+
+relatorios/hotelpet-final-organizado-*.zip
+
+# Pastas locais e agentes nao pertencentes ao projeto Hotel Pet
+.agents/
+acessai-app/

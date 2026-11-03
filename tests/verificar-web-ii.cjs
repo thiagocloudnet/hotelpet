@@ -47,7 +47,17 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+deco
  data=await read();assert.equal(data.reservas.at(-1).ownerId,ownerId);
  assert.equal(data.reservas.at(-1).code,'0032hsp');
  await page.locator('#f-id').fill('0001hsp');assert.equal(await page.locator('tbody tr:visible').count(),1);assert.match(await page.locator('tbody tr:visible').innerText(),/0001hsp/);
- await go('reserva_visualizar.html?id=r1');await page.locator('#autorizacao-confirmada').check();await page.locator('#exportar-recibo').click();assert.match(await page.locator('#recibo-feedback').innerText(),/nome completo/);await page.locator('#autorizado-por').fill('Rafael Costa');await page.locator('#autorizacao-data').fill('2026-10-21');const downloadPromise=page.waitForEvent('download');await page.locator('#exportar-recibo').click();const download=await downloadPromise;assert.equal(download.suggestedFilename(),'recibo-0001hsp.txt');const receipt=fs.readFileSync(await download.path(),'utf8');assert.match(receipt,/Rafael Costa/);assert.match(receipt,/0001hsp/);assert.match(receipt,/Autorização informada/);await page.reload();assert(await page.locator('#autorizacao-confirmada').isChecked());
+ await go('reserva_visualizar.html?id=r1');
+ await page.getByRole('button',{name:'Salvar e visualizar documento'}).click();
+ assert.match(await page.locator('.stay-document').innerText(),/ORÇAMENTO DE HOSPEDAGEM/);
+ await page.getByLabel('Tipo de documento',{exact:true}).selectOption('receipt');
+ await page.getByRole('button',{name:'Salvar e visualizar documento'}).click();
+ assert(await page.getByText('Para o recibo, informe valor recebido, data e forma de pagamento.',{exact:true}).isVisible());
+ await page.locator('#doc-amount').fill('50');await page.locator('#doc-date').fill('2026-10-21');await page.locator('#doc-method').fill('Dinheiro demonstrativo');
+ await page.getByRole('button',{name:'Salvar e visualizar documento'}).click();
+ assert.match(await page.locator('.stay-document').innerText(),/Valor recebido informado: R\$\s*50,00/);
+ await page.reload();assert.equal(await page.locator('#doc-amount').inputValue(),'50');
+ await go('reserva_visualizar.html?id=inexistente');assert(await page.getByRole('heading',{name:'Registro não encontrado'}).isVisible());
  await go('perfil.html');await page.locator('#nova-senha').fill('exemplo123');await page.locator('#confirmar-senha').fill('diferente123');await page.locator('.password-demo button[type=submit]').click();assert.match(await page.locator('#senha-feedback').innerText(),/não conferem/);await page.locator('#confirmar-senha').fill('exemplo123');await page.locator('.password-demo button[type=submit]').click();assert.equal(await page.locator('#nova-senha').inputValue(),'');assert.match(await page.locator('#senha-feedback').innerText(),/Nenhuma senha foi armazenada/);
  await go('usuarios.html');await page.locator('input[data-row-select][value="'+ownerId+'"]').check();let alert='';page.once('dialog',async dialog=>{alert=dialog.message();await dialog.accept();});await page.locator('[data-delete-selected]').click();assert.match(alert,/vinculado/);assert((await read()).users.some(user=>user.id===ownerId));
  await go('pet_cadastrar.html');await page.locator('#tipo').selectOption('Gato');assert.equal(await page.locator('#raca option').count(),48);await page.locator('#raca').selectOption('Outra raça');assert(await page.locator('#outra-raca').isVisible());assert.equal(await page.locator('#outra-raca').getAttribute('required'),'');

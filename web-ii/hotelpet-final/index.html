@@ -1,51 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
-Autor: Thiago Ferreira Prates Neves
-Professor: Lucas Santos de Oliveira
-Disciplina: Programação Web II (2026.2)
-Projeto: Hotel Pet — UESB
-Arquivo: hotelpet-final/index.html
+====================================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Análise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programação Web II (2026.2)
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+PROJETO: Hotel Pet (https://hotelpet.shop)
+ATIVIDADE: Trabalho Final - Apresentação Acadêmica
+ARQUIVO: index.html
+OBJETIVO: Página inicial e autenticação demonstrativa do sistema
+FLUXO GOOGLE ANALYTICS: Pets (Código: 16266387736 | Métrica: G-8PHJYHNDK5)
+====================================================================
 -->
-<!-- Entrada do Hotel Pet Shop: formulário demonstrativo de acesso, sem backend. -->
 <html lang="pt-BR">
-<head>
-  <!-- Entrar na demonstração acadêmica do Hotel Pet na visão do gerente. -->
-  <meta charset="UTF-8">
-  <meta name="description" content="Entrar na demonstração acadêmica do Hotel Pet na visão do gerente. Projeto de Thiago Ferreira Prates Neves — ADS/UESB.">
-  <meta name="author" content="Thiago Ferreira Prates Neves">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Acesso demonstrativo ao sistema Hotel Pet Shop.">
-  <title>Hotel Pet · Entrar · Thiago Prates</title>
-  <link rel="stylesheet" href="css/estilo.css">
-  <script src="js/login-demo.js" defer></script>
-</head>
-<body data-stage="3" class="login-page">
-  <!-- Cartão central que reúne a marca, o perfil demonstrativo e os campos de acesso. -->
-  <main class="login-card login-card--personalizado">
-    <!-- Identidade visual local: logo e foto não dependem de conexão externa. -->
-    <div class="login-brand-line"><img src="imagens/logo.svg" alt=""><span>Hotel Pet Shop</span></div>
-    <h1>Acesse o Hotel Pet Shop</h1>
-    <p class="login-card__subtitle">Acesso de demonstração ao sistema.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Pet · Acesso ao Sistema · Cuidado e Hospedagem Animal</title>
+    <meta
+      name="description"
+      content="Acesse o Hotel Pet: sistema profissional de hospedagem e acolhimento para cães, gatos e pets domésticos. Projeto acadêmico de Thiago Ferreira Prates Neves — ADS/UESB."
+    />
+    <meta name="author" content="Thiago Ferreira Prates Neves" />
+    <!-- Metatags de SEO e Otimização Social -->
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/login-moderno.css" />
+    <link rel="icon" type="image/png" href="imagens/favicon-hotel-pet.png" />
+    <script src="js/fuso-horario.js" defer></script>
+    <script src="js/login-demo.js" defer></script>
+    <!-- Google tag (gtag.js) - Google Analytics 4 (Fluxo: Pets | ID: G-8PHJYHNDK5) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHJYHNDK5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <!-- Formulário local: o JavaScript de demonstração abre o painel sem enviar a senha. -->
-    <form id="login-form" method="post" novalidate>
-      <div class="form-field">
-        <label for="usuario">Usuário</label>
-        <input type="email" id="usuario" name="usuario" value="thiagoprates@hotelpet.shop" autocomplete="username" required>
-      </div>
-      <div class="form-field">
-        <label for="senha">Senha</label>
-        <div class="password-control"><input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="current-password" aria-describedby="senha-aviso" required><button type="button" class="password-toggle" id="alternar-senha" aria-controls="senha" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></div>
-      </div>
-      <p class="login-feedback" id="login-feedback" role="status" aria-live="polite"></p>
-      <button type="submit" class="button button--primary button--login">Entrar</button>
-    </form>
+      gtag('config', 'G-8PHJYHNDK5', {
+        send_page_view: true,
+        stream_id: '16266387736',
+        stream_name: 'Pets',
+        cookie_flags: 'SameSite=None;Secure'
+      });
+    </script>
+    <script src="js/analytics-eventos.js" defer></script>
+    <!-- Metatags de SEO e Otimização Social -->
+    <link rel="canonical" href="https://hotelpet.shop/index.html" />
+    <meta name="keywords" content="hotel pet, hospedagem de animais, cães, gatos, SRD, vira-lata, diárias pet, cuidado animal, UESB, Salvador, Bahia" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hotel Pet — Hospedagem e Cuidado Animal" />
+    <meta property="og:title" content="Hotel Pet · Entrar · Sistema de Hospedagem Animal" />
+    <meta property="og:description" content="Acesse a demonstração acadêmica do Hotel Pet: hospedagem cuidadosa e segura para cães, gatos e pets domésticos. Projeto ADS/UESB." />
+    <meta property="og:url" content="https://hotelpet.shop/index.html" />
+    <meta property="og:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <meta property="og:image:alt" content="Logomarca do Hotel Pet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hotel Pet · Entrar · Sistema de Hospedagem Animal" />
+    <meta name="twitter:description" content="Acesse a demonstração acadêmica do Hotel Pet: hospedagem cuidadosa e segura para cães, gatos e pets domésticos. Projeto ADS/UESB." />
+    <meta name="twitter:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <!-- Dados Estruturados Schema.org / SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hotel Pet",
+      "url": "https://hotelpet.shop",
+      "logo": "https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png",
+      "image": "https://hotelpet.shop/imagens/pet-cao-ilustrativo.png",
+      "description": "Hospedagem profissional e cuidados completos para cães, gatos e animais domésticos. Inclui catálogo ilustrado de raças com Sem Raça Definida (SRD) e controle de diárias por porte.",
+      "telephone": "+55-77-99999-9999",
+      "priceRange": "R$ 50 - R$ 80",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "BA"
+      }
+    }
+    </script>
+  </head>
+  <body class="login-page-v2">
+    <main class="login-container-pro">
+      
+      <!-- LADO ESQUERDO: APRESENTAÇÃO HERO DOS ANIMAIS -->
+      <aside class="login-hero-side" aria-label="Apresentação do Hotel Pet e Animais">
+        <header class="hero-brand">
+          <img
+            class="hero-logo-img"
+            src="imagens/logo-hotel-pet-horizontal.png"
+            alt="Hotel Pet - Cuidado e acolhimento animal"
+          />
+          <span class="hero-badge-status">Hospedagem Ativa</span>
+        </header>
 
-    <!-- Aviso transparente sobre os limites de autenticação deste protótipo acadêmico. -->
-    <p class="login-disclaimer" id="senha-aviso">Acesso demonstrativo público: thiagoprates@hotelpet.shop · Senha de exemplo: barao17@. Validação local, sem autenticação real.</p>
-  </main>
-</body>
+        <!-- Vitrine Ilustrada dos Hóspedes (Cão e Gato) -->
+        <section class="pets-showcase">
+          <div class="pets-duo-cards">
+            <figure class="pet-card-photo">
+              <img
+                src="imagens/pet-cao-ilustrativo.png"
+                alt="Fotografia ilustrativa de cão doméstico acolhido no hotel"
+                width="600"
+                height="600"
+                loading="eager"
+              />
+              <figcaption class="pet-card-tag">
+                <span>Cães &amp; SRD</span>
+                <span class="badge-pill">Todas as Raças</span>
+              </figcaption>
+            </figure>
+
+            <figure class="pet-card-photo">
+              <img
+                src="imagens/pet-gato-ilustrativo.png"
+                alt="Fotografia ilustrativa de gato doméstico em ambiente confortável"
+                width="600"
+                height="600"
+                loading="eager"
+              />
+              <figcaption class="pet-card-tag">
+                <span>Gatos &amp; Felinos</span>
+                <span class="badge-pill">Acolhimento</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🐾</span>
+              <span><strong>Catálogo Completo:</strong> Cães, gatos e Sem Raça Definida (SRD).</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚖️</span>
+              <span><strong>Diárias Transparentes:</strong> Cálculo justo automatizado pelo porte e peso.</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🕒</span>
+              <span><strong>Fuso Horário Local:</strong> Operação sincronizada com checkout às 12:00.</span>
+            </div>
+          </div>
+        </section>
+
+        <footer class="hero-footer-text">
+          <strong>Cuidado, afeto e segurança:</strong> Proporcionamos uma estadia tranquila e aconchegante para o seu animal de estimação enquanto você viaja com total tranquilidade.
+        </footer>
+      </aside>
+
+      <!-- LADO DIREITO: FORMULÁRIO DE LOGIN -->
+      <section class="login-form-side" aria-labelledby="titulo-login">
+        <div class="login-form-header">
+          <h1 id="titulo-login">Acesse o Hotel Pet</h1>
+          <p>Portal de gestão de hóspedes, reservas e atendimento.</p>
+        </div>
+
+        <!-- Banner com Credenciais Pré-configuradas para Avaliação Rápida -->
+        <div class="demo-access-banner" role="region" aria-label="Acesso de Avaliação">
+          <div class="demo-access-header">
+            <span class="demo-access-title">
+              🔑 Credenciais do Gerente
+            </span>
+            <span class="demo-credentials-pill">Demonstração</span>
+          </div>
+          <p>
+            Usuário: <strong>thiagoprates@hotelpet.shop</strong><br />
+            Senha: <strong>barao17@</strong> (já preenchidos para teste).
+          </p>
+        </div>
+
+        <!-- Formulário de Login -->
+        <form id="login-form" method="post" novalidate>
+          <div class="modern-field">
+            <label for="usuario">E-mail do Responsável</label>
+            <div class="input-with-icon">
+              <span class="input-prefix-icon" aria-hidden="true">✉️</span>
+              <input
+                type="email"
+                id="usuario"
+                name="usuario"
+                class="modern-input"
+                value="thiagoprates@hotelpet.shop"
+                autocomplete="username"
+                placeholder="seuemail@hotelpet.shop"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modern-field">
+            <label for="senha">Senha de Acesso</label>
+            <div class="password-input-wrapper">
+              <div class="input-with-icon" style="width: 100%;">
+                <span class="input-prefix-icon" aria-hidden="true">🔒</span>
+                <input
+                  type="password"
+                  id="senha"
+                  name="senha"
+                  class="modern-input"
+                  value="barao17@"
+                  placeholder="Digite sua senha"
+                  autocomplete="current-password"
+                  required
+                />
+              </div>
+              <button
+                type="button"
+                class="btn-toggle-password"
+                id="alternar-senha"
+                aria-controls="senha"
+                aria-label="Mostrar senha"
+                aria-pressed="false"
+              >
+                Mostrar
+              </button>
+            </div>
+          </div>
+
+          <p class="login-feedback" id="login-feedback" role="status" aria-live="polite"></p>
+
+          <button type="submit" class="btn-submit-login">
+            <span>Entrar no Painel</span>
+            <span aria-hidden="true">➔</span>
+          </button>
+        </form>
+
+        <footer class="login-academic-credits">
+          <p>
+            <strong>UESB — Universidade Estadual do Sudoeste da Bahia</strong><br />
+            Análise e Desenvolvimento de Sistemas · Programação Web II (2026.2)<br />
+            Aluno: <strong>Thiago Ferreira Prates Neves</strong> · Prof. <strong>Lucas Santos de Oliveira</strong>
+          </p>
+        </footer>
+      </section>
+
+    </main>
+  </body>
 </html>
-
-
-

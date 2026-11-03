@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
 Autor: Thiago Ferreira Prates Neves
 Professor: Lucas Santos de Oliveira
@@ -8,19 +8,74 @@ Arquivo: hotelpet-final/login.html
 -->
 <!-- Compatibilidade com links antigos: a tela oficial de acesso agora é index.html. -->
 <html lang="pt-BR">
-<head>
-  <!-- Encaminhar o visitante à entrada demonstrativa do Hotel Pet. -->
-  <meta charset="UTF-8">
-  <meta name="description" content="Encaminhar o visitante à entrada demonstrativa do Hotel Pet. Projeto de Thiago Ferreira Prates Neves — ADS/UESB.">
-  <meta name="author" content="Thiago Ferreira Prates Neves">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=index.html">
-  <title>Hotel Pet · Entrar · Thiago Prates</title>
-</head>
-<body data-stage="3">
-  <!-- Link acessível caso o navegador não execute o redirecionamento automático. -->
-  <p>A tela de acesso mudou. <a href="index.html">Continuar para o login do Hotel Pet Shop</a>.</p>
-</body>
+  <head>
+    <!-- Encaminhar o visitante à entrada demonstrativa do Hotel Pet. -->
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Encaminhar o visitante à entrada demonstrativa do Hotel Pet. Projeto de Thiago Ferreira Prates Neves — ADS/UESB."
+    />
+    <meta name="author" content="Thiago Ferreira Prates Neves" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=index.html" />
+    <title>Hotel Pet · Entrar · Thiago Prates</title>
+    <link rel="icon" type="image/png" href="imagens/favicon-hotel-pet.png" />
+    <!-- Google tag (gtag.js) - Google Analytics 4 (Fluxo: Pets | ID: G-8PHJYHNDK5) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHJYHNDK5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8PHJYHNDK5', {
+        send_page_view: true,
+        stream_id: '16266387736',
+        stream_name: 'Pets',
+        cookie_flags: 'SameSite=None;Secure'
+      });
+    </script>
+    <script src="js/analytics-eventos.js" defer></script>
+    <!-- Metatags de SEO e Otimização Social -->
+    <link rel="canonical" href="https://hotelpet.shop/login.html" />
+    <meta name="keywords" content="hotel pet, hospedagem de animais, cães, gatos, SRD, vira-lata, diárias pet, cuidado animal, UESB, Salvador, Bahia" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hotel Pet — Hospedagem e Cuidado Animal" />
+    <meta property="og:title" content="Hotel Pet · Login · Acesso ao Sistema" />
+    <meta property="og:description" content="Página de acesso demonstrativo ao painel administrativo e operacional do Hotel Pet." />
+    <meta property="og:url" content="https://hotelpet.shop/login.html" />
+    <meta property="og:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <meta property="og:image:alt" content="Logomarca do Hotel Pet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hotel Pet · Login · Acesso ao Sistema" />
+    <meta name="twitter:description" content="Página de acesso demonstrativo ao painel administrativo e operacional do Hotel Pet." />
+    <meta name="twitter:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <!-- Dados Estruturados Schema.org / SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hotel Pet",
+      "url": "https://hotelpet.shop",
+      "logo": "https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png",
+      "image": "https://hotelpet.shop/imagens/pet-cao-ilustrativo.png",
+      "description": "Hospedagem profissional e cuidados completos para cães, gatos e animais domésticos. Inclui catálogo ilustrado de raças com Sem Raça Definida (SRD) e controle de diárias por porte.",
+      "telephone": "+55-77-99999-9999",
+      "priceRange": "R$ 50 - R$ 80",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "BA"
+      }
+    }
+    </script>
+  </head>
+  <body data-stage="3">
+    <!-- Link acessível caso o navegador não execute o redirecionamento automático. -->
+    <p>
+      A tela de acesso mudou.
+      <a href="index.html">Continuar para o login do Hotel Pet</a>.
+    </p>
+  </body>
 </html>
-
-

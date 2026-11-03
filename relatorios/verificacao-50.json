@@ -1,0 +1,259 @@
+{
+  "data": "2026-11-03T22:13:24.436Z",
+  "passed": true,
+  "total": 50,
+  "aprovados": 50,
+  "pageErrors": [],
+  "casos": [
+    {
+      "id": 1,
+      "name": "IDs únicos dos responsáveis",
+      "passed": true
+    },
+    {
+      "id": 2,
+      "name": "IDs únicos dos pets",
+      "passed": true
+    },
+    {
+      "id": 3,
+      "name": "IDs únicos das reservas",
+      "passed": true
+    },
+    {
+      "id": 4,
+      "name": "Todo pet possui responsável existente por ownerId",
+      "passed": true
+    },
+    {
+      "id": 5,
+      "name": "Toda reserva aponta para pet existente por petId",
+      "passed": true
+    },
+    {
+      "id": 6,
+      "name": "Responsável da reserva coincide com o responsável do pet",
+      "passed": true
+    },
+    {
+      "id": 7,
+      "name": "ID do responsável permanece interno e oculto nos detalhes",
+      "passed": true
+    },
+    {
+      "id": 8,
+      "name": "Central do responsável mostra somente seus pets",
+      "passed": true
+    },
+    {
+      "id": 9,
+      "name": "Central do responsável mostra somente suas reservas",
+      "passed": true
+    },
+    {
+      "id": 10,
+      "name": "Novo pet iniciado pelo responsável mantém o ID selecionado",
+      "passed": true
+    },
+    {
+      "id": 11,
+      "name": "Nova reserva iniciada pelo responsável lista apenas seus pets",
+      "passed": true
+    },
+    {
+      "id": 12,
+      "name": "Responsável inexistente não permite reservar pet de outro dono",
+      "passed": true
+    },
+    {
+      "id": 13,
+      "name": "Donos com nomes iguais permanecem separados por ID",
+      "passed": true
+    },
+    {
+      "id": 14,
+      "name": "Renomear responsável preserva o ID",
+      "passed": true
+    },
+    {
+      "id": 15,
+      "name": "Renomear responsável atualiza seus pets sem mudar ownerId",
+      "passed": true
+    },
+    {
+      "id": 16,
+      "name": "Renomear responsável atualiza reservas sem atingir outro dono",
+      "passed": true
+    },
+    {
+      "id": 17,
+      "name": "Nome de exibição não altera o vínculo do dono",
+      "passed": true
+    },
+    {
+      "id": 18,
+      "name": "E-mail duplicado com diferenças de caixa é bloqueado",
+      "passed": true
+    },
+    {
+      "id": 19,
+      "name": "Trocar e-mail preserva ID e vínculos",
+      "passed": true
+    },
+    {
+      "id": 20,
+      "name": "Salvar edição não duplica responsável",
+      "passed": true
+    },
+    {
+      "id": 21,
+      "name": "Cadastros no mesmo milissegundo recebem IDs diferentes",
+      "passed": true
+    },
+    {
+      "id": 22,
+      "name": "Novo pet grava o responsável selecionado por ID",
+      "passed": true
+    },
+    {
+      "id": 23,
+      "name": "Pet sem responsável não é cadastrado",
+      "passed": true
+    },
+    {
+      "id": 24,
+      "name": "Responsável inativo não é oferecido para novo pet",
+      "passed": true
+    },
+    {
+      "id": 25,
+      "name": "Pet existente preserva vínculo com responsável inativo",
+      "passed": true
+    },
+    {
+      "id": 26,
+      "name": "Excluir dono com pet vinculado é bloqueado",
+      "passed": true
+    },
+    {
+      "id": 27,
+      "name": "Reserva histórica também impede excluir o dono",
+      "passed": true
+    },
+    {
+      "id": 28,
+      "name": "Excluir pet com reserva é bloqueado",
+      "passed": true
+    },
+    {
+      "id": 29,
+      "name": "Excluir responsável sem vínculos remove apenas o escolhido",
+      "passed": true
+    },
+    {
+      "id": 30,
+      "name": "Gerente principal não pode ser excluído",
+      "passed": true
+    },
+    {
+      "id": 31,
+      "name": "Função e status do gerente principal protegidos",
+      "passed": true
+    },
+    {
+      "id": 32,
+      "name": "Função dos demais usuários pode mudar para Gerente",
+      "passed": true
+    },
+    {
+      "id": 33,
+      "name": "Mudar situação altera somente o dono escolhido",
+      "passed": true
+    },
+    {
+      "id": 34,
+      "name": "Troca de responsável atualiza ownerId do pet",
+      "passed": true
+    },
+    {
+      "id": 35,
+      "name": "Troca de responsável propaga às reservas do pet",
+      "passed": true
+    },
+    {
+      "id": 36,
+      "name": "Dois Totos de donos diferentes preservam seus pets e reservas",
+      "passed": true
+    },
+    {
+      "id": 37,
+      "name": "Novas reservas têm IDs distintos",
+      "passed": true
+    },
+    {
+      "id": 38,
+      "name": "Reserva deriva o dono do pet, ignorando texto adulterado",
+      "passed": true
+    },
+    {
+      "id": 39,
+      "name": "Datas invertidas não geram reserva",
+      "passed": true
+    },
+    {
+      "id": 40,
+      "name": "Gerente edita reserva finalizada mantendo ID",
+      "passed": true
+    },
+    {
+      "id": 41,
+      "name": "Diária zero é preservada no cadastro e no total",
+      "passed": true
+    },
+    {
+      "id": 42,
+      "name": "Alterar tarifas não reescreve diária já contratada",
+      "passed": true
+    },
+    {
+      "id": 43,
+      "name": "Reserva antiga consulta peso e porte do pet vinculado",
+      "passed": true
+    },
+    {
+      "id": 44,
+      "name": "Ficha de cuidados permanece no pet por ID",
+      "passed": true
+    },
+    {
+      "id": 45,
+      "name": "Diário pertence à reserva por ID",
+      "passed": true
+    },
+    {
+      "id": 46,
+      "name": "Recibo identifica o dono da reserva correta",
+      "passed": true
+    },
+    {
+      "id": 47,
+      "name": "Contrato exige condições antes de ser preparado",
+      "passed": true
+    },
+    {
+      "id": 48,
+      "name": "Falha de gravação não altera o dono nem perde o formulário",
+      "passed": true
+    },
+    {
+      "id": 49,
+      "name": "Busca por e-mail localiza o dono e ID permanece interno nas sugestões",
+      "passed": true
+    },
+    {
+      "id": 50,
+      "name": "Central do dono oculta ID longo e cabe no celular",
+      "passed": true
+    }
+  ]
+}

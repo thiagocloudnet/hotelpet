@@ -1,0 +1,17 @@
+{
+  "aprovado": true,
+  "verificacoes": [
+    "Saída indisponível antes da entrada",
+    "Entrada exige conferência dos cuidados",
+    "Entrada registra instante real e preserva datas e preço contratados",
+    "Entrada duplicada bloqueada e saída liberada",
+    "Saída exige conferência da entrega",
+    "Saída finaliza reserva e mantém histórico de entrada",
+    "Entrada fora do período é bloqueada",
+    "Entrada após o horário de término da reserva é bloqueada",
+    "Reserva cancelada não recebe animal",
+    "Falha de armazenamento desfaz mudança da situação",
+    "Setinha removida e nome do gerente preservado"
+  ],
+  "erros": []
+}

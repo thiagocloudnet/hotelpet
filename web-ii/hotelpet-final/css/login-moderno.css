@@ -1,0 +1,626 @@
+/* ====================================================================
+   HOTEL PET — SISTEMA DE DESIGN DA PÁGINA DE ENTRADA (INDEX / LOGIN)
+   Responsividade Avançada (Desktop e Mobile) + 2 Temas (Claro e Escuro)
+   Aluno: Thiago Ferreira Prates Neves — ADS/UESB
+   ==================================================================== */
+
+:root {
+  --lp-radius: 18px;
+  --lp-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ====================================================================
+   TEMA CLARO (LIGHT THEME) — PADRÃO
+   ==================================================================== */
+:root, [data-theme="claro"] {
+  --lp-bg: linear-gradient(135deg, #0f2b48 0%, #1a365d 45%, #244b7d 100%);
+  --lp-card-bg: #ffffff;
+  --lp-card-border: rgba(255, 255, 255, 0.2);
+  --lp-shadow: 0 25px 50px -12px rgba(15, 43, 72, 0.45);
+  
+  --lp-hero-bg: linear-gradient(160deg, #132742 0%, #1a365d 65%, #0f1f33 100%);
+  --lp-hero-text: #ffffff;
+  --lp-hero-border: rgba(255, 255, 255, 0.08);
+  --lp-hero-highlight-bg: rgba(255, 255, 255, 0.06);
+  --lp-hero-highlight-border: rgba(255, 255, 255, 0.1);
+  --lp-hero-footer: #94a3b8;
+  
+  --lp-form-bg: #ffffff;
+  --lp-form-title: #1a365d;
+  --lp-form-sub: #64748b;
+  --lp-input-bg: #f8fafc;
+  --lp-input-border: #cbd5e1;
+  --lp-input-text: #0f172a;
+  --lp-input-focus-border: #1a365d;
+  --lp-input-focus-ring: rgba(26, 54, 93, 0.14);
+  
+  --lp-demo-bg: #f0fdf4;
+  --lp-demo-border: #86efac;
+  --lp-demo-text: #166534;
+  --lp-demo-pill: #dcfce7;
+  --lp-demo-pill-text: #14532d;
+  
+  --lp-btn-bg: linear-gradient(135deg, #1a365d 0%, #0f2442 100%);
+  --lp-btn-hover: linear-gradient(135deg, #244b7d 0%, #1a365d 100%);
+  --lp-btn-text: #ffffff;
+  --lp-btn-border: #d99b26;
+  
+  --lp-toggle-bg: rgba(255, 255, 255, 0.2);
+  --lp-toggle-text: #ffffff;
+  --lp-toggle-border: rgba(255, 255, 255, 0.35);
+  --lp-toggle-hover: rgba(255, 255, 255, 0.35);
+
+  --lp-credits-border: #e2e8f0;
+  --lp-credits-text: #64748b;
+}
+
+/* ====================================================================
+   TEMA ESCURO (DARK THEME)
+   ==================================================================== */
+[data-theme="escuro"] {
+  --lp-bg: linear-gradient(135deg, #060b13 0%, #0b1424 50%, #101c30 100%);
+  --lp-card-bg: #0f1a2c;
+  --lp-card-border: rgba(255, 255, 255, 0.08);
+  --lp-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+  
+  --lp-hero-bg: linear-gradient(160deg, #09121f 0%, #0d1a2d 65%, #070e1a 100%);
+  --lp-hero-text: #f1f5f9;
+  --lp-hero-border: rgba(255, 255, 255, 0.05);
+  --lp-hero-highlight-bg: rgba(255, 255, 255, 0.03);
+  --lp-hero-highlight-border: rgba(255, 255, 255, 0.06);
+  --lp-hero-footer: #64748b;
+  
+  --lp-form-bg: #0f1a2c;
+  --lp-form-title: #f8fafc;
+  --lp-form-sub: #94a3b8;
+  --lp-input-bg: #16243b;
+  --lp-input-border: #273b5b;
+  --lp-input-text: #f8fafc;
+  --lp-input-focus-border: #d99b26;
+  --lp-input-focus-ring: rgba(217, 155, 38, 0.2);
+  
+  --lp-demo-bg: #062a1c;
+  --lp-demo-border: #059669;
+  --lp-demo-text: #a7f3d0;
+  --lp-demo-pill: #044e31;
+  --lp-demo-pill-text: #ecfdf5;
+  
+  --lp-btn-bg: linear-gradient(135deg, #d99b26 0%, #b47f1c 100%);
+  --lp-btn-hover: linear-gradient(135deg, #e6ac3b 0%, #c48c22 100%);
+  --lp-btn-text: #0b1424;
+  --lp-btn-border: #fbd38d;
+  
+  --lp-toggle-bg: rgba(255, 255, 255, 0.1);
+  --lp-toggle-text: #fbd38d;
+  --lp-toggle-border: rgba(217, 155, 38, 0.4);
+  --lp-toggle-hover: rgba(255, 255, 255, 0.2);
+
+  --lp-credits-border: #1e2f4a;
+  --lp-credits-text: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.login-page-v2 {
+  min-height: 100vh;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background: var(--lp-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+  color: var(--lp-input-text);
+  position: relative;
+  overflow-x: hidden;
+  transition: var(--lp-transition);
+}
+
+/* ====================================================================
+   BOTÃO FLUTUANTE DE ALTERNAR 2 TEMAS (CLARO / ESCURO)
+   ==================================================================== */
+.theme-switch-container {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 999;
+}
+
+.theme-toggle-login {
+  background: var(--lp-toggle-bg);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--lp-toggle-border);
+  color: var(--lp-toggle-text);
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--lp-transition);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle-login:hover {
+  background: var(--lp-toggle-hover);
+  transform: translateY(-1px);
+}
+
+/* ====================================================================
+   LAYOUT DESKTOP (DISPOSITIVO GRANDE): ESQUERDA IMAGENS, DIREITA LOGIN
+   ==================================================================== */
+.login-container-pro {
+  width: min(100%, 1140px);
+  min-height: 660px;
+  background: var(--lp-card-bg);
+  border-radius: var(--lp-radius);
+  box-shadow: var(--lp-shadow);
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  border: 1px solid var(--lp-card-border);
+  transition: var(--lp-transition);
+}
+
+/* LADO ESQUERDO: IMAGENS E DADOS DOS ANIMAIS */
+.login-hero-side {
+  background: var(--lp-hero-bg);
+  color: var(--lp-hero-text);
+  padding: 42px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--lp-hero-border);
+  transition: var(--lp-transition);
+}
+
+.hero-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hero-logo-img {
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.25));
+}
+
+.hero-badge-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(217, 155, 38, 0.18);
+  border: 1px solid rgba(217, 155, 38, 0.45);
+  color: #fbd38d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hero-badge-status::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fbd38d;
+  box-shadow: 0 0 8px #fbd38d;
+}
+
+/* Vitrine de Fotos dos Animais */
+.pets-showcase {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pets-duo-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.pet-card-photo {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: #0b1523;
+  aspect-ratio: 4 / 3.7;
+  transition: var(--lp-transition);
+}
+
+.pet-card-photo:hover {
+  transform: translateY(-3px);
+  border-color: #d99b26;
+}
+
+.pet-card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
+
+.pet-card-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  background: rgba(11, 20, 36, 0.88);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badge-pill {
+  background: #d99b26;
+  color: #0b1424;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* Destaques e Diferenciais */
+.hero-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--lp-hero-highlight-bg);
+  border: 1px solid var(--lp-hero-highlight-border);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  color: var(--lp-hero-text);
+}
+
+.highlight-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.hero-footer-text {
+  font-size: 0.82rem;
+  color: var(--lp-hero-footer);
+  border-top: 1px solid var(--lp-hero-border);
+  padding-top: 16px;
+  line-height: 1.45;
+}
+
+.hero-footer-text strong {
+  color: #fbd38d;
+}
+
+/* LADO DIREITO: FORMULÁRIO DE LOGIN */
+.login-form-side {
+  padding: 44px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--lp-form-bg);
+  transition: var(--lp-transition);
+}
+
+.login-form-header {
+  margin-bottom: 22px;
+}
+
+.login-form-header h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--lp-form-title);
+  letter-spacing: -0.4px;
+  margin-bottom: 6px;
+}
+
+.login-form-header p {
+  color: var(--lp-form-sub);
+  font-size: 0.92rem;
+}
+
+/* Banner de Demonstração */
+.demo-access-banner {
+  background: var(--lp-demo-bg);
+  border: 1px solid var(--lp-demo-border);
+  border-left: 4px solid #10b981;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 22px;
+  font-size: 0.84rem;
+  color: var(--lp-demo-text);
+  line-height: 1.4;
+  transition: var(--lp-transition);
+}
+
+.demo-access-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.demo-access-title {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.demo-credentials-pill {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background: var(--lp-demo-pill);
+  color: var(--lp-demo-pill-text);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Campos de Formulário */
+.modern-field {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.modern-field label {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--lp-form-title);
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-prefix-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 1.05rem;
+  color: var(--lp-form-sub);
+  pointer-events: none;
+}
+
+.modern-input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px 0 44px;
+  font-size: 0.95rem;
+  color: var(--lp-input-text);
+  background: var(--lp-input-bg);
+  border: 1.5px solid var(--lp-input-border);
+  border-radius: 10px;
+  transition: var(--lp-transition);
+  font-family: inherit;
+}
+
+.modern-input:focus {
+  outline: none;
+  background: var(--lp-card-bg);
+  border-color: var(--lp-input-focus-border);
+  box-shadow: 0 0 0 3px var(--lp-input-focus-ring);
+}
+
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.password-input-wrapper .modern-input {
+  padding-right: 80px;
+}
+
+.btn-toggle-password {
+  position: absolute;
+  right: 10px;
+  height: 32px;
+  padding: 0 10px;
+  background: var(--lp-input-border);
+  border: none;
+  border-radius: 6px;
+  color: var(--lp-input-text);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--lp-transition);
+}
+
+.btn-toggle-password:hover {
+  filter: brightness(0.9);
+}
+
+.login-feedback {
+  min-height: 20px;
+  font-size: 0.85rem;
+  color: #ef4444;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Botão de Entrar */
+.btn-submit-login {
+  width: 100%;
+  height: 50px;
+  background: var(--lp-btn-bg);
+  color: var(--lp-btn-text);
+  border: 1px solid var(--lp-btn-border);
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  transition: var(--lp-transition);
+}
+
+.btn-submit-login:hover {
+  background: var(--lp-btn-hover);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1.5px);
+}
+
+.btn-submit-login:active {
+  transform: translateY(0);
+}
+
+/* Rodapé Acadêmico */
+.login-academic-credits {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--lp-credits-border);
+  font-size: 0.76rem;
+  color: var(--lp-credits-text);
+  text-align: center;
+  line-height: 1.45;
+}
+
+.login-academic-credits strong {
+  color: var(--lp-form-title);
+}
+
+/* ====================================================================
+   COMPORTAMENTO RESPONSIVO MOBILE
+   Controlado por CSS Media Query e Classes Dinâmicas do JavaScript
+   ==================================================================== */
+@media (max-width: 860px), (hover: none) and (max-width: 1024px) {
+  body.login-page-v2 {
+    padding: 16px 12px;
+    align-items: flex-start;
+  }
+
+  .theme-switch-container {
+    top: 12px;
+    right: 14px;
+  }
+
+  .login-container-pro,
+  .login-container-pro.is-mobile-layout {
+    grid-template-columns: 1fr;
+    max-width: 540px;
+    margin: 40px auto 20px;
+    border-radius: 16px;
+  }
+
+  .login-hero-side {
+    padding: 28px 22px;
+    border-right: none;
+    border-bottom: 1px solid var(--lp-hero-border);
+  }
+
+  .pets-duo-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .pet-card-photo {
+    aspect-ratio: 16 / 11;
+  }
+
+  .hero-highlights {
+    display: none; /* Oculta no mobile para economizar espaço e focar no login */
+  }
+
+  .hero-footer-text {
+    display: none;
+  }
+
+  .login-form-side {
+    padding: 30px 22px;
+  }
+
+  .login-form-header h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body.login-page-v2 {
+    padding: 10px 8px;
+  }
+
+  .login-container-pro {
+    margin-top: 48px;
+    border-radius: 12px;
+  }
+
+  .login-hero-side {
+    padding: 20px 16px;
+  }
+
+  .hero-logo-img {
+    height: 38px;
+  }
+
+  .hero-badge-status {
+    font-size: 0.7rem;
+    padding: 4px 10px;
+  }
+
+  .pets-duo-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .pet-card-tag {
+    font-size: 0.7rem;
+    padding: 4px 6px;
+  }
+
+  .badge-pill {
+    display: none;
+  }
+
+  .login-form-side {
+    padding: 24px 16px;
+  }
+
+  .modern-input {
+    height: 46px;
+    font-size: 0.9rem;
+  }
+
+  .btn-submit-login {
+    height: 48px;
+    font-size: 0.98rem;
+  }
+}

@@ -1,0 +1,323 @@
+[
+  {
+    "Origem": "D:\\backup-pre-formatacao-07102026\\Pessoal\\Downloads\\Hotel-Pet-main (1).zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "19D2AB055A126F1AB297960931F7AC87553A1853EFAE727CDCB05F17D81E89CC"
+  },
+  {
+    "Origem": "D:\\backup-pre-formatacao-07102026\\Pessoal\\Downloads\\hotelpet.zip",
+    "ArquivosCodigo": 16,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "909F4944C64C8058BD1D2E2585BFE6D3F7A69FA135ACD6663DDC011ACB066E6B"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\AcademicosDigital\\uesb-tem\\10_recursos\\Hotel-Pet-Shop.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "8AD16FB87C5AB917BB4EC9E0930247D5929169B401D44B653A3874E17EF0CCB3"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\AcademicosDigital\\uesb-tem\\10_recursos\\hotelpetshop_html.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 17,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "0BE8A2392495B5C8887D6A4F08DAEBFD2BDBC5904174B1C064B916A8465AF925"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\AcademicosDigital\\uesb-tem\\99_revisar\\html-hotel-shop\\hotel-pet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 18,
+    "Scripts": 1,
+    "NomesScripts": [
+      "guia/guia.js"
+    ],
+    "SHA256": "959C06E6D97069CC6981168A41E5BD0FA625D5E6F1165A75C97AC5823566BA2E"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\UPAI\\backup_2026-08-30\\Academicos\\UESB\\10_recursos\\Hotel-Pet-Shop.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "8AD16FB87C5AB917BB4EC9E0930247D5929169B401D44B653A3874E17EF0CCB3"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\UPAI\\backup_2026-08-30\\Academicos\\UESB\\10_recursos\\hotelpetshop_html.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 17,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "0BE8A2392495B5C8887D6A4F08DAEBFD2BDBC5904174B1C064B916A8465AF925"
+  },
+  {
+    "Origem": "D:\\WorkSpace\\UPAI\\backup_2026-08-30\\Academicos\\UESB\\99_revisar\\html-hotel-shop\\hotel-pet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 18,
+    "Scripts": 1,
+    "NomesScripts": [
+      "guia/guia.js"
+    ],
+    "SHA256": "959C06E6D97069CC6981168A41E5BD0FA625D5E6F1165A75C97AC5823566BA2E"
+  },
+  {
+    "Origem": "F:\\academicosdigital\\uesb-tem\\10_recursos\\Hotel-Pet-Shop.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "8AD16FB87C5AB917BB4EC9E0930247D5929169B401D44B653A3874E17EF0CCB3"
+  },
+  {
+    "Origem": "F:\\academicosdigital\\uesb-tem\\10_recursos\\hotelpetshop_html.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 17,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "0BE8A2392495B5C8887D6A4F08DAEBFD2BDBC5904174B1C064B916A8465AF925"
+  },
+  {
+    "Origem": "F:\\academicosdigital\\uesb-tem\\99_revisar\\html-hotel-shop\\hotel-pet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 18,
+    "Scripts": 1,
+    "NomesScripts": [
+      "guia/guia.js"
+    ],
+    "SHA256": "959C06E6D97069CC6981168A41E5BD0FA625D5E6F1165A75C97AC5823566BA2E"
+  },
+  {
+    "Origem": "F:\\IA\\backups\\opencode-final-20261010-234417\\opencode\\projects\\G_UESB\\Hotel-Pet-Shop.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "8AD16FB87C5AB917BB4EC9E0930247D5929169B401D44B653A3874E17EF0CCB3"
+  },
+  {
+    "Origem": "F:\\IA\\backups\\opencode-final-20261010-234417\\opencode\\projects\\G_UESB\\hotelpetshop_html.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 17,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "0BE8A2392495B5C8887D6A4F08DAEBFD2BDBC5904174B1C064B916A8465AF925"
+  },
+  {
+    "Origem": "F:\\IA\\backups\\opencode-final-20261010-234417\\opencode\\projects\\G_UESB\\html-hotel-shop\\hotel-pet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 18,
+    "Scripts": 1,
+    "NomesScripts": [
+      "guia/guia.js"
+    ],
+    "SHA256": "959C06E6D97069CC6981168A41E5BD0FA625D5E6F1165A75C97AC5823566BA2E"
+  },
+  {
+    "Origem": "F:\\IA\\legacy\\opencode-copy\\projects\\G_UESB\\Hotel-Pet-Shop.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "8AD16FB87C5AB917BB4EC9E0930247D5929169B401D44B653A3874E17EF0CCB3"
+  },
+  {
+    "Origem": "F:\\IA\\legacy\\opencode-copy\\projects\\G_UESB\\hotelpetshop_html.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 17,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "0BE8A2392495B5C8887D6A4F08DAEBFD2BDBC5904174B1C064B916A8465AF925"
+  },
+  {
+    "Origem": "F:\\IA\\legacy\\opencode-copy\\projects\\G_UESB\\html-hotel-shop\\hotel-pet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 18,
+    "Scripts": 1,
+    "NomesScripts": [
+      "guia/guia.js"
+    ],
+    "SHA256": "959C06E6D97069CC6981168A41E5BD0FA625D5E6F1165A75C97AC5823566BA2E"
+  },
+  {
+    "Origem": "F:\\UPdev\\hotelpet.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 17,
+    "Scripts": 2,
+    "NomesScripts": [
+      "hotelpet/js/hotel-config.js",
+      "hotelpet/js/login-demo.js"
+    ],
+    "SHA256": "5ED236E96147954DC9FAB58CCD2DFF3E4F8AA9DEE389D46A5AF2E906169280C2"
+  },
+  {
+    "Origem": "F:\\UPdev\\hotelpet\\hotelpet-shop.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 17,
+    "Scripts": 2,
+    "NomesScripts": [
+      "js/hotel-config.js",
+      "js/login-demo.js"
+    ],
+    "SHA256": "679D2A4BD4FC65D1B231D515EF886239E4A01A83FC34C1D81617281600597B37"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet (2).zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 1,
+    "NomesScripts": [
+      "hotelpet/js/hotel-config.js"
+    ],
+    "SHA256": "D350D7B49762D7316A40A3DE115A1581F18A0FCDC3574D1F618ACCFC92F188F4"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet (3).zip",
+    "ArquivosCodigo": 235,
+    "Paginas": 195,
+    "Scripts": 28,
+    "NomesScripts": [
+      "hotelpet/hotel-pet-01/js/hotel-config.js",
+      "hotelpet/hotel-pet-01/js/login-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-01/js/login-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-01/js/navegacao-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-02/js/listas-pesquisa.js",
+      "hotelpet/hotelpet-entregas/hotelpet-02/js/login-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-02/js/navegacao-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-final/js/hotel-app.js",
+      "hotelpet/hotelpet-entregas/hotelpet-final/js/hotel-config.js",
+      "hotelpet/hotelpet-entregas/hotelpet-final/js/login-demo.js",
+      "hotelpet/hotelpet-entregas/hotelpet-final/js/navegacao-demo.js",
+      "hotelpet/hotelpet-shop-source/projeto/versao-02/js/hotel-app.js",
+      "hotelpet/hotelpet-shop-source/projeto/versao-02/js/hotel-config.js",
+      "hotelpet/hotelpet-shop-source/projeto/versao-02/js/login-demo.js",
+      "hotelpet/hotelpet-shop-v2/js/hotel-app.js",
+      "hotelpet/hotelpet-shop-v2/js/hotel-config.js",
+      "hotelpet/hotelpet-shop-v2/js/login-demo.js",
+      "hotelpet/js/hotel-config.js",
+      "hotelpet/js/login-demo.js",
+      "hotelpet/versao-02/js/hotel-config.js",
+      "hotelpet/versao-02/js/listas-pesquisa.js",
+      "hotelpet/versao-02/js/login-demo.js",
+      "hotelpet/versao-03/js/dados-locais.js",
+      "hotelpet/versao-03/js/hotel-config.js",
+      "hotelpet/versao-03/js/listas-pesquisa.js",
+      "hotelpet/versao-03/js/login-demo.js",
+      "hotelpet/versao-antonia/js/hotel-config.js",
+      "hotelpet/versao-antonia/js/login-demo.js"
+    ],
+    "SHA256": "F4F724028206F0C85E452F20857297BDF106A85AF2A16D036A752C38277B9EDF"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet-Marcia.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "193D33551D7228F8CF9FCCE2990738865D6846DC00AD203895C84EA9D14BB3A6"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 1,
+    "NomesScripts": [
+      "hotelpet/js/hotel-config.js"
+    ],
+    "SHA256": "19A2A6E8B7916E1FB2031A3ED09B17ADE10B75644802FB4A6D10AE2D2F868EBD"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet\\hotel-pet-03.zip",
+    "ArquivosCodigo": 22,
+    "Paginas": 17,
+    "Scripts": 4,
+    "NomesScripts": [
+      "hotel-pet-03/js/dados-locais.js",
+      "hotel-pet-03/js/hotel-config.js",
+      "hotel-pet-03/js/listas-pesquisa.js",
+      "hotel-pet-03/js/login-demo.js"
+    ],
+    "SHA256": "1E792A99F9D4DF344E26346634AA09012BC31979805DFA454912085794BBCDE0"
+  },
+  {
+    "Origem": "F:\\UPdev\\projetos\\hotelpet\\hotelpet-agraciela.zip",
+    "ArquivosCodigo": 18,
+    "Paginas": 16,
+    "Scripts": 1,
+    "NomesScripts": [
+      "js/hotel-config.js"
+    ],
+    "SHA256": "DAE5E6F5E7B44DF8C3894CF50AE22AED77630D28314201592AFDDD4522232108"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\agraciela\\hotelpet-01.zip",
+    "ArquivosCodigo": 20,
+    "Paginas": 17,
+    "Scripts": 2,
+    "NomesScripts": [
+      "js/hotel-config.js",
+      "js/login-demo.js"
+    ],
+    "SHA256": "6ECE6A37A8D080EAC7EA9A66B21DFE931677212C4F27540C158D5FCB898FCB96"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\agraciela\\hotelpet-02.zip",
+    "ArquivosCodigo": 21,
+    "Paginas": 17,
+    "Scripts": 3,
+    "NomesScripts": [
+      "js/hotel-config.js",
+      "js/listas-pesquisa.js",
+      "js/login-demo.js"
+    ],
+    "SHA256": "DB8F002364989FC7E78BD5B8918CD541AF04F3583F5B803BECA5D804D2AF1F24"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\agraciela\\hotelpet-final.zip",
+    "ArquivosCodigo": 22,
+    "Paginas": 17,
+    "Scripts": 4,
+    "NomesScripts": [
+      "js/dados-locais.js",
+      "js/hotel-config.js",
+      "js/listas-pesquisa.js",
+      "js/login-demo.js"
+    ],
+    "SHA256": "D0348E931D9BD378EC615A26CC3BF529A40CF9FB61904674108623F08A281B01"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\agraciela\\HotelPet-GitHub-Pages-Versao-Final.zip",
+    "ArquivosCodigo": 22,
+    "Paginas": 17,
+    "Scripts": 4,
+    "NomesScripts": [
+      "js/dados-locais.js",
+      "js/hotel-config.js",
+      "js/listas-pesquisa.js",
+      "js/login-demo.js"
+    ],
+    "SHA256": "C6056463E63FD5493E3493CC7C11E212B9E427A75E7506F7AA12784E94FF3578"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\carlos\\hotelpet-entrega-limpa.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "79E5F9FD617B10143517F8613BC0F48EF6841FE2FB180C72EB271C9C309B9552"
+  },
+  {
+    "Origem": "K:\\bagunça\\g\\carlos\\hotelpet-pronto.zip",
+    "ArquivosCodigo": 17,
+    "Paginas": 16,
+    "Scripts": 0,
+    "NomesScripts": [],
+    "SHA256": "CEAB56E340B519FDC55BBB928DC7F0D10B9EDFD6094D90CB230E7FA0BAEC4053"
+  }
+]

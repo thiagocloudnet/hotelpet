@@ -1,0 +1,9 @@
+# ==========================================
+# Robots.txt — Hotel Pet (https://hotelpet.shop)
+# Projeto Acadêmico: Thiago Ferreira Prates Neves (ADS/UESB)
+# ==========================================
+User-agent: *
+Allow: /
+
+# Sitemap Oficial
+Sitemap: https://hotelpet.shop/sitemap.xml

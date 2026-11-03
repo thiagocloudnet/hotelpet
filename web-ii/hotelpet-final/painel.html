@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
 Autor: Thiago Ferreira Prates Neves
 Professor: Lucas Santos de Oliveira
@@ -6,148 +6,390 @@ Disciplina: Programação Web II (2026.2)
 Projeto: Hotel Pet — UESB
 Arquivo: hotelpet-final/painel.html
 -->
-<!-- Página inicial do Hotel Pet Shop: resumo do hotel e acessos principais. -->
+<!-- Página inicial do Hotel Pet: resumo do hotel e acessos principais. -->
 <html lang="pt-BR">
-<head>
-  <!-- Acompanhar a ocupação do Hotel Pet, as estadias e os responsáveis pelos animais. -->
-  <meta charset="UTF-8">
-  <meta name="description" content="Acompanhar a ocupação do Hotel Pet, as estadias e os responsáveis pelos animais. Projeto de Thiago Ferreira Prates Neves — ADS/UESB.">
-  <meta name="author" content="Thiago Ferreira Prates Neves">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Pet · Painel · Thiago Prates</title>
-  <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body data-stage="3">
-  <div class="app-shell">
-    <aside class="sidebar">
-      <a class="brand" href="painel.html" aria-label="Hotel Pet Shop - página inicial">
-        <img src="imagens/logo.svg" alt="">
-        <span>Hotel Pet Shop</span>
-      </a>
-      <nav class="sidebar__nav" aria-label="Navegação principal"><a href="painel.html" class="sidebar__link is-active" aria-current="page" title="Painel"><img src="imagens/icones/home.svg" class="nav-icon" alt=""><span>Painel</span></a>
-        <a href="pets.html" class="sidebar__link" aria-label="Pets" title="Pets">
-          <img src="imagens/icones/pets.svg" class="nav-icon" alt=""><span>Pet</span>
-        </a>
-        <a href="usuarios.html" class="sidebar__link" aria-label="Usuários" title="Usuários">
-          <img src="imagens/icones/users.svg" class="nav-icon" alt=""><span>Usuários</span>
-        </a>
-        <a href="configuracoes.html" class="sidebar__link" aria-label="Configurações" title="Configurações">
-          <img src="imagens/icones/settings.svg" class="nav-icon" alt=""><span>Configurações</span>
-        </a>
-        <a href="reservas.html" class="sidebar__link" aria-label="Reservas" title="Reservas">
-          <img src="imagens/icones/reservas.svg" class="nav-icon" alt=""><span>Reservas</span>
-        </a>
-      </nav>
-    </aside>
+  <head>
+    <!-- Acompanhar a ocupação do Hotel Pet, as estadias e os responsáveis pelos animais. -->
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Acompanhar a ocupação do Hotel Pet, as estadias e os responsáveis pelos animais. Projeto de Thiago Ferreira Prates Neves — ADS/UESB."
+    />
+    <meta name="author" content="Thiago Ferreira Prates Neves" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Pet · Painel · Thiago Prates</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="icon" type="image/png" href="imagens/favicon-hotel-pet.png" />
+    <!-- Google tag (gtag.js) - Google Analytics 4 (Fluxo: Pets | ID: G-8PHJYHNDK5) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHJYHNDK5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <div class="app-main">
-      <header class="topbar">
-        <a href="perfil.html" class="topbar__user" aria-label="Abrir perfil de Thiago Ferreira Prates Neves">
-          <img src="imagens/avatar-gerente.jpeg" alt="">
-          <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+      gtag('config', 'G-8PHJYHNDK5', {
+        send_page_view: true,
+        stream_id: '16266387736',
+        stream_name: 'Pets',
+        cookie_flags: 'SameSite=None;Secure'
+      });
+    </script>
+    <script src="js/analytics-eventos.js" defer></script>
+    <!-- Metatags de SEO e Otimização Social -->
+    <link rel="canonical" href="https://hotelpet.shop/painel.html" />
+    <meta name="keywords" content="hotel pet, hospedagem de animais, cães, gatos, SRD, vira-lata, diárias pet, cuidado animal, UESB, Salvador, Bahia" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hotel Pet — Hospedagem e Cuidado Animal" />
+    <meta property="og:title" content="Hotel Pet · Painel de Controle · Visão Geral" />
+    <meta property="og:description" content="Acompanhe a taxa de ocupação, diárias ativas, hóspedes acolhidos e status de quartos no painel gerencial do Hotel Pet." />
+    <meta property="og:url" content="https://hotelpet.shop/painel.html" />
+    <meta property="og:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <meta property="og:image:alt" content="Logomarca do Hotel Pet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hotel Pet · Painel de Controle · Visão Geral" />
+    <meta name="twitter:description" content="Acompanhe a taxa de ocupação, diárias ativas, hóspedes acolhidos e status de quartos no painel gerencial do Hotel Pet." />
+    <meta name="twitter:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <!-- Dados Estruturados Schema.org / SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hotel Pet",
+      "url": "https://hotelpet.shop",
+      "logo": "https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png",
+      "image": "https://hotelpet.shop/imagens/pet-cao-ilustrativo.png",
+      "description": "Hospedagem profissional e cuidados completos para cães, gatos e animais domésticos. Inclui catálogo ilustrado de raças com Sem Raça Definida (SRD) e controle de diárias por porte.",
+      "telephone": "+55-77-99999-9999",
+      "priceRange": "R$ 50 - R$ 80",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "BA"
+      }
+    }
+    </script>
+  </head>
+  <body data-stage="3">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a
+          class="brand"
+          href="painel.html"
+          aria-label="Hotel Pet - página inicial"
+        >
+          <img src="imagens/logo-hotel-pet-horizontal.png" alt="Hotel Pet" />
         </a>
-      </header>
-
-      <main class="page-content">
-        <div class="breadcrumb"><a href="painel.html" aria-current="page">Início</a></div>
-        <h1 class="page-title">Painel do Hotel Pet Shop</h1>
-        <p class="settings-value">Acompanhe a ocupação, organize as próximas estadias e mantenha cada pet ligado ao seu responsável.</p>
-
-        <div class="demo-actions"><button type="button" class="button button--secondary" id="carregar-exemplo">Adicionar exemplos até 90% de ocupação</button><small>Dados fictícios. Preserva cadastros existentes e usa a capacidade configurada.</small></div>
-        <section class="dashboard-metrics" aria-label="Resumo do hotel">
-          <article class="card metric-card" data-metric-card="reservas"><img class="metric-card__icon" src="imagens/icones/painel-agenda.svg" alt=""><div class="metric-card__label">Reservas cadastradas</div><div class="metric-card__value" data-metric="reservas">4</div></article>
-          <article class="card metric-card" data-metric-card="hospedados"><img class="metric-card__icon" src="imagens/icones/painel-estadia.svg" alt=""><div class="metric-card__label">Pets hospedados</div><div class="metric-card__value" data-metric="hospedados">1</div></article>
-          <article class="card metric-card" data-metric-card="responsaveis"><img class="metric-card__icon" src="imagens/icones/painel-responsavel.svg" alt=""><div class="metric-card__label">Responsáveis cadastrados</div><div class="metric-card__value" data-metric="responsaveis">3</div></article>
-          <article class="card metric-card" data-metric-card="diarias"><img class="metric-card__icon" src="imagens/icones/painel-diarias.svg" alt=""><div class="metric-card__label">Diárias reservadas</div><div class="metric-card__value" data-metric="diarias">13</div></article>
-          <article class="card metric-card metric-card--capacity" data-metric-card="vagas"><img class="metric-card__icon" src="imagens/icones/painel-vagas.svg" alt=""><div class="metric-card__label">Ocupação do hotel</div><div class="metric-card__value" data-metric="vagas" data-hotel-capacity>1 / 30</div><small>Vagas ocupadas / capacidade total</small><progress class="capacity-progress" max="30" value="1" aria-label="Ocupação do hotel"></progress></article>
-        </section>
-
-        <p class="occupancy-summary" data-occupancy-summary>Ocupação calculada pelas reservas em andamento dentro do período da estadia.</p>
-        <h2 class="page-title page-section-title">Acesso rápido</h2>
-        <nav class="quick-links" aria-label="Acessos rápidos">
-          <a href="reservas.html" class="quick-link">
-            <span class="quick-link__icon"><img src="imagens/icones/reservas.svg" alt=""></span>
-            <span class="quick-link__title">Reservas</span>
-            <small>Acompanhar as reservas do hotel</small>
+        <nav class="sidebar__nav" aria-label="Navegação principal">
+          <a
+            href="painel.html"
+            class="sidebar__link is-active"
+            aria-current="page"
+            title="Painel"
+            ><img src="imagens/icones/home.svg" class="nav-icon" alt="" /><span
+              >Painel</span
+            ></a
+          >
+          <a
+            href="pets.html"
+            class="sidebar__link"
+            aria-label="Pets"
+            title="Pets"
+          >
+            <img src="imagens/icones/pets.svg" class="nav-icon" alt="" /><span
+              >Animal</span
+            > </a
+          ><a
+            href="racas.html"
+            class="sidebar__link"
+            aria-label="Catálogo de animais"
+            title="Catálogo de animais"
+            ><img src="imagens/icones/pets.svg" class="nav-icon" alt="" /><span
+              >Raças</span
+            ></a
+          >
+          <a
+            href="usuarios.html"
+            class="sidebar__link"
+            aria-label="Usuários"
+            title="Usuários"
+          >
+            <img src="imagens/icones/users.svg" class="nav-icon" alt="" /><span
+              >Usuários</span
+            >
           </a>
-          <a href="pets.html" class="quick-link">
-            <span class="quick-link__icon"><img src="imagens/icones/pets.svg" alt=""></span>
-            <span class="quick-link__title">Pets</span>
-            <small>Consultar pets cadastrados</small>
+          <a
+            href="configuracoes.html"
+            class="sidebar__link"
+            aria-label="Configurações"
+            title="Configurações"
+          >
+            <img
+              src="imagens/icones/settings.svg"
+              class="nav-icon"
+              alt=""
+            /><span>Configurações</span>
           </a>
-          <a href="usuarios.html" class="quick-link">
-            <span class="quick-link__icon"><img src="imagens/icones/users.svg" alt=""></span>
-            <span class="quick-link__title">Usuários</span>
-            <small>Consultar clientes e equipe</small>
-          </a>
-          <a href="configuracoes.html" class="quick-link">
-            <span class="quick-link__icon"><img src="imagens/icones/settings.svg" alt=""></span>
-            <span class="quick-link__title">Configurações</span>
-            <small>Até 10 kg: <span data-rate-small>R$ 50,00</span></small>
-            <small>10,1–25 kg: <span data-rate-medium>R$ 65,00</span></small>
-            <small>Acima de 25 kg: <span data-rate-large>R$ 80,00</span></small>
+          <a
+            href="reservas.html"
+            class="sidebar__link"
+            aria-label="Reservas"
+            title="Reservas"
+          >
+            <img
+              src="imagens/icones/reservas.svg"
+              class="nav-icon"
+              alt=""
+            /><span>Reservas</span>
           </a>
         </nav>
+      </aside>
 
-        <section class="card u-margin-top">
-          <div class="page-actions">
-            <h2 class="page-section-title">Reservas recentes</h2>
-            <a href="reservas.html" class="row-action row-action--view">Ver todas</a>
+      <div class="app-main">
+        <header class="topbar">
+          <a
+            href="perfil.html"
+            class="topbar__user"
+            aria-label="Abrir perfil de Thiago Ferreira Prates Neves"
+          >
+            <img src="imagens/avatar-gerente.jpeg" alt="" />
+            <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+          </a>
+        </header>
+
+        <main class="page-content">
+          <div class="breadcrumb">
+            <a href="painel.html" aria-current="page">Início</a>
           </div>
-          <div class="table-scroll">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th scope="col">Reserva</th>
-                  <th scope="col">Pet</th>
-                  <th scope="col">Cliente</th>
-                  <th scope="col">Status</th>
-                  <th scope="col">Detalhes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><span class="reservation-code">0001hsp</span></td>
-                  <td>Toto</td>
-                  <td>Rafael Costa</td>
-                  <td><span class="status-badge status-badge--pending">Pendente</span></td>
-                  <td><a href="reserva_visualizar.html?id=r1" class="row-action row-action--view">Detalhes</a></td>
-                </tr>
-                <tr>
-                  <td><span class="reservation-code">0002hsp</span></td>
-                  <td>Mia</td>
-                  <td>Camila Ferreira</td>
-                  <td><span class="status-badge status-badge--pending">Pendente</span></td>
-                  <td><a href="reserva_visualizar.html?id=r2" class="row-action row-action--view">Detalhes</a></td>
-                </tr>
-                <tr>
-                  <td><span class="reservation-code">0003hsp</span></td>
-                  <td>Bolinha</td>
-                  <td>João Viana</td>
-                  <td><span class="status-badge status-badge--complete">Finalizada</span></td>
-                  <td><a href="reserva_visualizar.html?id=r3" class="row-action row-action--view">Detalhes</a></td>
-                </tr>
-                <tr>
-                  <td><span class="reservation-code">0004hsp</span></td>
-                  <td>Piu-Piu</td>
-                  <td>Rafael Costa</td>
-                  <td><span class="status-badge status-badge--in-progress">Em andamento</span></td>
-                  <td><a href="reserva_visualizar.html?id=r4" class="row-action row-action--view">Detalhes</a></td>
-                </tr>
-              </tbody>
-            </table>
+          <h1 class="page-title">Painel do Hotel Pet</h1>
+          <p class="settings-value">
+            Acompanhe a ocupação, organize as próximas estadias e mantenha cada
+            pet ligado ao seu responsável.
+          </p>
+
+          <div class="demo-actions">
+            <button
+              type="button"
+              class="button button--secondary"
+              id="carregar-exemplo"
+            >
+              Adicionar exemplos até 90% de ocupação</button
+            ><small
+              >Dados fictícios. Preserva cadastros existentes e usa a capacidade
+              configurada.</small
+            >
           </div>
-        </section>
-      </main>
-      <footer class="site-footer">Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves</footer>
+          <section class="dashboard-metrics" aria-label="Resumo do hotel">
+            <article class="card metric-card" data-metric-card="reservas">
+              <img
+                class="metric-card__icon"
+                src="imagens/icones/painel-agenda.svg"
+                alt=""
+              />
+              <div class="metric-card__label">Reservas cadastradas</div>
+              <div class="metric-card__value" data-metric="reservas">4</div>
+            </article>
+            <article class="card metric-card" data-metric-card="hospedados">
+              <img
+                class="metric-card__icon"
+                src="imagens/icones/painel-estadia.svg"
+                alt=""
+              />
+              <div class="metric-card__label">Pets hospedados</div>
+              <div class="metric-card__value" data-metric="hospedados">1</div>
+            </article>
+            <article class="card metric-card" data-metric-card="responsaveis">
+              <img
+                class="metric-card__icon"
+                src="imagens/icones/painel-responsavel.svg"
+                alt=""
+              />
+              <div class="metric-card__label">Responsáveis cadastrados</div>
+              <div class="metric-card__value" data-metric="responsaveis">3</div>
+            </article>
+            <article class="card metric-card" data-metric-card="diarias">
+              <img
+                class="metric-card__icon"
+                src="imagens/icones/painel-diarias.svg"
+                alt=""
+              />
+              <div class="metric-card__label">Diárias reservadas</div>
+              <div class="metric-card__value" data-metric="diarias">13</div>
+            </article>
+            <article
+              class="card metric-card metric-card--capacity"
+              data-metric-card="vagas"
+            >
+              <img
+                class="metric-card__icon"
+                src="imagens/icones/painel-vagas.svg"
+                alt=""
+              />
+              <div class="metric-card__label">Ocupação do hotel</div>
+              <div
+                class="metric-card__value"
+                data-metric="vagas"
+                data-hotel-capacity
+              >
+                1 / 30
+              </div>
+              <small>Vagas ocupadas / capacidade total</small
+              ><progress
+                class="capacity-progress"
+                max="30"
+                value="1"
+                aria-label="Ocupação do hotel"
+              ></progress>
+            </article>
+          </section>
+
+          <p class="occupancy-summary" data-occupancy-summary>
+            Ocupação calculada pelas reservas em andamento dentro do período da
+            estadia.
+          </p>
+          <h2 class="page-title page-section-title">Acesso rápido</h2>
+          <nav class="quick-links" aria-label="Acessos rápidos">
+            <a href="reservas.html" class="quick-link">
+              <span class="quick-link__icon"
+                ><img src="imagens/icones/reservas.svg" alt=""
+              /></span>
+              <span class="quick-link__title">Reservas</span>
+              <small>Acompanhar as reservas do hotel</small>
+            </a>
+            <a href="pets.html" class="quick-link">
+              <span class="quick-link__icon"
+                ><img src="imagens/icones/pets.svg" alt=""
+              /></span>
+              <span class="quick-link__title">Animais</span>
+              <small>Consultar pets cadastrados</small>
+            </a>
+            <a href="usuarios.html" class="quick-link">
+              <span class="quick-link__icon"
+                ><img src="imagens/icones/users.svg" alt=""
+              /></span>
+              <span class="quick-link__title">Usuários</span>
+              <small>Consultar clientes e equipe</small>
+            </a>
+            <a href="configuracoes.html" class="quick-link">
+              <span class="quick-link__icon"
+                ><img src="imagens/icones/settings.svg" alt=""
+              /></span>
+              <span class="quick-link__title">Configurações</span>
+              <small>Até 10 kg: <span data-rate-small>R$ 50,00</span></small>
+              <small>10,1–25 kg: <span data-rate-medium>R$ 65,00</span></small>
+              <small
+                >Acima de 25 kg: <span data-rate-large>R$ 80,00</span></small
+              >
+            </a>
+          </nav>
+
+          <section class="card u-margin-top">
+            <div class="page-actions">
+              <h2 class="page-section-title">Reservas recentes</h2>
+              <a href="reservas.html" class="row-action row-action--view"
+                >Ver todas</a
+              >
+            </div>
+            <div class="table-scroll">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Reserva</th>
+                    <th scope="col">Animal</th>
+                    <th scope="col">Cliente</th>
+                    <th scope="col">Situação</th>
+                    <th scope="col">Detalhes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="reservation-code">0001hsp</span></td>
+                    <td>Toto</td>
+                    <td>Rafael Costa</td>
+                    <td>
+                      <span class="status-badge status-badge--pending"
+                        >Pendente</span
+                      >
+                    </td>
+                    <td>
+                      <a
+                        href="reserva_visualizar.html?id=r1"
+                        class="row-action row-action--view"
+                        >Detalhes</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span class="reservation-code">0002hsp</span></td>
+                    <td>Mia</td>
+                    <td>Camila Ferreira</td>
+                    <td>
+                      <span class="status-badge status-badge--pending"
+                        >Pendente</span
+                      >
+                    </td>
+                    <td>
+                      <a
+                        href="reserva_visualizar.html?id=r2"
+                        class="row-action row-action--view"
+                        >Detalhes</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span class="reservation-code">0003hsp</span></td>
+                    <td>Bolinha</td>
+                    <td>João Viana</td>
+                    <td>
+                      <span class="status-badge status-badge--complete"
+                        >Finalizada</span
+                      >
+                    </td>
+                    <td>
+                      <a
+                        href="reserva_visualizar.html?id=r3"
+                        class="row-action row-action--view"
+                        >Detalhes</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span class="reservation-code">0004hsp</span></td>
+                    <td>Piu-Piu</td>
+                    <td>Rafael Costa</td>
+                    <td>
+                      <span class="status-badge status-badge--in-progress"
+                        >Em andamento</span
+                      >
+                    </td>
+                    <td>
+                      <a
+                        href="reserva_visualizar.html?id=r4"
+                        class="row-action row-action--view"
+                        >Detalhes</a
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+        <footer class="site-footer">
+          Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves
+        </footer>
+      </div>
     </div>
-  </div>
-  <script src="js/dados-exemplo.js" defer></script>
-  <script src="js/hotel-app.js" defer></script>
-  <script src="js/hotel-config.js" defer></script>
-  <script src="js/interface.js" defer></script>
-  <script src="js/tema-perfil.js" defer></script>
-  <script src="js/pesquisa-global.js" defer></script>
-</body>
+    <script src="js/fuso-horario.js" defer></script>
+    <script src="js/financeiro-regras.js" defer></script>
+    <script src="js/dados-exemplo.js" defer></script>
+    <script src="js/hotel-app.js" defer></script>
+    <script src="js/hotel-config.js" defer></script>
+    <script src="js/interface.js" defer></script>
+    <script src="js/tema-perfil.js" defer></script>
+    <script src="js/pesquisa-global.js" defer></script>
+    <script src="js/hospedagem-local.js" defer></script>
+    <script src="js/fechamento-caixa.js" defer></script>
+  </body>
 </html>
-

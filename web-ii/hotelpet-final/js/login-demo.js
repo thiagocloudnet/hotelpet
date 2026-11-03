@@ -16,7 +16,10 @@ passwordToggle?.addEventListener("click", () => {
   const visible = passwordInput.type === "password";
   passwordInput.type = visible ? "text" : "password";
   passwordToggle.textContent = visible ? "Ocultar" : "Mostrar";
-  passwordToggle.setAttribute("aria-label", visible ? "Ocultar senha" : "Mostrar senha");
+  passwordToggle.setAttribute(
+    "aria-label",
+    visible ? "Ocultar senha" : "Mostrar senha",
+  );
   passwordToggle.setAttribute("aria-pressed", String(visible));
   passwordInput.focus();
 });
@@ -25,12 +28,16 @@ loginForm?.addEventListener("submit", (event) => {
   // Impede que os campos sejam enviados pela URL ou para um servidor inexistente.
   event.preventDefault();
 
-  const username = document.querySelector("#usuario").value.trim().toLowerCase();
+  const username = document
+    .querySelector("#usuario")
+    .value.trim()
+    .toLowerCase();
   const password = passwordInput.value;
 
   // Credencial pública de exemplo: comparação local para a atividade, sem autenticação real.
   if (username !== "thiagoprates@hotelpet.shop" || password !== "barao17@") {
-    loginFeedback.textContent = "Confira o usuário e a senha demonstrativa exibidos na tela.";
+    loginFeedback.textContent =
+      "Confira o usuário e a senha demonstrativa exibidos na tela.";
     return;
   }
 
@@ -38,4 +45,3 @@ loginForm?.addEventListener("submit", (event) => {
   document.querySelector("#senha").value = "";
   window.location.href = "painel.html";
 });
-

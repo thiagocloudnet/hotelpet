@@ -1,0 +1,18 @@
+{
+  "aprovado": true,
+  "total": 11,
+  "verificacoes": [
+    "Configuração antiga sem país/fuso assume Brasil e Brasília",
+    "Relógio ignora o fuso do computador quando hotel usa Brasília",
+    "Mudar país substitui fusos disponíveis por opções compatíveis",
+    "País e fuso persistem após salvar e recarregar",
+    "Relógio identifica o fuso escolhido",
+    "Alterar fuso não reescreve cadastros ou reservas",
+    "Ocupação usa data e hora locais do hotel na virada do dia",
+    "País e fuso incompatíveis são rejeitados",
+    "Vaga é liberada exatamente ao meio-dia no fuso escolhido",
+    "Configuração corrompida retorna ao padrão válido",
+    "Configurações cabem em tela de 320 pixels"
+  ],
+  "erros": []
+}

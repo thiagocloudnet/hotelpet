@@ -1,0 +1,3675 @@
+{
+  "cao:Airedale Terrier": {
+    "image": "imagens/racas/cao-airedaleterrier.webp",
+    "author": "Zuni1520",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Airedale-terrier-charles14m.jpg"
+  },
+  "cao:Akita": {
+    "image": "imagens/racas/cao-akita.webp",
+    "author": "Jon Cano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akita_Inu_Face_Daiju.jpg"
+  },
+  "cao:Affenpinscher": {
+    "image": "imagens/racas/cao-affenpinscher.webp",
+    "author": "Futurebreak",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Affenpinscher_breed.jpg"
+  },
+  "cao:Afghan Hound": {
+    "image": "imagens/racas/cao-afghanhound.webp",
+    "author": "SheltieBoy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKC_Helena_Fall_Dog_Show_2011.jpg"
+  },
+  "cao:American Akita": {
+    "image": "imagens/racas/cao-americanakita.webp",
+    "author": "Jon Cano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akita_Inu_Face_Daiju.jpg"
+  },
+  "cao:Alaskan Malamute": {
+    "image": "imagens/racas/cao-alaskanmalamute.webp",
+    "author": "SCMW",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alaskan_Malamute.jpg"
+  },
+  "cao:American Cocker Spaniel": {
+    "image": "imagens/racas/cao-americancockerspaniel.webp",
+    "author": "Gergely Vass",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EnglishCockerSpaniel_simon.jpg"
+  },
+  "cao:American Foxhound": {
+    "image": "imagens/racas/cao-americanfoxhound.webp",
+    "author": "Athletesrun",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Foxfound.JPG"
+  },
+  "cao:American Staffordshire Terrier": {
+    "image": "imagens/racas/cao-americanstaffordshireterrier.webp",
+    "author": "State Farm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_American_Staffordshire_terrier.jpg"
+  },
+  "cao:American Water Spaniel": {
+    "image": "imagens/racas/cao-americanwaterspaniel.webp",
+    "author": "Awsguy1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_d%27eau_americain_champion_1.JPG"
+  },
+  "cao:Ariegeois": {
+    "image": "imagens/racas/cao-ariegeois.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariegehound3.jpg",
+    "referenceTitle": "Ariégeois"
+  },
+  "cao:Alpenländische Dachsbracke (Alpine Dachsbracke)": {
+    "image": "imagens/racas/cao-alpenlandischedachsbrackealpinedachsbracke.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpejski_go%C5%84czy_kr%C3%B3tkono%C5%BCny_g99.jpg",
+    "referenceTitle": "Alpine Dachsbracke"
+  },
+  "cao:Australian Cattle Dog": {
+    "image": "imagens/racas/cao-australiancattledog.webp",
+    "author": "Zingpix",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ACD-blue-spud.jpg"
+  },
+  "cao:Australian Kelpie": {
+    "image": "imagens/racas/cao-australiankelpie.webp",
+    "author": "davepaku",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_Kelpie_portrait.jpg"
+  },
+  "cao:Anglo-Français De Petite Venerie (Medium-Sized Anglo-French Hound)": {
+    "image": "imagens/racas/cao-anglofrancaisdepetiteveneriemediumsizedanglofrenchhound.jpg",
+    "author": "Jwh",
+    "license": "CC BY-SA 3.0 lu",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anglo-fran%C3%A7ais_de_petite_v%C3%A9nerie,_Derrida-101.jpg",
+    "referenceTitle": "Anglo-Français de Petite Vénerie"
+  },
+  "cao:Australian Shepherd": {
+    "image": "imagens/racas/cao-australianshepherd.webp",
+    "author": "Ben Gwilliam from Fort Lauderdale, Florida, USA. Telephone: 954-309-1444. Email: BENGWILLIAM at GMAIL.COM",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_black_tricolour.jpg"
+  },
+  "cao:Appenzeller Sennenhund (Appenzell Cattle Dog)": {
+    "image": "imagens/racas/cao-appenzellersennenhundappenzellcattledog.webp",
+    "author": "SportKBK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abora_z_Velk%C3%A9ho_%C3%9Ajezda1.jpg"
+  },
+  "cao:Australian Silky Terrier": {
+    "image": "imagens/racas/cao-australiansilkyterrier.webp",
+    "author": "Dagur Brynjólfsson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_Australian_Silky_Terrier.jpg"
+  },
+  "cao:Australian Terrier": {
+    "image": "imagens/racas/cao-australianterrier.webp",
+    "author": "island silks",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02_Australian_Silky_Terrier,_Zack,_spring_2012.jpg"
+  },
+  "cao:Azawakh": {
+    "image": "imagens/racas/cao-azawakh.webp",
+    "author": "ToB (2004)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azawakh_bitch_Shira-tb.jpg"
+  },
+  "cao:Basenji": {
+    "image": "imagens/racas/cao-basenji.webp",
+    "author": "Niko Herlin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2008-05-01_a_Basenji_03.jpg"
+  },
+  "cao:Aïdi (Chien De Montagne De L'Atlas) (Atlas Mountain Dog (Aidi))": {
+    "image": "imagens/racas/cao-aidichiendemontagnedelatlasatlasmountaindogaidi.jpg",
+    "author": "HichamB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aidi_Atlas.jpg",
+    "referenceTitle": "Aidi"
+  },
+  "cao:Barbet (French Water Dog)": {
+    "image": "imagens/racas/cao-barbetfrenchwaterdog.webp",
+    "author": "Desaix83, d'après le travail de Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbet_Fond_Blanc.jpg"
+  },
+  "cao:Basset Bleu De Gascogne (Blue Gascony Basset)": {
+    "image": "imagens/racas/cao-bassetbleudegascognebluegasconybasset.jpg",
+    "author": "M.W. Reichert (Eingestellt von Caronna 10:10, 25 January 2006)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basset_bleu_de_Gascogne.jpg",
+    "referenceTitle": "Basset Bleu de Gascogne"
+  },
+  "cao:Basset Artesien Normand (Norman Artesien Basset)": {
+    "image": "imagens/racas/cao-bassetartesiennormandnormanartesienbasset.jpg",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grupp_6_BASSET_ART%C3%89SIEN_NORMAND,_Skogvaktarens_Queen_Sally_(24180074612).jpg",
+    "referenceTitle": "Basset Artésien Normand"
+  },
+  "cao:Basset Fauve De Bretagne": {
+    "image": "imagens/racas/cao-bassetfauvedebretagne.webp",
+    "author": "Baslerfauves",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basset_Fauve_de_Bretagne_(male).jpg"
+  },
+  "cao:Beagle": {
+    "image": "imagens/racas/cao-beagle.webp",
+    "author": "Claude Valroff, Original uploader was Julien Valroff at fr.wikipedia",
+    "license": "CC BY-SA 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beagle_Upsy.jpg"
+  },
+  "cao:Basset Hound": {
+    "image": "imagens/racas/cao-bassethound.webp",
+    "author": "Alexbassethound",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basset-hound-dog-posing-for-a-close-up-photo.webp"
+  },
+  "cao:Bedlington Terrier": {
+    "image": "imagens/racas/cao-bedlingtonterrier.webp",
+    "author": "Jonathan Palombo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Elvis%22_the_dog_(6990154625).jpg"
+  },
+  "cao:Bearded Collie": {
+    "image": "imagens/racas/cao-beardedcollie.webp",
+    "author": "marbla123",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bearded_Collie.jpg"
+  },
+  "cao:Beagle-Harrier (Beagle Harrier)": {
+    "image": "imagens/racas/cao-beagleharrierbeagleharrier.jpg",
+    "author": "Grzes1966",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beagle_harrier.JPG",
+    "referenceTitle": "Beagle-Harrier"
+  },
+  "cao:Bayerischer Gebirgsschweisshund (Bavarian Mountain Scent Hound)": {
+    "image": "imagens/racas/cao-bayerischergebirgsschweisshundbavarianmountainscenthound.webp",
+    "author": "Ralf Lotys (Sicherlich)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2005-09_Zoran_1.jpg"
+  },
+  "cao:Berger Blanc Suisse (White Swiss Shepherd Dog)": {
+    "image": "imagens/racas/cao-bergerblancsuissewhiteswissshepherddog.jpg",
+    "author": "Durdur31",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Swiss_Shepherd_Dog_Djinn_(cropped).JPG",
+    "referenceTitle": "White Swiss Shepherd Dog"
+  },
+  "cao:Berger De Beauce (Beauce Sheepdog)": {
+    "image": "imagens/racas/cao-bergerdebeaucebeaucesheepdog.webp",
+    "author": "Desaix83, d'après le travail de Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beauceron_Fond_Blanc.jpg"
+  },
+  "cao:Berger De Brie (Briard)": {
+    "image": "imagens/racas/cao-bergerdebriebriard.webp",
+    "author": "Birgit Balzer, Deutschland (uploaded by Caronna 17:00, 10 Feb 2005 (UTC))",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Briard_fauve.JPG"
+  },
+  "cao:Berger De Picardie (Picardy Sheepdog)": {
+    "image": "imagens/racas/cao-bergerdepicardiepicardysheepdog.webp",
+    "author": "Cufleadh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picard_Delice_Stacked.jpg"
+  },
+  "cao:Berner Sennenhund (Bernese Mountain Dog)": {
+    "image": "imagens/racas/cao-bernersennenhundbernesemountaindog.webp",
+    "author": "Psinkeric",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sezare_the_dog_(cropped).jpg"
+  },
+  "cao:Bichon A Poil Frise (Bichon Frise)": {
+    "image": "imagens/racas/cao-bichonapoilfrisebichonfrise.webp",
+    "author": "Heike Andres",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bichon_Fris%C3%A9_-_studdogbichon.jpg"
+  },
+  "cao:Black And Tan Coonhound": {
+    "image": "imagens/racas/cao-blackandtancoonhound.webp",
+    "author": "Krysta",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_And_Tan_Coonhound.jpg"
+  },
+  "cao:Bolognese": {
+    "image": "imagens/racas/cao-bolognese.webp",
+    "author": "Mrtibbs1999",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_adult_bolognese_dog_(cropped).jpg"
+  },
+  "cao:Border Collie": {
+    "image": "imagens/racas/cao-bordercollie.webp",
+    "author": "IketaniDaisei",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20160428_dog_border_collie_panting.jpg"
+  },
+  "cao:Bichon Havanais (Havanese)": {
+    "image": "imagens/racas/cao-bichonhavanaishavanese.webp",
+    "author": "QHuge",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_havanese_dog.jpg"
+  },
+  "cao:Billy": {
+    "image": "imagens/racas/cao-billy.jpg",
+    "author": "MylèneTM",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tivoli_au_Rallye_Gaillardet_en_2023_(cropped).jpg",
+    "referenceTitle": "Billy (dog breed)"
+  },
+  "cao:Boston Terrier": {
+    "image": "imagens/racas/cao-bostonterrier.webp",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BOSTON_TERRIER,_Ving%C3%A5rdens_Essi_von_Richards_(23995273800).2.jpg"
+  },
+  "cao:Border Terrier": {
+    "image": "imagens/racas/cao-borderterrier.webp",
+    "author": "Charles J Sharp",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Border-terrier-bitch.jpg"
+  },
+  "cao:Bosanski Ostrodlaki Gonic-Barak (Bosnian Broken-Haired Hound - Called Barak)": {
+    "image": "imagens/racas/cao-bosanskiostrodlakigonicbarakbosnianbrokenhairedhoundcalledbarak.jpg",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_6-_BOSANSKI_OSTRODLAKI_GONIC-BARAK,_Sandy_(23866392689).jpg",
+    "referenceTitle": "Barak hound"
+  },
+  "cao:Bouledogue Français (French Bulldog)": {
+    "image": "imagens/racas/cao-bouledoguefrancaisfrenchbulldog.webp",
+    "author": "Chraibi7886678",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:900-French-Bulldog-l.jpg"
+  },
+  "cao:Bouvier Des Ardennes": {
+    "image": "imagens/racas/cao-bouvierdesardennes.jpg",
+    "author": "Andreagenial",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boyero-de-las-ardenas7.jpg",
+    "referenceTitle": "Bouvier des Ardennes"
+  },
+  "cao:Bouvier Des Flandres-Vlaamse Koehond (Bouvier Des Flandres)": {
+    "image": "imagens/racas/cao-bouvierdesflandresvlaamsekoehondbouvierdesflandres.webp",
+    "author": "Andreagenial",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boyero-de-las-ardenas7.jpg"
+  },
+  "cao:Bracco Italiano (Italian Pointing Dog)": {
+    "image": "imagens/racas/cao-braccoitalianoitalianpointingdog.webp",
+    "author": "Desaix83, d'après le travail de Gábor Essösy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bracco_Italiano_Fond_Blanc.jpg"
+  },
+  "cao:Braque D'Auvergne (Auvergne Pointer)": {
+    "image": "imagens/racas/cao-braquedauvergneauvergnepointer.jpg",
+    "author": "Mrsthurlow",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braque_d_Auvergne.jpg",
+    "referenceTitle": "Braque d'Auvergne"
+  },
+  "cao:Brandlbracke - (Vieräugl) (Austrian Black And Tan Hound)": {
+    "image": "imagens/racas/cao-brandlbrackevierauglaustrianblackandtanhound.jpg",
+    "author": "Steffen Heinz ( Caronna )",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brandlbracke.JPG",
+    "referenceTitle": "Austrian Black and Tan Hound"
+  },
+  "cao:Braque De L'Ariège (Ariege Pointing Dog)": {
+    "image": "imagens/racas/cao-braquedelariegeariegepointingdog.jpg",
+    "author": "not specified (except those with signature on image)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pointer_of_Ariege_from_1915.JPG",
+    "referenceTitle": "Ariège Pointer"
+  },
+  "cao:Braque Du Bourbonnais (Bourbonnais Pointing Dog)": {
+    "image": "imagens/racas/cao-braquedubourbonnaisbourbonnaispointingdog.webp",
+    "author": "Mrsthurlow",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braque_d_Auvergne.jpg"
+  },
+  "cao:Braque Français - Type Pyrenees (French Pointing Dog - Pyrenean Type)": {
+    "image": "imagens/racas/cao-braquefrancaistypepyreneesfrenchpointingdogpyreneantype.webp",
+    "author": "Johan &amp; Maria Michaëlsson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:0805_braque_francais_text.jpg"
+  },
+  "cao:Braque Français - Type Gascogne (French Pointing Dog - Gascogne Type)": {
+    "image": "imagens/racas/cao-braquefrancaistypegascognefrenchpointingdoggascognetype.jpg",
+    "author": "Kasiablanka",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wy%C5%BCe%C5%82_Gasko%C5%84ski.jpg",
+    "referenceTitle": "Braque Français"
+  },
+  "cao:Bull Terrier": {
+    "image": "imagens/racas/cao-bullterrier.webp",
+    "author": "Lilly M",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bull_Terrier_R_01.jpg"
+  },
+  "cao:Braque Saint-Germain (Saint Germain Pointer)": {
+    "image": "imagens/racas/cao-braquesaintgermainsaintgermainpointer.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braque_saint-germain_666.jpg",
+    "referenceTitle": "Braque Saint-Germain"
+  },
+  "cao:Broholmer": {
+    "image": "imagens/racas/cao-broholmer.webp",
+    "author": "WLVB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bjorn_2011.jpg"
+  },
+  "cao:Bullmastiff": {
+    "image": "imagens/racas/cao-bullmastiff.webp",
+    "author": "BootsSiR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brindle_bullmastiff_female.jpg"
+  },
+  "cao:Bulldog": {
+    "image": "imagens/racas/cao-bulldog.webp",
+    "author": "https://pixabay.com/pt/users/kaz-19203/",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Bulldog_-Dog-220489-1280.jpg"
+  },
+  "cao:Briquet Griffon Vendeen": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Cairn Terrier": {
+    "image": "imagens/racas/cao-cairnterrier.webp",
+    "author": "Bitjungle",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cairn_Terrier_-_001.jpg"
+  },
+  "cao:Canaan Dog": {
+    "image": "imagens/racas/cao-canaandog.webp",
+    "author": "Matilda",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CanaanDog3.jpg"
+  },
+  "cao:Ca De Bestiar (Majorca Shepherd Dog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Canadian Eskimo Dog": {
+    "image": "imagens/racas/cao-canadianeskimodog.jpg",
+    "author": "Exhaustfumes at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spoonsced.jpg",
+    "referenceTitle": "Canadian Eskimo Dog"
+  },
+  "cao:Cane Corso Italiano (Italian Cane Corso )": {
+    "image": "imagens/racas/cao-canecorsoitalianoitaliancanecorso.webp",
+    "author": "Claudio Domiziani",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cane_corso_temi_1_1024x768x24_(cropped).png"
+  },
+  "cao:Cane Da Pastore Abruzzese Maremmano (Abruzzes And Maremma Shepherd Dog)": {
+    "image": "imagens/racas/cao-canedapastoreabruzzesemaremmanoabruzzesandmaremmashepherddog.jpg",
+    "author": "Justlettersandnumbers",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastore_Maremmano-Abruzzese,_young_dog_(cropped).jpg",
+    "referenceTitle": "Maremmano-Abruzzese Sheepdog"
+  },
+  "cao:Cavalier King Charles Spaniel": {
+    "image": "imagens/racas/cao-cavalierkingcharlesspaniel.webp",
+    "author": "Greg Hume",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BlenheimTn.jpg"
+  },
+  "cao:Cane Da Pastore Bergamasco (Bergamasco Shepherd Dog)": {
+    "image": "imagens/racas/cao-canedapastorebergamascobergamascoshepherddog.webp",
+    "author": "Luigi Guidobono Cavalchini (Josephine06)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ortensia_di_Valle_Scrivia.jpg"
+  },
+  "cao:Caniche (Poodle)": {
+    "image": "imagens/racas/cao-canichepoodle.webp",
+    "author": "Ian Kirk from Broadstone, Dorset, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freddie_(8467901543).jpg"
+  },
+  "cao:Ceskoslovenský Vlciak (Czechoslovakian Wolfdog)": {
+    "image": "imagens/racas/cao-ceskoslovenskyvlciakczechoslovakianwolfdog.webp",
+    "author": "Claudia Schröder",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oishani_Othari_van_Koekie%27s_Ranch.jpg"
+  },
+  "cao:Ceský Fousek (Bohemian Wire-Haired Pointing Griffon)": {
+    "image": "imagens/racas/cao-ceskyfousekbohemianwirehairedpointinggriffon.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Czeski_fousek_777.jpg",
+    "referenceTitle": "Český Fousek"
+  },
+  "cao:Ceský Terier (Czech Terrier)": {
+    "image": "imagens/racas/cao-ceskyterierczechterrier.webp",
+    "author": "Elise Carroll",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Terrier_Photo_of_Face.jpg"
+  },
+  "cao:Chart Polski (Polish Greyhound)": {
+    "image": "imagens/racas/cao-chartpolskipolishgreyhound.jpg",
+    "author": "Lilly M , corected by Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chart_polski_200_LM.jpg",
+    "referenceTitle": "Polish Greyhound"
+  },
+  "cao:Chesapeake Bay Retriever": {
+    "image": "imagens/racas/cao-chesapeakebayretriever.webp",
+    "author": "Original uploader was Keith Rousseau at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeake_Bay_Retriever1.jpg"
+  },
+  "cao:Chien D'Artois (Artois Hound)": {
+    "image": "imagens/racas/cao-chiendartoisartoishound.jpg",
+    "author": "not specified (except those with signature on image)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artois_from_1915.JPG",
+    "referenceTitle": "Artois Hound"
+  },
+  "cao:Chien De Berger Belge (Belgian Shepherd Dog)": {
+    "image": "imagens/racas/cao-chiendebergerbelgebelgianshepherddog.webp",
+    "author": "Pets Adviser from Brooklyn, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Westminster_Kennel_Club_Dog_Show_(12451641865).jpg"
+  },
+  "cao:Chien De Berger Des Pyrenees A Face Rase (Pyrenean Sheepdog - Smooth Faced)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Chien De Berger Des Pyrenees A Poil Long (Long-Haired Pyrenean Sheepdog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Chien De Montagne Des Pyrenees (Pyrenean Mountain Dog)": {
+    "image": "imagens/racas/cao-chiendemontagnedespyreneespyreneanmountaindog.webp",
+    "author": "Phoenix887788",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esemplare_italiano_dal_mantello_bianco.jpg"
+  },
+  "cao:Chien De Saint Hubert (Bloodhound)": {
+    "image": "imagens/racas/cao-chiendesainthubertbloodhound.webp",
+    "author": "Pypaertv, modyfikacja Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bloodhound_423.jpg"
+  },
+  "cao:Chow Chow": {
+    "image": "imagens/racas/cao-chowchow.webp",
+    "author": "Luigi Borromeo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:03_Bokeh_the_Chow.jpg"
+  },
+  "cao:Chihuahueño (Chihuahua)": {
+    "image": "imagens/racas/cao-chihuahuenochihuahua.webp",
+    "author": "Caterinarufo",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_razza_chihuahua.jpg"
+  },
+  "cao:Chin (Japanese Chin)": {
+    "image": "imagens/racas/cao-chinjapanesechin.webp",
+    "author": "Va12le21",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ItalianChin.jpg"
+  },
+  "cao:Chinese Crested Dog": {
+    "image": "imagens/racas/cao-chinesecresteddog.jpg",
+    "author": "Tommy Gildseth",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IndyStands.jpg",
+    "referenceTitle": "Chinese Crested Dog"
+  },
+  "cao:Cimarrón Uruguayo": {
+    "image": "imagens/racas/cao-cimarronuruguayo.jpg",
+    "author": "Los atigrados",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inti_de_Los_Atigrados_et_Gardel_de_Las_Pitangas_etwas_verkleinert.jpg",
+    "referenceTitle": "Cimarrón Uruguayo"
+  },
+  "cao:Ciobanesc Românesc Carpatin (Romanian Carpathian Shepherd Dog)": {
+    "image": "imagens/racas/cao-ciobanescromanesccarpatinromaniancarpathianshepherddog.webp",
+    "author": "Alex Zelenko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carpathian_Sheepdog-1.jpg"
+  },
+  "cao:Cirneco Dell'Etna": {
+    "image": "imagens/racas/cao-cirnecodelletna.webp",
+    "author": "Vignazzi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CIRNECO_DELL%27ETNA,_MASCHIO_DI_3_ANNI.jpg"
+  },
+  "cao:Ciobanesc Românesc De Bucovina (Romanian Bucovina Shepherd)": {
+    "image": "imagens/racas/cao-ciobanescromanescdebucovinaromanianbucovinashepherd.jpg",
+    "author": "P.Marlow at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bucovina_Sheepdog.jpg",
+    "referenceTitle": "Bucovina Shepherd Dog"
+  },
+  "cao:Clumber Spaniel": {
+    "image": "imagens/racas/cao-clumberspaniel.webp",
+    "author": "Lara",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clumber_Spaniel_on_Grass.jpg"
+  },
+  "cao:Ciobanesc Românesc Mioritic (Romanian Mioritic Shepherd Dog)": {
+    "image": "imagens/racas/cao-ciobanescromanescmioriticromanianmioriticshepherddog.webp",
+    "author": "Desaix83, d'après le travail de Summer06",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_De_Berger_Roumain_De_Mioritza.jpg"
+  },
+  "cao:Coton De Tulear": {
+    "image": "imagens/racas/cao-cotondetulear.webp",
+    "author": "Sbrandner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CotonDeTulearFullCoat.jpg"
+  },
+  "cao:Curly Coated Retriever": {
+    "image": "imagens/racas/cao-curlycoatedretriever.webp",
+    "author": "Mattias Agar",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curley_coated_retriever5.jpg"
+  },
+  "cao:Collie Rough": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Collie Smooth": {
+    "image": "imagens/racas/cao-colliesmooth.jpg",
+    "author": "Mwensley",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SmoothCollie_TriColour.jpg",
+    "referenceTitle": "Smooth Collie"
+  },
+  "cao:Crnogorski Planinski Gonic (Montenegrin Mountain Hound)": {
+    "image": "imagens/racas/cao-crnogorskiplaninskigonicmontenegrinmountainhound.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montenegrinhound2.jpg",
+    "referenceTitle": "Montenegrin Mountain Hound"
+  },
+  "cao:Cão Da Serra Da Estrela (Estrela Mountain Dog)": {
+    "image": "imagens/racas/cao-caodaserradaestrelaestrelamountaindog.webp",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estrela_Mountain_Dog,_bitch_(20249089853)_(cropped).jpg"
+  },
+  "cao:Cão Da Serra De Aires (Portuguese Sheepdog)": {
+    "image": "imagens/racas/cao-caodaserradeairesportuguesesheepdog.webp",
+    "author": "Jmanur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSA-LN-CT.jpg"
+  },
+  "cao:Dachshund": {
+    "image": "imagens/racas/cao-dachshund.webp",
+    "author": "Katemil94",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8(%EB%8B%A8%EB%AA%A8%EC%A2%85)_(Dachshund_(Short)).jpg"
+  },
+  "cao:Cão De Água Português (Portuguese Water Dog)": {
+    "image": "imagens/racas/cao-caodeaguaportuguesportuguesewaterdog.webp",
+    "author": "Silke Hollje-Schumacher (Autor/Fotograf)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A3o_de_agua_Portugu%C3%AAs_1.jpg"
+  },
+  "cao:Dalmatinski Pas (Dalmatian)": {
+    "image": "imagens/racas/cao-dalmatinskipasdalmatian.webp",
+    "author": "Dalmatiner24.eu",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binka_10_06.jpg"
+  },
+  "cao:Dandie Dinmont Terrier": {
+    "image": "imagens/racas/cao-dandiedinmontterrier.webp",
+    "author": "Bonfirebuddy at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonfire_Buddy.jpg"
+  },
+  "cao:Cão De Castro Laboreiro (Castro Laboreiro Dog)": {
+    "image": "imagens/racas/cao-caodecastrolaboreirocastrolaboreirodog.jpg",
+    "author": "Schiowa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_de_Castro_Laboreiro_Ruede.jpg",
+    "referenceTitle": "Castro Laboreiro Dog"
+  },
+  "cao:Dansk-Svensk Gårdshund (Danish-Swedish Farmdog)": {
+    "image": "imagens/racas/cao-dansksvenskgardshunddanishswedishfarmdog.webp",
+    "author": "BGN-WMCO",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DanskSvenskGaardshund_(bearbeitete_Version).png"
+  },
+  "cao:Deerhound": {
+    "image": "imagens/racas/cao-deerhound.webp",
+    "author": "Sisteskrik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karrie.JPG"
+  },
+  "cao:Cão Fila De São Miguel (Saint Miguel Cattle Dog)": {
+    "image": "imagens/racas/cao-caofiladesaomiguelsaintmiguelcattledog.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azores_Cattle_Dog.jpg",
+    "referenceTitle": "Saint Miguel Cattle Dog"
+  },
+  "cao:Deutsch Drahthaar (German Wire- Haired Pointing Dog)": {
+    "image": "imagens/racas/cao-deutschdrahthaargermanwirehairedpointingdog.webp",
+    "author": "Farkas Attila",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr%C3%B3tsz%C5%91r%C5%B1_n%C3%A9met_vizsla_(cropped).jpg"
+  },
+  "cao:Deutsch Kurzhaar (German Short- Haired Pointing Dog)": {
+    "image": "imagens/racas/cao-deutschkurzhaargermanshorthairedpointingdog.webp",
+    "author": "US Weekly",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CJ_Westminister_Winner_2016_Garbonita.jpg"
+  },
+  "cao:Deutsch Langhaar": {
+    "image": "imagens/racas/cao-deutschlanghaar.webp",
+    "author": "Desaix83, d'après le travail de Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_D%27Arr%C3%AAt_Allemand_A_Poil_Long.jpg"
+  },
+  "cao:Deutsch Stichelhaar": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Deutsche Dogge (Great Dane)": {
+    "image": "imagens/racas/cao-deutschedoggegreatdane.webp",
+    "author": "Melissa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Dane_black_laying.jpg"
+  },
+  "cao:Deutscher Boxer (Boxer)": {
+    "image": "imagens/racas/cao-deutscherboxerboxer.webp",
+    "author": "Mood210",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_fawn_Boxer_undocked.jpg"
+  },
+  "cao:Deutscher Jagdterrier (German Hunting Terrier)": {
+    "image": "imagens/racas/cao-deutscherjagdterriergermanhuntingterrier.webp",
+    "author": "Pochekitalat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cikesz_Jagdterrier_002.jpg"
+  },
+  "cao:Deutscher Pinscher (German Pinscher)": {
+    "image": "imagens/racas/cao-deutscherpinschergermanpinscher.webp",
+    "author": "No machine-readable author provided. Stesi-cliff assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deutscher_Pinscher.JPG"
+  },
+  "cao:Deutscher Schäferhund (German Shepherd Dog)": {
+    "image": "imagens/racas/cao-deutscherschaferhundgermanshepherddog.webp",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20110425_German_Shepherd_Dog_8505.jpg"
+  },
+  "cao:Deutsche Bracke (German Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Deutscher Spitz (German Spitz)": {
+    "image": "imagens/racas/cao-deutscherspitzgermanspitz.webp",
+    "author": "No machine-readable author provided. Evlesa assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:817904a.jpg"
+  },
+  "cao:Deutscher Wachtelhund (German Spaniel)": {
+    "image": "imagens/racas/cao-deutscherwachtelhundgermanspaniel.webp",
+    "author": "Steffen Heinz (Caronna)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deutscher_Wachtel_2.jpg"
+  },
+  "cao:Do-Khyi (Tibetan Mastiff)": {
+    "image": "imagens/racas/cao-dokhyitibetanmastiff.webp",
+    "author": "Bikaash",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bhote_Kukur.jpg"
+  },
+  "cao:Dobermann": {
+    "image": "imagens/racas/cao-dobermann.webp",
+    "author": "David Iannotti",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dobermann_Black_and_Tan_%22Vito%22.jpg"
+  },
+  "cao:Dogo Argentino": {
+    "image": "imagens/racas/cao-dogoargentino.webp",
+    "author": "Ricardo Martins from Gent, Belgium",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentine_Dogo_(535032632)_(cropped).jpg"
+  },
+  "cao:Dogue De Bordeaux": {
+    "image": "imagens/racas/cao-doguedebordeaux.webp",
+    "author": "DJT at Dutch Wikipedia (Original text: DJT)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DJT_0086.jpg"
+  },
+  "cao:Drentsche Patrijshond (Drentsche Partridge Dog)": {
+    "image": "imagens/racas/cao-drentschepatrijshonddrentschepartridgedog.webp",
+    "author": "Eric Broeksma",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drentse_Patrijshond.jpg"
+  },
+  "cao:Drever": {
+    "image": "imagens/racas/cao-drever.webp",
+    "author": "Volbu1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westf%C3%A4lische_Dachsbracke.jpg"
+  },
+  "cao:English Cocker Spaniel": {
+    "image": "imagens/racas/cao-englishcockerspaniel.webp",
+    "author": "Ipukhlyk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Cocker_Spaniel_Red.jpg"
+  },
+  "cao:English Foxhound": {
+    "image": "imagens/racas/cao-englishfoxhound.webp",
+    "author": "Flickr user Thowra_uk",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Foxhound_portrait.jpg"
+  },
+  "cao:Drótzörü  Magyar Vizsla (Hungarian Wire-Haired Pointer)": {
+    "image": "imagens/racas/cao-drotzorumagyarvizslahungarianwirehairedpointer.jpg",
+    "author": "Noveczki Katalin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr%C3%B3tosvizsla_vadat_%C3%A1ll.jpg",
+    "referenceTitle": "Wirehaired Vizsla"
+  },
+  "cao:English Pointer": {
+    "image": "imagens/racas/cao-englishpointer.webp",
+    "author": "No-longer-here from Pixabay",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English-pointer-164115.jpg"
+  },
+  "cao:Dunker (Norwegian Hound)": {
+    "image": "imagens/racas/cao-dunkernorwegianhound.jpg",
+    "author": "DogWiki picture pool, checked by DogWiki-Admin 14th June 2006",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunker.jpg",
+    "referenceTitle": "Dunker"
+  },
+  "cao:English Setter": {
+    "image": "imagens/racas/cao-englishsetter.webp",
+    "author": "Newbhewer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trouble2.jpg"
+  },
+  "cao:English Springer Spaniel": {
+    "image": "imagens/racas/cao-englishspringerspaniel.webp",
+    "author": "Karen Arnold",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dog-out-walking.jpg"
+  },
+  "cao:Entlebucher Sennenhund (Entlebuch Cattle Dog)": {
+    "image": "imagens/racas/cao-entlebuchersennenhundentlebuchcattledog.webp",
+    "author": "Freifrau von Federvieh",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caruso_vom_Coesfelder_Huegli_2017.jpeg"
+  },
+  "cao:Epagneul Breton (Brittany Spaniel)": {
+    "image": "imagens/racas/cao-epagneulbretonbrittanyspaniel.webp",
+    "author": "Pharaoh Hound",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Brittany_standing.jpg"
+  },
+  "cao:English Toy Terrier (English Toy Terrier (Black &Tan))": {
+    "image": "imagens/racas/cao-englishtoyterrierenglishtoyterrierblacktan.jpg",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ENGLISH_TOY_TERRIER,_NO_JV-14_NO_UCH_X-Pected_Dine_Mites_X-Factor_(23995274170).jpg",
+    "referenceTitle": "English Toy Terrier (Black & Tan)"
+  },
+  "cao:Epagneul Français (French Spaniel)": {
+    "image": "imagens/racas/cao-epagneulfrancaisfrenchspaniel.webp",
+    "author": "Vertwatt94",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epagneul_Fran%C3%A7ais.jpg"
+  },
+  "cao:Epagneul Bleu De Picardie (Blue Picardy Spaniel)": {
+    "image": "imagens/racas/cao-epagneulbleudepicardiebluepicardyspaniel.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epagneul_bleu_de_picardie_868.jpg",
+    "referenceTitle": "Blue Picardy Spaniel"
+  },
+  "cao:Epagneul De Pont-Audemer (Pont-Audemer Spaniel)": {
+    "image": "imagens/racas/cao-epagneuldepontaudemerpontaudemerspaniel.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:04031158_Epagneul_Pont_Audemer.jpg",
+    "referenceTitle": "Pont-Audemer Spaniel"
+  },
+  "cao:Epagneul Nain Continental (Continental Toy Spaniel)": {
+    "image": "imagens/racas/cao-epagneulnaincontinentalcontinentaltoyspaniel.webp",
+    "author": "Gvdmoort",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outdoor_Continental_Toy_Spaniel_Papillon.jpeg"
+  },
+  "cao:Erdélyi Kopó (Hungarian Hound - Transylvanian Scent Hound)": {
+    "image": "imagens/racas/cao-erdelyikopohungarianhoundtransylvanianscenthound.webp",
+    "author": "Desaix83, d'après le travail de Lnko2323",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_Courant_De_Transylvanie.jpg"
+  },
+  "cao:Eurasier (Eurasian)": {
+    "image": "imagens/racas/cao-eurasiereurasian.webp",
+    "author": "Vanue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasier_Profil_vorne.jpg"
+  },
+  "cao:Field Spaniel": {
+    "image": "imagens/racas/cao-fieldspaniel.webp",
+    "author": "John",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Cocker_Spaniel_black_portrait.jpg"
+  },
+  "cao:Epagneul Picard (Picardy Spaniel)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Fila Brasileiro": {
+    "image": "imagens/racas/cao-filabrasileiro.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fila_brasileiro_ppk9.jpg",
+    "referenceTitle": "Fila Brasileiro"
+  },
+  "cao:Flat Coated Retriever": {
+    "image": "imagens/racas/cao-flatcoatedretriever.webp",
+    "author": "Fabien Foixet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_volant_badminton.jpg"
+  },
+  "cao:Fox Terrier (Smooth)": {
+    "image": "imagens/racas/cao-foxterriersmooth.webp",
+    "author": "ATLAS IMPACT",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beam.JPG"
+  },
+  "cao:Fox Terrier (Wire)": {
+    "image": "imagens/racas/cao-foxterrierwire.webp",
+    "author": "Duspivova",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wera.JPG"
+  },
+  "cao:Français Blanc Et Noir (French White & Black Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Français Blanc Et Orange (French White And Orange Hound)": {
+    "image": "imagens/racas/cao-francaisblancetorangefrenchwhiteandorangehound.jpg",
+    "author": "Desaix83 , d'après le travail de Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Anglo-Fran%C3%A7ais_Blanc_Et_Orange.jpg",
+    "referenceTitle": "Chien Français Blanc et Orange"
+  },
+  "cao:Gascon Saintongeois": {
+    "image": "imagens/racas/cao-gasconsaintongeois.jpg",
+    "author": "Canarian",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isogascognesaintonge.jpg",
+    "referenceTitle": "Gascon Saintongeois"
+  },
+  "cao:Galgo Español (Spanish Greyhound)": {
+    "image": "imagens/racas/cao-galgoespanolspanishgreyhound.jpg",
+    "author": "Tux-Man",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galgo_espagnol_006_(lightened).jpg",
+    "referenceTitle": "Galgo Español"
+  },
+  "cao:Français Tricolore (French Tricolour Hound)": {
+    "image": "imagens/racas/cao-francaistricolorefrenchtricolourhound.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frenchhoundtricolore.jpg",
+    "referenceTitle": "Chien Français Tricolore"
+  },
+  "cao:Golden Retriever": {
+    "image": "imagens/racas/cao-goldenretriever.webp",
+    "author": "Dukedestiny01.jpg: \"Janneke Vreugdenhil\" derivative work: Anka Friedrich ([[User talk:Ankaaswe Trix Friedrich|talk]])",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg"
+  },
+  "cao:Gammel Dansk Hønsehund (Old Danish Pointing Dog)": {
+    "image": "imagens/racas/cao-gammeldanskhnsehundolddanishpointingdog.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wy%C5%BCe%C5%82_du%C5%84ski_123.jpg",
+    "referenceTitle": "Old Danish Pointer"
+  },
+  "cao:Gordon Setter": {
+    "image": "imagens/racas/cao-gordonsetter.webp",
+    "author": "Markgrogers",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nike_the_Gordon_Setter_(18_June_2005).jpg"
+  },
+  "cao:Gonczy Polski (Polish Hunting Dog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Gos D'Atura Català (Catalan Sheepdog)": {
+    "image": "imagens/racas/cao-gosdaturacatalacatalansheepdog.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gos-d%27Atura-Catala.jpg",
+    "referenceTitle": "Catalan Sheepdog"
+  },
+  "cao:Grand Anglo-Français Blanc Et Noir (Great Anglo-French White And Black Hound)": {
+    "image": "imagens/racas/cao-grandanglofrancaisblancetnoirgreatanglofrenchwhiteandblackhound.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_anglo_francais_noir.jpg",
+    "referenceTitle": "Grand Anglo-Français Blanc et Noir"
+  },
+  "cao:Grand Anglo-Français Blanc Et Orange (Great Anglo-French White & Orange Hound)": {
+    "image": "imagens/racas/cao-grandanglofrancaisblancetorangegreatanglofrenchwhiteorangehound.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:06101298_Grand_anglo_francais_orange.jpg",
+    "referenceTitle": "Grand Anglo-Français Blanc et Orange"
+  },
+  "cao:Grand Basset Griffon Vendeen": {
+    "image": "imagens/racas/cao-grandbassetgriffonvendeen.webp",
+    "author": "Brownald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claire_De_Loony_Bin.jpg"
+  },
+  "cao:Grand Griffon Vendeen": {
+    "image": "imagens/racas/cao-grandgriffonvendeen.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_griffon_vend%C3%A9en_aka_Large_Vend%C3%A9en_Griffon.JPG",
+    "referenceTitle": "Grand Griffon Vendéen"
+  },
+  "cao:Grand Anglo-Français Tricolore (Great Anglo-French Tricolour Hound)": {
+    "image": "imagens/racas/cao-grandanglofrancaistricoloregreatanglofrenchtricolourhound.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_anglo_francais_tricol.jpg",
+    "referenceTitle": "Grand Anglo-Français Tricolore"
+  },
+  "cao:Greyhound": {
+    "image": "imagens/racas/cao-greyhound.webp",
+    "author": "Neurodoc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GraceTheGreyhound.jpg"
+  },
+  "cao:Griffon Belge": {
+    "image": "imagens/racas/cao-griffonbelge.webp",
+    "author": "The original uploader was Dan9186 at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brussels_Griffon_Rembrant_(jpg_format).jpg"
+  },
+  "cao:Grand Bleu De Gascogne (Great Gascony Blue)": {
+    "image": "imagens/racas/cao-grandbleudegascognegreatgasconyblue.jpg",
+    "author": "RanchoRosco",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Bleu_de_Gascogne_in_a_blue_dogcollar.jpg",
+    "referenceTitle": "Grand Bleu de Gascogne"
+  },
+  "cao:Griffon Bruxellois": {
+    "image": "imagens/racas/cao-griffonbruxellois.webp",
+    "author": "The original uploader was Dan9186 at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brussels_Griffon_Rembrant_(jpg_format).jpg"
+  },
+  "cao:Griffon A Poil Dur Korthals (Wire-Haired Pointing Griffon Korthals)": {
+    "image": "imagens/racas/cao-griffonapoildurkorthalswirehairedpointinggriffonkorthals.webp",
+    "author": "Liv klesta",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Griffon_dog.jpg"
+  },
+  "cao:Griffon Nivernais": {
+    "image": "imagens/racas/cao-griffonnivernais.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Griffon_nivernais.jpg",
+    "referenceTitle": "Griffon Nivernais"
+  },
+  "cao:Griffon Bleu De Gascogne (Blue Gascony Griffon)": {
+    "image": "imagens/racas/cao-griffonbleudegascognebluegasconygriffon.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:04031124_Griffon_Bleu_de_Gascogne.jpg",
+    "referenceTitle": "Griffon Bleu de Gascogne"
+  },
+  "cao:Grosser Schweizer Sennenhund (Great Swiss Mountain Dog)": {
+    "image": "imagens/racas/cao-grosserschweizersennenhundgreatswissmountaindog.webp",
+    "author": "No machine-readable author provided. Pleple2000 assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Du%C5%BCy_szwajcarski_pies_pasterski_72.jpg"
+  },
+  "cao:Griffon Fauve De Bretagne (Fawn Brittany Griffon)": {
+    "image": "imagens/racas/cao-griffonfauvedebretagnefawnbrittanygriffon.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:08115500_Griffon_Fauve_Bretagne.jpg",
+    "referenceTitle": "Griffon Fauve de Bretagne"
+  },
+  "cao:Grosser Münsterländer Vorstehhund (Large Munsterlander)": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Hamiltonstövare": {
+    "image": "imagens/racas/cao-hamiltonstovare.webp",
+    "author": "Firkingreat",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serbian_hound_1.jpg"
+  },
+  "cao:Grønlandshund (Greenland Dog)": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Hannoverscher Schweisshund (Hanoverian Scent Hound)": {
+    "image": "imagens/racas/cao-hannoverscherschweisshundhanoverianscenthound.webp",
+    "author": "Ralf Lotys (Sicherlich)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zoran_Spod_Ruskiej_Granicy_the_Bavarian_Mountain_Hound.jpg"
+  },
+  "cao:Haldenstøver (Halden Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Harrier": {
+    "image": "imagens/racas/cao-harrier.webp",
+    "author": "Evforce",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eva-5wsm.jpg"
+  },
+  "cao:Hokkaido": {
+    "image": "imagens/racas/cao-hokkaido.webp",
+    "author": "Magdalena Niemiec",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokkaido_02.jpg"
+  },
+  "cao:Hollandse Herdershond (Dutch Shepherd Dog)": {
+    "image": "imagens/racas/cao-hollandseherdershonddutchshepherddog.webp",
+    "author": "CaroleField",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luna-orig-modified.Feb_2019.DSC_4339-SharpenAI-Softness.jpg"
+  },
+  "cao:Hovawart": {
+    "image": "imagens/racas/cao-hovawart.webp",
+    "author": "Udo Schmidt from Deutschland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alphi_2002_46_(3242378440).jpg"
+  },
+  "cao:Hellinikos Ichnilatis (Hellenic Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Hrvatski Ovcar (Croatian Shepherd Dog)": {
+    "image": "imagens/racas/cao-hrvatskiovcarcroatianshepherddog.webp",
+    "author": "Michala Mračková",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gera062005sed.jpg"
+  },
+  "cao:Hollandse Smoushond (Dutch Smoushond)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Irish Glen Of Imaal Terrier": {
+    "image": "imagens/racas/cao-irishglenofimaalterrier.webp",
+    "author": "Kindall at English Wikipedia",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheaten_glen_of_imaal.jpg"
+  },
+  "cao:Irish Red And White Setter": {
+    "image": "imagens/racas/cao-irishredandwhitesetter.webp",
+    "author": "Ordinary Guy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irish_Red_and_White_Setter.jpg"
+  },
+  "cao:Irish Red Setter": {
+    "image": "imagens/racas/cao-irishredsetter.webp",
+    "author": "Luis Miguel Bugallo Sánchez (Lmbuga Commons)(Lmbuga Galipedia) Publicada por/Publish by: Luis Miguel Bugallo Sánchez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Can_Setter_dog_GFDL.jpg"
+  },
+  "cao:Hygenhund (Hygen Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Irish Soft Coated Wheaten Terrier": {
+    "image": "imagens/racas/cao-irishsoftcoatedwheatenterrier.webp",
+    "author": "123bob1234 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dog2wheaten.jpg"
+  },
+  "cao:Irish Terrier": {
+    "image": "imagens/racas/cao-irishterrier.webp",
+    "author": "Andrew Clark",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IrishTerrierSydenhamHillWoods.jpg"
+  },
+  "cao:Irish Water Spaniel": {
+    "image": "imagens/racas/cao-irishwaterspaniel.webp",
+    "author": "Roete002",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ierse_Water_Spaniel.jpg"
+  },
+  "cao:Irish Wolfhound": {
+    "image": "imagens/racas/cao-irishwolfhound.webp",
+    "author": "Dux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:(2)_Irish_Wolfhound_4.jpg"
+  },
+  "cao:Jack Russell Terrier": {
+    "image": "imagens/racas/cao-jackrussellterrier.jpg",
+    "author": "Plank",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Russell_Terrier_1.jpg",
+    "referenceTitle": "Jack Russell Terrier"
+  },
+  "cao:Jämthund": {
+    "image": "imagens/racas/cao-jamthund.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swedish_Elkhound.jpg",
+    "referenceTitle": "Jämthund"
+  },
+  "cao:Istarski  Ostrodlaki  Gonic (Istrian Wire-Haired Hound)": {
+    "image": "imagens/racas/cao-istarskiostrodlakigonicistrianwirehairedhound.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istrian_hound2.jpg",
+    "referenceTitle": "Istrian Coarse-haired Hound"
+  },
+  "cao:Istarski Kratkodlaki Gonic (Istrian Short-Haired Hound)": {
+    "image": "imagens/racas/cao-istarskikratkodlakigonicistrianshorthairedhound.jpg",
+    "author": "No machine-readable author provided. Cazadero assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istrische_Bracke.jpg",
+    "referenceTitle": "Istrian Shorthaired Hound"
+  },
+  "cao:Jugoslovenski Ovcarski Pas-Sarplaninac (Yugoslavian Shepherd Dog - Sharplanina)": {
+    "image": "imagens/racas/cao-jugoslovenskiovcarskipassarplaninacyugoslavianshepherddogsharplanina.jpg",
+    "author": "Illyricum Scardus ( talk )",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sardog.jpg",
+    "referenceTitle": "Šarplaninac"
+  },
+  "cao:Kai": {
+    "image": "imagens/racas/cao-kai.webp",
+    "author": "Kei87c1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kai-front.jpg"
+  },
+  "cao:Karjalankarhukoira (Karelian Bear Dog)": {
+    "image": "imagens/racas/cao-karjalankarhukoirakarelianbeardog.webp",
+    "author": "Fraczek.marcin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karelski_pies_na_nied%C5%BAwiedzie_sylwetka.JPG"
+  },
+  "cao:Kavkazskaïa Ovtcharka (Caucasian Shepherd Dog)": {
+    "image": "imagens/racas/cao-kavkazskaiaovtcharkacaucasianshepherddog.webp",
+    "author": "Reba Spike",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caucasian_Mountain_Dog_(46759737714).jpg"
+  },
+  "cao:Kerry Blue Terrier": {
+    "image": "imagens/racas/cao-kerryblueterrier.webp",
+    "author": "KerryBlueTerrierAlofok_(1).jpg: Alofok derivative work: Parzi (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KerryBlueTerrierAlofok_(1)-2011-27-05.jpg"
+  },
+  "cao:King Charles Spaniel": {
+    "image": "imagens/racas/cao-kingcharlesspaniel.webp",
+    "author": "sannse (contrast by Pleple2000)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Toy_Terrier_600_01.jpg"
+  },
+  "cao:Kleiner Münsterländer": {
+    "image": "imagens/racas/cao-kleinermunsterlander.webp",
+    "author": "Edit by Pharaoh Hound, original photo uploaded by Caronna",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleiner_Munsterlander_edit.jpg"
+  },
+  "cao:Kishu": {
+    "image": "imagens/racas/cao-kishu.jpg",
+    "author": "Sabine, user of DogWiki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kishu.jpg",
+    "referenceTitle": "Kishu"
+  },
+  "cao:Komondor": {
+    "image": "imagens/racas/cao-komondor.webp",
+    "author": "Nikki68 at Russian Wikipedia",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Komondor_delvin.jpg"
+  },
+  "cao:Kangal Çoban Köpegi (Kangal Shepherd Dog)": {
+    "image": "imagens/racas/cao-kangalcobankopegikangalshepherddog.jpg",
+    "author": "Kangalshepherddog",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kangal_front_on.jpg",
+    "referenceTitle": "Kangal Shepherd Dog"
+  },
+  "cao:Kromfohrländer": {
+    "image": "imagens/racas/cao-kromfohrlander.webp",
+    "author": "Marc Rünger",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kromfohrlaender_rauhaar_liegend.jpg"
+  },
+  "cao:Korea Jindo Dog": {
+    "image": "imagens/racas/cao-koreajindodog.jpg",
+    "author": "Herocosmos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ARIRANG.jpg",
+    "referenceTitle": "Korean Jindo"
+  },
+  "cao:Kuvasz": {
+    "image": "imagens/racas/cao-kuvasz.webp",
+    "author": "Erdelyi kopo",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuvasz_named_Kan.jpg"
+  },
+  "cao:Kraski Ovcar (Karst Shepherd Dog)": {
+    "image": "imagens/racas/cao-kraskiovcarkarstshepherddog.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Owczarek_kraski_654.jpg",
+    "referenceTitle": "Karst Shepherd"
+  },
+  "cao:Labrador Retriever": {
+    "image": "imagens/racas/cao-labradorretriever.webp",
+    "author": "IDS.photos from Tiverton, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"
+  },
+  "cao:Lagotto Romagnolo (Romagna Water Dog)": {
+    "image": "imagens/racas/cao-lagottoromagnoloromagnawaterdog.webp",
+    "author": "Jcr13",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagotto_Romagnolo_Female_3.5_Years_Old_Brown_with_White_Markings.jpg"
+  },
+  "cao:Lakeland Terrier": {
+    "image": "imagens/racas/cao-lakelandterrier.webp",
+    "author": "David Owsiany",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boutchie_apres_championnat_004.JPG"
+  },
+  "cao:Lapinporokoira (Lapponian Herder)": {
+    "image": "imagens/racas/cao-lapinporokoiralapponianherder.webp",
+    "author": "Patrik Fors",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lapskvallhund.jpg"
+  },
+  "cao:Leonberger": {
+    "image": "imagens/racas/cao-leonberger.webp",
+    "author": "Charlie Mitchell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sand-coloured_Leonberger.jpg"
+  },
+  "cao:Lhasa Apso": {
+    "image": "imagens/racas/cao-lhasaapso.webp",
+    "author": "Lhasaapso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lhasaapso.jpg"
+  },
+  "cao:Maltese": {
+    "image": "imagens/racas/cao-maltese.webp",
+    "author": "SheltieBoy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1AKC_Maltese_Dog_Show_2011.jpg"
+  },
+  "cao:Landseer (Europäisch-Kontinentaler Typ) (Landseer (European Continental Type))": {
+    "image": "imagens/racas/cao-landseereuropaischkontinentalertyplandseereuropeancontinentaltype.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landseer.jpg",
+    "referenceTitle": "Landseer (dog breed)"
+  },
+  "cao:Manchester Terrier": {
+    "image": "imagens/racas/cao-manchesterterrier.webp",
+    "author": "Roger Ahlbrand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchor,_the_Manchester_Terrier0.jpg"
+  },
+  "cao:Magyar Agar (Hungarian Greyhound)": {
+    "image": "imagens/racas/cao-magyaragarhungariangreyhound.jpg",
+    "author": "Kacer at Hungarian Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magyar_ag%C3%A1r_male.jpg",
+    "referenceTitle": "Magyar Agár"
+  },
+  "cao:Mastiff": {
+    "image": "imagens/racas/cao-mastiff.webp",
+    "author": "Radovan Rohovsky",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westgort_Anticipation_17_months.JPG"
+  },
+  "cao:Mastino Napoletano (Neapolitan Mastiff)": {
+    "image": "imagens/racas/cao-mastinonapoletanoneapolitanmastiff.webp",
+    "author": "Tim Dawson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Larger_Lucy.jpg"
+  },
+  "cao:Mastín Del Pirineo (Pyrenean Mastiff)": {
+    "image": "imagens/racas/cao-mastindelpirineopyreneanmastiff.webp",
+    "author": "TBjornstad 10:04, 5 October 2006 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MasPiri-Astro-SVE.jpg"
+  },
+  "cao:Mastín Español (Spanish Mastiff)": {
+    "image": "imagens/racas/cao-mastinespanolspanishmastiff.webp",
+    "author": "Bg.dog",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%A1%D0%9F%D0%90%D0%9D%D0%A1%D0%9A%D0%98%D0%99_%D0%9C%D0%90%D0%A1%D0%A2%D0%98%D0%A4.JPG"
+  },
+  "cao:Miniature Bull Terrier": {
+    "image": "imagens/racas/cao-miniaturebullterrier.webp",
+    "author": "Pixabay User TC-TORRES",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bullterrier-3453301920.jpg"
+  },
+  "cao:Mudi": {
+    "image": "imagens/racas/cao-mudi.webp",
+    "author": "Qwexcxewq",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gubby.jpg"
+  },
+  "cao:Nederlandse Kooikerhondje": {
+    "image": "imagens/racas/cao-nederlandsekooikerhondje.webp",
+    "author": "Hundepfote",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ammervill%27s_Julia_Juwell%27s.jpg"
+  },
+  "cao:Nederlandse Schapendoes (Dutch Schapendoes)": {
+    "image": "imagens/racas/cao-nederlandseschapendoesdutchschapendoes.webp",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grupp_1,_SCHAPENDOES,_DK_UCH_EUW-15_FI_UCH_NO_JV-13_NO_UCH_NO_V-13_NO_V-14_SE_UCH_Carnac%E2%80%99s_Outstanding_Omicron_(23683386133).jpg"
+  },
+  "cao:Newfoundland": {
+    "image": "imagens/racas/cao-newfoundland.webp",
+    "author": "Flickr user DanDee Shots",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newfoundland_dog_Smoky.jpg"
+  },
+  "cao:Nihon Supittsu (Japanese Spitz)": {
+    "image": "imagens/racas/cao-nihonsupittsujapanesespitz.webp",
+    "author": "Yukisnowflakeprincess",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_year_old_Japanese_Spitz.jpg"
+  },
+  "cao:Nihon Teria (Japanese Terrier)": {
+    "image": "imagens/racas/cao-nihonteriajapaneseterrier.webp",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Terrier_22.04.2012_1pl.jpg"
+  },
+  "cao:Norfolk Terrier": {
+    "image": "imagens/racas/cao-norfolkterrier.webp",
+    "author": "Nutak",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beccles.jpg"
+  },
+  "cao:Norrbottenspets (Norrbottenspitz)": {
+    "image": "imagens/racas/cao-norrbottenspetsnorrbottenspitz.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nordicspitz1.jpg"
+  },
+  "cao:Norsk Buhund (Norwegian Buhund)": {
+    "image": "imagens/racas/cao-norskbuhundnorwegianbuhund.webp",
+    "author": "Canossa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buhunden.jpg"
+  },
+  "cao:Norsk Lundehund (Norwegian Lundehund)": {
+    "image": "imagens/racas/cao-norsklundehundnorwegianlundehund.webp",
+    "author": "Karen Elise Dahlmo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lundehund-2003.jpg"
+  },
+  "cao:Norsk Elghund Grå (Norwegian Elkhound Grey)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Norwich Terrier": {
+    "image": "imagens/racas/cao-norwichterrier.webp",
+    "author": "Gamma Corvi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NorwichTerrier_Elvis.jpg"
+  },
+  "cao:Norsk Elghund Sort (Norwegian Elkhound Black)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Nova Scotia Duck Tolling Retriever": {
+    "image": "imagens/racas/cao-novascotiaducktollingretriever.webp",
+    "author": "Gionabalena",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nova_Scotia_Duck_Tolling_Retriever_Female_3_years_old.jpg"
+  },
+  "cao:Old English Sheepdog": {
+    "image": "imagens/racas/cao-oldenglishsheepdog.webp",
+    "author": "Mona (uploaded by Caronna 08:14, 15 Apr 2005 (UTC))",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobtail.JPG"
+  },
+  "cao:Otterhound": {
+    "image": "imagens/racas/cao-otterhound.webp",
+    "author": "Dale D. McDonald",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackforrestotterhound.JPG"
+  },
+  "cao:Parson Russell Terrier": {
+    "image": "imagens/racas/cao-parsonrussellterrier.webp",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:05052842_PRT_braun_glatt.jpg"
+  },
+  "cao:Ogar Polski (Polish Hound)": {
+    "image": "imagens/racas/cao-ogarpolskipolishhound.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PolishHound-MlChPl-OKSANA-ZOstregoBoru-wl.JoannaZembrzuska_3.JPG",
+    "referenceTitle": "Polish Hound"
+  },
+  "cao:Pekingese": {
+    "image": "imagens/racas/cao-pekingese.webp",
+    "author": "SheltieBoy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:111_AKC_Pekingese_head.jpg"
+  },
+  "cao:Perdigueiro Português (Portuguese Pointing Dog)": {
+    "image": "imagens/racas/cao-perdigueiroportuguesportuguesepointingdog.webp",
+    "author": "Desaix83, d'après le travail de Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_D%27Arr%C3%AAt_Portugais.jpg"
+  },
+  "cao:Perro De Agua Español (Spanish Water Dog)": {
+    "image": "imagens/racas/cao-perrodeaguaespanolspanishwaterdog.webp",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_8-_PERRO_DE_AGUA_ESPANOL,_Tussbergets_Zucc%C3%A9_(24151665851).jpg"
+  },
+  "cao:Perro Sin Pelo Del Perú (Peruvian Hairless Dog)": {
+    "image": "imagens/racas/cao-perrosinpelodelperuperuvianhairlessdog.webp",
+    "author": "Hookery=Yuri Hooker",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peruvian_Hairless_Dog_1.jpg"
+  },
+  "cao:Petit Basset Griffon Vendeen": {
+    "image": "imagens/racas/cao-petitbassetgriffonvendeen.webp",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Briquet_Griffon_Vendeen.jpg"
+  },
+  "cao:Perdiguero De Burgos (Burgos Pointing Dog)": {
+    "image": "imagens/racas/cao-perdiguerodeburgosburgospointingdog.jpg",
+    "author": "Canarian",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burgos_Pointer_or_Perdiguero_de_Burgos.JPG",
+    "referenceTitle": "Burgos Pointer"
+  },
+  "cao:Petit Brabançon": {
+    "image": "imagens/racas/cao-petitbrabancon.webp",
+    "author": "The original uploader was Dan9186 at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brussels_Griffon_Rembrant_(jpg_format).jpg"
+  },
+  "cao:Perro Dogo Mallorquín (Majorca Mastiff)": {
+    "image": "imagens/racas/cao-perrodogomallorquinmajorcamastiff.jpg",
+    "author": "Elizaveta.ustinova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZarcoBruno2015.jpg",
+    "referenceTitle": "Ca de Bou"
+  },
+  "cao:Petit Chien Lion (Little Lion Dog)": {
+    "image": "imagens/racas/cao-petitchienlionlittleliondog.webp",
+    "author": "Jk9dat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_Parti_Color_Lowchen.jpg"
+  },
+  "cao:Pharaoh Hound": {
+    "image": "imagens/racas/cao-pharaohhound.webp",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Siggiewi_-_Misrah_Ghar_il-Kbir_-_Pharaoh_Hound_04_ies_(cropped).jpg"
+  },
+  "cao:Piccolo Levriero Italiano (Italian Sighthound)": {
+    "image": "imagens/racas/cao-piccololevrieroitalianoitaliansighthound.webp",
+    "author": "christina",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italian_Greyhound_standing_gray.jpg"
+  },
+  "cao:Petit Bleu De Gascogne (Small Blue Gascony)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Podenco Ibicenco (Ibizan Podenco)": {
+    "image": "imagens/racas/cao-podencoibicencoibizanpodenco.webp",
+    "author": "Jan Eduard, corrected by Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podenco_z_ibizy_645.jpg"
+  },
+  "cao:Poitevin": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Podengo Português (Portuguese Warren Hound-Portuguese Podengo)": {
+    "image": "imagens/racas/cao-podengoportuguesportuguesewarrenhoundportuguesepodengo.webp",
+    "author": "APPMGC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evitarocks.jpg"
+  },
+  "cao:Podenco Canario (Canarian Warren Hound)": {
+    "image": "imagens/racas/cao-podencocanariocanarianwarrenhound.jpg",
+    "author": "Marianne Perdomo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podenco_canario_hembra_(cropped).jpg",
+    "referenceTitle": "Podenco Canario"
+  },
+  "cao:Polski Owczarek Nizinny (Polish Lowland Sheepdog)": {
+    "image": "imagens/racas/cao-polskiowczareknizinnypolishlowlandsheepdog.webp",
+    "author": "Nizina",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argo-Jack_von_Nora%27s_Nizina.JPG"
+  },
+  "cao:Porcelaine": {
+    "image": "imagens/racas/cao-porcelaine.webp",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porcelaine_g%C5%82owa_pl.jpg"
+  },
+  "cao:Presa Canario": {
+    "image": "imagens/racas/cao-presacanario.webp",
+    "author": "Canecorsodog (en.wikipedia) bearbeitet von Caronna 12:25, 6 February 2008 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dogo_Canario_bearb.jpg"
+  },
+  "cao:Polski Owczarek Podhalanski (Polish Tatra Shepherd)": {
+    "image": "imagens/racas/cao-polskiowczarekpodhalanskipolishtatrashepherd.jpg",
+    "author": "Svenfischer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podhalaner_Sven_Fischer.jpg",
+    "referenceTitle": "Tatra Shepherd Dog"
+  },
+  "cao:Pudelpointer": {
+    "image": "imagens/racas/cao-pudelpointer.webp",
+    "author": "Sciencia58",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pudelpointer_2.jpg"
+  },
+  "cao:Posavski Gonic (Posavatz Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Pug": {
+    "image": "imagens/racas/cao-pug.webp",
+    "author": "OxfordCommaNerd",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_pug_with_longer_legs.jpg"
+  },
+  "cao:Puli": {
+    "image": "imagens/racas/cao-puli.webp",
+    "author": "Anita Ritenour",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumental_Puli.jpg"
+  },
+  "cao:Pumi": {
+    "image": "imagens/racas/cao-pumi.webp",
+    "author": "Taru T Torpström",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hungarianpumi.JPG"
+  },
+  "cao:Rafeiro Do Alentejo (Rafeiro Of Alentejo)": {
+    "image": "imagens/racas/cao-rafeirodoalentejorafeiroofalentejo.webp",
+    "author": "Schiowa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cao_de_Castro_Laboreiro_Ruede.jpg"
+  },
+  "cao:Rhodesian Ridgeback": {
+    "image": "imagens/racas/cao-rhodesianridgeback.webp",
+    "author": "Vulkano12",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akani_Kopf.jpeg"
+  },
+  "cao:Riesenschnauzer (Giant Schnauzer)": {
+    "image": "imagens/racas/cao-riesenschnauzergiantschnauzer.webp",
+    "author": "Paul Kounine (mischivo)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GiantSchnauzer_Grass.jpg"
+  },
+  "cao:Rottweiler": {
+    "image": "imagens/racas/cao-rottweiler.webp",
+    "author": "Phil Sangwell from United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Prince%22_(7369763074).jpg"
+  },
+  "cao:Rastreador Brasileiro (Brazilian Tracker)": {
+    "image": "imagens/racas/cao-rastreadorbrasileirobraziliantracker.jpg",
+    "author": "Gilson MACEDO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rastreadora_Brasileira_Gaya.jpg",
+    "referenceTitle": "Rastreador Brasileiro"
+  },
+  "cao:Russkaya Psovaya Borzaya (Borzoi - Russian Hunting Sighthound)": {
+    "image": "imagens/racas/cao-russkayapsovayaborzayaborzoirussianhuntingsighthound.webp",
+    "author": "Sergey Khantsis",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brindle_Borzoi.jpg"
+  },
+  "cao:Russkiy Toy (Russian Toy)": {
+    "image": "imagens/racas/cao-russkiytoyrussiantoy.webp",
+    "author": "Xitamiz",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlaz16.jpg"
+  },
+  "cao:Rövidszörü Magyar Vizsla (Hungarian Short-Haired Pointer (Vizsla))": {
+    "image": "imagens/racas/cao-rovidszorumagyarvizslahungarianshorthairedpointer.webp",
+    "author": "Briantresp",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vizsla-profile.jpg"
+  },
+  "cao:Russkiy Tchiorny Terrier (Russian Black Terrier)": {
+    "image": "imagens/racas/cao-russkiytchiornyterrierrussianblackterrier.webp",
+    "author": "Guidopatek",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malahovkaja_Serenada.jpg"
+  },
+  "cao:Russko-Evropeïskaïa Laïka (Russian-European Laika)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Saluki": {
+    "image": "imagens/racas/cao-saluki.webp",
+    "author": "SALUKIWORLD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cream_saluki_on_grass.jpg"
+  },
+  "cao:Samoiedskaïa Sabaka (Samoyed)": {
+    "image": "imagens/racas/cao-samoiedskaiasabakasamoyed.webp",
+    "author": "Alexander Patrikeev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:11.10.2015_Samoyed_(cropped).jpg"
+  },
+  "cao:Saarlooswolfhond (Saarloos Wolfhond)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Schillerstövare": {
+    "image": "imagens/racas/cao-schillerstovare.jpg",
+    "author": "Pleple2000 bearbeitet von Steffen Heinz ( Caronna 12:06, 9 April 2008 (UTC))",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schillerst%C3%B6vare_bearbeitet.jpg",
+    "referenceTitle": "Schillerstövare"
+  },
+  "cao:Sabueso Español (Spanish Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Schipperke": {
+    "image": "imagens/racas/cao-schipperke.webp",
+    "author": "No machine-readable author provided. 鏑木對馬守 assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schipperke0001.jpg"
+  },
+  "cao:Schnauzer": {
+    "image": "imagens/racas/cao-schnauzer.webp",
+    "author": "PaulasBunt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paula_vom_Siebenm%C3%BChlental.jpg"
+  },
+  "cao:Scottish Terrier": {
+    "image": "imagens/racas/cao-scottishterrier.webp",
+    "author": "narujen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:0Scottish_Terrier.jpg"
+  },
+  "cao:Sealyham Terrier": {
+    "image": "imagens/racas/cao-sealyhamterrier.webp",
+    "author": "Ettore Balocchi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dog-002_(15689565729).jpg"
+  },
+  "cao:Schweizer  Niederlaufhund (Small Swiss Hound)": {
+    "image": "imagens/racas/cao-schweizerniederlaufhundsmallswisshound.jpg",
+    "author": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:08115491_Schwyzer_Niederlaufhund.jpg",
+    "referenceTitle": "Schweizerischer Niederlaufhund"
+  },
+  "cao:Schweizer Laufhund - Chien Courant Suisse (Swiss Hound)": {
+    "image": "imagens/racas/cao-schweizerlaufhundchiencourantsuisseswisshound.jpg",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Go%C5%84czy_szwajcarski_2009_pl2.jpg",
+    "referenceTitle": "Schweizer Laufhund"
+  },
+  "cao:Segugio Italiano A Pelo Forte (Italian Rough-Haired Segugio)": {
+    "image": "imagens/racas/cao-segugioitalianoapeloforteitalianroughhairedsegugio.webp",
+    "author": "Curzio Cavicchioli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Segugio_italiano_nero_focato_(cropped).jpg"
+  },
+  "cao:Segugio Italiano A Pelo Raso (Italian Short-Haired Segugio)": {
+    "image": "imagens/racas/cao-segugioitalianoapelorasoitalianshorthairedsegugio.webp",
+    "author": "Curzio Cavicchioli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Segugio_italiano_nero_focato_(cropped).jpg"
+  },
+  "cao:Shar Pei": {
+    "image": "imagens/racas/cao-sharpei.jpg",
+    "author": "Yan Mis/&Den Rakov",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adult_sharpei.jpg",
+    "referenceTitle": "Shar Pei"
+  },
+  "cao:Shetland Sheepdog": {
+    "image": "imagens/racas/cao-shetlandsheepdog.webp",
+    "author": "Alicepearsons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheltie_Isle_of_Mull.jpg"
+  },
+  "cao:Shiba": {
+    "image": "imagens/racas/cao-shiba.webp",
+    "author": "Nancy Wong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Shiba_Inu_enjoying_a_sunny_day.jpg"
+  },
+  "cao:Shih Tzu": {
+    "image": "imagens/racas/cao-shihtzu.webp",
+    "author": "Wawri (Tomasz Wawak)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shih-tzu-Fibi.jpg"
+  },
+  "cao:Shikoku": {
+    "image": "imagens/racas/cao-shikoku.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseShikoku.jpg"
+  },
+  "cao:Siberian Husky": {
+    "image": "imagens/racas/cao-siberianhusky.webp",
+    "author": "localpups",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:3217-siberian-husky-dog_(20314366700).jpg"
+  },
+  "cao:Skye Terrier": {
+    "image": "imagens/racas/cao-skyeterrier.webp",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skye_terrier_800.jpg"
+  },
+  "cao:Sloughi": {
+    "image": "imagens/racas/cao-sloughi.webp",
+    "author": "Sabine.schlenkrich",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Djebel_Mahanajim_rotsandfarbener_Sloughi_R%C3%BCde.JPG"
+  },
+  "cao:Slovenský Cuvac (Slovakian Chuvach)": {
+    "image": "imagens/racas/cao-slovenskycuvacslovakianchuvach.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SlovakianCu.jpg"
+  },
+  "cao:Slovenský Hrubosrstý Stavac (Ohar) (Wirehaired Slovakian Pointer)": {
+    "image": "imagens/racas/cao-slovenskyhrubosrstystavacoharwirehairedslovakianpointer.webp",
+    "author": "Martina Vernerová (breeders HP (Ing. Urban Michal))",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bella_z_Milhostovskych_poli.jpg"
+  },
+  "cao:Slovenský Kopov (Slovakian Hound)": {
+    "image": "imagens/racas/cao-slovenskykopovslovakianhound.webp",
+    "author": "Kopovhound",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dempsey.jpg"
+  },
+  "cao:Smålandsstövare": {
+    "image": "imagens/racas/cao-smalandsstovare.jpg",
+    "author": "User:Linathrash",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smaland-St%C3%B6vare.jpg",
+    "referenceTitle": "Smaland Hound"
+  },
+  "cao:Spinone Italiano (Italian Spinone)": {
+    "image": "imagens/racas/cao-spinoneitalianoitalianspinone.webp",
+    "author": "adam w",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crufts_2019-_NEC,_Birmingham-_08-March_2019_-_46608156594.jpg"
+  },
+  "cao:St.Bernhardshund - Bernhardiner (St. Bernard)": {
+    "image": "imagens/racas/cao-stbernhardshundbernhardinerstbernard.webp",
+    "author": "Blanky",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hummel_Vedor_vd_Robandahoeve.jpg"
+  },
+  "cao:Srpski Gonic (Serbian Hound)": {
+    "image": "imagens/racas/cao-srpskigonicserbianhound.jpg",
+    "author": "Firkingreat",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serbian_hound_1.jpg",
+    "referenceTitle": "Serbian Hound"
+  },
+  "cao:Stabijhoun": {
+    "image": "imagens/racas/cao-stabijhoun.webp",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_7-_STABYHOUN,_Nadites_Ninna_(24126158072).jpg"
+  },
+  "cao:Srpski Trobojni Gonic (Serbian Tricolour Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Staffordshire Bull Terrier": {
+    "image": "imagens/racas/cao-staffordshirebullterrier.webp",
+    "author": "Serial Number 54129",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brindle_%26_white_Staffordshire_Bull_Terrier_(AKA_Essie).jpg"
+  },
+  "cao:Sredneasiatskaya Ovtcharka (Central Asia Shepherd Dog)": {
+    "image": "imagens/racas/cao-sredneasiatskayaovtcharkacentralasiashepherddog.jpg",
+    "author": "Halalosirambankiskecskek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2.CAO_in_Hungary.jpg",
+    "referenceTitle": "Central Asian Shepherd Dog"
+  },
+  "cao:Suomenlapinkoira (Finnish Lapponian Dog)": {
+    "image": "imagens/racas/cao-suomenlapinkoirafinnishlapponiandog.webp",
+    "author": "Svenska Mässan from Sweden, modification (background, cropping) Anka Friedrich",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grupp_5_FINSK_LAPPHUND,_Black_Blossom_Troll_Raffi_(23659980864)_modified.jpg"
+  },
+  "cao:Suomenpystykorva (Finnish Spitz)": {
+    "image": "imagens/racas/cao-suomenpystykorvafinnishspitz.webp",
+    "author": "Noël Zia Lee",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_Finnish_Spitz._Backlit_Ginger.jpg"
+  },
+  "cao:Sussex Spaniel": {
+    "image": "imagens/racas/cao-sussexspaniel.webp",
+    "author": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Field_spaniel_581.jpg"
+  },
+  "cao:Steirische Rauhhaarbracke (Coarse-Haired Styrian Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Svensk Lapphund (Swedish Lapphund)": {
+    "image": "imagens/racas/cao-svensklapphundswedishlapphund.webp",
+    "author": "Bjørn Roger Larsen",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Svensk_lapphund.JPG"
+  },
+  "cao:Suomenajokoira (Finnish Hound)": {
+    "image": "imagens/racas/cao-suomenajokoirafinnishhound.jpg",
+    "author": "EtäKärppä",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finnish_Hound.jpg",
+    "referenceTitle": "Finnish Hound"
+  },
+  "cao:Thai Bangkaew Dog": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Taiwan Dog": {
+    "image": "imagens/racas/cao-taiwandog.webp",
+    "author": "Cho Hsun Lu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dog_With_Yellow_Rapeseed_(242833099).jpeg"
+  },
+  "cao:Thai Ridgeback Dog": {
+    "image": "imagens/racas/cao-thairidgebackdog.jpg",
+    "author": "HiSa Hiller, Schweiz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai-Ridgeback.jpg",
+    "referenceTitle": "Thai Ridgeback"
+  },
+  "cao:Tibetan Spaniel": {
+    "image": "imagens/racas/cao-tibetanspaniel.webp",
+    "author": "Ladykransteer",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TibetanSpanielBuddy.jpg"
+  },
+  "cao:Terrier Brasileiro (Brazilian Terrier)": {
+    "image": "imagens/racas/cao-terrierbrasileirobrazilianterrier.jpg",
+    "author": "Ludax91",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terrier_brazylijski_2.jpg",
+    "referenceTitle": "Brazilian Terrier"
+  },
+  "cao:Tibetan Terrier": {
+    "image": "imagens/racas/cao-tibetanterrier.webp",
+    "author": "PateraIncus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibetan_terrier.jpg"
+  },
+  "cao:Tornjak (Bosnian And Herzegovinian - Croatian Shepherd Dog)": {
+    "image": "imagens/racas/cao-tornjakbosnianandherzegoviniancroatianshepherddog.webp",
+    "author": "Mirta12",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ToroTornjak.JPG"
+  },
+  "cao:Tosa": {
+    "image": "imagens/racas/cao-tosa.webp",
+    "author": "BUKADAI..JPG: Ludivine HOUDAS derivative work: Caronna (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BUKADAI_2.jpg"
+  },
+  "cao:Tiroler Bracke (Tyrolean Hound)": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Volpino Italiano (Italian Volpino)": {
+    "image": "imagens/racas/cao-volpinoitalianoitalianvolpino.webp",
+    "author": "Ra Boe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camping_Food_2009_003_(RaBoe).jpg"
+  },
+  "cao:Västgötaspets (Swedish Vallhund)": {
+    "image": "imagens/racas/cao-vastgotaspetsswedishvallhund.webp",
+    "author": "TS Eriksson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A4stg%C3%B6taspets_hane_5_%C3%A5r.jpg"
+  },
+  "cao:Weimaraner": {
+    "image": "imagens/racas/cao-weimaraner.webp",
+    "author": "Gabriella Burioso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weimaraner_2009.jpg"
+  },
+  "cao:Welsh Corgi (Cardigan)": {
+    "image": "imagens/racas/cao-welshcorgicardigan.webp",
+    "author": "Huoadg5888Minor edits made by Subsidiary account",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fawn_and_white_Welsh_Corgi_puppy_standing_on_rear_legs_and_sticking_out_the_tongue.jpg"
+  },
+  "cao:Welsh Corgi (Pembroke)": {
+    "image": "imagens/racas/cao-welshcorgipembroke.webp",
+    "author": "Huoadg5888Minor edits made by Subsidiary account",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fawn_and_white_Welsh_Corgi_puppy_standing_on_rear_legs_and_sticking_out_the_tongue.jpg"
+  },
+  "cao:Welsh Springer Spaniel": {
+    "image": "imagens/racas/cao-welshspringerspaniel.webp",
+    "author": "Udo Tjalsma",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Welsh_Springer_Spaniel_1.jpg"
+  },
+  "cao:Vostotchno-Sibirskaïa Laïka (East Siberian Laika)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Welsh Terrier": {
+    "image": "imagens/racas/cao-welshterrier.webp",
+    "author": "Shleiderbmx",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Welsh_Terrier.JPG"
+  },
+  "cao:West Highland White Terrier": {
+    "image": "imagens/racas/cao-westhighlandwhiteterrier.webp",
+    "author": "Jjc249",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westie_Chloe.jpg"
+  },
+  "cao:Wetterhoun": {
+    "image": "imagens/racas/cao-wetterhoun.webp",
+    "author": "Desaix83, d'après le travail de Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chien_D%27Eau_Frison.jpg"
+  },
+  "cao:Xoloitzcuintle": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Westfälische Dachsbracke (Westphalian Dachsbracke)": {
+    "image": "imagens/racas/cao-westfalischedachsbrackewestphaliandachsbracke.jpg",
+    "author": "Volbu1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westf%C3%A4lische_Dachsbracke.jpg",
+    "referenceTitle": "Westphalian Dachsbracke"
+  },
+  "cao:Whippet": {
+    "image": "imagens/racas/cao-whippet.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whippet_2018_6.jpg"
+  },
+  "cao:Yorkshire Terrier": {
+    "image": "imagens/racas/cao-yorkshireterrier.webp",
+    "author": "Portraitlady4306",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_tootie.JPG"
+  },
+  "cao:Zwergpinscher (Miniature Pinscher)": {
+    "image": "imagens/racas/cao-zwergpinscherminiaturepinscher.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miniature_Schnauzer_salt_%26_pepper_(cropped).jpg"
+  },
+  "cao:Zwergschnauzer (Miniature Schnauzer)": {
+    "image": "imagens/racas/cao-zwergschnauzerminiatureschnauzer.webp",
+    "author": "Matthallett",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20080420_LunaHallett_(cropped).jpg"
+  },
+  "cao:Íslenskur Fjárhundur (Icelandic Sheepdog)": {
+    "image": "imagens/racas/cao-islenskurfjarhunduricelandicsheepdog.webp",
+    "author": "Veronica Druk",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icelandic_Sheepdog_Alisa_von_Lehenberg.jpg"
+  },
+  "cao:Yuzhnorusskaya Ovcharka (South Russian Shepherd Dog)": {
+    "image": "imagens/racas/cao-yuzhnorusskayaovcharkasouthrussianshepherddog.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Russian_Ovcharka.jpg",
+    "referenceTitle": "South Russian Ovcharka"
+  },
+  "cao:Zapadno-Sibirskaïa Laïka (West Siberian Laika)": {
+    "image": "imagens/racas/cao-zapadnosibirskaialaikawestsiberianlaika.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Siberian_Laika.jpg",
+    "referenceTitle": "West Siberian Laika"
+  },
+  "gato:Abyssinian": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:American Bobtail": {
+    "image": "imagens/racas/gato-americanbobtail.jpg",
+    "author": "torbakhopper from San Francisco [ dead link ]",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bobtail_2.jpg",
+    "referenceTitle": "American Bobtail"
+  },
+  "gato:American Curl": {
+    "image": "imagens/racas/gato-americancurl.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_curl_2.jpg",
+    "referenceTitle": "American Curl"
+  },
+  "gato:American Shorthair": {
+    "image": "imagens/racas/gato-americanshorthair.jpg",
+    "author": "odin_aka_zero-one",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jewelkatz_Romeo_Of_Stalker-Bars.jpg",
+    "referenceTitle": "American Shorthair"
+  },
+  "gato:American Wirehair": {
+    "image": "imagens/racas/gato-americanwirehair.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG",
+    "referenceTitle": "American Wirehair"
+  },
+  "gato:Balinese": {
+    "image": "imagens/racas/gato-balinese.png",
+    "author": "Mary Desmond",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old-Style_Balinese_Cat.png",
+    "referenceTitle": "Balinese cat"
+  },
+  "gato:Birman": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Österreichischer Pinscher (Austrian  Pinscher)": {
+    "image": "imagens/racas/cao-osterreichischerpinscheraustrianpinscher.jpg",
+    "author": "Przykuta",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinczer_austiacki_678.jpg",
+    "referenceTitle": "Austrian Pinscher"
+  },
+  "gato:Bengal": {
+    "image": "imagens/racas/gato-bengal.jpg",
+    "author": "User:Lightburst",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paintedcats_Red_Star_standing.jpg",
+    "referenceTitle": "Bengal cat"
+  },
+  "gato:Bombay": {
+    "image": "imagens/racas/gato-bombay.jpg",
+    "author": "Pititebilette",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bombay_femelle.JPG",
+    "referenceTitle": "Bombay cat"
+  },
+  "gato:Burmese": {
+    "image": "imagens/racas/gato-burmese.jpg",
+    "author": "Heikkisiltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_burmese_-_Andel_Alois_at_Cat_show.JPG",
+    "referenceTitle": "Burmese cat"
+  },
+  "gato:British Shorthair": {
+    "image": "imagens/racas/gato-britishshorthair.jpg",
+    "author": "BritishEmpire",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg",
+    "referenceTitle": "British Shorthair"
+  },
+  "gato:Burmilla": {
+    "image": "imagens/racas/gato-burmilla.jpg",
+    "author": "David Johnson [1]",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_Burmilla_cat.jpeg",
+    "referenceTitle": "Burmilla"
+  },
+  "gato:Chartreux": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Colorpoint Shorthair": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Cornish Rex": {
+    "image": "imagens/racas/gato-cornishrex.jpg",
+    "author": "Tomi Tapio K from Helsinki, Finland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rex_staredown.jpg",
+    "referenceTitle": "Cornish Rex"
+  },
+  "gato:Devon Rex": {
+    "image": "imagens/racas/gato-devonrex.jpg",
+    "author": "Anna Belial",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Devon_Rex_Cassini.jpeg",
+    "referenceTitle": "Devon Rex"
+  },
+  "gato:Egyptian Mau": {
+    "image": "imagens/racas/gato-egyptianmau.jpg",
+    "author": "Achet Aton",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RoyalNefertt_Serket_of_AchetAton.jpg",
+    "referenceTitle": "Egyptian Mau"
+  },
+  "gato:European Burmese": {
+    "image": "imagens/racas/gato-europeanburmese.jpg",
+    "author": "Heikkisiltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_burmese_-_Andel_Alois_at_Cat_show.JPG",
+    "referenceTitle": "Burmese cat"
+  },
+  "gato:Exotic": {
+    "image": "imagens/racas/gato-exotic.jpg",
+    "author": "Tcm1707",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Exotic_Shorthair.jpg",
+    "referenceTitle": "Exotic Shorthair"
+  },
+  "gato:Havana Brown": {
+    "image": "imagens/racas/gato-havanabrown.jpg",
+    "author": "Havanabrowngirl",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Havana_kittens.jpg",
+    "referenceTitle": "Havana Brown"
+  },
+  "gato:Japanese Bobtail": {
+    "image": "imagens/racas/gato-japanesebobtail.jpg",
+    "author": "ようてい",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseBobtailBlueEyedMi-ke.JPG",
+    "referenceTitle": "Japanese Bobtail"
+  },
+  "gato:Khao Manee": {
+    "image": "imagens/racas/gato-khaomanee.jpg",
+    "author": "Octavio.hgc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaomanee_cat.jpg",
+    "referenceTitle": "Khao Manee"
+  },
+  "gato:Korat": {
+    "image": "imagens/racas/gato-korat.jpg",
+    "author": "Yog-Hurt's_Atlach-Nacha_at_Turok_Cat_Show.JPG : Heikkisiltala GIC_Lucky_Uffe_at_cat_show_Hyvinkää.JPG : Heikkisiltala derivative work: Abujoy ( talk )",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Face_et_profil_du_korat.JPG",
+    "referenceTitle": "Korat"
+  },
+  "gato:LaPerm": {
+    "image": "imagens/racas/gato-laperm.jpg",
+    "author": "Bebopscrx",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laperm_LH_blacktortie_white.jpg",
+    "referenceTitle": "LaPerm"
+  },
+  "gato:Lykoi": {
+    "image": "imagens/racas/gato-lykoi.jpg",
+    "author": "steptacular",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:8-month-old_male_Lykoi.jpg",
+    "referenceTitle": "Lykoi"
+  },
+  "gato:Maine Coon Cat": {
+    "image": "imagens/racas/gato-mainecooncat.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "referenceTitle": "Maine Coon"
+  },
+  "gato:Manx": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Norwegian Forest Cat": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Ocicat": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Oriental": {
+    "image": "imagens/racas/gato-oriental.jpg",
+    "author": "Daly69",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fatale_de_la_l%C3%A9gende_d%27ali.jpg",
+    "referenceTitle": "Oriental Shorthair"
+  },
+  "gato:Persian": {
+    "image": "imagens/racas/gato-persian.jpg",
+    "author": "The original uploader was Lajoma at Finnish Wikipedia .",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persialainen.jpg",
+    "referenceTitle": "Persian cat"
+  },
+  "gato:RagaMuffin": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Ragdoll": {
+    "image": "imagens/racas/gato-ragdoll.jpg",
+    "author": "Simone Johnsson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ragdoll_from_Gatil_Ragbelas.jpg",
+    "referenceTitle": "Ragdoll"
+  },
+  "gato:Russian Blue": {
+    "image": "imagens/racas/gato-russianblue.jpg",
+    "author": "Anna Utekhina http://kidsphoto.ru/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Russian_blue_kitten_(cropped).jpg",
+    "referenceTitle": "Russian Blue"
+  },
+  "gato:Scottish Fold": {
+    "image": "imagens/racas/gato-scottishfold.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG",
+    "referenceTitle": "Scottish Fold"
+  },
+  "gato:Selkirk Rex": {
+    "missing": true
+  },
+  "gato:Siamese": {
+    "image": "imagens/racas/gato-siamese.jpg",
+    "author": "Meekahoo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siamese_cat_Vaillante.JPG",
+    "referenceTitle": "Siamese cat"
+  },
+  "gato:Siberian": {
+    "image": "imagens/racas/gato-siberian.jpg",
+    "author": "Floofymarshmallow",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samiha%27s_Siberian_cat_Moon_Pie.jpg",
+    "referenceTitle": "Siberian cat"
+  },
+  "gato:Singapura": {
+    "image": "imagens/racas/gato-singapura.png",
+    "author": "Original: Government of Singapore Vector: Zscout370",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
+    "referenceTitle": "Singapore"
+  },
+  "gato:Somali": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Sphynx": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "gato:Tonkinese": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Toybob": {
+    "image": "imagens/racas/gato-toybob.jpg",
+    "author": "Nickolas Titkov from Moscow, Russian Federation",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TOB_Velena-Kutc_(15818956518)_(cropped).jpg",
+    "referenceTitle": "Toybob"
+  },
+  "gato:Turkish Angora": {
+    "image": "imagens/racas/gato-turkishangora.jpg",
+    "author": "Ankarakediler",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_Angora_in_Ankara_Zoo_(AO%C3%87).JPG",
+    "referenceTitle": "Turkish Angora"
+  },
+  "gato:Turkish Van": {
+    "image": "imagens/racas/gato-turkishvan.png",
+    "author": "Matsu1024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_Van_cat_transparent_(cropped).png",
+    "referenceTitle": "Turkish Van"
+  },
+  "gato:American Bobtail Shorthair": {
+    "image": "imagens/racas/gato-americanbobtailshorthair.jpg",
+    "author": "torbakhopper from San Francisco [ dead link ]",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bobtail_2.jpg",
+    "referenceTitle": "American Bobtail"
+  },
+  "gato:Australian Mist": {
+    "image": "imagens/racas/gato-australianmist.jpg",
+    "author": "Regis2007",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_Mist.jpg",
+    "referenceTitle": "Australian Mist"
+  },
+  "gato:American Curl Longhair": {
+    "image": "imagens/racas/gato-americancurllonghair.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_curl_2.jpg",
+    "referenceTitle": "American Curl"
+  },
+  "gato:Bengal Longhair": {
+    "image": "imagens/racas/gato-bengallonghair.png",
+    "author": "Lancepark",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Bengal_region.png",
+    "referenceTitle": "Bengal"
+  },
+  "gato:British Longhair": {
+    "image": "imagens/racas/gato-britishlonghair.jpg",
+    "author": "BritishEmpire",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg",
+    "referenceTitle": "British Shorthair"
+  },
+  "gato:Burmilla Longhair": {
+    "image": "imagens/racas/gato-burmillalonghair.jpg",
+    "author": "David Johnson [1]",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_Burmilla_cat.jpeg",
+    "referenceTitle": "Burmilla"
+  },
+  "gato:Chausie": {
+    "image": "imagens/racas/gato-chausie.jpg",
+    "author": "PiBeseth",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChausieA.jpg",
+    "referenceTitle": "Chausie"
+  },
+  "gato:Cherubim": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Cymric": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Cymric Tailed": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Donskoy": {
+    "image": "imagens/racas/gato-donskoy.jpg",
+    "author": "Nickolas Titkov from Moscow, Russian Federation",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSX_World_Premior_RU*Don_Xuk%27s_Login_WOW_(14037189016).jpg",
+    "referenceTitle": "Donskoy cat"
+  },
+  "gato:Highlander": {
+    "image": "imagens/racas/gato-highlander.jpg",
+    "author": "DigitalDirt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Highlander-7.jpg",
+    "referenceTitle": "Highlander cat"
+  },
+  "gato:Highlander Shorthair": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Himalayan": {
+    "image": "imagens/racas/gato-himalayan.jpg",
+    "author": "Cindy See",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonny_Bunny.jpg",
+    "referenceTitle": "Himalayan cat"
+  },
+  "gato:Japanese Bobtail Longhair": {
+    "image": "imagens/racas/gato-japanesebobtaillonghair.jpg",
+    "author": "ようてい",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseBobtailBlueEyedMi-ke.JPG",
+    "referenceTitle": "Japanese Bobtail"
+  },
+  "gato:Kurilian Bobtail": {
+    "image": "imagens/racas/gato-kurilianbobtail.jpg",
+    "author": "TRUE KURILIANS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KURILIAN_BOBTAIL_Maschio_Veika_2011_(cropped).JPG",
+    "referenceTitle": "Kurilian Bobtail"
+  },
+  "gato:Kurilian Bobtail Longhair": {
+    "image": "imagens/racas/gato-kurilianbobtaillonghair.jpg",
+    "author": "TRUE KURILIANS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KURILIAN_BOBTAIL_Maschio_Veika_2011_(cropped).JPG",
+    "referenceTitle": "Kurilian Bobtail"
+  },
+  "gato:LaPerm Shorthair": {
+    "image": "imagens/racas/gato-lapermshorthair.jpg",
+    "author": "Bebopscrx",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laperm_LH_blacktortie_white.jpg",
+    "referenceTitle": "LaPerm"
+  },
+  "gato:Maine Coon Polydactyl": {
+    "image": "imagens/racas/gato-mainecoonpolydactyl.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "referenceTitle": "Maine Coon"
+  },
+  "gato:Manx Tailed": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "gato:Minuet": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Minuet Longhair": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Minuet Talls": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Minuet Talls Longhair": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Munchkin": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Munchkin Longhair": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Nebelung": {
+    "image": "imagens/racas/gato-nebelung.jpg",
+    "author": "Nebelung",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aleksandr_van_Song_de_Chine.jpg",
+    "referenceTitle": "Nebelung"
+  },
+  "gato:Oriental Longhair": {
+    "missing": true
+  },
+  "gato:Oriental Shorthair": {
+    "image": "imagens/racas/gato-orientalshorthair.jpg",
+    "author": "Daly69",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fatale_de_la_l%C3%A9gende_d%27ali.jpg",
+    "referenceTitle": "Oriental Shorthair"
+  },
+  "gato:Peterbald": {
+    "image": "imagens/racas/gato-peterbald.jpg",
+    "author": "Peterbald",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamila_the_lilac_tabby_Peterbald_cat.jpg",
+    "referenceTitle": "Peterbald"
+  },
+  "gato:Pixiebob": {
+    "image": "imagens/racas/gato-pixiebob.jpg",
+    "author": "Nathalie Bent",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jarnac_Bepacific_feb07.jpg",
+    "referenceTitle": "Pixie-bob"
+  },
+  "gato:Pixiebob Longhair": {
+    "image": "imagens/racas/gato-pixieboblonghair.jpg",
+    "author": "Nathalie Bent",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jarnac_Bepacific_feb07.jpg",
+    "referenceTitle": "Pixie-bob"
+  },
+  "gato:Savannah": {
+    "image": "imagens/racas/gato-savannah.jpg",
+    "author": "Jason Douglas",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Savannah_Cat_portrait.jpg",
+    "referenceTitle": "Savannah cat"
+  },
+  "gato:Scottish Fold Longhair": {
+    "image": "imagens/racas/gato-scottishfoldlonghair.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG",
+    "referenceTitle": "Scottish Fold"
+  },
+  "gato:Scottish Straight": {
+    "image": "imagens/racas/gato-scottishstraight.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG",
+    "referenceTitle": "Scottish Fold"
+  },
+  "gato:Scottish Straight Longhair": {
+    "image": "imagens/racas/gato-scottishstraightlonghair.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG",
+    "referenceTitle": "Scottish Fold"
+  },
+  "gato:Selkirk Rex Longhair": {
+    "missing": true
+  },
+  "gato:Snowshoe": {
+    "image": "imagens/racas/gato-snowshoe.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlas_snowshoes.jpg",
+    "referenceTitle": "Snowshoe"
+  },
+  "gato:Tennessee Rex": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "gato:Thai": {
+    "image": "imagens/racas/gato-thai.jpg",
+    "author": "Talar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D1%82_%D0%9B%D1%83%D0%BB%D0%B0%D0%BC%D0%B5%D0%B9_%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0,_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_WCF,_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D0%B1%D0%BB%D1%8E_%D0%BF%D0%BE%D0%B8%D0%BD%D1%82_01_(cropped).jpg",
+    "referenceTitle": "Thai cat"
+  },
+  "gato:Toyger": {
+    "image": "imagens/racas/gato-toyger.jpg",
+    "author": "Heikki Siltala",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG",
+    "referenceTitle": "Toyger"
+  },
+  "gato:Exotic Shorthair": {
+    "image": "imagens/racas/gato-exoticshorthair.jpg",
+    "author": "Tcm1707",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Exotic_Shorthair.jpg",
+    "referenceTitle": "Exotic Shorthair"
+  },
+  "gato:American Curl Shorthair": {
+    "image": "imagens/racas/gato-americancurlshorthair.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_curl_2.jpg",
+    "referenceTitle": "American Curl"
+  },
+  "gato:LaPerm Longhair": {
+    "image": "imagens/racas/gato-lapermlonghair.jpg",
+    "author": "Bebopscrx",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laperm_LH_blacktortie_white.jpg",
+    "referenceTitle": "LaPerm"
+  },
+  "gato:Maine Coon": {
+    "image": "imagens/racas/gato-mainecoon.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "referenceTitle": "Maine Coon"
+  },
+  "gato:European Shorthair": {
+    "image": "imagens/racas/gato-europeanshorthair.jpg",
+    "author": "Tessa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Shorthair_EUR_d_22.jpg",
+    "referenceTitle": "European Shorthair"
+  },
+  "gato:Neva Masquerade": {
+    "image": "imagens/racas/gato-nevamasquerade.jpg",
+    "author": "Burgerhus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NevaMasqueradeFiona_(cropped).jpg",
+    "referenceTitle": "Neva Masquerade"
+  },
+  "gato:Sokoke": {
+    "image": "imagens/racas/gato-sokoke.jpg",
+    "author": "Heikki Siltala https://catza.net/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kimburu_Sungura_Sana_of_Moosegrove_SOK_n_22_(cropped).jpg",
+    "referenceTitle": "Sokoke"
+  },
+  "gato:Selkirk Rex Shorthair": {
+    "missing": true
+  },
+  "gato:Norwegian Forest": {
+    "image": "imagens/racas/gato-norwegianforest.jpg",
+    "author": "Gangburgondes",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalaja-Doll-norv%C3%A9gien-ambre-blotched-tabby_avec-blanc_2008_(cropped).jpg",
+    "referenceTitle": "Norwegian Forest Cat"
+  },
+  "gato:German Rex": {
+    "image": "imagens/racas/gato-germanrex.jpg",
+    "author": "M.Gerver",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:German_rex_harry_(cropped).jpg",
+    "referenceTitle": "German Rex"
+  },
+  "gato:Japanese Bobtail Shorthair": {
+    "image": "imagens/racas/gato-japanesebobtailshorthair.jpg",
+    "author": "ようてい",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseBobtailBlueEyedMi-ke.JPG",
+    "referenceTitle": "Japanese Bobtail"
+  },
+  "cao:SRD cão": {
+    "image": "imagens/racas/cao-srdcao.jpg",
+    "author": "Mribakov",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mongrel_1.jpg",
+    "referenceTitle": "Mongrel"
+  },
+  "gato:SRD gato": {
+    "image": "imagens/racas/gato-srdgato.jpg",
+    "author": "torne (where's my lens cap?)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_stray_cats_in_Japan_street,_August_2014.jpg",
+    "referenceTitle": "Moggy"
+  },
+  "roedor:Golden hamster": {
+    "image": "imagens/racas/roedor-goldenhamster.jpg",
+    "author": "Adamjennison111 at English Wikipedia",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_hamster_front_1.jpg",
+    "referenceTitle": "Golden hamster"
+  },
+  "roedor:Winter white dwarf hamster": {
+    "image": "imagens/racas/roedor-winterwhitedwarfhamster.jpg",
+    "author": "Philipp Salzgeber",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PhodopusSungorus_1.jpg",
+    "referenceTitle": "Winter white dwarf hamster"
+  },
+  "roedor:Campbell's dwarf hamster": {
+    "image": "imagens/racas/roedor-campbellsdwarfhamster.jpg",
+    "author": "BettyBen",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campbell_hamster_agouti.jpg",
+    "referenceTitle": "Campbell's dwarf hamster"
+  },
+  "roedor:Roborovski hamster": {
+    "image": "imagens/racas/roedor-roborovskihamster.jpg",
+    "author": "Bullet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phodopus_roborovskii.jpg",
+    "referenceTitle": "Roborovski dwarf hamster"
+  },
+  "roedor:Chinese hamster": {
+    "image": "imagens/racas/roedor-chinesehamster.jpg",
+    "author": "Tristanspotter",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinesedsaffa.jpg",
+    "referenceTitle": "Chinese hamster"
+  },
+  "roedor:Guinea pig": {
+    "image": "imagens/racas/roedor-guineapig.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_the_amazing_guinea_pig.jpg",
+    "referenceTitle": "Guinea pig"
+  },
+  "roedor:Chinchilla": {
+    "image": "imagens/racas/roedor-chinchilla.jpg",
+    "author": "Guérin Nicolas ( messages )",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinchilla_lanigera_(Wroclaw_zoo)-2.JPG",
+    "referenceTitle": "Chinchilla"
+  },
+  "roedor:Mongolian gerbil": {
+    "image": "imagens/racas/roedor-mongoliangerbil.jpg",
+    "author": "Alastair Rae from London, United Kingdom",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meriones_unguiculatus_(wild).jpg",
+    "referenceTitle": "Mongolian gerbil"
+  },
+  "roedor:Fancy rat": {
+    "image": "imagens/racas/roedor-fancyrat.jpg",
+    "author": "Editor012456",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyonblackandwhitehoodedrat_(cropped).jpg",
+    "referenceTitle": "Fancy rat"
+  },
+  "roedor:Fancy mouse": {
+    "image": "imagens/racas/roedor-fancymouse.jpg",
+    "author": "Autor indicado na fonte",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fancy_Mouse.jpg",
+    "referenceTitle": "Fancy mouse"
+  },
+  "roedor:Common degu": {
+    "image": "imagens/racas/roedor-commondegu.jpg",
+    "author": "Markus",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Octodon_degus_-Heidelberg_Zoo,_Germany-8a.jpg",
+    "referenceTitle": "Common degu"
+  },
+  "coelho:Angora rabbit": {
+    "image": "imagens/racas/coelho-angorarabbit.jpg",
+    "author": "Ross Little",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fluffy_white_bunny_rabbit.jpg",
+    "referenceTitle": "Angora rabbit"
+  },
+  "coelho:Mini Lop": {
+    "image": "imagens/racas/coelho-minilop.jpg",
+    "author": "MiniLop1234",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mini_Lop_Rabbit_Front_View.jpg",
+    "referenceTitle": "Mini Lop"
+  },
+  "coelho:Rex rabbit": {
+    "image": "imagens/racas/coelho-rexrabbit.jpg",
+    "author": "PD-user-en/Mr. Rex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Broken_Castor_Rex_Rabbit.JPG",
+    "referenceTitle": "Rex rabbit"
+  },
+  "coelho:Dutch rabbit": {
+    "image": "imagens/racas/coelho-dutchrabbit.jpg",
+    "author": "Bunnybri",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Grand_Champion_Dutch_Rabbit.jpg",
+    "referenceTitle": "Dutch rabbit"
+  },
+  "ave:Cockatiel": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "ave:Budgerigar": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "ave:Domestic canary": {
+    "image": "imagens/racas/ave-domesticcanary.jpg",
+    "author": "NEWSchr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GelbA.JPG",
+    "referenceTitle": "Domestic canary"
+  },
+  "ave:Parrot": {
+    "image": "imagens/racas/ave-parrot.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg",
+    "referenceTitle": "Parrot"
+  },
+  "reptil:Red-footed tortoise": {
+    "image": "imagens/racas/reptil-redfootedtortoise.jpg",
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geochelone_carbonaria_IMG_4978.jpg",
+    "referenceTitle": "Red-footed tortoise"
+  },
+  "reptil:Leopard gecko": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "reptil:Green iguana": {
+    "image": "imagens/racas/reptil-greeniguana.jpg",
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iguana_iguana_(male_resting).jpg",
+    "referenceTitle": "Green iguana"
+  },
+  "cao:Miniature American Shepherd": {
+    "image": "imagens/racas/cao-miniatureamericanshepherd.webp",
+    "author": "Lextergrace",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Merle_Miniature_American_Shepherd_in_Grass.jpg"
+  },
+  "cao:Yakutskaya Laika (Yakutian Laika)": {
+    "image": "imagens/racas/cao-yakutskayalaikayakutianlaika.webp",
+    "author": "Pixelapache",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BAYKA_CHEZ_SANDRINE_PEIGNEY.jpg"
+  },
+  "cao:Lancashire Heeler": {
+    "image": "imagens/racas/cao-lancashireheeler.webp",
+    "author": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grupp_1,_LANCASHIRE_HEELER,_NO_UCH_NO_V-14_NO_V-15_SE_UCH_St%C3%A5hlskyttens_Longed_For_Antony_(24284065606).jpg"
+  },
+  "cao:Australian Stumpy Tail Cattle Dog": {
+    "image": "imagens/racas/cao-australianstumpytailcattledog.webp",
+    "author": "Wendy Hodges",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_Stumpy_Tail_Cattle_Dog.jpg"
+  },
+  "cao:Alaskan Klee Kai": {
+    "image": "imagens/racas/cao-alaskankleekai.webp",
+    "author": "Kobikleekai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kobi_the_Alaskan_Klee_Kai.jpg"
+  },
+  "cao:American Bulldog": {
+    "image": "imagens/racas/cao-americanbulldog.webp",
+    "author": "Photo by sannse",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Bulldog_600.jpg"
+  },
+  "cao:American English Coonhound": {
+    "image": "imagens/racas/cao-americanenglishcoonhound.webp",
+    "author": "BurnAway",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maddie_(8416820450).jpg"
+  },
+  "cao:American Eskimo Dog": {
+    "image": "imagens/racas/cao-americaneskimodog.webp",
+    "author": "Christmas w/a K",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Eskimo_Dog_1.jpg"
+  },
+  "cao:American Hairless Terrier": {
+    "image": "imagens/racas/cao-americanhairlessterrier.webp",
+    "author": "Nyaah",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Hairless_Terrier_Adelor.jpg"
+  },
+  "cao:American Leopard Hound": {
+    "image": "imagens/racas/cao-americanleopardhound.webp",
+    "author": "Nagygabornet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02._Coahoma_Arkansas_Logan.jpg"
+  },
+  "cao:Anatolian Shepherd Dog": {
+    "image": "imagens/racas/cao-anatolianshepherddog.webp",
+    "author": "Zeynel Cebeci",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anatolian_Shepherd_Dog_01.jpg"
+  },
+  "cao:Barbado da Terceira": {
+    "image": "imagens/racas/cao-barbadodaterceira.webp",
+    "author": "Drealmere",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Witte_Barbado_da_Terceira.jpg"
+  },
+  "cao:Belgian Laekenois": {
+    "image": "imagens/racas/cao-belgianlaekenois.webp",
+    "author": "Olgierd Rudak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boss,_prawie_owczarek_belgijski_Malinois_(2007-11-04)_1.jpg"
+  },
+  "cao:Belgian Malinois": {
+    "image": "imagens/racas/cao-belgianmalinois.webp",
+    "author": "Flickr user intrepidmalinois \"MALINUTS\"",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgian_Malinois_male_Flickr.jpg"
+  },
+  "cao:Belgian Sheepdog": {
+    "image": "imagens/racas/cao-belgiansheepdog.webp",
+    "author": "D. Williams",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgian_Malinois_01.jpg"
+  },
+  "cao:Biewer Terrier": {
+    "image": "imagens/racas/cao-biewerterrier.webp",
+    "author": "Detlef Breiting",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BiewerH%C3%BCndin.jpg"
+  },
+  "cao:Bluetick Coonhound": {
+    "image": "imagens/racas/cao-bluetickcoonhound.webp",
+    "author": "bark",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bluetick_Coonhound.jpg"
+  },
+  "cao:Boerboel": {
+    "image": "imagens/racas/cao-boerboel.webp",
+    "author": "Jln115",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:22_Month_old_Boerboel.jpg"
+  },
+  "cao:Boykin Spaniel": {
+    "image": "imagens/racas/cao-boykinspaniel.webp",
+    "author": "jetsonphoto",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boykin_Spaniel_April_Jet.jpg"
+  },
+  "cao:Carolina Dog": {
+    "image": "imagens/racas/cao-carolinadog.webp",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dingo_(Canis_lupus_dingo)_Kakadu_2.jpg"
+  },
+  "cao:Catahoula Leopard Dog": {
+    "image": "imagens/racas/cao-catahoulaleoparddog.webp",
+    "author": "Richárd Bolyós",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._Louisiana_Cataholula_Leopard_Dog_-_Coahoma_Arkansas.jpg"
+  },
+  "cao:Chinook": {
+    "image": "imagens/racas/cao-chinook.webp",
+    "author": "jude",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinook_Olympics_07_020.jpg"
+  },
+  "cao:Collie": {
+    "image": "imagens/racas/cao-collie.webp",
+    "author": "7575u",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Border_Collie_with_Heterochromia_2.jpg"
+  },
+  "cao:Keeshond": {
+    "image": "imagens/racas/cao-keeshond.webp",
+    "author": "dancing with wolves",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keeshond_Majic_standing_cropped.jpg"
+  },
+  "cao:Kishu Ken": {
+    "image": "imagens/racas/cao-kishuken.webp",
+    "author": "CJ Hammond",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kishu_Ken_(sesame).jpg"
+  },
+  "cao:Manchester Terrier (Toy)": {
+    "image": "imagens/racas/cao-manchesterterriertoy.webp",
+    "author": "Lil Shepherd",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EnglishToyTerrier.jpg"
+  },
+  "cao:Mountain Cur": {
+    "image": "imagens/racas/cao-mountaincur.webp",
+    "author": "ThoHug",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mtncur.png"
+  },
+  "cao:Norwegian Elkhound": {
+    "image": "imagens/racas/cao-norwegianelkhound.webp",
+    "author": "Dmitry Guskov",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norwegian_Elkhound_1.jpg"
+  },
+  "cao:Plott": {
+    "image": "imagens/racas/cao-plott.webp",
+    "author": "James Emery",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plott_Hound.jpg"
+  },
+  "cao:Pomeranian": {
+    "image": "imagens/racas/cao-pomeranian.webp",
+    "author": "Blackoranges",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pomeranian.JPG"
+  },
+  "cao:Poodle (Miniature)": {
+    "image": "imagens/racas/cao-poodleminiature.webp",
+    "author": "Tim Wilson from Blaine, MN, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Full_attention_(8067543690).jpg"
+  },
+  "cao:Poodle (Toy)": {
+    "image": "imagens/racas/cao-poodletoy.webp",
+    "author": "B. Schöner (Flying Spark at de.wikipedia)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pudel_Grossschwarz.jpg"
+  },
+  "cao:Portuguese Podengo Pequeno": {
+    "image": "imagens/racas/cao-portuguesepodengopequeno.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podengolisopequeno-fawn%26white1.jpg"
+  },
+  "cao:Pyrenean Shepherd": {
+    "image": "imagens/racas/cao-pyreneanshepherd.webp",
+    "author": "No machine-readable author provided. KeJa~commonswiki assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berger-des-Pyrenees_Ellea_800x600.jpg"
+  },
+  "cao:Rat Terrier": {
+    "image": "imagens/racas/cao-ratterrier.webp",
+    "author": "Jadenschaul",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amberina_the_Rat_Terrier.jpg"
+  },
+  "cao:Redbone Coonhound": {
+    "image": "imagens/racas/cao-redbonecoonhound.webp",
+    "author": "127177p",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_female_redbone-coonhound-1.jpg"
+  },
+  "cao:Russell Terrier": {
+    "image": "imagens/racas/cao-russellterrier.webp",
+    "author": "JOLLY-DOGS-JACK-RUSSELL",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Russell_Jolly_Dogs_Smartie.jpg"
+  },
+  "cao:Russian Tsvetnaya Bolonka": {
+    "image": "imagens/racas/cao-russiantsvetnayabolonka.webp",
+    "author": "GuidoR",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolonka-Hund.JPG"
+  },
+  "cao:Teddy Roosevelt Terrier": {
+    "image": "imagens/racas/cao-teddyrooseveltterrier.webp",
+    "author": "Dkm1987",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adult_Male_Teddy_Roosevelt_Terrier.jpg"
+  },
+  "cao:Toy Fox Terrier": {
+    "image": "imagens/racas/cao-toyfoxterrier.webp",
+    "author": "Terry Best",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toy_Fox_Terrier_2.jpg"
+  },
+  "cao:Treeing Tennessee Brindle": {
+    "image": "imagens/racas/cao-treeingtennesseebrindle.webp",
+    "author": "Hummelong",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sienna_TTBD.jpg"
+  },
+  "cao:Treeing Walker Coonhound": {
+    "image": "imagens/racas/cao-treeingwalkercoonhound.webp",
+    "author": "Kingkong954",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treeing-walker-coonhound-standing.jpg"
+  },
+  "cao:Working Kelpie": {
+    "image": "imagens/racas/cao-workingkelpie.webp",
+    "author": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AustralianKelpieRed.jpg"
+  },
+  "coelho:Lionhead rabbit": {
+    "image": "imagens/racas/coelho-lionheadrabbit.jpg",
+    "author": "Emmaima",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lionhead_rabbit_Dobby.jpg",
+    "referenceTitle": "Lionhead rabbit"
+  },
+  "coelho:Netherland Dwarf rabbit": {
+    "image": "imagens/racas/coelho-netherlanddwarfrabbit.jpg",
+    "author": "金色黎明",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rabbit-with-grass.jpg",
+    "referenceTitle": "Netherland Dwarf rabbit"
+  },
+  "coelho:Mini Rex": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "coelho:Flemish Giant rabbit": {
+    "image": "imagens/racas/coelho-flemishgiantrabbit.jpg",
+    "author": "Lucile Petit",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lapin_geant_des_flandres.JPG",
+    "referenceTitle": "Flemish Giant rabbit"
+  },
+  "coelho:Holland Lop": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "coelho:New Zealand rabbit": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "coelho:Californian rabbit": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "coelho:Dwarf Hotot": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Macedonian Shepherd Dog Karaman": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Sabueso Fino Colombiano (Colombian Fino Hound)": {
+    "image": "imagens/racas/cao-sabuesofinocolombianocolombianfinohound.jpg",
+    "author": "csfc",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sabueso_fino_colombiano_primero.jpg",
+    "referenceTitle": "Colombian Fino Hound"
+  },
+  "cao:Segugio Dell'Appennino (Appennine Hound - Italian Hare-Hunting Dog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Tatranský Durič (Tatra Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Buldogue Campeiro (Brazilian Campeiro Bulldog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Kazakh Tazy": {
+    "image": "imagens/racas/cao-kazakhtazy.jpg",
+    "author": "Marcin Błaszkowski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chart_%C5%9Brodkowoazjatycki_Zeila.jpg",
+    "referenceTitle": "Kazakh Tazy"
+  },
+  "cao:Ciobănesc Românesc Corb (Romanian Raven Shepherd Dog)": {
+    "image": "imagens/racas/cao-ciobanescromanesccorbromanianravenshepherddog.jpg",
+    "author": "Canarian",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Romaniankorppi2.jpg",
+    "referenceTitle": "Romanian Raven Shepherd Dog"
+  },
+  "cao:Ratonero Bodeguero Andaluz (Andalusian Terrier, Sherry Terrier)": {
+    "image": "imagens/racas/cao-ratonerobodegueroandaluzandalusianterriersherryterrier.jpg",
+    "author": "Torsten Dickmann",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodeguero_young.jpg",
+    "referenceTitle": "Andalusian Terrier"
+  },
+  "cao:Gos Rater Valencià (Valencian Terrier)": {
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "cao:Continental Bulldog": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Cão De Gado Transmontano (Transmontano Mastiff)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Eesti Hagijas (Estonian Hound)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Chodský Pes (Bohemian Shepherd Dog)": {
+    "image": "imagens/racas/cao-chodskypesbohemianshepherddog.webp",
+    "author": "Krosandra",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OREADY_KROSANDRA_(14).JPG"
+  },
+  "cao:Prazsky Krysarik (Prague Ratter)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Anjing Kintamani-Bali (Kintamani-Bali Dog)": {
+    "missing": true,
+    "reason": "Página da raça sem imagem confirmada"
+  },
+  "cao:Segugio Maremmano": {
+    "image": "imagens/racas/cao-segugiomaremmano.jpg",
+    "author": "Rezzoc91",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Can_da_caccia_maremman_inta_Vall%C3%A2_de_Cich%C3%AA_(cropped).jpg",
+    "referenceTitle": "Segugio Maremmano"
+  }
+}

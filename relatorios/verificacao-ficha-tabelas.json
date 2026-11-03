@@ -1,0 +1,16 @@
+{
+  "aprovado": true,
+  "verificacoes": [
+    "Oito rótulos destacados e valores separados",
+    "Texto informado preservado e conteúdo HTML não executado",
+    "Documento destaca rótulos e mantém conteúdo",
+    "Ficha legível em 320 pixels no tema claro",
+    "Ficha legível em 320 pixels no tema escuro",
+    "Colunas e paginação de pets.html",
+    "Colunas e paginação de usuarios.html",
+    "Colunas e paginação de reservas.html",
+    "Histórico do animal usa código e não mistura Totos",
+    "Nenhum erro de execução nas páginas"
+  ],
+  "erros": []
+}

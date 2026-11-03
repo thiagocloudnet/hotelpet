@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rounds": 3,
+  "checks": [
+    "peso e porte vinculados",
+    "total e diária consistentes",
+    "atalhos por seção",
+    "seletor acessível e adaptado ao celular",
+    "checklist com persistência e recuperação de falha",
+    "avatar de outro gerente não abre perfil principal"
+  ],
+  "errors": []
+}

@@ -1,0 +1,2855 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="/css/StyleSheet.min.css?ver=1.30" rel="stylesheet" /><link href="/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/select2/css/select2.min.css" rel="stylesheet" />
+    <script src="/css/select2/js/select2.full.min.js"></script>
+    <title>
+	Spitz and primitive types
+</title>
+	<style type="text/css">
+		.floatable {
+			position: fixed;
+			top: 0;
+		}
+	</style>
+	<script src="/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		// listen for scroll
+		$(document).ready(function () {
+			var positionElementInPage = $('.headerraces').offset().top;
+			$(window).scroll(
+				function () {
+					if ($(window).scrollTop() >= positionElementInPage) {
+						// fixed
+						$('.headerraces').addClass("floatable");
+					} else {
+						// relative
+						$('.headerraces').removeClass("floatable");
+					}
+				}
+			);
+		});
+	</script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content contenu" style="padding: 0px">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span
+                            class="sr-only">Close</span></button>
+                    <h3 class="modal-title">
+                        Welcome to the Fédération Cynologique Internationale (FCI)</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="chapeau">
+                        
+                    </div>
+                    <div class="body">
+                        <table align="center" border="0" cellpadding="1" cellspacing="1" style="width:550px;">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align: center;"><span style="text-align: center; background-color: rgb(255, 255, 255);">You already own a dog or plan&nbsp;to get a puppy<br />
+			Dog Welfare is of utmost&nbsp;importance to you<br />
+			&nbsp;(Nutrition</span>|<span style="text-align: center; background-color: rgb(255, 255, 255);">Environement</span>|<span style="text-align: center; background-color: rgb(255, 255, 255);">Health</span>|<span style="text-align: center; background-color: rgb(255, 255, 255);">Behaviour</span>|<span style="text-align: center; background-color: rgb(255, 255, 255);">Mental State)<br />
+			You need advice to buy, get prepared or care for a puppy&nbsp;</span><br />
+			<span style="text-align: center; background-color: rgb(255, 255, 255);">You are loo</span><span style="text-align: center; background-color: rgb(255, 255, 255);">king for a responsible breeder</span></p>
+
+			<h3 style="text-align: center;"><a href="https://www.petdoginfo.com/">petdoginfo.com</a><br />
+			<a href="https://www.petdoginfo.com/"><img alt="" src="https://dev.fci.be/medias/dogs-worlwide-logo-12500.png" style="width: 300px; height: 225px;" /></a></h3>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">
+			<p style="text-align: center;">You are a national canine organisation (NCO) member of the FCI<br />
+			You are an active FCI pedigree dog breeder or FCI judge<br />
+			You are an FCI event organiser<br />
+			You own an FCI pedigree dog and are interested in taking part in FCI events<br />
+			You are involved in the FCI Community&nbsp;<br />
+			<span style="text-align: center; background-color: rgb(255, 255, 255);">You are interested in FCI breed standards</span><br />
+			You simply want to learn more about us, our members and activities</p>
+
+			<h3 style="text-align: center;"><a href="https://www.fci.be/en/">fci.be</a><br />
+			<br />
+			<a href="https://www.fci.be/en/" style="text-align: center; background-color: rgb(255, 255, 255);"><img alt="" src="https://dev.fci.be/medias/FCI-LOG-FPDW-wide-12501.JPG" style="width: 300px; height: 179px;" /></a></h3>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <form method="post" action="./5-Spitz-and-primitive-types.html?id=5" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1C9F01C8" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2XMiHzhhT0h7e8jRzmMhrXVQSH57qGJGViCNqneWBtWA1a3iG/5hHp48sYdsyN6e5w2RaiRA1KcxiA2tAiEBsyyb5cY54ICbARgcEmAktK4xX0hS3qZXKtv7iiuqtw4udGWYDR2hgcoNU1RK9x2YuRj2Gd1SCKMVtSXf8KqM8JRREpxmTLvH9Hys3wcqZ3jQ" />
+        <div id="page">
+
+            <div class="top">
+
+                <div class="center">
+                    <div class="logo">
+                        <a id="LogoHyperLink" href="/en/"><img id="Image1" src="../../Medias/Site/logo.png" /></a>
+                    </div>
+                    <div class="langue">
+                        <ul>
+                            <li>
+                                <a id="ENHyperLink" href="/en/nomenclature/5-Spitz-and-primitive-types.html">English</a></li>
+                            <li>
+                                <a id="FRHyperLink" href="/fr/nomenclature/5-Spitz-and-primitive-types.html">Français</a></li>
+                            <li>
+                                <a id="DEHyperLink" href="/de/nomenclature/5-Spitz-and-primitive-types.html">Deutsch</a></li>
+                            <li>
+                                <a id="ESHyperLink" href="/es/nomenclature/5-Spitz-and-primitive-types.html">Español</a></li>
+                        </ul>
+                    </div>
+                    <div class="ncoaccess">
+                        <a id="NCOHyperLink" href="/en/nco/">LOGIN</a>
+
+                    </div>
+					<div class="welfare"><a href="https://www.petdoginfo.com" target=_blank> <img id="welfare" width="102px" height="68px" src="/Medias/Site/fci-welfare-logo-white-150.png"></a></div>
+                    
+                    <div class="facebook">
+                        <div class="fb-page" data-href="https://www.facebook.com/fci4pedigreedogs"
+                            data-small-header="true" data-adapt-container-width="false" data-hide-cover="false"
+                            data-show-facepile="false" data-show-posts="false">
+                            <div class="fb-xfbml-parse-ignore">
+                                <blockquote cite="https://www.facebook.com/fci4pedigreedogs">
+                                    <a
+                                        href="https://www.facebook.com/fci4pedigreedogs">FCI - Federation
+										Cynologique Internationale</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <div id="Panel1">
+	
+                            <input name="ctl00$SearchTextBox" type="text" id="SearchTextBox" placeholder="Search this website" />
+                            <input type="image" name="ctl00$SearchImageButton" id="SearchImageButton" src="../../Medias/Site/search.png" />
+                        
+</div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a id="AccueilHyperLink" href="/en/"><img src="/Medias/Site/home.png" /></a>
+                            </li>
+                            <li>
+                                <a id="LaFciHyperLink" href="/en/Presentation-of-our-organisation-4.html">The FCI</a>
+                                <div class="panel lafci">
+                                    
+                                            <table>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_0" href="/en/Presentation-of-our-organisation-4.html">Presentation</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_1" href="/en/FCI-Structure-2.html">Structure</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_2" href="/en/History-of-the-FCI-1.html">History</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_3" href="/en/Main-activities-of-the-FCI-Secretariat-3.html">Activities</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_4" href="/en/FCI-General-Committee-6932.html">General Committee</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_5" href="/en/Honorary-President-and-Honorary-Members-of-the-FCI-56.html">Honorary Members</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_6" href="/en/FCI-Standards-Commission-6872.html">Standards Commission</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="LaFciRepeater_HyperLink14_7" href="/en/FCI-Scientific-Commission-6873.html">Scientific Commission</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="NomenclatureHyperLink" class=" actif" href="/en/Nomenclature/">Breeds</a>
+                                <div class="panel nomenclature">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink1" href="../../Nomenclature/races.aspx">Search a breed</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink3" href="../../Nomenclature/Default.aspx">Breeds recognised on a definitive basis</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink6" href="../../nomenclature/provisoire.aspx">Breeds recognised on a provisonal basis</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink8" href="../../nomenclature/varietes.aspx">Breeds, varieties and CACIB award</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink81" href="../../nomenclature/docs/SCI-REG-CRO-RAC-VAR.pdf">Breeds, varieties and crosses</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink10" href="../../nomenclature/docs/STD-LIS-CTR-RNS.pdf">Breeds not subject to a working trial and working class</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink2" href="../../Nomenclature/Education.aspx">Breed-specific education</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink66" href="../../nomenclature/docs/JUG-BSI-en.pdf">Breed Specific Instructions (BSI) regarding exaggerations in pedigree dogs</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink15" href="/Medias/STD-ANA-en-.jpg">Surface anatomy</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink7" href="../../nomenclature/publication.aspx">Standards published over the last 6 months</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="MembresHyperLink" href="/en/members/">Members</a>
+                            </li>
+                            <li>
+                                <a id="CalendriersHyperLink" href="/en/schedules/">Schedules</a>
+                                <div class="panel calendrier">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink4" href="../../schedules/default.aspx">Show schedules</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink5" href="../../schedules/championships.aspx">Championships</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <a id="HyperLink9" href="../../schedules/CACIL.aspx">Races & Coursings</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="ReglementsHyperLink" href="/en/FCI-Statutes-39.html">Regulations</a>
+                                <div class="panel reglements">
+                                    
+                                            <table>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_0" href="/en/FCI-Statutes-39.html">Statutes</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_1" href="/en/FCI-Internal-Rules-4774.html">Internal Rules</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_2" href="/en/FCI-International-Championship-41.html">International Championship</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_3" href="/en/Breeding-42.html">Breeding</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_4" href="/en/Shows-43.html">Shows</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_5" href="/en/Doping-84.html">Doping</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_6" href="/en/Show-Judges-44.html">Show Judges</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_7" href="/en/Junior-Handling-105.html">Junior Handling</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_8" href="/en/Agility-45.html">Agility</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_9" href="/en/Obedience-46.html">Obedience</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_10" href="/en/Utility-Dogs-58.html">Utility Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_11" href="/en/Mondioring-3500.html">Mondioring</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_12" href="/en/Search-and-Rescue-Dogs-59.html">Search and Rescue Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_13" href="/en/Herding-Dogs-60.html">Herding Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_14" href="/en/Earth-Dogs-61.html">Earth Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_15" href="/en/Sledge-Dogs-63.html">Sledge Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_16" href="/en/Hounds-of-the-6th-Group-64.html">Hounds</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_17" href="/en/Continental-Pointers-65.html">Continental Pointers</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_18" href="/en/British-Pointers-66.html">British Pointers</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_19" href="/en/Retrievers-67.html">Retrievers</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_20" href="/en/Spaniels-68.html">Spaniels</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_21" href="/en/Sighthound-Races-Coursing-69.html">Sighthounds</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_22" href="/en/Flyball-70.html">Flyball</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_23" href="/en/Dog-Dancing-1352.html">Dog Dancing</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_24" href="/en/Grooming-3545.html">Grooming</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_25" href="/en/Rally-Obedience-4746.html">Rally Obedience</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_26" href="/en/Truffle-Search-6866.html">Truffle Search</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_27" href="/en/Water-Work-6870.html">Water Work</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="ReglementsRepeater_HyperLink14_28" href="/en/Hoopers-6914.html">Hoopers</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="ResultatsHyperLink" href="/en/results/ResultsHome.aspx">Results</a>
+                                
+                            </li>
+                            <li>
+                                <a id="CommissionsHyperLink" href="/en/Our-commissions-118.html">Commissions</a>
+                                <div class="panel commissions">
+                                    
+                                            <table>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_0" href="/en/Our-commissions-118.html">Our commissions</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_1" href="/en/FCI-Standards-Commission-72.html">Standards </a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_2" href="/en/FCI-Scientific-Commission-71.html">Scientific</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_3" href="/en/FCI-Obedience-Commission-73.html">Obedience</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_4" href="/en/FCI-Utility-Dogs-Commission-75.html">Utility Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_5" href="/en/FCI-Search-and-Rescue-SAR-Dogs-Commission-74.html">Search and Rescue Dogs (SAR)</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_6" href="/en/FCI-Commission-for-Sighthound-Sport-CSS-3469.html">Sighthound Sport</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_7" href="/en/FCI-Herding-Dogs-Commission-1296.html">Herding Dogs</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_8" href="/en/Commission-for-Dog-Dancing-3588.html">Dog Dancing </a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_9" href="/en/FCI-Youth-Commission-3604.html">FCI Youth</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_10" href="/en/FCI-Breeding-Commission-4808.html">Breeding</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_11" href="/en/Commission-for-Rally-Obedience-4815.html">Rally Obedience</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_12" href="/en/Commission-for-Education-Public-Relations-6875.html">Education & Public Relations</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="CommissionsRepeater_HyperLink14_13" href="/en/FCI-Sledge-Dog-Commission-6885.html">Sledge Dog</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="FciYouthHyperLink" href="/en/FCI-Youth-the-next-generation-of-the-FCI-101.html">FCI Youth</a>
+                                <div class="panel FCIYouth">
+                                    
+                                            <table>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_0" href="/en/FCI-Youth-the-next-generation-of-the-FCI-101.html">The next generation of the FCI</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_1" href="/en/FCI-Youth-Presentation-115.html">Presentation</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_2" href="/en/FCI-Youth-Mission-Vision-and-Values-114.html">Mission, Vision and Values</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_3" href="/en/Founding-members-113.html">Founding members</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_4" href="/en/Junior-Handling-247.html">Junior Handling</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_5" href="/en/FCI-General-Assembly-in-Milan-June-2015-189.html">GA 2015</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_6" href="/en/FCI-Youth-Summaries-Plans-1318.html">Summaries & Plans</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_7" href="/en/How-to-establish-a-national-Youth-canine-organisation-1340.html">How to establish a national Youth canine organisation</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="FciYouthRepeater_HyperLink14_8" href="/en/How-to-organize-Youth-activities-for-cynological-venues-Basic-recommendations-1341.html">How to organize Youth activities for cynological venues</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="StatistiquesHyperLink" href="/en/statistics/">Statistics</a>
+                                <div class="panel statistics">
+                                    
+                                            <table>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_0" href="../statistics/">Members, partners & sections</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_1" href="../statistics/FCI.aspx">FCI</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_2" href="../statistics/ByYear.aspx?year=2025">2025</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_3" href="../statistics/ByYear.aspx?year=2024">2024</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_4" href="../statistics/ByYear.aspx?year=2023">2023</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_5" href="../statistics/ByYear.aspx?year=2022">2022</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_6" href="../statistics/ByYear.aspx?year=2021">2021</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_7" href="../statistics/ByYear.aspx?year=2020">2020</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_8" href="../statistics/ByYear.aspx?year=2019">2019</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_9" href="../statistics/ByYear.aspx?year=2018">2018</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_10" href="../statistics/ByYear.aspx?year=2017">2017</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_11" href="../statistics/ByYear.aspx?year=2016">2016</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_12" href="../statistics/ByYear.aspx?year=2015">2015</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_13" href="../statistics/ByYear.aspx?year=2014">2014</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_14" href="/en/Statistics-of-the-FCI-members-partners-2013-2003-79.html">2013-2003</a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td>
+                                                    <a id="StatisticsRepeater_HyperLink14_15" href="/en/Other-statistics-3593.html">Other statistics</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    <div class="picture"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="AffixesHyperLink" href="/en/affixes/">Kennel Names</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center content">
+                
+
+	<div class="contenu nomenclature">
+		
+<h1>
+	<span id="ContentPlaceHolder1_Top1_Label2">FCI breeds nomenclature</span>
+</h1>
+<div class="topnom">
+
+	<br />
+	<div id="ContentPlaceHolder1_Top1_SearchPanel" style="float: left">
+	
+		<input name="ctl00$ContentPlaceHolder1$Top1$SearchTextBox" type="text" id="ContentPlaceHolder1_Top1_SearchTextBox" />
+		<input type="submit" name="ctl00$ContentPlaceHolder1$Top1$SearchButton" value="Search" id="ContentPlaceHolder1_Top1_SearchButton" style="padding: 0px 10px 0px 10px" />
+	
+</div>
+	<div style="float: right">
+		<a id="ContentPlaceHolder1_Top1_MenuHyperLink" href="../../Nomenclature/Default.aspx">All groups</a>
+	</div>
+	<br style="clear: both" />
+	<br />
+	
+			<ul class="initiales">
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_0" href="../../nomenclature/races.aspx?init=A">A</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_1" href="../../nomenclature/races.aspx?init=B">B</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_2" href="../../nomenclature/races.aspx?init=C">C</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_3" href="../../nomenclature/races.aspx?init=D">D</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_4" href="../../nomenclature/races.aspx?init=E">E</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_5" href="../../nomenclature/races.aspx?init=F">F</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_6" href="../../nomenclature/races.aspx?init=G">G</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_7" href="../../nomenclature/races.aspx?init=H">H</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_8" href="../../nomenclature/races.aspx?init=I">I</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_9" href="../../nomenclature/races.aspx?init=%c3%8d">Í</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_10" href="../../nomenclature/races.aspx?init=J">J</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_11" href="../../nomenclature/races.aspx?init=K">K</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_12" href="../../nomenclature/races.aspx?init=L">L</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_13" href="../../nomenclature/races.aspx?init=M">M</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_14" href="../../nomenclature/races.aspx?init=N">N</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_15" href="../../nomenclature/races.aspx?init=O">O</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_16" href="../../nomenclature/races.aspx?init=%c3%96">Ö</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_17" href="../../nomenclature/races.aspx?init=P">P</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_18" href="../../nomenclature/races.aspx?init=R">R</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_19" href="../../nomenclature/races.aspx?init=S">S</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_20" href="../../nomenclature/races.aspx?init=T">T</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_21" href="../../nomenclature/races.aspx?init=V">V</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_22" href="../../nomenclature/races.aspx?init=W">W</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_23" href="../../nomenclature/races.aspx?init=X">X</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_24" href="../../nomenclature/races.aspx?init=Y">Y</a>
+			</li>
+		
+			<li>
+				<a id="ContentPlaceHolder1_Top1_InitialeRepeater_HyperLink1_25" href="../../nomenclature/races.aspx?init=Z">Z</a>
+			</li>
+		
+			</ul>
+		
+	<br style="clear: both" />
+</div>
+
+
+
+		<br />
+		<h2>
+			<span id="ContentPlaceHolder1_GroupeLabel">Group</span>
+			<span id="ContentPlaceHolder1_NumeroLabel">5</span>
+			:
+			<span id="ContentPlaceHolder1_NomLabel">Spitz and primitive types</span>
+		</h2>
+		
+				<ul>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_0" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s1"><b>Section 1 : </b>Nordic Sledge Dogs</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_1" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s2"><b>Section 2 : </b>Nordic Hunting Dogs</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_2" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s3"><b>Section 3 : </b>Nordic Watchdogs and Herders</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_3" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s4"><b>Section 4 : </b>European Spitz</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_4" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s5"><b>Section 5 : </b>Asian Spitz and related breeds</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_5" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s6"><b>Section 6 : </b>Primitive type</a>
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SommaireRepeater_SectionHyperLink_6" href="/en/nomenclature/5-Spitz-and-primitive-types.html#s7"><b>Section 7 : </b>Primitive type - Hunting Dogs</a>
+				</li>
+			
+				</ul>
+			
+
+		<div class="headerraces">
+			<table>
+				<tr>
+					<td>
+						<table style="float: left; margin: 10px;">
+							<tr>
+								<td style="width: 120px">
+									<b>CACIB:</b>
+								</td>
+								<td style="text-align: center; width: 30px">*
+								</td>
+								<td>
+									<span id="ContentPlaceHolder1_Label2">Certificat d'Aptitude au Championnat International de Beauté (award for the title “International Beauty Champion”) </span>
+
+								</td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<b>
+										<span id="ContentPlaceHolder1_Label3">Working trial:</span></b>
+								</td>
+								<td style="text-align: center">*<br />
+									(*)<br />
+									(**)
+								</td>
+								<td>
+									<span id="ContentPlaceHolder1_Label4">subject to a working trial according to the FCI breeds nomenclature</span>
+									<br />
+									<span id="ContentPlaceHolder1_Label5">subject to a working trial only for the countries having applied for it</span>
+									<br />
+									<span id="ContentPlaceHolder1_Label6">subject to a working trial only for the Nordic countries (Finland, Norway, Sweden)</span>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td class="racedate">
+						<span id="ContentPlaceHolder1_Label1">Validity date</span>
+					</td>
+					<td class="racecacib">
+						<span id="ContentPlaceHolder1_CacibLabel">CACIB</span>
+					</td>
+					<td class="raceepreuve">
+						<span id="ContentPlaceHolder1_EpreuveLabel">Working trial </span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br style="clear: both" />
+		
+
+		
+				<ul class="sections">
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_0" name="s1"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_0"><b>Section 1 : </b>Nordic Sledge Dogs</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_PaysLabel_0">1. CANADA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="211"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/CANADIAN-ESKIMO-DOG-211.html">CANADIAN ESKIMO DOG (211)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/211g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_DateLabel_0">2/28/2018</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_0_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_PaysLabel_1">2. GREENLAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="274"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/GREENLAND-DOG-274.html">GRØNLANDSHUND (274) (GREENLAND DOG)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/274g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_DateLabel_0">3/30/2022</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_1_EpreuveLabel_0">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_PaysLabel_2">3. NORTHERN RUSSIA, SIBERIA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="212"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/SAMOYED-212.html">SAMOIEDSKAÏA SABAKA (212) (SAMOYED)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/212g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_DateLabel_0">9/4/2019</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_2_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_PaysLabel_3">4. UNITED STATES OF AMERICA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="243"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/ALASKAN-MALAMUTE-243.html">ALASKAN MALAMUTE (243)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/243g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_DateLabel_0">3/9/2023</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_AnchorHyperLink_1" class="anchor" name="270"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_RaceHyperLink_1" class="nom" href="/en/nomenclature/SIBERIAN-HUSKY-270.html">SIBERIAN HUSKY (270)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_StandardHyperLink_1" href="../../Nomenclature/Standards/270g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_DateLabel_1">11/14/2022</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_0_PaysRepeater_0_RacesRepeater_3_EpreuveLabel_1"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_1" name="s2"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_1"><b>Section 2 : </b>Nordic Hunting Dogs</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_PaysLabel_0">1. FINLAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="49"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/FINNISH-SPITZ-49.html">SUOMENPYSTYKORVA (49) (FINNISH SPITZ)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/049g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_DateLabel_0">2/11/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_EpreuveLabel_0">(**)</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_AnchorHyperLink_1" class="anchor" name="48"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_RaceHyperLink_1" class="nom" href="/en/nomenclature/KARELIAN-BEAR-DOG-48.html">KARJALANKARHUKOIRA (48) (KARELIAN BEAR DOG)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_StandardHyperLink_1" href="../../Nomenclature/Standards/048g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_DateLabel_1">11/3/2014</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_0_EpreuveLabel_1">(**)</span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_PaysLabel_1">2. NORWAY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="268"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html">NORSK ELGHUND SORT (268) (NORWEGIAN ELKHOUND BLACK)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/268g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_DateLabel_0">8/9/1999</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_EpreuveLabel_0">(**)</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_AnchorHyperLink_1" class="anchor" name="242"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_RaceHyperLink_1" class="nom" href="/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html">NORSK ELGHUND GRÅ (242) (NORWEGIAN ELKHOUND GREY)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_StandardHyperLink_1" href="../../Nomenclature/Standards/242g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_DateLabel_1">8/9/1999</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_EpreuveLabel_1">(**)</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_AnchorHyperLink_2" class="anchor" name="265"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_RaceHyperLink_2" class="nom" href="/en/nomenclature/NORWEGIAN-LUNDEHUND-265.html">NORSK LUNDEHUND (265) (NORWEGIAN LUNDEHUND)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_StandardHyperLink_2" href="../../Nomenclature/Standards/265g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_Image1_2" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_DateLabel_2">11/10/2011</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_CacibLabel_2">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_1_EpreuveLabel_2"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_PaysLabel_2">3. RUSSIAN FEDERATION</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="305"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/EAST-SIBERIAN-LAIKA-305.html">VOSTOTCHNO-SIBIRSKAÏA LAÏKA (305) (EAST SIBERIAN LAIKA)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/305g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_DateLabel_0">10/13/2010</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_EpreuveLabel_0">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_AnchorHyperLink_1" class="anchor" name="304"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_RaceHyperLink_1" class="nom" href="/en/nomenclature/RUSSIAN-EUROPEAN-LAIKA-304.html">RUSSKO-EVROPEÏSKAÏA LAÏKA (304) (RUSSIAN-EUROPEAN LAIKA)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_StandardHyperLink_1" href="../../Nomenclature/Standards/304g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_DateLabel_1">10/13/2010</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_EpreuveLabel_1">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_AnchorHyperLink_2" class="anchor" name="306"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_RaceHyperLink_2" class="nom" href="/en/nomenclature/WEST-SIBERIAN-LAIKA-306.html">ZAPADNO-SIBIRSKAÏA LAÏKA (306) (WEST SIBERIAN LAIKA)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_StandardHyperLink_2" href="../../Nomenclature/Standards/306g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_Image1_2" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_DateLabel_2">10/13/2010</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_CacibLabel_2">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_2_EpreuveLabel_2">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_PaysLabel_3">4. SWEDEN</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="42"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/JAMTHUND-42.html">JÄMTHUND (42)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/042g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_DateLabel_0">9/4/2019</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_EpreuveLabel_0">(**)</span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_AnchorHyperLink_1" class="anchor" name="276"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_RaceHyperLink_1" class="nom" href="/en/nomenclature/NORRBOTTENSPITZ-276.html">NORRBOTTENSPETS (276) (NORRBOTTENSPITZ)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_StandardHyperLink_1" href="../../Nomenclature/Standards/276g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_DateLabel_1">7/28/2009</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_1_PaysRepeater_1_RacesRepeater_3_EpreuveLabel_1">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_2" name="s3"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_2"><b>Section 3 : </b>Nordic Watchdogs and Herders</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_PaysLabel_0">1. FINLAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="189"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/FINNISH-LAPPONIAN-DOG-189.html">SUOMENLAPINKOIRA (189) (FINNISH LAPPONIAN DOG)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/189g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_DateLabel_0">9/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_AnchorHyperLink_1" class="anchor" name="284"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_RaceHyperLink_1" class="nom" href="/en/nomenclature/LAPPONIAN-HERDER-284.html">LAPINPOROKOIRA (284) (LAPPONIAN HERDER)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_StandardHyperLink_1" href="../../Nomenclature/Standards/284g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_DateLabel_1">2/11/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_0_EpreuveLabel_1"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_PaysLabel_1">2. ICELAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="289"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/ICELANDIC-SHEEPDOG-289.html">ÍSLENSKUR FJÁRHUNDUR (289) (ICELANDIC SHEEPDOG)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/289g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_DateLabel_0">6/15/2018</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_1_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_PaysLabel_2">3. NORWAY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="237"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/NORWEGIAN-BUHUND-237.html">NORSK BUHUND (237) (NORWEGIAN BUHUND)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/237g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_DateLabel_0">2/11/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_2_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_PaysLabel_3">4. SWEDEN</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="135"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/SWEDISH-LAPPHUND-135.html">SVENSK LAPPHUND (135) (SWEDISH LAPPHUND)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/135g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_DateLabel_0">11/10/2011</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_AnchorHyperLink_1" class="anchor" name="14"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_RaceHyperLink_1" class="nom" href="/en/nomenclature/SWEDISH-VALLHUND-14.html">VÄSTGÖTASPETS (14) (SWEDISH VALLHUND)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_StandardHyperLink_1" href="../../Nomenclature/Standards/014g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_DateLabel_1">10/29/2013</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_2_PaysRepeater_2_RacesRepeater_3_EpreuveLabel_1"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_3" name="s4"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_3"><b>Section 4 : </b>European Spitz</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_PaysLabel_0">1. GERMANY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="97"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/GERMAN-SPITZ-97.html">DEUTSCHER SPITZ (97) (GERMAN SPITZ)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/097g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_DateLabel_0">9/3/2024</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_CacibLabel_0"></span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+							<tr>
+								<td colspan="4" class="varietes">
+									<table >
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_VarieteLabel_0">a) Keeshond (Wolfspitz)<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_CacibLabel_0">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_VarieteLabel_1">b) Giant spitz<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_CacibLabel_1"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_1_SousVarieteLabel_0" class="nom">white<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_1_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_1_SousVarieteLabel_1" class="nom">brown<br />black<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_1_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_VarieteLabel_2">c) Medium size Spitz<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_CacibLabel_2"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_SousVarieteLabel_0" class="nom">white<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_SousVarieteLabel_1" class="nom">brown<br />black<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_SousVarieteLabel_2" class="nom">orange<br />grey shaded<br />other colours<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_2_CacibLabel_2">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_VarieteLabel_3">d) Miniature Spitz<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_CacibLabel_3"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_SousVarieteLabel_0" class="nom">white<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_SousVarieteLabel_1" class="nom">brown<br />black<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_SousVarieteLabel_2" class="nom">orange<br />grey shaded<br />other colours<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_SousVarietesRepeater_3_CacibLabel_2">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_VarieteLabel_4">e) Pomeranian<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_0_VarietesRepeater_0_CacibLabel_4">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							</table></td> </tr>
+						
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_PaysLabel_1">2. ITALY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="195"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/ITALIAN-VOLPINO-195.html">VOLPINO ITALIANO (195) (ITALIAN VOLPINO)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/195g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_DateLabel_0">9/8/2023</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_3_PaysRepeater_3_RacesRepeater_1_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_4" name="s5"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_4"><b>Section 5 : </b>Asian Spitz and related breeds</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_PaysLabel_0">1. CHINA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="205"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/CHOW-CHOW-205.html">CHOW CHOW (205)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/205g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_DateLabel_0">9/8/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_0_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_PaysLabel_1">2. GERMANY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="291"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/EURASIAN-291.html">EURASIER (291) (EURASIAN)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/291g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_DateLabel_0">9/4/2019</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_1_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_PaysLabel_2">3. JAPAN</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="255"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/AKITA-255.html">AKITA (255)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/255g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_0">3/13/2001</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_1" class="anchor" name="344"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_1" class="nom" href="/en/nomenclature/AMERICAN-AKITA-344.html">AMERICAN AKITA (344)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_1" href="../../Nomenclature/Standards/344g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_1">2/11/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_1">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_1"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_2" class="anchor" name="261"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_2" class="nom" href="/en/nomenclature/HOKKAIDO-261.html">HOKKAIDO (261)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_2" href="../../Nomenclature/Standards/261g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_2" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_2">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_2">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_2"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_3" class="anchor" name="262"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_3" class="nom" href="/en/nomenclature/JAPANESE-SPITZ-262.html">NIHON SUPITTSU (262) (JAPANESE SPITZ)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_3" href="../../Nomenclature/Standards/262g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_3" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_3">1/1/1987</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_3">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_3"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_4" class="anchor" name="317"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_4" class="nom" href="/en/nomenclature/KAI-317.html">KAI (317)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_4" href="../../Nomenclature/Standards/317g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_4" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_4">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_4">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_4"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_5" class="anchor" name="318"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_5" class="nom" href="/en/nomenclature/KISHU-318.html">KISHU (318)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_5" href="../../Nomenclature/Standards/318g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_5" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_5">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_5">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_5"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_6" class="anchor" name="257"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_6" class="nom" href="/en/nomenclature/SHIBA-257.html">SHIBA (257)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_6" href="../../Nomenclature/Standards/257g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_6" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_6">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_6">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_6"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_AnchorHyperLink_7" class="anchor" name="319"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_RaceHyperLink_7" class="nom" href="/en/nomenclature/SHIKOKU-319.html">SHIKOKU (319)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_StandardHyperLink_7" href="../../Nomenclature/Standards/319g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_Image1_7" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_DateLabel_7">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_CacibLabel_7">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_2_EpreuveLabel_7"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_PaysLabel_3">4. KOREA (REPUBLIC OF)</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="334"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/KOREA-JINDO-DOG-334.html">KOREA JINDO DOG (334)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/334g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_DateLabel_0">11/9/2004</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_3_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_PaysLabel_4">5. THAILAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_AnchorHyperLink_0" class="anchor" name="358"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_RaceHyperLink_0" class="nom" href="/en/nomenclature/THAI-BANGKAEW-DOG-358.html">THAI BANGKAEW DOG (358)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_StandardHyperLink_0" href="../../Nomenclature/Standards/358g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_DateLabel_0">4/14/2011</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_4_PaysRepeater_4_RacesRepeater_4_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_5" name="s6"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_5"><b>Section 6 : </b>Primitive type</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_PaysLabel_0">1. CENTRAL AFRICA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="43"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/BASENJI-43.html">BASENJI (43)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/043g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_DateLabel_0">9/8/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_0_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_PaysLabel_1">2. ISRAEL</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="273"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/CANAAN-DOG-273.html">CANAAN DOG (273)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/273g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_DateLabel_0">11/28/1985</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_1_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_PaysLabel_2">3. MALTA</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="248"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/PHARAOH-HOUND-248.html">PHARAOH HOUND (248)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/248g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_DateLabel_0">9/8/2026</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_2_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_PaysLabel_3">4. MEXICO</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="234"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/XOLOITZCUINTLE-234.html">XOLOITZCUINTLE (234)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/234g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_DateLabel_0">10/8/2012</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_CacibLabel_0"></span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+							<tr>
+								<td colspan="4" class="varietes">
+									<table >
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_VarieteLabel_0">a) Miniature<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_CacibLabel_0">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_VarieteLabel_1">b) Intermediate<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_CacibLabel_1">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_VarieteLabel_2">c) Standard<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_3_VarietesRepeater_0_CacibLabel_2">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							</table></td> </tr>
+						
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_PaysLabel_4">5. PERU</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_AnchorHyperLink_0" class="anchor" name="310"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_RaceHyperLink_0" class="nom" href="/en/nomenclature/PERUVIAN-HAIRLESS-DOG-310.html">PERRO SIN PELO DEL PERÚ (310) (PERUVIAN HAIRLESS DOG)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_StandardHyperLink_0" href="../../Nomenclature/Standards/310g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_DateLabel_0">9/15/2021</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_CacibLabel_0"></span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+							<tr>
+								<td colspan="4" class="varietes">
+									<table >
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_VarieteLabel_0">a) Large<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_CacibLabel_0">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_VarieteLabel_1">b) Medium-sized<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_CacibLabel_1">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_VarieteLabel_2">c) Miniature<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_5_PaysRepeater_5_RacesRepeater_4_VarietesRepeater_0_CacibLabel_2">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							</table></td> </tr>
+						
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				<li>
+					<a id="ContentPlaceHolder1_SectionsRepeater_SectionHyperLink_6" name="s7"></a>
+					<span id="ContentPlaceHolder1_SectionsRepeater_SectionLabel_6"><b>Section 7 : </b>Primitive type - Hunting Dogs</span>
+					
+		<ul class="pays">
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_PaysLabel_0">1. ITALY</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_AnchorHyperLink_0" class="anchor" name="199"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_RaceHyperLink_0" class="nom" href="/en/nomenclature/CIRNECO-DELL-ETNA-199.html">CIRNECO DELL'ETNA (199)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_StandardHyperLink_0" href="../../Nomenclature/Standards/199g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_DateLabel_0">10/30/2016</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_0_EpreuveLabel_0">*</span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_PaysLabel_1">2. PORTUGAL</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_AnchorHyperLink_0" class="anchor" name="94"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_RaceHyperLink_0" class="nom" href="/en/nomenclature/PORTUGUESE-WARREN-HOUND-PORTUGUESE-PODENGO-94.html">PODENGO PORTUGUÊS (94) (PORTUGUESE WARREN HOUND-PORTUGUESE PODENGO)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_StandardHyperLink_0" href="../../Nomenclature/Standards/094g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_DateLabel_0">11/4/2008</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_CacibLabel_0"></span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+							<tr>
+								<td colspan="4" class="varietes">
+									<table >
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_VarieteLabel_0">a) small<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_CacibLabel_0"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_0_SousVarieteLabel_0" class="nom">Long- and wire-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_0_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_0_SousVarieteLabel_1" class="nom">Smooth- and short-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_0_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_VarieteLabel_1">b) medium-sized<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_CacibLabel_1"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_1_SousVarieteLabel_0" class="nom">Long- and wire-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_1_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_1_SousVarieteLabel_1" class="nom">Smooth- and short-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_1_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_VarieteLabel_2">c) large<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_CacibLabel_2"></span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+									<tr>
+										<td colspan="3">
+											<div class="sousvarietes">
+												<table>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_2_SousVarieteLabel_0" class="nom">Long- and wire-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_2_CacibLabel_0">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									<tr>
+										<td class="sousvariete">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_2_SousVarieteLabel_1" class="nom">Smooth- and short-haired<br /></span>
+										</td>
+										<td class="sousvarietecacib">
+											<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_1_VarietesRepeater_0_SousVarietesRepeater_2_CacibLabel_1">*</span>
+										</td>
+										<td class="raceepreuve">
+										</td>
+									</tr>
+								
+									</table></div></td> </tr>
+								
+						
+							</table></td> </tr>
+						
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_PaysLabel_2">3. SPAIN</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_AnchorHyperLink_0" class="anchor" name="329"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_RaceHyperLink_0" class="nom" href="/en/nomenclature/CANARIAN-WARREN-HOUND-329.html">PODENCO CANARIO (329) (CANARIAN WARREN HOUND)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_StandardHyperLink_0" href="../../Nomenclature/Standards/329g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_DateLabel_0">6/24/1987</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_AnchorHyperLink_1" class="anchor" name="89"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_RaceHyperLink_1" class="nom" href="/en/nomenclature/IBIZAN-PODENCO-89.html">PODENCO IBICENCO (89) (IBIZAN PODENCO)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_StandardHyperLink_1" href="../../Nomenclature/Standards/089g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_Image1_1" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_DateLabel_1">5/26/1982</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_CacibLabel_1"></span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_EpreuveLabel_1"></span>
+						</td>
+						
+					</tr>
+					
+							<tr>
+								<td colspan="4" class="varietes">
+									<table >
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_VarietesRepeater_1_VarieteLabel_0">a) smooth-haired<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_VarietesRepeater_1_CacibLabel_0">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							<tr>
+								<td class="variete">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_VarietesRepeater_1_VarieteLabel_1">b) rough-haired)<br /></span>
+								</td>
+								<td class="varietecacib">
+									<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_2_VarietesRepeater_1_CacibLabel_1">*</span>
+								</td>
+								<td class="raceepreuve">
+								</td>
+							</tr>
+							
+						
+							</table></td> </tr>
+						
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_PaysLabel_3">4. TAIWAN</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_AnchorHyperLink_0" class="anchor" name="348"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_RaceHyperLink_0" class="nom" href="/en/nomenclature/TAIWAN-DOG-348.html">TAIWAN DOG (348)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_StandardHyperLink_0" href="../../Nomenclature/Standards/348g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_DateLabel_0">6/9/2015</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_3_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		<li>
+			<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_PaysLabel_4">5. THAILAND</span>
+			
+					<div class="races">
+						<table >
+				
+					<tr>
+						<td class="race">
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_AnchorHyperLink_0" class="anchor" name="338"></a>
+							<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_RaceHyperLink_0" class="nom" href="/en/nomenclature/THAI-RIDGEBACK-DOG-338.html">THAI RIDGEBACK DOG (338)</a>
+							<div class="standard">
+								<a id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_StandardHyperLink_0" href="../../Nomenclature/Standards/338g05-en.pdf"><img id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_Image1_0" src="../../medias/site/pdf.png" /></a>
+							</div>
+						</td>
+						<td class="racedate">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_DateLabel_0">5/26/2003</span>
+						</td>
+						<td class="racecacib">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_CacibLabel_0">*</span>
+						</td>
+						<td class="raceepreuve">
+							<span id="ContentPlaceHolder1_SectionsRepeater_RacesRepeater_6_PaysRepeater_6_RacesRepeater_4_EpreuveLabel_0"></span>
+						</td>
+						
+					</tr>
+					
+				
+					</table> </div>
+				
+		</li>
+	
+		</ul>
+	
+
+					
+							<ul class="soussections">
+						
+							</ul>
+						
+				</li>
+			
+				</ul>
+			
+	</div>
+
+
+                <div style="clear: both"></div>
+            </div>
+            <div class="bottom">
+                <div class="center">
+                    
+                    <div class="liens">
+                        <p>
+                            <a id="PrivacyPolicyHyperLink" href="/en/FCI-Privacy-Policy-3553.html">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a id="DisclaimerHyperLink" href="/en/FCI-social-media-62.html">Disclaimer</a>
+                        </p>
+                        <p>
+                            <a id="MentionsLegalesHyperLink" href="/en/Legal-notice-97.html">Legal notice</a>
+                        </p>
+                        <p>
+                            <a id="FAQHyperLink" href="/en/Frequently-asked-questions-6934.html">Frequently asked questions</a>
+                        </p>
+                        <p>
+                            <a id="AccesHyperLink" href="/en/Contact-98.html">Contact</a>
+                        </p>
+                    </div>
+                    <div class="gpdr">
+                        <p>
+                            <!--The FCI complies with GDPR legislation-->
+                        </p>
+                    </div>
+                    <div class="eukanuba">
+                        <a href="http://www.royalcanin.com" target="_blank" rel="nofollow">
+                            <img src="/Medias/Site/FCI-PAR-RC-LOG_150.png" /></a>
+						<!--<br/>	
+                        <a href="https://www.working-dog.com" target="_blank" rel="nofollow">
+                            <img src="/Medias/Site/wd_logo_original_150.png" /></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function () { $('#myModal').modal('show');});//]]>
+</script>
+</form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5155527-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "aprovado": true,
+  "verificacoes": [
+    "Cópia completa exportada",
+    "Cópia válida aceita",
+    "Restauração recupera cadastros e vínculos",
+    "Versão incompatível rejeitado sem alterar dados",
+    "Código duplicado rejeitado sem alterar dados",
+    "Animal sem proprietário rejeitado sem alterar dados",
+    "Reserva de outro proprietário rejeitado sem alterar dados",
+    "Período inválido rejeitado sem alterar dados",
+    "Gerente principal ausente rejeitado sem alterar dados",
+    "Relatório proprietarios exportado",
+    "Relatório animais exportado",
+    "Relatório reservas exportado",
+    "Tela utilizável em 320 pixels"
+  ],
+  "erros": []
+}

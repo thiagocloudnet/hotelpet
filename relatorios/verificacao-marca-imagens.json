@@ -1,0 +1,13 @@
+{
+  "aprovado": true,
+  "total": 6,
+  "verificacoes": [
+    "Foto possui logomarca em camada separada",
+    "Logomarca permanece dentro do canto da moldura",
+    "Crédito e link de licença permanecem visíveis",
+    "Moldura e marca cabem em tela de 320 pixels",
+    "Entrada mantém animais e aplica a marca no canto",
+    "Acesso demonstrativo permanece preenchido"
+  ],
+  "erros": []
+}

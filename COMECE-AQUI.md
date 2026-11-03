@@ -37,3 +37,11 @@ node servir-local.cjs
 Acesse http://localhost:8080/ para abrir o painel da versão final. Encerre com Ctrl+C no terminal.
 
 Os dados da versão final ficam no armazenamento local do navegador. As etapas anteriores usam dados demonstrativos.
+
+## Revisão final e estudo do código
+
+A versão ativa está em `web-ii/hotelpet-final/`. Leia [Mapa do código fonte](docs/MAPA-CODIGO-FONTE.md) e [Organização e pendências](docs/ORGANIZACAO-E-PENDENCIAS.md) antes de editar. A prévia usada nesta revisão está em http://127.0.0.1:8090/; a porta depende do comando usado ao iniciar o servidor.
+
+## Apresentação de hoje
+
+Leia [Roteiro: DOM, persistência e atendimento](docs/APRESENTACAO-DOM-PERSISTENCIA-E-ATENDIMENTO.md). O documento explica a árvore DOM, as operações de JavaScript, os vínculos e a persistência local. Em Configurações, exporte a cópia JSON antes de mudar de endereço ou navegador. A publicação usa o pacote estático preparado em .dist-pages; preparar esse pacote não executa o deploy.

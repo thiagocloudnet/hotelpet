@@ -31,7 +31,7 @@ Comecei pela estrutura das páginas e pela identidade visual em Programação We
 
 Na primeira versão, desenvolvida em **Programação Web I**, o foco foi construir a interface com HTML e CSS: formulários, tabelas, navegação entre documentos e organização dos recursos visuais.
 
-Essa versão permanece na pasta [`projeto/`](projeto/) e pode ser consultada na [demonstração de Web I](https://hotelpet.shop/projeto/). A página da raiz do domínio é uma apresentação “Em breve”; por isso, o endereço do trabalho acadêmico inclui `/projeto/`.
+Essa versão permanece na pasta [`projeto/`](projeto/) e pode ser consultada na [demonstração de Web I](https://hotelpet.shop/projeto/). A versão anterior permanece em `/projeto/`. A preparação atual de publicação coloca a versão final na raiz do site; o endereço público deve ser conferido após publicar.
 
 Mantive uma cópia do README anterior em [`docs/README-WEB-I.md`](docs/README-WEB-I.md) para registrar o contexto dessa entrega.
 
@@ -112,7 +112,7 @@ Nas pastas de cada etapa, `css/` reúne os estilos, `js/` reúne as interações
 
 O projeto é uma atividade de desenvolvimento de interface e interação no navegador. Não possui servidor, banco de dados remoto, autenticação segura, envio de e-mail ou sincronização entre computadores.
 
-Nas etapas com armazenamento local, os registros pertencem ao navegador utilizado e podem ser perdidos ao limpar os dados do site. Os exemplos de clientes, pets, reservas, contatos e preços servem à apresentação. O recibo é demonstrativo, e os campos de foto não representam um serviço de upload em funcionamento.
+Nas etapas com armazenamento local, os registros pertencem ao navegador utilizado e podem ser perdidos ao limpar os dados do site. Os exemplos de clientes, pets, reservas, contatos e preços servem à apresentação. O recibo é demonstrativo. Fotos de cadastro são guardadas localmente com limite de tamanho; não há envio a um serviço externo nem fotos específicas dos lançamentos do diário.
 
 ## Acompanhamento do desenvolvimento
 
@@ -138,3 +138,17 @@ Separei clientes da equipe e passei a vincular cada pet ao identificador do resp
 Na etapa final, um navegador sem dados anteriores apresenta um cenário fictício de 90% de ocupação: 27 de 30 vagas, com 18 cães e 9 gatos. Os dados já cadastrados no navegador são preservados. O botão de exemplos permite completar o cenário sem apagar registros.
 
 Registrei fontes, regras de porte, limites da demonstração e procedimentos de teste em [Revisão de Web II](docs/REVISAO-WEB-II.md).
+
+## Organização e revisão da versão final
+
+- [Mapa do código fonte](docs/MAPA-CODIGO-FONTE.md): arquivos, módulos, armazenamento e sequência de estudo.
+- [Organização e pendências](docs/ORGANIZACAO-E-PENDENCIAS.md): requisitos atendidos e o que ainda falta, sem banco de dados.
+- [Ficha e tabelas do enunciado](docs/FICHA-E-TABELAS-ENUNCIADO.md): conferência das listagens e dos históricos.
+
+A logomarca encontrada no acervo foi aplicada na versão final. O código dessa versão recebeu formatação e comentários nos fluxos principais. As ferramentas de teste e formatação são usadas no desenvolvimento e não integram o site público.
+
+## Apresentação: DOM e persistência do Hotel Pet
+
+O [roteiro de apresentação](docs/APRESENTACAO-DOM-PERSISTENCIA-E-ATENDIMENTO.md) relaciona a árvore DOM e o localStorage aos trechos reais de hotel-app.js e ao atendimento responsável → animal → reserva. A aplicação usa JavaScript puro; ferramentas de teste, coleta de imagens e empacotamento não são dependências do site.
+
+Para preparar uma distribuição revisada, execute node scripts/preparar-pages.cjs e node tests/verificar-pages.cjs. Depois, python scripts/empacotar-apresentacao.py gera o ZIP com o site e o roteiro. O pacote inclui créditos de imagens e não inclui os cadastros locais do navegador. Exportar/importar esses dados é uma operação separada em Configurações. Preparar o pacote não executa publicação.

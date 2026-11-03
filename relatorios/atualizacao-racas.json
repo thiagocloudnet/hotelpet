@@ -1,0 +1,315 @@
+{
+  "data": "2026-11-03",
+  "caes": 403,
+  "gatos": 94,
+  "outros": {
+    "Roedor": 11,
+    "Coelho": 12,
+    "Ave": 4,
+    "Réptil": 3
+  },
+  "totalOpcoes": 529,
+  "comImagem": 454,
+  "pendentes": [
+    {
+      "tipo": "Cachorro",
+      "nome": "Briquet Griffon Vendeen"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Ca De Bestiar (Majorca Shepherd Dog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Chien De Berger Des Pyrenees A Face Rase (Pyrenean Sheepdog - Smooth Faced)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Chien De Berger Des Pyrenees A Poil Long (Long-Haired Pyrenean Sheepdog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Collie Rough"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Deutsch Stichelhaar"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Deutsche Bracke (German Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Epagneul Picard (Picardy Spaniel)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Français Blanc Et Noir (French White & Black Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Gonczy Polski (Polish Hunting Dog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Grosser Münsterländer Vorstehhund (Large Munsterlander)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Grønlandshund (Greenland Dog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Haldenstøver (Halden Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Hellinikos Ichnilatis (Hellenic Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Hollandse Smoushond (Dutch Smoushond)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Hygenhund (Hygen Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Norsk Elghund Grå (Norwegian Elkhound Grey)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Norsk Elghund Sort (Norwegian Elkhound Black)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Petit Bleu De Gascogne (Small Blue Gascony)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Poitevin"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Posavski Gonic (Posavatz Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Russko-Evropeïskaïa Laïka (Russian-European Laika)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Saarlooswolfhond (Saarloos Wolfhond)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Sabueso Español (Spanish Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Srpski Trobojni Gonic (Serbian Tricolour Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Steirische Rauhhaarbracke (Coarse-Haired Styrian Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Thai Bangkaew Dog"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Tiroler Bracke (Tyrolean Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Vostotchno-Sibirskaïa Laïka (East Siberian Laika)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Xoloitzcuintle"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Macedonian Shepherd Dog Karaman"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Segugio Dell'Appennino (Appennine Hound - Italian Hare-Hunting Dog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Tatranský Durič (Tatra Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Buldogue Campeiro (Brazilian Campeiro Bulldog)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Gos Rater Valencià (Valencian Terrier)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Continental Bulldog"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Cão De Gado Transmontano (Transmontano Mastiff)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Eesti Hagijas (Estonian Hound)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Prazsky Krysarik (Prague Ratter)"
+    },
+    {
+      "tipo": "Cachorro",
+      "nome": "Anjing Kintamani-Bali (Kintamani-Bali Dog)"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Abissínio"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Sagrado da Birmânia"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Chartreux"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Colorpoint Shorthair"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Manx"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Norueguês da Floresta"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Ocicat"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "RagaMuffin"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Selkirk Rex"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Somali"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Sphynx"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Tonkinese"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Cherubim"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Cymric"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Cymric com cauda"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Highlander pelo curto"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Manx com cauda"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Minuet"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Minuet pelo longo"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Minuet pernas longas"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Minuet pernas longas pelo longo"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Munchkin"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Munchkin pelo longo"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Oriental pelo longo"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Selkirk Rex pelo longo"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Tennessee Rex"
+    },
+    {
+      "tipo": "Gato",
+      "nome": "Selkirk Rex pelo curto"
+    },
+    {
+      "tipo": "Coelho",
+      "nome": "Mini Rex"
+    },
+    {
+      "tipo": "Coelho",
+      "nome": "Holland Lop"
+    },
+    {
+      "tipo": "Coelho",
+      "nome": "Nova Zelândia"
+    },
+    {
+      "tipo": "Coelho",
+      "nome": "Califórnia"
+    },
+    {
+      "tipo": "Coelho",
+      "nome": "Hotot Anão"
+    },
+    {
+      "tipo": "Ave",
+      "nome": "Calopsita"
+    },
+    {
+      "tipo": "Ave",
+      "nome": "Periquito"
+    },
+    {
+      "tipo": "Réptil",
+      "nome": "Gecko Leopardo"
+    }
+  ]
+}

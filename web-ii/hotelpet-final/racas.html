@@ -1,0 +1,352 @@
+<!doctype html>
+<!--
+Autor: Thiago Ferreira Prates Neves
+Professor: Lucas Santos de Oliveira
+Disciplina: Programação Web II (2026.2)
+Projeto: Hotel Pet — UESB
+Arquivo: hotelpet-final/pets.html
+-->
+
+<!-- Página de listagem e pesquisa de pets. -->
+<html lang="pt-BR">
+  <head>
+    <!-- Consultar os animais e encontrar o cadastro pelo nome, espécie, raça ou responsável. -->
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Consultar os animais e encontrar o cadastro pelo nome, espécie, raça ou responsável. Projeto de Thiago Ferreira Prates Neves — ADS/UESB."
+    />
+    <meta name="author" content="Thiago Ferreira Prates Neves" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Pet · Catálogo de raças</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="icon" type="image/png" href="imagens/favicon-hotel-pet.png" />
+    <!-- Google tag (gtag.js) - Google Analytics 4 (Fluxo: Pets | ID: G-8PHJYHNDK5) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHJYHNDK5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8PHJYHNDK5', {
+        send_page_view: true,
+        stream_id: '16266387736',
+        stream_name: 'Pets',
+        cookie_flags: 'SameSite=None;Secure'
+      });
+    </script>
+    <script src="js/analytics-eventos.js" defer></script>
+    <!-- Metatags de SEO e Otimização Social -->
+    <link rel="canonical" href="https://hotelpet.shop/racas.html" />
+    <meta name="keywords" content="hotel pet, hospedagem de animais, cães, gatos, SRD, vira-lata, diárias pet, cuidado animal, UESB, Salvador, Bahia" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hotel Pet — Hospedagem e Cuidado Animal" />
+    <meta property="og:title" content="Hotel Pet · Catálogo Ilustrado de Raças · Cães, Gatos e SRD" />
+    <meta property="og:description" content="Catálogo completo e ilustrado de raças com cães e gatos, incluindo Sem Raça Definida (SRD), guia de cuidados e porte por peso." />
+    <meta property="og:url" content="https://hotelpet.shop/racas.html" />
+    <meta property="og:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <meta property="og:image:alt" content="Logomarca do Hotel Pet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hotel Pet · Catálogo Ilustrado de Raças · Cães, Gatos e SRD" />
+    <meta name="twitter:description" content="Catálogo completo e ilustrado de raças com cães e gatos, incluindo Sem Raça Definida (SRD), guia de cuidados e porte por peso." />
+    <meta name="twitter:image" content="https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png" />
+    <!-- Dados Estruturados Schema.org / SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hotel Pet",
+      "url": "https://hotelpet.shop",
+      "logo": "https://hotelpet.shop/imagens/logo-hotel-pet-horizontal.png",
+      "image": "https://hotelpet.shop/imagens/pet-cao-ilustrativo.png",
+      "description": "Hospedagem profissional e cuidados completos para cães, gatos e animais domésticos. Inclui catálogo ilustrado de raças com Sem Raça Definida (SRD) e controle de diárias por porte.",
+      "telephone": "+55-77-99999-9999",
+      "priceRange": "R$ 50 - R$ 80",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "BA"
+      }
+    }
+    </script>
+  </head>
+  <body data-stage="3">
+    <!-- Estrutura geral que organiza a navegação lateral e o conteúdo da página. -->
+    <div class="app-shell">
+      <!-- Menu lateral -->
+      <aside class="sidebar">
+        <!-- Marca do Hotel Pet exibida na navegação. -->
+        <a
+          class="brand"
+          href="painel.html"
+          aria-label="Hotel Pet - página inicial"
+        >
+          <img src="imagens/logo-hotel-pet-horizontal.png" alt="Hotel Pet" />
+        </a>
+        <!-- Links para as áreas principais do sistema. -->
+        <nav class="sidebar__nav" aria-label="Navegação principal">
+          <a href="painel.html" class="sidebar__link" title="Painel"
+            ><img src="imagens/icones/home.svg" class="nav-icon" alt="" /><span
+              >Painel</span
+            ></a
+          >
+          <a
+            href="pets.html"
+            class="sidebar__link"
+            aria-label="Pets"
+            title="Pets"
+            ><img src="imagens/icones/pets.svg" class="nav-icon" alt="" /><span
+              >Animal</span
+            ></a
+          ><a
+            href="racas.html"
+            class="sidebar__link is-active"
+            aria-label="Catálogo de animais"
+            title="Catálogo de animais"
+            aria-current="page"
+            ><img src="imagens/icones/pets.svg" class="nav-icon" alt="" /><span
+              >Raças</span
+            ></a
+          >
+          <a
+            href="usuarios.html"
+            class="sidebar__link"
+            aria-label="Usuários"
+            title="Usuários"
+            ><img src="imagens/icones/users.svg" class="nav-icon" alt="" /><span
+              >Usuários</span
+            ></a
+          >
+          <a
+            href="configuracoes.html"
+            class="sidebar__link"
+            aria-label="Configurações"
+            title="Configurações"
+            ><img
+              src="imagens/icones/settings.svg"
+              class="nav-icon"
+              alt=""
+            /><span>Configurações</span></a
+          >
+          <a
+            href="reservas.html"
+            class="sidebar__link"
+            aria-label="Reservas"
+            title="Reservas"
+            ><img
+              src="imagens/icones/reservas.svg"
+              class="nav-icon"
+              alt=""
+            /><span>Reservas</span></a
+          >
+        </nav>
+      </aside>
+
+      <!-- Área principal -->
+      <div class="app-main">
+        <!-- Cabeçalho -->
+        <header class="topbar">
+          <a href="perfil.html" class="topbar__user">
+            <img
+              src="imagens/avatar-gerente.jpeg"
+              alt="Foto de Thiago Ferreira Prates Neves"
+            />
+            <span>Thiago Ferreira Prates Neves<small>Gerente</small></span>
+          </a>
+        </header>
+
+        <!-- Conteúdo da página -->
+        <main class="page-content">
+          <p class="breadcrumb">
+            <a href="painel.html">Início</a> / Catálogo de raças
+          </p>
+          <h1 class="page-title">Catálogo de animais: espécies e raças</h1>
+          <section class="card">
+            <details class="catalog-map">
+              <summary>Ver mapa dos grupos e do fluxo de hospedagem</summary>
+              <img
+                src="imagens/catalogo-grupos-hospedagem.png"
+                alt="Mapa ilustrado: cães, gatos, roedores, coelhos, aves e répteis; porte por peso individual e fluxo do proprietário até a saída"
+                loading="lazy"
+                width="1536"
+                height="1024"
+              />
+              <p>
+                Ilustração explicativa dos grupos. Não identifica a raça de um
+                animal.
+              </p>
+            </details>
+            <p>
+              <strong
+                >Cães, gatos, roedores, coelhos, aves e répteis. Cães e gatos
+                incluem sem raça definida (SRD).</strong
+              >
+              As imagens são referências de raça; cadastre separadamente a foto
+              do próprio animal. As entidades podem reconhecer raças e
+              variedades de maneiras diferentes.
+            </p>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="especie-catalogo">Espécie</label
+                ><select id="especie-catalogo">
+                  <option value="Cachorro">Cachorro</option>
+                  <option value="Gato">Gato</option>
+                  <option value="Roedor">Roedor</option>
+                  <option value="Coelho">Coelho</option>
+                  <option value="Ave">Ave</option>
+                  <option value="Réptil">Réptil</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="pesquisa-catalogo">Pesquisar raça</label
+                ><input
+                  id="pesquisa-catalogo"
+                  type="search"
+                  placeholder="Nome da raça ou SRD"
+                />
+              </div>
+            </div>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="grupo-catalogo">Grupo do catálogo</label
+                ><select id="grupo-catalogo"></select>
+              </div>
+              <div class="form-field">
+                <label for="peso-catalogo">Peso individual (kg)</label
+                ><input
+                  type="number"
+                  id="peso-catalogo"
+                  min="0.001"
+                  max="150"
+                  step="0.001"
+                  placeholder="Ex.: 0,050 para 50 g"
+                />
+              </div>
+            </div>
+            <p id="porte-catalogo" role="status"></p>
+            <p>
+              <strong>Faixas de hospedagem:</strong> pequeno até 10 kg; médio
+              acima de 10 até 25 kg; grande acima de 25 kg. Não é possível
+              filtrar o porte de um animal apenas pela raça: informe seu peso.
+              Espécie e porte são informações distintas: hóspedes pequenos podem
+              precisar de estruturas diferentes.
+            </p>
+            <p>
+              <strong>Classificação correta:</strong> coelhos são lagomorfos,
+              separados dos roedores. Em roedores, aves e répteis, o catálogo
+              registra espécie ou variedade. A inclusão no catálogo não
+              substitui a avaliação das condições para receber cada animal.
+              Grupos do catálogo não significam alojamento no mesmo recinto.
+            </p>
+            <details id="documentacao-ambiental" class="catalog-map">
+              <summary>Répteis: origem legal, criação e hospedagem</summary>
+              <p>
+                <strong>Animal de estimação:</strong> conferir a origem legal, a
+                nota fiscal, o certificado de origem e a identificação
+                individual quando exigidos. Esses documentos precisam
+                corresponder ao animal e ao proprietário; não são uma licença
+                genérica para qualquer réptil.
+              </p>
+              <p>
+                <strong>Criação, reprodução e comércio:</strong> são atividades
+                distintas da guarda de um animal de estimação. O enquadramento,
+                as espécies autorizadas e as autorizações do empreendimento
+                dependem da atividade e do órgão competente. O Sisfauna
+                contempla procedimentos de autorização prévia, instalação e
+                manejo; não presumir que todas essas etapas se aplicam a todo
+                proprietário.
+              </p>
+              <p>
+                <strong>Hospedagem na Bahia:</strong> confirmar previamente com
+                o Inema o enquadramento do estabelecimento e a possibilidade de
+                receber a espécie. A documentação do proprietário não comprova,
+                por si só, a regularidade do hotel para manter fauna silvestre.
+                A inclusão no catálogo não significa que a espécie está liberada
+                para receber reservas.
+              </p>
+              <p>
+                <strong>Conferência individual:</strong> nome científico,
+                origem, identificação quando aplicável, responsável, documentos
+                e condições de alojamento e transporte. Não capturar animais na
+                natureza para completar o catálogo.
+              </p>
+              <p>
+                <a
+                  href="https://www.gov.br/ibama/pt-br/servicos/sistemas/sisfauna"
+                  target="_blank"
+                  rel="noopener"
+                  >Ibama: Sisfauna</a
+                >
+                ·
+                <a
+                  href="https://www.gov.br/ibama/pt-br/centrais-de-conteudo/publicacoes/arquivos/cetas2020/2020-15-Folder_criadouros_legalizados.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Ibama: origem legal</a
+                >
+                ·
+                <a
+                  href="https://www.ba.gov.br/inema/atende/formularios/fauna"
+                  target="_blank"
+                  rel="noopener"
+                  >Inema: fauna</a
+                >
+              </p>
+              <p>
+                Informações consultadas em 03/11/2026. O sistema acadêmico não
+                emite nem valida licenças ambientais.
+              </p>
+            </details>
+            <p id="resumo-catalogo" role="status"></p>
+            <div id="catalogo-ilustrado" class="breed-gallery"></div>
+            <div id="paginas-catalogo" class="page-actions"></div>
+            <p>
+              Referências:
+              <a
+                href="https://www.fci.be/en/nomenclature/Default.aspx"
+                target="_blank"
+                rel="noopener"
+                >FCI</a
+              >,
+              <a href="https://cfa.org/breeds/" target="_blank" rel="noopener"
+                >CFA</a
+              >,
+              <a
+                href="https://tica.org/ticas-breeds/browse-all-breeds/"
+                target="_blank"
+                rel="noopener"
+                >TICA</a
+              >
+              e
+              <a
+                href="https://fifeweb.org/cats/breeds/"
+                target="_blank"
+                rel="noopener"
+                >FIFe</a
+              >. Crédito de cada imagem abaixo da foto.
+            </p>
+            <a class="button button--secondary" href="pet_cadastrar.html"
+              >Cadastrar animal</a
+            >
+          </section>
+        </main>
+        <footer class="site-footer">
+          Hotel Pet Final · Autoria do projeto: Thiago Ferreira Prates Neves
+        </footer>
+      </div>
+    </div>
+    <script src="js/fuso-horario.js" defer></script>
+    <script src="js/financeiro-regras.js" defer></script>
+    <script src="js/dados-exemplo.js" defer></script>
+    <script src="js/hotel-app.js" defer></script>
+    <script src="js/catalogo-racas.js" defer></script>
+    <script src="js/alimentacao-catalogo.js" defer></script>
+    <script src="js/racas-imagens.js" defer></script>
+    <script src="js/interface.js" defer></script>
+    <script src="js/tema-perfil.js" defer></script>
+    <script src="js/pesquisa-global.js" defer></script>
+    <script src="js/hospedagem-local.js" defer></script>
+  </body>
+</html>

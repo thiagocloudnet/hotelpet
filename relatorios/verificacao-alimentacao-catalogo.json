@@ -1,0 +1,19 @@
+{
+  "aprovado": true,
+  "total": 12,
+  "verificacoes": [
+    "Alimentação e fonte disponíveis: Cachorro",
+    "Alimentação e fonte disponíveis: Gato",
+    "Alimentação e fonte disponíveis: Roedor",
+    "Alimentação e fonte disponíveis: Coelho",
+    "Alimentação e fonte disponíveis: Ave",
+    "Alimentação e fonte disponíveis: Réptil",
+    "Alimentação específica: Iguana",
+    "Alimentação específica: Gecko Leopardo",
+    "Alimentação específica: Jabuti",
+    "Documentação ambiental distingue proprietário e empreendimento",
+    "Doze referências de coelhos disponíveis",
+    "Informações adicionais cabem em tela de 320 pixels"
+  ],
+  "erros": []
+}
