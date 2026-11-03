@@ -3,7 +3,7 @@ import socketserver
 import os
 import sys
 
-# Força codificação UTF-8 no stdout/stderr no Windows
+# Força codificação UTF-8 no Windows
 if sys.platform == "win32":
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -13,14 +13,10 @@ if sys.platform == "win32":
 
 PORT = int(os.environ.get("PORT", 8090))
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SERVE_DIR = os.path.join(BASE_DIR, "web-ii", "hotelpet-final")
-
-if not os.path.isdir(SERVE_DIR):
-    SERVE_DIR = BASE_DIR
 
 class HotelPetHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=SERVE_DIR, **kwargs)
+        super().__init__(*args, directory=BASE_DIR, **kwargs)
 
     def end_headers(self):
         # Desativa cache para desenvolvimento
@@ -31,7 +27,7 @@ class HotelPetHandler(http.server.SimpleHTTPRequestHandler):
         super().end_headers()
 
     def do_GET(self):
-        # Se a rota for raiz '/', serve index.html
+        # Rota raiz serve index.html limpo
         if self.path == "/" or self.path == "":
             self.path = "/index.html"
         return super().do_GET()
@@ -57,7 +53,7 @@ if __name__ == "__main__":
     try:
         with ReusableTCPServer(("0.0.0.0", PORT), HotelPetHandler) as httpd:
             print(f"Hotel Pet rodando em: http://127.0.0.1:{PORT}/")
-            print(f"Diretório servido: {SERVE_DIR}")
+            print(f"Diretório servido: {BASE_DIR}")
             sys.stdout.flush()
             httpd.serve_forever()
     except Exception as e:

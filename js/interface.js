@@ -1,0 +1,226 @@
+/* Autor: Thiago Ferreira Prates Neves | Professor: Lucas Santos de Oliveira
+   Programação Web II (2026.2) — HTML, CSS e JavaScript puro. */
+(() => {
+  const bar = document.querySelector(".topbar");
+  if (bar) {
+    const time = document.createElement("time");
+    time.className = "topbar-clock";
+    time.setAttribute(
+      "aria-label",
+      "Data e hora de " + (window.HotelPetFuso?.label() || "Brasília"),
+    );
+    const dateFormat = new Intl.DateTimeFormat("pt-BR", {
+      timeZone: window.HotelPetFuso?.zone() || "America/Sao_Paulo",
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+    });
+    const hourFormat = new Intl.DateTimeFormat("pt-BR", {
+      timeZone: window.HotelPetFuso?.zone() || "America/Sao_Paulo",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    });
+    const date = document.createElement("span"),
+      hour = document.createElement("strong");
+    time.append(date, hour);
+    bar.prepend(time);
+    const tick = () => {
+      const now = new Date();
+      time.dateTime = now.toISOString();
+      date.textContent = dateFormat.format(now);
+      hour.textContent =
+        hourFormat.format(now) +
+        " · " +
+        (window.HotelPetFuso?.label() || "Brasília");
+    };
+    tick();
+    setInterval(tick, 1000);
+  }
+  const side = document.querySelector(".sidebar");
+  if (side && bar) {
+    side.id = "menu-principal";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "menu-toggle";
+    button.textContent = "☰";
+    button.setAttribute("aria-controls", side.id);
+    const mobile = window.matchMedia("(max-width:760px)");
+    let collapsed = false;
+    try {
+      collapsed = localStorage.getItem("hotelPet.menuRecolhido") === "true";
+    } catch {}
+    document.body.classList.toggle("sidebar-collapsed", collapsed);
+    const sync = () => {
+      const open = mobile.matches
+        ? document.body.classList.contains("menu-open")
+        : !document.body.classList.contains("sidebar-collapsed");
+      button.setAttribute("aria-expanded", String(open));
+      button.setAttribute(
+        "aria-label",
+        open ? "Recolher menu" : "Expandir menu",
+      );
+      button.title = open ? "Recolher menu" : "Expandir menu";
+      side.inert = mobile.matches && !open;
+    };
+    const close = () => {
+      document.body.classList.remove("menu-open");
+      sync();
+    };
+    button.addEventListener("click", () => {
+      if (mobile.matches) document.body.classList.toggle("menu-open");
+      else {
+        collapsed = document.body.classList.toggle("sidebar-collapsed");
+        try {
+          localStorage.setItem("hotelPet.menuRecolhido", String(collapsed));
+        } catch {}
+      }
+      sync();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && mobile.matches) {
+        close();
+        button.focus();
+      }
+    });
+    document.addEventListener("click", (event) => {
+      if (
+        mobile.matches &&
+        !side.contains(event.target) &&
+        !button.contains(event.target)
+      )
+        close();
+    });
+    side.addEventListener("click", (event) => {
+      if (mobile.matches && event.target.closest("a")) close();
+    });
+    mobile.addEventListener("change", close);
+    sync();
+    bar.prepend(button);
+  }
+})();
+
+// A separação visual também funciona nas etapas de navegação e buscas.
+(() => {
+  const buttons = document.querySelectorAll("[data-user-view]");
+  const table = document.querySelector(".data-table");
+  if (!buttons.length || !table) return;
+  table.querySelectorAll("tbody tr").forEach((row) => {
+    row.dataset.userRole = Array.from(row.cells).some(
+      (cell) => cell.textContent.trim() === "Cliente",
+    )
+      ? "cliente"
+      : "equipe";
+  });
+  const count = (group) =>
+    table.querySelectorAll(
+      'tbody tr[data-user-role="' +
+        (group === "clientes" ? "cliente" : "equipe") +
+        '"]',
+    ).length;
+  document
+    .querySelectorAll("[data-user-count]")
+    .forEach(
+      (node) => (node.textContent = "(" + count(node.dataset.userCount) + ")"),
+    );
+  const apply = (view) => {
+    table.dataset.userView = view;
+    buttons.forEach((button) =>
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.userView === view),
+      ),
+    );
+    table
+      .querySelectorAll("[data-row-select],[data-all]")
+      .forEach((box) => (box.checked = false));
+  };
+  buttons.forEach((button) =>
+    button.addEventListener("click", () => apply(button.dataset.userView)),
+  );
+  apply("clientes");
+})();
+
+(() => {
+  const table = document.querySelector(".data-table[data-user-view]");
+  if (!table) return;
+  const update = () => {
+    const counter = document.querySelector(
+      "#result-count,[data-search-results]",
+    );
+    if (counter) {
+      const count = Array.from(table.tBodies[0].rows).filter(
+        (row) => row.getClientRects().length > 0,
+      ).length;
+      counter.textContent =
+        count + (count === 1 ? " pessoa encontrada" : " pessoas encontradas");
+    }
+  };
+  document
+    .querySelectorAll(
+      "[data-user-view],.filter-grid input,.filter-grid select,.filter-actions button",
+    )
+    .forEach((node) => {
+      node.addEventListener("click", update);
+      node.addEventListener("input", update);
+      node.addEventListener("change", update);
+    });
+  update();
+})();
+
+(() => {
+  const role = document.querySelector("#funcao"),
+    requested = new URLSearchParams(location.search).get("funcao");
+  if (
+    role &&
+    !role.disabled &&
+    ["Cliente", "Funcionário", "Gerente"].includes(requested)
+  )
+    role.value = requested;
+  document.querySelectorAll("[data-user-view]").forEach((button) =>
+    button.addEventListener("click", () => {
+      const link = document.querySelector(
+        '.page-actions a[href^="usuario_cadastrar"]',
+      );
+      if (link)
+        link.href =
+          button.dataset.userView === "equipe"
+            ? "usuario_cadastrar.html?funcao=Funcionário"
+            : "usuario_cadastrar.html";
+    }),
+  );
+})();
+
+// O nome completo permanece no cadastro e na identificação acessível.
+(() => {
+  const short = (name) => {
+    const words = String(name).trim().split(/\s+/);
+    return words.length > 1 ? words[0] + " " + words.at(-1) : words[0];
+  };
+  if (document.body.dataset.stage === "3") return;
+  const span = document.querySelector(".topbar__user span");
+  if (span) {
+    span.title = "Thiago Ferreira Prates Neves";
+    span.firstChild.textContent = "Thiago Prates";
+  }
+  const file = location.pathname.split("/").pop();
+  const column =
+    file === "usuarios.html"
+      ? 2
+      : file === "pets.html"
+        ? 6
+        : file === "reservas.html"
+          ? 2
+          : null;
+  if (column !== null)
+    document.querySelectorAll(".data-table tbody tr").forEach((row) => {
+      const cell = row.cells[column];
+      if (!cell) return;
+      const full = cell.textContent.trim();
+      cell.dataset.fullName = full;
+      cell.title = full;
+      cell.textContent =
+        full === "Thiago Ferreira Prates Neves" ? "Thiago Prates" : short(full);
+    });
+})();

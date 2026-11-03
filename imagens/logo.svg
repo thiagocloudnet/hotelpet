@@ -1,0 +1,13 @@
+<!-- Autor: Thiago Ferreira Prates Neves | Professor: Lucas Santos de Oliveira | Disciplina: Programação Web II (2026.2) | Projeto: Hotel Pet — UESB -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Símbolo do Hotel Pet Shop</title>
+  <rect width="96" height="96" rx="24" fill="#1A365D"/>
+  <path d="M18 43 48 19l30 24v30a5 5 0 0 1-5 5H23a5 5 0 0 1-5-5V43Z" fill="#F4EBE1"/>
+  <path d="m13 43 35-29 35 29-6 8-29-24-29 24z" fill="#D99B26"/>
+  <path d="M39 78V59a9 9 0 0 1 18 0v19" fill="#D99B26"/>
+  <ellipse cx="48" cy="51" rx="8" ry="6" fill="#1A365D"/>
+  <ellipse cx="37" cy="44" rx="3.5" ry="4.5" fill="#1A365D" transform="rotate(-20 37 44)"/>
+  <ellipse cx="45" cy="40" rx="3.5" ry="4.5" fill="#1A365D" transform="rotate(-5 45 40)"/>
+  <ellipse cx="53" cy="40" rx="3.5" ry="4.5" fill="#1A365D" transform="rotate(5 53 40)"/>
+  <ellipse cx="60" cy="44" rx="3.5" ry="4.5" fill="#1A365D" transform="rotate(20 60 44)"/>
+</svg>
