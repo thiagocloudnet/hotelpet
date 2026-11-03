@@ -1,35 +1,201 @@
 <!DOCTYPE html>
 <!--
-Autor: Thiago Ferreira Prates Neves
-Professor: Lucas Santos de Oliveira
-Disciplina: Programação Web II (2026.2)
-Projeto: Hotel Pet — UESB
-Arquivo: index.html
+====================================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Análise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programação Web II (2026.2)
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+PROJETO: Hotel Pet
+ARQUIVO: index.html (Raiz - Central de Entregas Acadêmicas)
+URL PROVISÓRIA GITHUB PAGES: https://thiagocloudnet.github.io/hotelpet/
+====================================================================
 -->
-<!-- Página de escolha das três entregas acadêmicas locais. -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Thiago Ferreira Prates Neves">
-  <meta name="description" content="Pacote local com as etapas do Hotel Pet para Programação Web II.">
-  <title>Hotel Pet — versões 01, 02 e final</title>
+  <meta name="description" content="Hotel Pet — Sistema de Hospedagem e Cuidado Animal. Trabalho acadêmico de Thiago Ferreira Prates Neves para a disciplina Programação Web II (ADS/UESB).">
+  <title>Hotel Pet · Central Acadêmica · Thiago Prates · UESB</title>
+
+  <!-- Google tag (gtag.js) - Google Analytics 4 (Fluxo: Pets | ID: G-8PHJYHNDK5) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHJYHNDK5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8PHJYHNDK5', {
+      send_page_view: true,
+      stream_id: '16266387736',
+      stream_name: 'Pets'
+    });
+  </script>
+
+  <!-- Redirecionamento automático suave para a Versão Final Completa -->
+  <meta http-equiv="refresh" content="2; url=web-ii/hotelpet-final/index.html">
+
+  <link rel="icon" type="image/png" href="web-ii/hotelpet-final/imagens/favicon-hotel-pet.png">
   <style>
-    :root{font-family:Arial,sans-serif;color:#263548;background:#f4f6fa}*{box-sizing:border-box}body{margin:0;min-height:100vh}.top{background:#1a365d;color:#fff;padding:1.2rem max(1rem,calc((100% - 1080px)/2));border-bottom:5px solid #d99b26}.brand{display:flex;align-items:center;gap:.8rem;font-weight:700;font-size:1.2rem}.brand img{width:48px;height:48px}.content{max-width:1080px;margin:2rem auto;padding:0 1rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}.card{display:flex;flex-direction:column;background:#fff;border:1px solid #d9e0e8;border-radius:16px;padding:1.3rem;box-shadow:0 8px 26px #1a365d12}.card h2{color:#1a365d;margin:.1rem 0}.tag{color:#996400;font-weight:700;font-size:.8rem;text-transform:uppercase}.card p{line-height:1.5;flex:1}.button{display:inline-block;padding:.8rem 1rem;text-decoration:none;text-align:center;background:#1a365d;color:#fff;border-radius:10px;font-weight:700}.button:hover{background:#d99b26;color:#1a365d}.note{margin-top:1.5rem;background:#fff;padding:1rem;border-left:4px solid #d99b26;border-radius:8px;line-height:1.5}footer{text-align:center;padding:2rem;color:#5a687b;font-size:.9rem}@media(max-width:600px){.content{margin:1rem auto}.top{padding:1rem}}
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1a2b42;
+      background: #f1f5f9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { min-height: 100vh; display: flex; flex-direction: column; }
+    .top {
+      background: #1a365d;
+      color: #ffffff;
+      padding: 1.2rem 1.5rem;
+      border-bottom: 5px solid #d99b26;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .brand img { height: 42px; width: auto; }
+    .content {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      flex: 1;
+    }
+    .hero-banner {
+      background: linear-gradient(135deg, #1a365d 0%, #0f2442 100%);
+      color: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      margin-bottom: 2rem;
+      box-shadow: 0 12px 28px rgba(26,54,93,0.25);
+      border-left: 6px solid #d99b26;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .hero-banner h1 { font-size: 1.8rem; color: #fbd38d; }
+    .hero-banner p { font-size: 1.05rem; line-height: 1.5; color: #e2e8f0; }
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #d99b26;
+      color: #0d1e33;
+      padding: 0.9rem 1.6rem;
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 1.05rem;
+      text-decoration: none;
+      align-self: flex-start;
+      box-shadow: 0 4px 12px rgba(217,155,38,0.4);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .cta-button:hover { background: #fbd38d; transform: translateY(-2px); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(0,0,0,0.1); }
+    .card h2 { color: #1a365d; margin: 0.3rem 0 0.6rem; font-size: 1.25rem; }
+    .tag {
+      color: #b47f1c;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .card p { line-height: 1.5; color: #475569; flex: 1; font-size: 0.92rem; margin-bottom: 1.2rem; }
+    .card .btn-card {
+      display: block;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      text-align: center;
+      background: #1a365d;
+      color: #ffffff;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .card .btn-card:hover { background: #d99b26; color: #0d1e33; }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: #64748b;
+      font-size: 0.85rem;
+      border-top: 1px solid #cbd5e1;
+      background: #ffffff;
+      margin-top: 2rem;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
-  <header class="top"><div class="brand"><img src="web-ii/hotelpet-final/imagens/logo.svg" alt=""><span>Hotel Pet · entregas acadêmicas</span></div></header>
+  <header class="top">
+    <div class="brand">
+      <img src="web-ii/hotelpet-final/imagens/logo-hotel-pet-horizontal.png" alt="Hotel Pet">
+      <span>Hotel Pet · Entregas Acadêmicas — ADS / UESB</span>
+    </div>
+  </header>
+
   <main class="content">
-    <h1>Hotel Pet — Programação Web II</h1>
-    <p>Projeto de Thiago Ferreira Prates Neves, discente de ADS/UESB, sob orientação do professor Lucas Santos de Oliveira. Escolha a etapa para acessar a demonstração.</p>
+    <div class="hero-banner">
+      <h1>Hotel Pet — Versão Final (Entrega Oficial)</h1>
+      <p>Projeto de <strong>Thiago Ferreira Prates Neves</strong>, discente do curso de Análise e Desenvolvimento de Sistemas (UESB), sob orientação do professor <strong>Lucas Santos de Oliveira</strong> na disciplina de <strong>Programação Web II</strong>.</p>
+      <p><em>Redirecionando automaticamente para a Versão Final em 2 segundos...</em></p>
+      <a class="cta-button" href="web-ii/hotelpet-final/index.html">
+        <span>Acessar Versão Final do Hotel Pet</span>
+        <span>➔</span>
+      </a>
+    </div>
+
+    <h2 style="color: #1a365d; margin-bottom: 1rem;">Evolução das Entregas Acadêmicas</h2>
     <section class="grid" aria-label="Versões do projeto">
-      <article class="card"><span class="tag">Etapa 01</span><h2>Navegação</h2><p>Interface, painel e ligações locais entre as páginas do sistema.</p><a class="button" href="web-ii/hotelpet-01/index.html">Abrir Hotel Pet 01</a></article>
-      <article class="card"><span class="tag">Etapa 02</span><h2>Buscas</h2><p>Inclui navegação e filtros demonstrativos nas listagens.</p><a class="button" href="web-ii/hotelpet-02/index.html">Abrir Hotel Pet 02</a></article>
-      <article class="card"><span class="tag">Entrega final</span><h2>Tabelas e CRM local</h2><p>Cadastro, edição, detalhes, remoção, perfil e preços calculados por peso.</p><a class="button" href="web-ii/hotelpet-final/index.html">Abrir Hotel Pet Final</a></article>
+      <article class="card">
+        <span class="tag">Etapa 01</span>
+        <h2>Navegação</h2>
+        <p>Estrutura visual básica, layout do painel e ligações navegacionais locais entre as telas do sistema.</p>
+        <a class="btn-card" href="web-ii/hotelpet-01/index.html">Abrir Hotel Pet 01</a>
+      </article>
+
+      <article class="card">
+        <span class="tag">Etapa 02</span>
+        <h2>Buscas &amp; Filtros</h2>
+        <p>Inclusão de pesquisas demonstrativas, filtros de listagens e refinamento de dados.</p>
+        <a class="btn-card" href="web-ii/hotelpet-02/index.html">Abrir Hotel Pet 02</a>
+      </article>
+
+      <article class="card" style="border: 2px solid #d99b26;">
+        <span class="tag" style="color: #166534; font-weight: 800;">⭐ Versão Final Avaliada</span>
+        <h2>Sistema Completo</h2>
+        <p>Catálogo ilustrado com SRD, cálculo de diárias por porte, 2 temas, fechamento de caixa às 12h com senha do gerente, fuso de Brasília, GA4 e SEO.</p>
+        <a class="btn-card" style="background: #166534;" href="web-ii/hotelpet-final/index.html">Abrir Hotel Pet Final</a>
+      </article>
     </section>
-    <aside class="note"><strong>Protótipo acadêmico:</strong> sem backend. A versão final salva dados apenas no armazenamento local deste navegador.</aside>
-  <p class="note"><a href="projeto/">Consultar a versão anterior — Programação Web I</a></p></main>
-  <footer>Autoria acadêmica indicada: Thiago Ferreira Prates Neves · Gerente demonstrativo: Thiago Ferreira Prates Neves</footer>
+  </main>
+
+  <footer class="footer">
+    <strong>Universidade Estadual do Sudoeste da Bahia (UESB)</strong> · Análise e Desenvolvimento de Sistemas (EAD)<br>
+    Programação Web II (2026.2) · Aluno: <strong>Thiago Ferreira Prates Neves</strong> · Professor: <strong>Lucas Santos de Oliveira</strong>
+  </footer>
 </body>
 </html>
