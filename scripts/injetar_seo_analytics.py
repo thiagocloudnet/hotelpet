@@ -76,7 +76,7 @@ PAGES_META = {
     },
     "reservas.html": {
         "title": "Hotel Pet · Reservas e Estadias · Hospedagem",
-        "desc": "Controle de reservas ativas, check-in, check-out às 12h no fuso de Brasília e cálculo automático de diárias por porte."
+        "desc": "Controle de reservas ativas, check-in, check-out às 12h no fuso de Bahia e cálculo automático de diárias por porte."
     },
     "reserva_cadastrar.html": {
         "title": "Hotel Pet · Nova Reserva · Agendamento de Hospedagem",
@@ -108,7 +108,7 @@ PAGES_META = {
     },
     "configuracoes.html": {
         "title": "Hotel Pet · Configurações · País, Fuso Horário e Diárias",
-        "desc": "Ajuste país (Brasil padrão), fuso horário (Brasília GMT-3), capacidade de vagas, horário padrão de checkout (12h) e tarifas em R$."
+        "desc": "Ajuste país (Brasil padrão), fuso horário (Bahia GMT-3), capacidade de vagas, horário padrão de checkout (12h) e tarifas em R$."
     },
     "perfil.html": {
         "title": "Hotel Pet · Perfil do Gerente · Thiago Ferreira Prates Neves",

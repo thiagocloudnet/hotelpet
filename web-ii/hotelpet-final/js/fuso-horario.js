@@ -4,8 +4,8 @@
     BR: {
       name: "Brasil",
       zones: [
-        ["America/Sao_Paulo", "Brasília"],
         ["America/Bahia", "Bahia"],
+        ["America/Sao_Paulo", "Brasília"],
         ["America/Manaus", "Manaus"],
         ["America/Cuiaba", "Cuiabá"],
         ["America/Rio_Branco", "Rio Branco"],
@@ -57,7 +57,7 @@
     } catch {}
     return valid(data.country, data.timeZone)
       ? { country: data.country, timeZone: data.timeZone }
-      : { country: "BR", timeZone: "America/Sao_Paulo" };
+      : { country: "BR", timeZone: "America/Bahia" };
   };
   const zone = () => read().timeZone;
   const label = () => {

@@ -30,7 +30,7 @@ OBJETIVO: Rastreamento semântico de métricas, conversões e interações do Ho
           timestamp_local: new Date().toISOString(),
           fuso_selecionado: (window.HotelPetFuso && typeof window.HotelPetFuso.zone === 'function')
             ? window.HotelPetFuso.zone()
-            : 'America/Sao_Paulo',
+            : 'America/Bahia',
           ...parametros
         });
       }

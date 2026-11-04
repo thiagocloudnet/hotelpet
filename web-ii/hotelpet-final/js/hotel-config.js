@@ -15,7 +15,7 @@ Arquivo: hotelpet-final/js/hotel-config.js
     capacity: 30,
     checkoutTime: "12:00",
     country: "BR",
-    timeZone: "America/Sao_Paulo",
+    timeZone: "America/Bahia",
   };
   const read = () => {
     try {
